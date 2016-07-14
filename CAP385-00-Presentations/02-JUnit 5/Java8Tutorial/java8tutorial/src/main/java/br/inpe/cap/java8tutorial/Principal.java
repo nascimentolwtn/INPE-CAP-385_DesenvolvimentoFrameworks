@@ -18,12 +18,11 @@ public class Principal {
 
 	public static void main( String[] args ) {
     	
-    	System.out.println("Hello World!");
-    	int sum = IntStream.range(1, 10)
-			//.forEach(n -> System.out.println(n));
-    		.filter(n -> (n %3 == 0) || (n % 5 == 0)) // apenas múltiplos de 3 ou 5
-    		.sum();
-    	System.out.println(sum);
+    	System.out.println(
+    			IntStream.range(1, 1000)
+					//.forEach(n -> System.out.println(n));
+		    		.filter(n -> (n %3 == 0) || (n % 5 == 0)) // apenas múltiplos de 3 ou 5
+		    		.sum());
     	
     }
 }
