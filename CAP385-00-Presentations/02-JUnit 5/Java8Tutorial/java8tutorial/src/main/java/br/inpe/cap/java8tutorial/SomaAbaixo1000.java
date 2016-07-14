@@ -14,7 +14,7 @@ import java.util.stream.IntStream;
  * 
  */
 
-public class Principal {
+public class SomaAbaixo1000 {
 
 	public static void main( String[] args ) {
     	
