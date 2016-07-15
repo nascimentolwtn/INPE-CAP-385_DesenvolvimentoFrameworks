@@ -11,16 +11,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		System.out.println("Cria a lista com elementos que serão realizadas operações");
-		List<Integer> integerList = IntStream.rangeClosed(1, 1200).boxed().collect(Collectors.toList());
+		List<Integer> integerList = IntStream.rangeClosed(1, 12000).boxed().collect(Collectors.toList());
 //		List<Double> list = new ArrayList<Double>();
 //		integerList.forEach(i -> list.add(new Double(i + (i/100d))));
-		List<Double> list = integerList.stream().collect(Collectors.mapping(i -> new Double(i + (i/100d)), Collectors.toList()));
+		
+		System.out.println("Parallel Stream");
+		List<Double> list = integerList.parallelStream().collect(Collectors.mapping(i -> new Double(i + (i/100d)), Collectors.toList()));
 		
 		System.out.println("Imprime todos os números:");
 		avaliaExpressao(list, (n) -> true);
 		
 		System.out.println("Não imprime nenhum número:");
-		avaliaExpressao(list, (n) -> false);
+		avaliaExpressaoFiltrada(list, (n) -> false);
 		
 		System.out.println("Imprime apenas números pares:");
 		avaliaExpressaoFiltrada(list, (n) -> n%2 == 0);
