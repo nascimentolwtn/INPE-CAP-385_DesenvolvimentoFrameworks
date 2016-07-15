@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -13,8 +12,9 @@ public class Main {
 		
 		System.out.println("Cria a lista com elementos que serão realizadas operações");
 		List<Integer> integerList = IntStream.rangeClosed(1, 1200).boxed().collect(Collectors.toList());
-		List<Double> list = new ArrayList<Double>();
-		integerList.forEach(i -> list.add(new Double(i + (i/100d))));
+//		List<Double> list = new ArrayList<Double>();
+//		integerList.forEach(i -> list.add(new Double(i + (i/100d))));
+		List<Double> list = integerList.stream().collect(Collectors.mapping(i -> new Double(i + (i/100d)), Collectors.toList()));
 		
 		System.out.println("Imprime todos os números:");
 		avaliaExpressao(list, (n) -> true);
