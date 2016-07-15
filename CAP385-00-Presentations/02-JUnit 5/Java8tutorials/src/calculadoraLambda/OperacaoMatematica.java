@@ -1,5 +1,6 @@
 package calculadoraLambda;
 
+@FunctionalInterface
 interface OperacaoMatematica {
 	
 	double operacao(double a, double b);
