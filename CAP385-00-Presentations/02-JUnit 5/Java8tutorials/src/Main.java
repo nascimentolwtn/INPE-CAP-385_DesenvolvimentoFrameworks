@@ -10,12 +10,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		long inicio = System.currentTimeMillis();
+		
 		System.out.println("Cria a lista com elementos que serão realizadas operações");
-		List<Integer> integerList = IntStream.rangeClosed(1, 12000).boxed().collect(Collectors.toList());
+		List<Integer> integerList = IntStream.rangeClosed(1, 120000).boxed().collect(Collectors.toList());
 //		List<Double> list = new ArrayList<Double>();
 //		integerList.forEach(i -> list.add(new Double(i + (i/100d))));
 		
-		System.out.println("Parallel Stream");
 		List<Double> list = integerList.parallelStream().collect(Collectors.mapping(i -> new Double(i + (i/100d)), Collectors.toList()));
 		
 		System.out.println("Imprime todos os números:");
@@ -25,13 +26,16 @@ public class Main {
 		avaliaExpressaoFiltrada(list, (n) -> false);
 		
 		System.out.println("Imprime apenas números pares:");
-		avaliaExpressaoFiltrada(list, (n) -> n%2 == 0);
+		avaliaExpressao(list, (n) -> n%2 == 0);
 		
 		System.out.println("Imprime apenas números ímpares:");
-		avaliaExpressao(list, (n) -> n%2 == 1);
+		avaliaExpressaoFiltrada(list, (n) -> n%2 == 1);
 		
 		System.out.println("Imprime apenas números entre 500 e 1000:");
 		avaliaExpressaoFiltrada(list, (n) -> n > 500 && n < 1000);
+		
+		long fim = System.currentTimeMillis();
+		System.err.println("Tempo total de execução: " + (fim - inicio) + "ms");
 		
 	}
 
@@ -48,7 +52,7 @@ public class Main {
 	}
 
 	private static void avaliaExpressaoFiltrada(List<Double> list, Predicate<Double> predicate) {
-		List<Double> filteredList = list.stream().filter(predicate).collect(Collectors.toList());
+		List<Double> filteredList = list.parallelStream().filter(predicate).collect(Collectors.toList());
 		boolean isListaGrande = filteredList.size() > 100;
 		
 		filteredList.forEach(n -> {
