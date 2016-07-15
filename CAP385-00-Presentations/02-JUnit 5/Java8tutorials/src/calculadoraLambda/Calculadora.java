@@ -1,8 +1,8 @@
 package calculadoraLambda;
 
-public interface Calculadora {
+public class Calculadora {
 
-	static double calcular(double a, double b, OperacaoMatematica op) {
+	double calcular(double a, double b, OperacaoMatematica op) {
 		return op.operacao(a, b);
 	}
 
