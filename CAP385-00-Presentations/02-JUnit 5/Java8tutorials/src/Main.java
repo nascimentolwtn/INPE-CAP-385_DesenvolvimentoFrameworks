@@ -53,7 +53,7 @@ public class Main {
 
 	private static void avaliaExpressaoFiltrada(List<Double> list, Predicate<Double> predicate) {
 		List<Double> filteredList = list.parallelStream().filter(predicate).collect(Collectors.toList());
-		boolean isListaGrande = filteredList.size() > 100;
+		final boolean isListaGrande = filteredList.size() > 100;
 		
 		filteredList.forEach(n -> {
 			if(isListaGrande && aCadaXnumeros(n)) System.out.println("");
