@@ -5,7 +5,8 @@ import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
-public class TesteComJUnit5 {
+//@SelectPackages({ "br.inpe.cap.junit5" })
+class TesteComJUnit5 {
 	
 	@Test
 	void helloJUnit5() {
