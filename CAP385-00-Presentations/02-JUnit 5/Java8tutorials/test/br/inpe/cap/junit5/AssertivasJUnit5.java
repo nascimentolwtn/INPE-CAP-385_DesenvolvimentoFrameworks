@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.expectThrows;
 import static org.junit.jupiter.api.Assertions.fail;
 
+import java.awt.Dimension;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -41,6 +42,12 @@ class AssertivasJUnit5 {
 	private boolean verdadeVerdadeira() {
 		return true;
 	}
+	
+	@Test
+	public void lambdaExpressions() {
+		// Expressão Lambda como condição
+		assertTrue(() -> "".isEmpty(), "String não deveria ser vazia.");
+	}
 
 	@Test
 	void assertComListas() {
@@ -68,6 +75,14 @@ class AssertivasJUnit5 {
 				() -> assertEquals("811", endereco.numero)
 		);
 	}
+	
+	@Test
+	public void groupedAssertions() {
+		Dimension dim = new Dimension(800, 600);
+		assertAll("dimension",
+					() -> assertTrue(dim.getWidth() == 800, "width"),
+					() -> assertTrue(dim.getHeight() == 600, "height"));
+	}
 
 	@Test
 	void testeDeException() {
@@ -94,5 +109,6 @@ class AssertivasJUnit5 {
 			this.numero = numero;
 		}
 	}
+	
 
 }
