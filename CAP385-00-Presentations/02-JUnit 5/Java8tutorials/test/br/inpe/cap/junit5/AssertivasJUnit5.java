@@ -27,12 +27,12 @@ class AssertivasJUnit5 {
 		assertTrue(true);
 		assertTrue(this::verdadeVerdadeira);
 
-		assertFalse(false, () -> "Mensagem " + "opcional " + "como " + "˙ltimo " + "argumento. "
+		assertFalse(false, () -> "Mensagem " + "opcional " + "como " + "ÔøΩltimo " + "argumento. "
 				+ "Usando "
-				+ "express„o lambda, "
+				+ "expressÔøΩo lambda, "
 				+ "mensagens "
 				+ "'pesadas' "
-				+ "s„o "
+				+ "s√£o "
 				+ "carregadas "
 				+ "conforme "
 				+ "necessidade "
@@ -45,8 +45,8 @@ class AssertivasJUnit5 {
 	
 	@Test
 	public void lambdaExpressions() {
-		// Express„o Lambda como condiÁ„o
-		assertTrue(() -> "".isEmpty(), "String n„o deveria ser vazia.");
+		// Express√£o Lambda como condi√ß√£o
+		assertTrue(() -> "".isEmpty(), "String n√£o deveria ser vazia.");
 	}
 
 	@Test
@@ -54,9 +54,9 @@ class AssertivasJUnit5 {
 		List<String> esperado = Arrays.asList("elemento");
 		List<String> real = new LinkedList<>(esperado);
 
-		assertEquals(esperado, real, () -> "ImplementaÁıes " + "diferentes " + "deveriam " + "retornar " + "listas " + "iguais.");
+		assertEquals(esperado, real, () -> "Implementa√ß√µes " + "diferentes " + "deveriam " + "retornar " + "listas " + "iguais.");
 
-		assertNotSame(esperado, real, "Mas n„o s„o a mesma inst‚ncia.");
+		assertNotSame(esperado, real, "Mas n√£o s√£o a mesma inst√¢ncia.");
 	}
 
 	@Test
@@ -71,7 +71,7 @@ class AssertivasJUnit5 {
 
 		assertAll("construtor",
 				() -> assertEquals("BH", endereco.cidade),
-				() -> assertEquals("pertin, sÙ. logo ali", endereco.rua),
+				() -> assertEquals("pertin, sÔøΩ. logo ali", endereco.rua),
 				() -> assertEquals("811", endereco.numero)
 		);
 	}

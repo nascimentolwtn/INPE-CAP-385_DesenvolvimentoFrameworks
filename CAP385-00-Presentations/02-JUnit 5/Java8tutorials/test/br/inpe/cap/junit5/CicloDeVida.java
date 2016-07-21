@@ -29,7 +29,7 @@ class CicloDeVida {
 	@Test
 	void primeiroTestAssertTrue() {
 		assertTrue(true);
-		System.out.println("Assert true Ûbvio");
+		System.out.println("Assert true √≥bvio");
 	}
  
 	@Test
@@ -38,7 +38,7 @@ class CicloDeVida {
 		assumeTrue(soma == 5);
  
 		System.out.println("Teste 2 + 2 = 5");
-		assertNotEquals(2 + 2, 4, "Ser· que n„o È mesmo?");
+		assertNotEquals(2 + 2, 4, "Ser√° que n√£o √© mesmo?");
 	}
  
 	@Test
