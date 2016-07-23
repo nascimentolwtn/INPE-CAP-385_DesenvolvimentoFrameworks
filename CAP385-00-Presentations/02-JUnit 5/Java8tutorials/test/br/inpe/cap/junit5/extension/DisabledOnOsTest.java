@@ -3,12 +3,12 @@ package br.inpe.cap.junit5.extension;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 
+import br.inpe.cap.junit5.extension.benchmark.Benchmark;
+
 @RunWith(JUnitPlatform.class)
-@ExtendWith(OsCondition.class)
 @Benchmark
 class DisabledOnOsTest {
 

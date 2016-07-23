@@ -1,4 +1,4 @@
-package br.inpe.cap.junit5.extension;
+package br.inpe.cap.junit5.extension.benchmark;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

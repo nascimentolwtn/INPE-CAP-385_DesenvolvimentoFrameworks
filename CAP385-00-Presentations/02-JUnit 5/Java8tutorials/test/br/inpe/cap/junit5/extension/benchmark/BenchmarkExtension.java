@@ -1,4 +1,4 @@
-package br.inpe.cap.junit5.extension;
+package br.inpe.cap.junit5.extension.benchmark;
 
 import org.junit.jupiter.api.extension.AfterAllCallback;
 import org.junit.jupiter.api.extension.AfterEachCallback;
