@@ -1,0 +1,17 @@
+/* Java Projects with Apache imports 2 */
+/*SELECT package, COUNT(*) c
+FROM (*/
+  SELECT sample_repo_name, REGEXP_EXTRACT(line, r' ([a-z0-9\._]*)\.') apache_lib//, sample_path, id
+  FROM (
+     SELECT sample_repo_name, SPLIT(content, '\n') line//, sample_path, id
+     FROM [bigquery-public-data:github_repos.sample_contents]
+     WHERE content CONTAINS 'import'
+     AND sample_path LIKE '%.java'
+     HAVING LEFT(line, 17)='import org.apache'
+  )
+  GROUP BY sample_repo_name, apache_lib
+  ORDER BY sample_repo_name
+/*)
+GROUP BY 1
+ORDER BY c DESC
+LIMIT 500*/;
