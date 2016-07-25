@@ -1,0 +1,356 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Esfinge AOM Role Mapper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Html5TemplatesDreamweaver.com">
+
+    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
+    <link href="scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
+   
+    <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+
+    <link href="styles/custom.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="pageBody">
+
+<div id="divBoxed" class="container">
+
+    <div class="transparent-bg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;zoom: 1;"></div>
+
+    <div class="divPanel notop nobottom">
+            <div class="row-fluid">
+                <div class="span12">
+
+                    
+                    <div id="divLogo" class="pull-left">
+                        <a href="index.html" id="Esfinge Framework"><img src="images/logo.png" alt="Site Name" title="Site Name" /></a>
+                        <div style="clear:both"></div>
+                        <a href="index.html" id="divTagLine"<></a>
+                    </div>
+
+                    <div id="divMenuRight" class="pull-right">
+                    <div class="navbar">
+                        <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
+                            NAVEGAÇÃO <span class="icon-chevron-down icon-white"></span>
+                        </button>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav nav-pills ddmenu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Oprojeto.html">O Projeto</a></li>
+                            <li class="dropdown">
+                            <a class="dropdown-toggle">Download<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/QueryBuilder%201.4/">Esfinge Query Builder</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/">Esfinge Comparasion</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/Guardian%201.0/">Esfinge Guardian</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/SystemGlue%201.0/">Esfinge SystemGlue</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/AOM%20Role%20Mapper%200.1/">Esfinge AOM Role Mapper</a></li>
+                            </ul>
+                            </li>
+                            <li class="dropdown">
+                            <a class="dropdown-toggle">Documentação<b class="caret"></b></a>
+                            <ul class="dropdown-menu" style ="display: none;">
+                            <li><a href="Query Builder.html">Esfinge Query Builder</a></li>
+                            <li><a href="Comparasion.html">Esfinge Comparasion</a></li>
+                            <li><a href="Guardian.html">Esfinge Guardian</a></li>
+                            <li><a href="SystemGlue.html">Esfinge SystemGlue</a></li>
+                            <li><a href="AOM.html">Esfinge AOM Role Mapper</a></li>
+                            <li><a href="Gamification.html">Esfinge Gamification</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="http://frameworkesfinge.wix.com/esfinge">Blog</a></li>
+                            <li><a href="Contato.html">Contato</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="span12">
+                    <div id="contentInnerSeparator"></div>
+                </div>
+            </div>
+    </div>
+
+    <div class="contentArea">
+
+        <div class="divPanel notop page-content">
+            <div class="row-fluid">
+            <!--Edit Main Content Area here-->
+                <div class="span12" id="divMain">
+
+                    <h3>Esfinge AOM Role Mapper - Framework para Adaptive Object Models (AOMs) </h3>
+                    <td><a href="https://github.com/EsfingeFramework/aomrolemapper"><div align="right"><p><img src="images/codigofonte.png"></div></td></a>
+                    <hr>
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Introdução a Adaptive Object Models</h3><div class="ui-collapsible-content">
+    <hr></hr>
+<div style="text-align: justify;">Um Modelo Adaptativo de Objetos (Adaptive Object Model – AOM) é um estilo arquitetural comum para sistemas em que classes, atributos, relacionamentos e comportamentos são representados como metadados consumidos em tempo de execução. Isso faz com que sistemas criados com essa arquitetura sejam muito flexíveis e possam ser modificados em tempo de execução, não apenas por programadores, mas também por usuários finais, permitindo que mudanças sejam realizadas e disponibilizadas ao mercado em tempo hábil.</div>
+<div style="text-align: justify;">Existe uma linguagem de padrões para o desenvolvimento de um AOM, mas o framework AOM Role Mapper atualmente se foca apenas na estrutura central da arquitetura, composta pelos padrões Type Object, Property e Type Square. Essa estrutura central será brevemente descrita nesta seção.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">Type Object</strong></p>
+<div style="text-align: justify;">O padrão Type Object é utilizado em situações em que o número de subclasses que uma classe pode precisar não pode ser determinada durante o desenvolvimento do sistema.</div>
+<div style="text-align: justify;">Por exemplo, em um sistema de aluguel de carros, é necessário que diferentes carros de diferentes modelos possam ser inseridos no sistema. Uma forma de implementar esse sistema é criar uma classe Car com diversas subclasses - uma para cada modelo - conforme a figura abaixo.</div>
+<p>&nbsp;</p>
+<div align="center"><img src= "images/esfingeaom1.png" alt="" width="590" height="292" /></p></div>
+
+<div style="text-align: justify;">Com essa solução, se quisermos inserir um novo modelo de carro ao sistema, teríamos que criar uma nova subclasse de Car, recompilar o código e instalar a atualização do sistema. Além do trabalho necessário para realizar essa mudança, com a evolução do sistema é possível que a classe Car passe a ter um grande número de subclasses com pequenas diferenças entre elas.
+
+O padrão Type Object resolve essa situação representando as subclasses que não são conhecidas em tempo de desenvolvimento como instâncias de uma classe genérica que representa o tipo de um objeto.</div>
+<p>&nbsp;</p>
+<div align="center"><p><img src="images/esfingeaom2.png" alt="" width="611" height="104" /></p></div>
+<div style="text-align: justify;">Neste exemplo, as subclasses de Car foram representadas como instâncias da classe CarModel. A relação classe-instância que existia no modelo antigo passaram a ser representadas como uma relação instância-instância, onde as instâncias de Car possuem uma referência a instâncias de CarModel. Por meio dessas referências é possível determinar o modelo de um carro.
+
+Esta solução desacopla instâncias de objetos de suas classes, permitindo a adição dinâmica de novas “classes” (representadas por instâncias) ao sistema.</div>
+<strong style="font-size: 15px; color: #e05f03;">Property</strong></p>
+<div style="text-align: justify;">Em situações em que instâncias de uma mesma classe podem possuir diferentes tipos de propriedades, criar um atributo para representar cada uma dessas propriedades pode não ser a melhor solução. Por exemplo, em um sistema médico pode-se criar uma classe Person para armazenar informações de pacientes, como altura, peso e tipo sanguíneo.
+
+Uma solução para o sistema seria adicionar um atributo para cada tipo de informação necessária para o paciente na classe Person. No entanto, um hospital pode conter diferentes departamentos que necessitam de diferentes tipos de informação.
+
+Para fazer com que o sistema possa ser utilizado pelos diferentes departamentos do hospital, poderia ser necessário criar um grande número de atributos na classe Person, sendo que apenas uma pequena quantidade desses atributos seria efetivamente utilizada por uma instância dessa classe (apenas os atributos necessários pelo departamento que está tratando o paciente seriam efetivamente utilizados).
+
+O padrão Property resolve esse problema representando as propriedades de uma entidade por meio de uma classe e fazendo com que essa entidade possua uma coleção de instâncias dessa classe.
+
+Aplicando o padrão Property no exemplo, uma classe Measurement pode ser criada para representar os dados de um paciente. Com a mudança, os atributos de Person podem ser substituídos por uma coleção de Measurements apenas com as medidas necessárias para o paciente específico.</div>
+<p>&nbsp;</p>
+<div align="center"><p><img src="images/esfingeaom3.png" alt="" /></p></div>
+<p><strong style="font-size: 15px; color: #e05f03;">Type Square</strong></p>
+
+<div style="text-align: justify;">Em um AOM, os padrões Type Object e Property são usualmente utilizados em conjunto, resultando no padrão Type Square. Nesse padrão, o Type Object é utilizado duas vezes – uma vez para representar as entidades e tipos de entidades; e uma vez para representar propriedades e tipos de propriedades.</div>
+<p>&nbsp;</p>
+<div align="center"><p><img src="images/esfingeaom4.png" alt="" /></p></div>
+<div style="text-align: justify;">Neste padrão, as classes EntityType e PropertyType representam o modelo e a associação entre elas permite a identificação de quais tipos de propriedades são aplicáveis a que tipos de entidades. As classes Entity e Property estão relacionadas à representação das instâncias no sistema. Cada instância de Entity referenciam uma instância de EntityType, que representa o tipo dessa entidade. Para cada PropertyType de um EntityType, uma Property é criada para armazenar o valor da propriedade em uma Entity com o tipo dessa EntityType.
+
+Com este padrão, novos tipos de entidades com diferentes tipos de propriedades podem ser criados dinamicamente. Da mesma forma, tipos de entidades existentes podem ser modificados em tempo de execução, uma vez a modelagem é feita no nível das instâncias do sistema.</div>
+
+<p><strong style="font-size: 15px; color: #e05f03">Relacionamentos</strong></p>
+<div style="text-align: justify;">Em uma entidade existem dois tipos de propriedades: as que se referem a tipos primitivos (atributos) e as que se referem a relacionamentos entre entidades (associações). Em um AOM, existem diferentes maneiras para diferenciar atributos de associações:</div>
+<ul>
+<li>Usar o padrão Property duas vezes – uma vez para atributos e outra para associações;</li>
+<p>&nbsp;</p>
+<li>Criar duas subclasses para a classe Property – Attribute e Association;</li>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li>Checar o tipo do valor do objeto Property: uma Property cujo valor é uma Entity representa uma associação, enquanto uma Property cujo valor é um tipo primitivo corresponde a um atributo;</li></div>
+<p>&nbsp;</p>
+<li>Utilizar o padrão Accountability para representar a associação.</li>
+</ul>
+<div style="text-align: justify;">O padrão Accountability permite que o relacionamento entre entidades possa representado por um objeto (em geral uma instância de uma classe Accountability). Cada objeto Accountability está associado a um objeto AccountabilityType, que representa o tipo do relacionamento. Como as associações entre entidades é representada no nível de instâncias, os tipos de relacionamentos entre as entidades podem ser criadas e modificadas em tempo de execução, fazendo com que esse padrão seja apropriado para a arquitetura AOM. </div></div>
+<p>&nbsp;</p><!-- end div.wp-spoiler --> <div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Estrutura básica do Esfinge AOM Role Mapper</h3><div class="ui-collapsible-content">
+<hr></hr>
+<div style="text-align: justify;">Apesar de os AOMs proporcionarem uma grande flexibilidade ao sistema, eles possuem o custo de uma maior complexidade durante o seu desenvolvimento. Visando evitar a adição de complexidade desnecessária ao sistema, é comum os desenvolvedores utilizarem uma abordagem bottom-up, adicionando flexibilidade apenas quando e onde ela for necessária. Como resultado dessa abordagem, muitas aplicações AOM acabam se tornando acopladas ao domínio ao qual elas foram desenvolvidas e isso faz com que seja difícil desenvolver frameworks AOM genéricos e reutilizáveis, que implementam requisitos de forma específica à arquitetura AOM. O framework AOM Role Mapper visa resolver esse problema provendo uma estrutura central AOM genérica que adapta estruturas centrais de aplicações específicas de domínio, utilizando anotações que identificam os papéis desempenhados por elementos dessas aplicações na arquitetura AOM. Ao referenciar a estrutura central genérica do AOM Role Mapper, frameworks AOM genéricos passam a ser aplicáveis aos sistemas cujas estruturas centrais estão sendo adaptadas pelo AOM Role Mapper. Dessa forma, o AOM Role Mapper funciona como um framework de integração entre as aplicações específicas de domínio e os frameworks AOM genéricos.</div>
+ <p><strong style="font-size: 15px; color: #e05f03;">Exemplo do Tutorial</strong></p>
+<div style="text-align: justify;">Neste tutorial, vamos considerar o exemplo de uma aplicação AOM simples, referente a um sistema bancário, um framework de persistência e uma aplicação cliente. Na página de downloads está disponível junto com o framework os exemplos completos para referência.</div> 
+<p><strong style="font-size: 15px; color: #e05f03;">Particularidades do AOM Role Mapper</strong> <strong></p>
+<div style="text-align: justify;">Propriedades Fixas</strong> Ao adaptar estruturas centrais específicas de domínio, o AOM Role Mapper prevê a presença de propriedades fixas nas classes que desempenham o papel de Entity. Essas propriedades correspondem a atributos fixos nessas classes, que devem ser marcadas com a anotação @EntityProperty. Quando o AOM Role Mapper adapta a estrutura específica de domínio, as propriedades fixas são representadas como se fossem instâncias de Property e de PropertyType, da mesma forma que a propriedades dinâmicas presentes no sistema. Dessa forma, clientes do framework AOM Role Mapper não têm que realizar tratamentos específicos na presença de propriedades fixas. <strong>Relacionamentos </strong> No AOM Role Mapper a diferenciação entre atributos e associações se dá por meio do tipo de um PropertyType. Se esse tipo é um tipo primitivo (e.g. int, double, float, byte, etc) ou uma classe correspondente a um tipo primitivo (e.g. Integer, Double, Float, Byte, etc) ou a classe java.lang.String, então as Properties desse tipo correspondem a atributos. Se o tipo do PropertyType é uma instância de EntityType, então a Property para esse tipo de propriedade corresponde a um relacionamento. Atualmente, o framework AOM Role Mapper só é capaz de adaptar relacionamentos representados da forma descrita acima. Futuramente o framework será estendido para adaptar outros tipos de representações de relacionamentos.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">Modificando a Aplicação AOM a Ser Adaptada</strong></p>
+<div style="text-align: justify;">Para integrar aplicações AOM a frameworks AOM genéricos, o AOM Role Mapper utiliza metadados que identificam os papéis que os elementos da aplicação desempenham na arquitetura AOM. A partir dessa informação, ele é capaz de adaptar a estrutura central das aplicações a uma estrutura central comum. <strong>Metadados do Framework</strong>Atualmente, apenas anotações Java são suportadas como metadados no framework. A lista a seguir descreve todos os metadados suportados:</div>
+<ul>
+<div style="text-align: justify;"><li><strong>@EntityType:</strong> (Classe) Identifica classes que desempenham o papel Entity Type na arquitetura AOM; (Atributo em classes do tipo Entity) Identifica o atributo que referencia o Entity Type correspondente a uma Entity;</li></div>
+<p>&nbsp;</p>
+<li><strong>@Entity:</strong> (Classe) Identifica classes que desempenham o papel Entity na arquitetura AOM;</li>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li><strong>@PropertyType:</strong> (Classe) Identifica classes que desempenham o papel Property Type na arquitetura AOM; (Atributo em classes do tipo Property) Identifica o atributo que referencia o Property Type correspondente a uma Property;</li></div>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li><strong>@EntityProperties:</strong> (Classe) Identifica classes que desempenham o papel Property na arquitetura AOM; (Atributo em classes do tipo Entity) Identifica o atributo que referencia as Properties de uma Entity;</li></div>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li><strong>@EntityProperty</strong>: (Atributo em classes do tipo Entity) (Opcional) Identifica atributos que correspondem a propriedades fixas em uma classe Entity;</li>
+<p>&nbsp;</p></div>
+<div style="text-align: justify;"><li><strong>@Name</strong>: (Atributo em classes do tipo Entity Type ou Property Type) Identifica o atributo que contém o nome de um Entity Type ou um Property Type;</li></div>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li><strong>@PropertyTypeType</strong>: (Atributo em classes do tipo Property Type) Identifica o atributo que contém o tipo de um Property Type;</li></div>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li><strong>@PropertyValue</strong>: (Atributo em classes do tipo Property) Identifica o atributo que contém o valor de uma Property;</li></div>
+<p>&nbsp;</p>
+<div style="text-align: justify;"><li><strong>@CreateEntityMethod</strong>: (Método em classes do tipo Entity Type) Identifica o método de uma classe Entity Type que lida com a criação de um Entity com esse tipo. Se nenhum método é marcado com essa anotação, o método createNewEntity da interface IEntityType irá lançar uma exceção quando for invocada no objeto.</li></div>
+<p>&nbsp;</p>
+</ul>
+<p><strong>Exemplo</strong></p>
+<div style="text-align: justify;">Na página de downloads está disponível o código da aplicação bancária utilizada como exemplo. O código abaixo mostra um trecho da classe Account, que consiste em uma classe que tem o papel de Entity, marcada com as anotações acima. As demais classes que desempenham papéis na arquitetura AOM na aplicação são marcadas também com as anotações apropriadas. Pronto! A aplicação está pronta para ser adaptada pelo framework AOM Role Mapper!</div>
+<pre>@Entity
+public class Account {
+
+    @EntityType
+    private AccountType accountType;
+
+    @EntityProperty
+    private int accountNumber;
+
+    ...
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+}</pre>
+<p><strong style="font-size: 15px; color: #e05f03;">Utilizando a Estrutura Central do Framework AOM Role Mapper</strong></p>
+<div style="text-align: justify;">Esta seção descreve as funcionalidades básicas que podem ser utilizadas por clientes (isto é, frameworks genéricos e aplicações que se utilizam da estrutura central comum) do framework AOM Role Mapper. Na página de downloads está disponível o código para uma aplicação cliente simples, que realiza diversos tipos de operações sobre a estrutura central do framework e mostra os resultados em uma console.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">A Estrutura Central Comum</strong></p>
+<div style="text-align: justify;">A estrutura central comum provida pelo framework é composta pelas classes IEntity, IEntityType, IProperty e IPropertyType no namespace org.esfinge.aom.api.model. Os clientes devem referenciar essas interfaces para executar operações na estrutura central do framework.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">Carregando e Salvando Elementos</strong></p>
+<div style="text-align: justify;">A classe ModelManager é responsável por manipular as instâncias criadas pelo framework. Dessa forma, as interações com o framework de persistência devem ser realizadas por meio dessa classe.</div>
+<div style="text-align: justify;">A instância dessa classe é obtida por meio do método estático getInstance presente na própria classe, como mostra o exemplo abaixo:</div>
+<pre>private ModelManager manager = ModelManager.getInstance();</pre>
+<div style="text-align: justify;">Para carregar o modelo de um banco de dados para a memória, o método loadModel deve ser chamado sobre a instância do ModelManager. Esse método retorna uma List de objetos do tipo IEntityType, que compõe o modelo da aplicação.</div>
+<pre> List model = manager.loadModel();</pre>
+<div style="text-align: justify;">Para carregar um Entity Type específico, o método getEntityType deve ser utilizado. De forma análoga, para obter um Entity específico, o método getEntity deve ser utilizado. Para salvar Entities e Entity Types, o método save deve ser utilizado. Para maiores informações sobre os métodos disponíveis na classe ModelManager, consulte o Javadoc da classe.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">Configuração </strong></p>
+<div style="text-align: justify;">O framework AOM Role Mapper permite que um modelo configurado por meio de um arquivo XML seja carregado na memória utilizando a classe ModelConfiguration.</div>
+<p>Um exemplo de arquivo de configuração é dado abaixo:</p>
+<pre>&lt;Model&gt;
+  &lt;Data&gt;
+    &lt;EntityType name="entityTypeName" package="entityTypePackage"
+                   adaptedClass="adapted.class.MyEntityType"&gt;
+      &lt;PropertyType name="propertyTypeName" type="java.lang.Double"
+                   adaptedClass="adapted.class.MyPropertyType" /&gt;
+
+      &lt;!—Other Property Types --&gt;
+    &lt;/EntityType&gt;
+    &lt;Relationship&gt;
+      &lt;EntityType name="entityTypeName" package="entityTypePackage"&gt;
+        &lt;PropertyType name="relationPropType" type="relationEntityType"
+                       package="relationEntityTypePackage"
+                       adaptedClass="adapted.class.MyEntityType"/&gt;
+      &lt;/EntityType&gt;
+    &lt;/Relationship&gt;
+  &lt;/Data&gt;
+&lt;/Model&gt;</pre>
+<p>Os conteúdos dos nós desse arquivo são descritos abaixo:</p>
+<p><strong style="font-size: 15px; color: #e05f03;">Model/Data/EntityType</strong>: Nó que contém informação de um Entity Type. Os atributos válidos são:</p>
+<ul>
+<li>name: nome do Entity Type</li>
+<li>package: (opcional) pacote do Entity Type</li>
+<li>adaptedClass: (opcional) classe específica de domínio a ser adaptada que desempenha o papel de Entity Type</li>
+</ul>
+<p><strong style="font-size: 15px; color: #e05f03;">Model/Data/EntityType/PropertyType</strong>: Nó que contém informação de um Property Type ou de um Entity Type. Apenas Property Types primitivos podem ser configurados neste nó. Os atributos válidos são:</p>
+<ul>
+<li>name: nome do Property Type</li>
+<li>type: tipo do Property Type</li>
+<li>adaptedClass: (opcional) classe específica de domínio a ser adaptada que desempenha o papel de Property Type</li>
+</ul>
+<p><strong style="font-size: 15px; color: #e05f03;">Model/Data/Relationship/EntityType</strong>: Nó que contém informação de um Entity Type que contém um Property Type que corresponde a um relacionamento. Os atributos válidos são:</p>
+<ul>
+<li>name: nome do Entity Type</li>
+<li>package: (opcional) pacote do Entity Type</li>
+</ul>
+<p><strong style="font-size: 15px; color: #e05f03;">Model/Data/Relationship/EntityType/PropertyType</strong>: Nó que contém informação de um Property Type de um Entity Type. Apenas Property Types que correspondem a um relacionamento devem ser configurados neste nó. Os atributos válidos são:</p>
+<ul>
+<li>name: nome do Property Type</li>
+<li>type: nome do Entity Type que corresponde ao tipo do Property Type</li>
+<li>package: (opcional) pacote do Entity Type que corresponde ao tipo do Property Type<br />
+adaptedClass: (opcional) classe específica de domínio a ser adaptada que desempenha o papel de Property Type</li>
+</ul>
+<div style="text-align: justify;">Para utilizar a classe ModelConfiguration, a aplicação cliente deve passar o caminho do arquivo XML de configuração para o construtor da classe. Quando o cliente invoca o método getModel do objeto do tipo ModelConfiguration, ele recebe uma List de objetos do tipo IEntityType que corresponde ao modelo da aplicação configurado no XML. Essa lista pode ser persistida utilizando a classe ModelManager. O exemplo abaixo mostra um exemplo de uso da classe ModelConfiguration:</div>
+<pre>ModelConfiguration configuration = new 
+ModelConfiguration("C:\AOM\ModelConfiguration.xml");
+
+List model = configuration.getModel();  
+for (IEntityType entityType : model)
+{
+   try {
+     manager.save(entityType);
+   } catch (EsfingeAOMException e1) {
+    ...
+   }
+}</pre>
+<p><strong style="font-size: 15px; color: #e05f03;">Criando Elementos da Estrutura Central</strong></p>
+<div style="text-align: justify;">Para criar os elementos da estrutura central (i.e. Entity Types, Entities, Property Types e Properties), o framework AOM Role Mapper provê as classes EntityTypeFactory, EntityFactory, PropertyTypeFactory e PropertyFactory no namespace org.esfinge.aom.model.factories. Cada uma dessas classes contêm métodos estáticos com o prefixo create, que retornam um objeto do tipo IEntityType, IEntity, IPropertyType e IProperty respectivamente.</div>
+<div style="text-align: justify;">Por exemplo, o exemplo abaixo mostra como um Entity Type pode ser criado usando um EntityTypeFactory. O método recebe como argumento o pacote para o Entity Type e o nome do Entity Type. Na classe EntityTypeFactory existem outros métodos createEntityType que recebem outros tipos de argumentos para criar o Entity Type. Consulte o Javadoc dessas classes para obter maiores informações sobre os métodos disponíveis.</div>
+<pre>IEntityType entityType =   
+   EntityTypeFactory.createEntityType("my.package", "myType");</pre>
+<div style="text-align: justify;">Entities podem ser criadas de forma semelhante aos Entity Types, utilizando a classe EntityFactory. No entanto, uma outra forma de criar Entities para um determinado Entity Type é utilizar o método createNewEntity presente na interface IEntityType. O exemplo abaixo mostra a criação de uma Entity dessa forma. Note que as Entities devem estar sempre associadas a um Entity Type desde o momento da sua criação.</div>
+<pre>IEntity entity = entityType.createNewEntity();</pre>
+<div style="text-align: justify;">É recomendado que as Entities e os Entity Types sejam persistidos utilizando a classe ModelManager logo após serem criados.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">Modificando Entity Types e Entities</strong></p>
+<div style="text-align: justify;">A estrutura central pode ser modificada por meio das interfaces IEntityType, IEntity, IPropertyType e IProperty. Alguns exemplos de modificação de Entity Type e Entity são apresentados nesta seção. Para maiores informações sobre os métodos presentes nas interfaces, consulte o Javadoc.</div>
+<p>O exemplo abaixo mostra como adicionar um Property Type a um Entity Type:</p>
+<pre>IPropertyType propertyType = 
+   PropertyTypeFactory.createPropertyType("myPropertyType", String.class);
+entityType.addPropertyType(propertyType);</pre>
+<p>O exemplo abaixo mostra como remover um Property Type de um Entity Type:</p>
+<pre>entityType.removePropertyType("myPropertyType");</pre>
+<p>O exemplo abaixo mostra como atribuir um valor a uma Property de uma Entity:</p>
+<pre>entity.setProperty("myPropertyType", "myStringValue");</pre>
+<p><strong style="font-size: 15px; color: #e05f03;">IDs de Entity Types e Entities</strong></p>
+<div style="text-align: justify;">Um ponto importante que deve ser considerado quando o framework AOM Role Mapper for utilizado é a questão dos IDs para Entity Types e Entities. Para gerenciar as instâncias criadas pelo framework corretamente, o ModelManager precisa identificar univocamente uma instância de Entity Type e de Entity e, para isso, ele considera o seguinte:</div>
+<ul>
+<div style="text-align: justify;"><li>O ID de um IEntityType é determinado pelo pacote e nome do IEntityType. Isso quer dizer que nunca haverá duas instâncias de IEntityType que contenham o mesmo nome e pacote.</li></div>
+<div style="text-align: justify;"><li>O ID de uma IEntity é determinado por uma IProperty identificada pelo nome id. Toda instância de IEntityType contém um IPropertyType cujo tipo é um Object e o nome é id. O valor da IProperty que corresponde a esse IPropertyType é considerado como o ID de uma Entity.</li></div>
+</ul>
+<div style="text-align: justify;"><p>Toda vez que o ModelManager for requisitado para salvar uma IEntity, ele irá verificar o valor da Property id da Entity. Caso esse valor seja nulo, o ModelManager irá gerar automaticamente um ID para a Entity e atribuí-lo antes de persistir a Entity. Caso contrário, o ModelManager irá considerar o valor presente na propriedade como o ID da Entity.</p>
+<p>Dessa forma, existem duas possibilidades para o gerenciamento de IDs de Entities:</p></div>
+<ul>
+<li>Deixar o AOM Role Mapper responsável pelo gerenciamento dos IDs das Entities; ou</li>
+<div style="text-align: justify;"><li>Deixar a aplicação cliente ou framework cliente responsável pelo gerenciamento dos IDs (atribuindo os valores corretos para a Property id das Entities)</li></div>
+</ul>
+<div style="text-align: justify;">Caso a primeira opção seja escolhida, é recomendável que as Entities sejam persistidas logo que forem criadas utilizando o ModelManager para atribuir o ID correto a elas.</div>
+<div style="text-align: justify;">Atenção: é extremamente desaconselhável que se adote uma abordagem mista, isto é, o cliente atribuir o ID para algumas Entities e deixar o ID de outras Entities para serem geradas pelo framework AOM Role Mapper. Caso isso seja feito, a unicidade dos IDs pode ser comprometida.</div>
+<p></div></div><!-- end div.wp-spoiler --></p>
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Lidando com Persistência</h3><div class="ui-collapsible-content"><br/></div>
+    <hr></hr>
+<div style="text-align: justify;">Para utilizar o framework AOM Role Mapper é necessário ter um framework de persistência que implemente a interface IModelRetriever do namespace org.esfinge.aom.api.modelretriever e que seja invocável utilizando o Service Locator do Java. Esse framework é invocado pela classe ModelManager para realizar a persistência e carga dos Entity Types e Entities. Para utilizar um determinado framework de persistência, o jar correspondente a ele deve ser incluído no classpath quando a aplicação for executada.</div>
+<div style="text-align: justify;">Na página de downloads é possível encontrar o framework AOM Mongo Persistence, que é um framework de persistência que pode ser utilizado com o AOM Role Mapper e que utiliza o MongoDB (http://www.mongodb.org/) como banco de dados. O MongoDB se utiliza do conceito de collections e documents, onde collections são análogas às tabelas em um banco de dados relacional e documents são análogos a entradas em tabelas em um banco de dados relacional. A diferença consiste no fato de o MongoDB ser livre de schema. Devido a essa característica ele se adéqua bem à arquitetura AOM.</div>
+<div style="text-align: justify;">O AOM Mongo Persistence pode ser configurado por meio de um XML com nome MongoAOMConfiguration.xml. Esse arquivo que deve estar presente em um diretório Config que deve ser criado no mesmo local onde o jar do framework AOM Mongo Persistence se encontra. O exemplo abaixo mostra um arquivo de configuração:</div>
+<pre>&lt;Configuration&gt;
+  &lt;Host&gt;localhost&lt;/Host&gt;
+  &lt;Database&gt;mongoaomtest&lt;/Database&gt;
+  &lt;EntityTypeCollectionName&gt;EntityTypeCollection&lt;/EntityTypeCollectionName&gt;
+  &lt;EntityTypeToCollectionMap entityType=".*Account.*"
+              package="banking" collection="AccountType" /&gt;
+  &lt;EntityTypeToCollectionMap entityType="department.Patient"
+              package="medical" collection="PartyType" /&gt;
+  &lt;EntityTypeToCollectionMap entityType=".*" collection="GenericType" /&gt;
+&lt;/Configuration&gt;</pre>
+<p>Os nós do arquivo são descritos abaixo:</p>
+<p><strong>Configuration/Host</strong>: contém o host que contém o banco de dados</p>
+<p><strong>Configuration/Database</strong>: contém o nome do database onde as informações da aplicação serão armazenadas</p>
+<div style="text-align: justify;"><strong>Configuration/EntityTypeCollectionName</strong>: contém o nome da collection onde as informações do modelo (i.e. IEntityTypes) devem ser armazenadas</div>
+<div style="text-align: justify;"><strong>Configuration/EntityTypeToCollectionMap</strong>: os nós deste tipo determinam um conjunto de regras que serão consideradas para determinar em que collection uma Entity deve ser persistida. Dado o pacote e o nome do Entity Type que corresponde à Entity, o framework irá varrer as regras na ordem configurada e a primeira regra que servir para o pacote e nome do Entity Type determinará a collection onde a Entity será persistida. Se nenhuma regra servir, a Entity será persistida em uma collection default chamada esfingeEntitiesCollection. O nó aceita os seguintes atributos:</div>
+<ul>
+<li>entityType: contém uma expressão regular a ser verificada contra o nome do Entity Type que corresponde à Entity a ser persistida</li>
+<div style="text-align: justify;"><li>package: (opcional) contém uma expressão regular a ser verificada contra o pacote do Entity Type que corresponde à Entity a ser persistida. Se o atributo não estiver presente, qualquer pacote será considerado como válido para a regra.</li></div>
+<div style="text-align: justify;"><li>collection: nome da collection onde a Entity será armazenada no caso de a regra servir para o nome e pacote do Entity Type correspondente à Entity.</li></div>
+</ul>
+<div style="text-align: justify;">Na página de downloads existe um exemplo de aplicação cliente que utiliza o framework AOM Mongo Persistence como framework de persistência. O arquivo de configuração do exemplo pode ser utilizado como referência.</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+     <div align="center"><p><strong style="font-size: 20px;color: #000000">Apoio</strong></p></div>
+                    <div align="center"><td><a href="http://www.inpe.br/"><img class="alignleft size-full wp-image-192" title="bt_leiamais" src="images/inpe.png" border="0" alt="" width="123" height="34" /></a></td></div>
+
+<div id="divFooter" style="height:50px;margin-top:40px;padding:30px">
+    <div class="row-fluid">
+        <div align="center"><p><img src="images/logo2.png" alt="" width="611" height="104" /></p></div>
+        <div align="center"><p><strong style="font-size: 10px; color: #000000">Todos os direitos reservados</strong></p></div>
+        </div>
+        </div>
+    </div>
+
+
+<script src="scripts/jquery.min.js" type="text/javascript"></script> 
+<script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="scripts/default.js" type="text/javascript"></script>
+<script src="scripts/carousel/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script><script type="text/javascript">$('#list_photos').carouFredSel({ responsive: true, width: '100%', scroll: 2, items: {width: 320,visible: {min: 2, max: 6}} });</script><script src="scripts/camera/scripts/camera.min.js" type="text/javascript"></script>
+<script src="scripts/easing/jquery.easing.1.3.js" type="text/javascript"></script>
+<script type="text/javascript">function startCamera() {$('#camera_wrap').camera({ fx: 'scrollLeft', time: 2000, loader: 'none', playPause: false, navigation: true, height: '35%', pagination: true });}$(function(){startCamera()});</script>
+
+        </body>
+</html>
+

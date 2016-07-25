@@ -1,0 +1,1219 @@
+<!doctype html>
+<!-- Server: sfs-consume-9 -->
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        
+            <script type="text/javascript" src="//a.fsdn.com/con/js/sftheme/vendor/prebid-0.10.0-dev.js" async></script>
+        
+        
+        
+        <meta id="project_name" name="project_name" content="esfinge">
+        
+        <meta name="description" content="Esfinge is a framework for the business and persistent layer for an enterprise application. The goal of Esfinge is to enable the fast creation of …">
+        <meta name="keywords" content="Frameworks, Object Oriented,  Open Source, Open Source Software, Development, Community, Source Code, Secure,  Downloads, Free Software">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Esfinge Framework -  Browse /Esfinge2/Comparison 1.0 at SourceForge.net</title>
+        <link rel="shortcut icon" href="//a.fsdn.com/con/img/sftheme/favicon.ico">
+        
+<!-- CCM Tag -->
+<script type="text/javascript">
+  (function () {
+    /*global _ml:true, window */
+    _ml = window._ml || {};
+    _ml.eid = '771';
+
+    var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+    mltag.type = 'text/javascript'; mltag.async = true;
+    mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+    s.parentNode.insertBefore(mltag, s);
+  })();
+</script>
+<!-- End CCM Tag -->
+
+        
+        <script type="text/javascript">
+            /*global unescape, window, console, jQuery, $, net, SF, DD_belatedPNG, ga */
+            // Setup our namespace
+            if (!window.SF) { window.SF = {}; }
+            if (!window.net) { window.net = {}; }
+            if (!window.net.sf) { window.net.sf = {}; }
+            SF.Ads = {};
+            SF.cdn = '//a.fsdn.com/con';
+            SF.deploy_time = '1469215405';
+        </script>
+        <script src="//a.fsdn.com/con/js/min/sf.head.js?1469215405" type="text/javascript"></script>
+        
+<!--[if lt IE 7 ]>
+  <script src="//a.fsdn.com/con/js/sftheme/vendor/dd_belatedpng.js"></script>
+  <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+<![endif]-->
+
+<link href='//fonts.googleapis.com/css?family=Ubuntu:regular' rel='stylesheet' type='text/css'>
+<style type="text/css">
+    @font-face {
+        font-family: "Pictos";
+        src: url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.eot');
+        src: local("☺"), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.woff') format('woff'), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.ttf') format('truetype'), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.svg') format('svg');
+    }
+</style>
+ <link rel="stylesheet" href="//a.fsdn.com/con/css/sf.css?1469215405" type="text/css">
+
+
+        <style type="text/css">.L8a1de1dced008926c1e562b1497ed4df67418dec { display: none !important; }</style>
+
+        
+
+<script type="text/javascript">
+    SF.adblock = true;
+</script>
+  <script type='text/javascript'>
+    /*global performance */
+    var googletag = window.googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+    var PREBID_TIMEOUT = 500;
+    var PREBID_DEBUG = document.location.search.indexOf('pbjs_debug') !== -1;
+
+    function prebid_log() {
+        if (PREBID_DEBUG) {
+            // http://stackoverflow.com/questions/5538972/console-log-apply-not-working-in-ie9#comment8444540_5539378
+            Function.prototype.apply.call(console.log, console, arguments);
+        }
+    }
+
+    SF.Ads.initAdServer = function() {
+        if (pbjs.initAdserverSet) {
+            return;
+        }
+            (function() {
+                prebid_log('load main gpt script');
+                if (PREBID_DEBUG) {
+                    performance.mark('load-gpt-start');
+                }
+
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' === document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                    '//www.googletagservices.com/tag/js/gpt.js';
+
+                
+
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();pbjs.initAdserverSet = true;
+    };
+    SF.Ads.prebidWinners = SF.Ads.prebidWinners || {};
+
+    SF.Ads.initPrebid = function(){
+
+        pbjs.que.push(function() {
+            prebid_log('pbjs set price granularity');
+            pbjs.setPriceGranularity("high");
+        });
+
+        pbjs.que.push(function() {
+
+            if (PREBID_DEBUG) {
+                pbjs.onEvent('bidRequested', function (info) {
+                    for (var i = 0; i < info.bids.length; i++) {
+                        var bid = info.bids[i];
+                        performance.mark(bid.bidder + '-' + bid.placementCode + '-start');
+                    }
+                });
+                pbjs.onEvent('bidResponse', function (bid) {
+                    var name = bid.bidder + '-' + bid.adUnitCode;
+                    performance.mark(name + '-end');
+                    performance.measure(name, name+'-start', name+'-end');
+                });
+            }
+            pbjs.onEvent('bidWon', function (bid) {
+                var adposition = SF.Ads.Helpers.getPathFromContainerID(bid.adUnitCode);
+                SF.Ads.prebidWinners[adposition] = bid;
+                prebid_log('bidWon:', adposition, bid.adId, bid);
+            });
+
+            pbjs.bidderSettings = {
+                
+                brealtime: {
+                    bidCpmAdjustment: function(bidCpm) {
+                        return bidCpm * 0.9;
+                    }
+                },
+                
+                
+                rubicon: {
+                    bidCpmAdjustment: function(bidCpm) {
+                        return bidCpm * 0.825;
+                    }
+                },
+                
+                
+                
+            };
+
+            prebid_log('pbjs units pushed');
+            var adUnits = [{
+                    bids: [{'params': {'tagid': '364648'}, 'bidder': 'sovrn'},
+                            {'params': {'cp': 558092, 'cf': '728x90', 'ct': '472223'}, 'bidder': 'pulsepoint'},
+                            {'params': {'placementId': 8841121}, 'bidder': 'brealtime'},
+                            {'params': {'siteId': '103240', 'position': 'atf', 'sizes': [2], 'accountId': '15680', 'zoneId': '486110'}, 'bidder': 'rubicon'},
+                            ],
+                    code: 'div-gpt-ad-1393435113147-0',
+                    sizes: [728, 90]
+                },
+            {
+                    bids: [{'params': {'tagid': '364646'}, 'bidder': 'sovrn'},
+                            {'params': {'cp': 558092, 'cf': '300x250', 'ct': '472221'}, 'bidder': 'pulsepoint'},
+                            {'params': {'placementId': 8829467}, 'bidder': 'brealtime'},
+                            {'params': {'siteId': '103240', 'position': 'atf', 'sizes': [15, 10, 54], 'accountId': '15680', 'zoneId': '486110'}, 'bidder': 'rubicon'},
+                            ],
+                    code: 'div-gpt-ad-1392147725721-0',
+                    sizes: [[300, 250], [300, 600], [300, 1050]]
+                },
+            {
+                    bids: [{'params': {'tagid': '364647'}, 'bidder': 'sovrn'},
+                            {'params': {'cp': 558092, 'cf': '300x250', 'ct': '472222'}, 'bidder': 'pulsepoint'},
+                            {'params': {'placementId': 8829468}, 'bidder': 'brealtime'},
+                            {'params': {'siteId': '103240', 'sizes': [15], 'accountId': '15680', 'zoneId': '486112'}, 'bidder': 'rubicon'},
+                            ],
+                    code: 'div-gpt-ad-1392148208789-0',
+                    sizes: [300, 250]
+                }
+            ];
+            pbjs.addAdUnits(adUnits);
+
+            pbjs.requestBids({
+                bidsBackHandler:function(){
+                    prebid_log('bidsbackhandler calling initAdServer');
+                    SF.Ads.initAdServer();
+                }
+            });
+        });
+
+    };
+
+    SF.Ads.debugPrebidResults = function() {
+        if (PREBID_DEBUG) {
+            var responses = pbjs.getBidResponses();
+            var output = [];
+            for (var adunit in responses) {
+                if (responses.hasOwnProperty(adunit)) {
+                    var bids = responses[adunit].bids;
+                    for (var i = 0; i < bids.length; i++) {
+                        var b = bids[i];
+                        var adposition = SF.Ads.Helpers.getPathFromContainerID(b.adUnitCode);
+                        output.push({
+                            'position': adposition, 'adunit': adunit, 'adId': b.adId, 'bidder': b.bidder,
+                            'time': b.timeToRespond, 'cpm': b.cpm, 'msg': b.statusMessage
+                        });
+                    }
+                }
+            }
+            if (output.length) {
+                if (console.table) {
+                    console.table(output);
+                } else {
+                    for (var j = 0; j < output.length; j++) {
+                        console.log(output[j]);
+                    }
+                }
+            } else {
+                console.warn('NO prebid responses');
+            }
+        }
+    }; 
+        SF.Ads.initPrebid();
+        if (PREBID_DEBUG && performance) {
+            performance.mark('prebid-time-start');
+            performance.measure('page fetch', 'fetchStart', 'responseEnd');
+            performance.measure('page parsing until prebid init', 'responseEnd', 'prebid-time-start');
+        }
+        setTimeout(function() {
+            prebid_log('prebid timeout reached');
+            if (PREBID_DEBUG && performance) {
+                performance.mark('prebid-time-end');
+                performance.measure('prebid-timeout', 'prebid-time-start', 'prebid-time-end');
+            }
+            SF.Ads.initAdServer();
+        }, PREBID_TIMEOUT);
+        prebid_log('prebid init');
+    prebid_log('adserver  init');
+  </script>
+
+
+
+   <!-- GPT Slot Definitions -->
+   <script type='text/javascript'>
+       /*global googletag */
+       var gptadslots=[];
+       var gptadHandlers={};
+       googletag.cmd.push(function() {
+           prebid_log('GPT push define slots and targeting');
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_728x90_A', [728, 90], 'div-gpt-ad-1393435113147-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['esfinge', 'development', 'frameworks', 'java', 'swdev_oo'])
+                                                        .setTargeting('shortname', 'esfinge')
+                                                        .setTargeting('aud', ['informationtechnology', 'developers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/')
+                                                        .setTargeting('sz', '728x90')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_300x250_A', [[300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-1392147725721-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['esfinge', 'development', 'frameworks', 'java', 'swdev_oo'])
+                                                        .setTargeting('shortname', 'esfinge')
+                                                        .setTargeting('aud', ['informationtechnology', 'developers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/')
+                                                        .setTargeting('sz', '300x250,300x600,300x1050')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_300x250_B', [300, 250], 'div-gpt-ad-1392148208789-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['esfinge', 'development', 'frameworks', 'java', 'swdev_oo'])
+                                                        .setTargeting('shortname', 'esfinge')
+                                                        .setTargeting('aud', ['informationtechnology', 'developers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/')
+                                                        .setTargeting('sz', '300x250')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_HubIcon_200x90_A', [200, 90], 'div-gpt-ad-1392148098424-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['esfinge', 'development', 'frameworks', 'java', 'swdev_oo'])
+                                                        .setTargeting('shortname', 'esfinge')
+                                                        .setTargeting('aud', ['informationtechnology', 'developers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/')
+                                                        .setTargeting('sz', '200x90')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/7346874/SF-300x250', [300, 250], 'div-gpt-ad-1392148208795-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['esfinge', 'development', 'frameworks', 'java', 'swdev_oo'])
+                                                        .setTargeting('shortname', 'esfinge')
+                                                        .setTargeting('aud', ['informationtechnology', 'developers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/')
+                                                        .setTargeting('sz', '300x250')
+                                                        .setTargeting('page_type', 'pg_files'));
+            
+
+            googletag.pubads().setTargeting('requestSource', 'GPT');
+            googletag.pubads().enableAsyncRendering();
+
+            googletag.pubads().collapseEmptyDivs();
+            googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+                var unitName = event.slot.getName();
+                if ( unitName in gptadHandlers ) {
+                   try {
+                       SF.Ads.RenderHandlers[gptadHandlers[unitName]].call(this, event);
+                   } catch (e) {
+                   }
+                }
+            });
+            googletag.pubads().addEventListener('impressionViewable', SF.Ads.RenderHandlers.viewabilityInstrumentation);
+            
+            googletag.pubads().addEventListener('slotRenderEnded', SF.Ads.listenerForBlockThis);
+            pbjs.que.push(function() {
+                prebid_log('pbjs.setTargetingForGPTAsync');
+                pbjs.setTargetingForGPTAsync();
+                SF.Ads.debugPrebidResults();
+            });
+            if (PREBID_DEBUG) {
+                performance.mark('load-gpt-end');
+                performance.measure('load-gpt', 'load-gpt-start', 'load-gpt-end');
+            }
+       
+            prebid_log('GPT enable services');
+            googletag.enableServices();
+        });
+   </script> 
+
+        
+
+        
+        <script type="text/javascript" src="//a.fsdn.com/con/js/adframe.js?1469215405"></script>
+        <script type="text/javascript">
+
+            /*jshint ignore:start*/
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            /*jshint ignore:end*/
+
+            //var $ = jQuery.noConflict(); // jshint ignore:line
+        </script>
+        <script type="text/javascript">
+                ga('create', 'UA-36130941-1', {'name': '1'});
+                ga('create', 'UA-36130941-1', 'auto');
+            if (typeof _ml !== 'undefined' && _ml.us) {
+                if (_ml.us.tp && _ml.us.tp.length > 0) {
+                    ga('set', 'dimension2', _ml.us.tp[0]);
+                }
+                if (_ml.us.pc && _ml.us.pc.length > 0) {
+                    ga('set', 'dimension7', _ml.us.pc[0]);
+                }
+                ga('set', 'dimension3', _ml.us.ind);
+                ga('set', 'dimension4', _ml.us.cr);
+                ga('set', 'dimension5', _ml.us.cs);
+                ga('set', 'dimension6', _ml.us.dm);
+                ga('set', 'dimension8', _ml.us.sn);
+            }
+
+            
+                ga('set', 'dimension9', 'esfinge');
+                ga('set', 'dimension10', 'pg_files');
+                    
+                ga('set', 'dimension13', 'Logged Out');
+                ga('set', 'dimension14', 'No');  
+                ga('set', 'dimension15', 'desktop');
+                ga('send', 'pageview');
+
+            
+        </script>
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView', document.title, {
+                dimension1: 'esfinge',
+            dimension2: 'pg_files'
+        }]);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//analytics.slashdotmedia.com/";
+            _paq.push(['setTrackerUrl', u+'sf.php']);
+            _paq.push(['setSiteId', 39]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'sf.js'; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+
+        <script type="text/javascript"> try{(function(){ var cb = new Date().getTime(); var s = document.createElement("script"); s.defer = true; s.src = "//tag.crsspxl.com/s1.js?d=2396&cb="+cb; var s0 = document.getElementsByTagName('script')[0]; s0.parentNode.insertBefore(s, s0); })();}catch(e){} </script>
+<script type="text/javascript">
+/* Version: 0.7 */
+/* <![CDATA[ */
+try {
+    var _mag = _mag || {};
+    _mag.kw = 'Frameworks,Object Oriented';
+    _mag.kw_encoded = 0;
+    _mag.shortName = 'sourceforgemedia-computing';
+    _mag.default_protocol = ('https:' === document.location.protocol ? 'https:' : 'http:');
+    _mag.startTime = (new Date()).getTime();
+    (function(d,t) {
+        var mag = d.createElement('script'); mag.type = 'text/javascript'; mag.async = true; mag.src = t;
+        var head = d.getElementsByTagName('head')[0] || d.documentElement; head.insertBefore(mag, head.firstChild);
+    })(document,  _mag.default_protocol + '//d3ezl4ajpp2zy8.cloudfront.net/sourceforgemedia-computing_tag.js');
+} catch (e) {}
+/* ]]> */
+</script>
+
+    </head>
+    <body id="pg_files" class="
+    user
+     bluesteel
+ anonymous">
+        
+        
+
+        <div id="busy-spinner"></div>
+        
+<header id="site-header">
+    <div class="wrapper">
+        <a href="/" class="logo">
+            <span>SourceForge</span>
+        </a>
+        <form method="get" action="/directory/">
+            <input type="text" id="words" name="q" placeholder="Search">
+        </form>
+        <!--Switch to {language}-->
+        <nav id="nav-site">
+            <a href="/directory/" title="Browse our software.">Browse</a>
+            <a href="/directory/enterprise" title="Browse our Enterprise software.">Enterprise</a>
+            <a href="/blog/" title="Read the latest news from the SF HQ.">Blog</a>
+            <a href="//deals.sourceforge.net/?utm_source=sourceforge&amp;utm_medium=navbar&amp;utm_campaign=homepage" title="Discover and Save on the Best Gear, Gadgets, and Software" class="featured-link" target="_blank">Deals</a>
+            <a href="/support" title="Contact us for help and feedback.">Help</a>
+            <a href="/create"  class="featured-link blue" title="Create and publish Open Source software for free.">Create</a>
+        </nav>
+        <nav id="nav-account">
+            
+              <div class="logged_out">
+                  <a href="https://sourceforge.net/auth/">Log In</a>
+                <span>or</span>
+                <a href="https://sourceforge.net/user/registration">Join</a>
+              </div>
+            
+        </nav>
+    </div>
+</header>
+<header id="site-sec-header">
+    <div class="wrapper">
+        <nav id="nav-hubs">
+            <h4>Solution Centers</h4>
+            <a href="http://goparallel.sourceforge.net/">Go Parallel</a>
+        </nav>
+        <nav id="nav-collateral">
+            <a href="https://library.slashdotmedia.com/">Resources</a>
+            <a href="/user/newsletters?source=sfnet_header">Newsletters</a>
+
+            <a href="/cloud-storage-providers/?source=sfnet_header">Cloud Storage Providers</a>
+            <a href="/business-voip/?source=sfnet_header">Business VoIP Providers</a>
+            
+            <a href="/call-center-providers/?source=sfnet_header">Call Center Providers</a>
+        </nav>
+    </div>
+</header>
+
+
+        <header id="page-header">
+    
+    <div id="banner-sterling" class="sterling">
+        
+
+
+
+
+    
+
+
+<div class="sticky-anchor"></div>
+<div class="sticky">
+
+<div id="SF_ProjectFiles_728x90_A_wrapped" class="draper leaderboard  " data-unit="SF_ProjectFiles_728x90_A">
+<script type="text/javascript">
+/*global googletag */
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1393435113147-0" ></div>');
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1393435113147-0');
+    });
+}());
+</script>
+</div>
+
+
+</div>
+<script type="text/javascript">
+    if (!SF.adblock) {
+        SF.Ads.stickyLeader = new SF.Stickify($('.sticky').eq(0));
+    }
+</script>
+        
+
+
+
+
+    
+
+
+
+<div id="SF_ProjectFiles_HubIcon_200x90_A_wrapped" class="draper hub  " data-unit="SF_ProjectFiles_HubIcon_200x90_A">
+<script type="text/javascript">
+/*global googletag */
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392148098424-0" ></div>');
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392148098424-0');
+    });
+}());
+</script>
+</div>
+
+
+    </div>
+    <div style="clear:both"></div>
+
+    <div id="project-header" itemscope itemtype="http://schema.org/softwareapplication">
+        <nav id="breadcrumbs">
+            <ul>
+                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/">Home</a></li>
+                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory">Browse</a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory/development/">Development</a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory/development/frameworks/">Frameworks</a></li><li class="project"><a href="/projects/esfinge/">Esfinge Framework</a></li>
+                <li>Files</li>
+            </ul>
+        </nav>
+        
+<section id="project-icon" class="noneditable">
+    <img itemscope itemtype="http://schema.org/ImageObject" itemprop="image" alt="Esfinge Framework Icon" src="//a.fsdn.com/con/img/project_default.png" height="48" width="48"/>
+</section>
+<div id="project-title" class="project-mirror">
+    <div >
+        <div>
+            <h1 itemprop="name">
+                    <a href="/projects/esfinge/" itemprop="url">Esfinge Framework</a></h1>
+        </div>
+        <p id="maintainers" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        Brought to you by:
+        <a href="/u/gdunhao/" itemprop="url"><span itemprop="name">gdunhao</span></a>, <a href="/u/guerraem/" itemprop="url"><span itemprop="name">guerraem</span></a>, <a href="/u/m-lib/" itemprop="url"><span itemprop="name">m-lib</span></a>, <a href="/u/troyner/" itemprop="url"><span itemprop="name">troyner</span></a></p>
+        
+    </div>
+    
+
+</div>
+<nav id="project-nav">
+    
+    <div id="top_nav"><div id="top_nav_admin">
+        <ul class="dropdown">
+            
+            <li >
+                <a href="/projects/esfinge/?source=navbar"
+                >
+                <span>Summary</span></a>
+                
+            </li>
+            
+            <li class="selected">
+                <a href="/projects/esfinge/files/?source=navbar"
+                >
+                <span>Files</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/projects/esfinge/reviews?source=navbar"
+                >
+                <span>Reviews</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/projects/esfinge/support?source=navbar"
+                >
+                <span>Support</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/p/esfinge/wiki/?source=navbar"
+                >
+                <span>Wiki</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/p/esfinge/code/?source=navbar"
+                >
+                <span>Code</span></a>
+                
+            </li>
+            
+            
+        </ul>
+        
+    </div></div>
+    
+</nav>
+
+
+    </div>
+</header>
+
+
+        
+<div id="messages">
+</div>
+
+
+
+        <div id="page-body">
+    <noscript>
+        <p>The interactive file manager requires Javascript. Please enable it or use <a href="https://sourceforge.net/p/forge/documentation/Release%20Files%20for%20Download#scp">sftp or scp</a>.
+        <br/>You may still <em>browse</em> the files here.</p>
+    </noscript>
+    <div id="files">
+      <div class="download-bar">Looking for the latest version? <strong>
+            <a href="/projects/esfinge/files/latest/download?source=files" title="/Esfinge2/QueryBuilder Plugin 1.0/EsfingePlugin_1.0.0.jar:  released on 2016-02-18 16:54:43 UTC">
+                <span>Download EsfingePlugin_1.0.0.jar (151.2 kB)</span>
+            </a>
+            </strong>
+        </div><div class="files-breadcrumb">
+            <span class="actions"><a href="/projects/esfinge/rss?path=/Esfinge2/Comparison%201.0" title="Monitor this project's files using RSS" data-icon="f" class="ico ico-feed"></a></span>
+            
+                <a id="home" href="/projects/esfinge/files/" title="Files root directory">
+            
+            Home
+            
+                </a>
+                /
+            
+            <a href="/projects/esfinge/files/Esfinge2/" title="Esfinge2">Esfinge2</a> /
+            
+            <span class="current-dir">Comparison 1.0</span>
+
+        </div>
+
+        <table id="files_list" title="This is a list of the files for this project">
+            <col class="name-column">
+            <col class="date-column">
+            <col class="size-column">
+            <col class="downloads-column">
+            <col class="status-column">
+            <thead>
+                <tr>
+                    <th title="The file or folder's name" id="files_name_h" class="first">Name</th>
+                    <th title="The file or folder's last modified date" id="files_date_h" class="opt">Modified</th>
+                    <th title="The file size" id="files_size_h" class="opt">Size</th>
+                    <th title="The weekly download count" id="files_downloads_h" class="opt">Downloads / Week</th>
+                    <th title="A snapshot of the file or folder's status" id="files_status_h" class="typesort">Status</th>
+                </tr>
+                
+                    <tr>
+                        <th colspan="5" class="first" id="parent_folder"><a href=".." title="One level up"><span data-icon="{" class="onelevup ico ico-uparrow"></span>Parent folder</a></th>
+                    </tr>
+                
+            </thead>
+            <tfoot>
+                <tr>
+                    <td id="totals"><span class="label">Totals: </span>1 Item</td>
+                    <td class="opt">&nbsp;</td>
+                    <td headers="files_size_h" class="opt">2.3 MB</td>
+                    <td headers="files_downloads_h" class="opt">1</td>
+                    <td headers="files_status_h">
+                        
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                
+                <tr title="comparison_1_0.zip" class="file ">
+                    <th scope="row" headers="files_name_h">
+                        
+                        
+                        <a href="https://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/comparison_1_0.zip/download"
+                           title="Click to download comparison_1_0.zip"
+                           class="name">
+                        comparison_1_0.zip</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2012-02-07 11:46:04 UTC">2012-02-07</abbr></td>
+                    <td headers="files_size_h" class="opt">2.3 MB</td>
+                    <td headers="files_downloads_h" class="opt">
+                        1<a href="/projects/esfinge/files/Esfinge2/Comparison%201.0/comparison_1_0.zip/stats/timeline" class="fs-stats ui-corner-all file"><img class="fs-sparklines file" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:1,0,0,0,0,0,0&amp;chds=0,1" title="1 weekly downloads" alt="1 weekly downloads" width="20" height="16" rel="nofollow" /></a></td>
+                    <td headers="files_status_h" class="status file"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="files-drawer" class="fs-widget fs-drawer consumer">
+        </div>
+    </div>
+
+    
+    <div id="files-sidebar" class="scroll-fixable" data-floor-compensate="145">
+        <div class="sterling">
+        
+
+
+
+
+    
+    
+
+
+
+<div id="SF_ProjectFiles_300x250_A_wrapped" class="draper multisize  " data-unit="SF_ProjectFiles_300x250_A">
+<script type="text/javascript">
+/*global googletag */
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392147725721-0" ></div>');
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392147725721-0');
+    });
+}());
+</script>
+</div>
+
+
+        </div>
+                <aside class="sidebar-widget">
+        <header>
+        <h3>Recommended Projects</h3>
+        </header>
+    <ul class="vertical">
+
+        
+
+            
+                <li class="item odd">
+                <a href="/projects/hibernate/?source=recommended" title="Hibernate"><img alt="Icon" src="//a.fsdn.com/allura/p/hibernate/icon" /></a>
+                <div class="pinfo-content recommended">
+                <a class="project-name" href="/projects/hibernate/?source=recommended"
+                        title="Learn more about Hibernate ">Hibernate</a>
+                        <div class="summary">
+                        An object relational-mapping (ORM) library for Java
+                        </div>
+                    </div>
+
+            </li>
+            
+                <li class="item even">
+                <a href="/projects/sevenzip/?source=recommended" title="7-Zip"><img alt="Icon" src="//a.fsdn.com/allura/p/sevenzip/icon" /></a>
+                <div class="pinfo-content recommended">
+                <a class="project-name" href="/projects/sevenzip/?source=recommended"
+                        title="Learn more about 7-Zip ">7-Zip</a>
+                        <div class="summary">
+                        A free file archiver for extremely high compression
+                        </div>
+                    </div>
+
+            </li>
+            
+                <li class="item odd last">
+                <a href="/projects/tortoisesvn/?source=recommended" title="TortoiseSVN"><img alt="Icon" src="//a.fsdn.com/allura/p/tortoisesvn/icon" /></a>
+                <div class="pinfo-content recommended">
+                <a class="project-name" href="/projects/tortoisesvn/?source=recommended"
+                        title="Learn more about TortoiseSVN ">TortoiseSVN</a>
+                        <div class="summary">
+                        An Apache SVN client, implemented as a Windows shell extension
+                        </div>
+                    </div>
+
+            </li>
+            
+        
+    </ul>
+</aside>
+
+
+        
+
+
+
+
+    
+
+
+
+<div id="SF_ProjectFiles_300x250_B_wrapped" class="draper medrec  " data-unit="SF_ProjectFiles_300x250_B">
+<script type="text/javascript">
+/*global googletag */
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392148208789-0" ></div>');
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392148208789-0');
+    });
+}());
+</script>
+</div>
+
+
+
+        
+                <div class="sterling" id="deals-widget">
+                    
+    <aside class="sidebar-widget stackcommerce-widget">
+            <header id="stackcommerce-header">
+                <img src="//a.fsdn.com/con/img/sf_logo250x32.png" width="125" height="16" alt="sourceforge.net logo" />
+                <h3>Deals</h3>
+            </header>
+            
+
+
+
+
+    
+
+
+
+<div id="SF-300x250_wrapped" class="draper medrec  " data-unit="SF-300x250">
+<script type="text/javascript">
+/*global googletag */
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392148208795-0" ></div>');
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392148208795-0');
+    });
+}());
+</script>
+</div>
+
+
+    </aside>
+    
+
+                </div>
+            
+        
+    </div>
+    
+    
+<script type="text/javascript">
+if (!SF.adblock) {
+    
+    SF.Ads.scrollFixableEnabled = true;
+    
+}
+</script>
+
+        </div>
+        
+
+        
+            
+    <div id="overlay-blockthis-wrapper">
+    <div id="overlay-blockthis">
+        <div class="instructions">
+            <h2>Thanks for helping keep SourceForge clean.</h2>
+            <p>
+            <u>Screenshot instructions:</u><br>
+            <a data-external target=_blank href="http://windows.microsoft.com/en-us/windows/take-screen-capture-print-screen#take-screen-capture-print-screen=windows-8">Windows</a><br>
+            <a data-external target=_blank href="https://support.apple.com/en-us/HT201361">Mac</a><br>
+            <a data-external target=_blank href="https://access.redhat.com/solutions/2178">Red Hat Linux</a> &nbsp;
+            <a data-external target=_blank href="https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html">Ubuntu</a>
+            </p>
+            <p>
+                <u>Click URL instructions:</u><br>
+                Right-click on ad, choose "Copy Link", then paste here &rarr;<br>
+                (This may not be possible with some types of ads)
+            </p>
+            <a class="more-info" href="https://sourceforge.net/p/forge/documentation/Report%20a%20problem%20with%20Ad%20content/" target="_blank">More information about our ad policies</a>
+        </div>
+        <form class="dropzone" action="/api/instrumentation/gpt" id="blockthisForm" method="POST">
+            <a href="#" id="btn-blockthis-close">X</a>
+            
+  <input type="hidden" name="_visit_cookie" value="5786b5d15228cb26bc80c181"/>
+                <input type='hidden' name='timestamp' value='1469422914'/>
+                <input type='hidden' name='spinner' value='X44ntT4urcMtt:eeUGgHXJdAgFgE'/>
+                <p class='L8a1de1dced008926c1e562b1497ed4df67418dec'><label for='X5OGCIe7SQPuM74SLDzqaVNpnNuQ'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='X5OGCIe7SQPuM74SLDzqaVNpnNuQ' name='X5eGCIe7SQCp7mviBIUymL5cA8yg' type=
+             'text'/></p>
+                <p class='L8a1de1dced008926c1e562b1497ed4df67418dec'><label for='X5OGCIe7SQPqM74SLDzqaVNpnNuQ'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='X5OGCIe7SQPqM74SLDzqaVNpnNuQ' name='X5eGCIe7SQSp7mviBIUymL5cA8yg' type=
+             'text'/></p>
+            <p>Briefly describe the problem (required):
+            <input name="X6O2IPOjZGbsZkIj6:xe0OsUbW3A" type="text" required>
+            </p>
+
+            <div class="upload-text">Upload screenshot of ad (required):</div>
+            <div id='upload-it'>
+                <a href="#" onclick="return false">Select a file</a>, or drag & drop file here.
+            </div>
+            <div id="upload-it-placeholder"></div> 
+
+            <div class="dropzone-previews" style="display: none"></div>
+            <div class="dz-message" style="display: none"></div> 
+            
+            <div id="dropzone-preview-template" style="display: none">
+                <div class="dz-preview dz-file-preview">
+                    <img data-dz-thumbnail src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""/>
+                    <div class="dz-success-mark"><span>✔</span></div>
+                    <div class="dz-error-mark"><span>✘</span></div>
+                    <div class="dz-error-message"><span data-dz-errormessage></span></div>
+                </div>
+            </div>
+            <p></p>
+            <p>Please provide the ad click URL, if possible:
+            <input name="X6uqBJujAL74flQaCeR7CHp1RHEY" type="url">
+            </p>
+            <textarea id="gpt-info" name="X5:2MO:pKZqhy7NzZawuQBTUJfao"></textarea>
+            <input type="submit" id="btn-blockthis-submit" value="Submit Report">
+        </form>
+    </div>
+    </div>
+
+        
+
+        <script type="text/javascript" src="//ads.pro-market.net/ads/scripts/site-143572.js"></script>  
+<footer id="site-footer">
+    <div class="wrapper">
+        <nav>
+            <h5>SourceForge</h5>
+            <a href="/about">About</a>
+            <a href="/blog/category/sitestatus/">Site Status</a>
+            <a href="http://twitter.com/sfnet_ops">@sfnet_ops</a>
+        </nav>
+        <nav>
+            <h5>Find and Develop Software</h5>
+            <a href="/create/">Create a Project</a>
+            <a href="/directory/">Software Directory</a>
+            <a href="/top">Top Downloaded Projects</a>
+        </nav>
+        <nav>
+            <h5>Community</h5>
+            <a href="/blog/">Blog</a>
+            <a href="http://twitter.com/sourceforge">@sourceforge</a>
+            <a href="https://library.slashdotmedia.com/">Resources</a>
+        </nav>
+        <nav>
+            <h5>Help</h5>
+            <a href="http://p.sf.net/sourceforge/docs">Site Documentation</a>
+            <a href="/support">Support Request</a>
+        </nav>
+    </div>
+</footer>
+<footer id="site-copyright-footer">
+    <div class="wrapper">
+        <div id="copyright">
+            &copy; 2016 Slashdot Media. All Rights Reserved.<br />
+        </div>
+        <nav>
+            <a href="https://slashdotmedia.com/terms-of-use/">Terms</a>
+            <a href="https://slashdotmedia.com/privacy-statement/">Privacy</a>
+            <span id='teconsent'></span>
+            <a href="https://slashdotmedia.com/opt-out-choices/">Opt Out Choices</a>
+            <a href="https://slashdotmedia.com">Advertise</a>
+        </nav>
+    </div>
+</footer>
+            <script src="//a.fsdn.com/con/js/min/sf.js?1469215405" type="text/javascript"></script>
+        
+        
+<div id="newsletter-floating" class="goth-form">
+    <h2>Get latest updates about Open Source Projects, Conferences and News.</h2>
+    <p>Sign up for the SourceForge newsletter:</p>
+    <form action="/user/newsletters/subscribe" method="post">
+    <div class="form">
+        <input type="email" name="X5uyALuLHkd0O5vKvV3DdYvDFP2o"  placeholder="email@address.com" value="">
+    <input type="submit" value="Subscribe" class="bt">
+    </div>
+    <div class="fielderror"></div>
+
+    <p class="details">
+    <span class="fielderror"></span>
+    <label>
+        <input type="checkbox" required name="X5OqCIfjOHr:M74SLDzqaVNpnNuQ" value="true" checked>I agree to receive quotes, newsletters and other information from sourceforge.net and its partners regarding IT services and products. I understand that I can withdraw my consent at any time. Please refer to our <a href="https://slashdotmedia.com/privacy-statement/">Privacy Policy</a> or <a href="/support">Contact Us</a> for more details
+        <input type="hidden" name="X7ueIKu_YL6gCl5TxdHU2M7M_Azo" value="true">
+    </label>
+    </p>
+
+    <input type="hidden" name="source" value="floating">
+    <input type="hidden" name="X7:qCOuXfArIymojwf:DBRs81LUw" value="BR">
+    <input type="hidden" name="X8OqCOuXfArIymojwf16kSqVSdWQ" value="ip_address">
+    <input type="hidden" name="X6OeIOPjHFb8ZnJXn:xe0OsUbW3A" value="sitewide">
+    <input type="hidden" name="X6OeIOPjHFb8ZnJXn:xe0OsUbW3A" value="research">
+    <input type="hidden" name="X6OeIOPjHFb8ZnJXn:xe0OsUbW3A" value="events">
+    <input type="hidden" name="X6OeIOPjHFb8ZnJXn:xe0OsUbW3A" value="thirdparty">
+    <input type="hidden" name="X6OeIOPjHFb8ZnJXn:xe0OsUbW3A" value="all">
+    <input type="hidden" name="X4OKAOmq9E9R4wqrlEEb3wPlLvQw" value="">
+    
+  <input type="hidden" name="_visit_cookie" value="5786b5d15228cb26bc80c181"/>
+    <input type='hidden' name='timestamp' value='1469422914'/>
+    <input type='hidden' name='spinner' value='X44ntT4urcMtt:eeUGgHXJdAgFgE'/>
+    <p class='L8a1de1dced008926c1e562b1497ed4df67418dec'><label for='X5OGCIe7SQfuM74SLDzqaVNpnNuQ'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='X5OGCIe7SQfuM74SLDzqaVNpnNuQ' name='X5eGCIe7SQCp7mviBIUymL5cA8yg' type=
+             'text'/></p>
+    <p class='L8a1de1dced008926c1e562b1497ed4df67418dec'><label for='X5OGCIe7SQfqM74SLDzqaVNpnNuQ'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='X5OGCIe7SQfqM74SLDzqaVNpnNuQ' name='X5eGCIe7SQSp7mviBIUymL5cA8yg' type=
+             'text'/></p>
+</form>
+
+    <a id="btn-float-close">No, thanks</a>
+</div>
+
+        
+
+        
+            <script type="text/javascript" src="//consent-st.truste.com/get?name=notice.js&amp;domain=slashdot.org&amp;c=teconsent&amp;text=true"></script>
+            <noscript><p><img src="//analytics.slashdotmedia.com/sf.php?idsite=39" style="border:0;" alt="" /></p></noscript>
+<script type="text/javascript" src="https://a.fsdn.com/con/js/files.js?1469215405"></script>
+
+
+<script type="text/x-handlebars-template" id="file-drawer-template">
+
+<form class="bp" action="{{files_url}}{{full_path}} method="put" id="file_properties_content">
+    <table id="drawer_row">
+        <col class="name-column">
+        <col class="date-column">
+        <col class="size-column">
+        <col class="downloads-column">
+        <col class="status-column">
+        <tbody>
+            <tr title="{{name}}">
+                <td>
+                {{#if authorized }}
+                    <input type="text" class="title" name="name" value="{{name}}">
+                {{else}}
+                    <a href="{{file_title_url this}}" class="name">{{name}}</a>
+                {{/if}}
+                </td>
+                <td class="files-date"></td>
+                <td class="files-size"></td>
+                <td class="files-downloads"></td>
+                <td class="files-status status"></td>
+            </tr>
+            {{#if authorized}}
+                <tr>
+                    <td colspan="5" id="name_message" class="invalid hide"></td>
+                </tr>
+                {{#if d_type}}
+                <tr>
+                    <td colspan="5">
+                        <input type="checkbox" name="stage" id="stage" value="1" style="vertical-align: baseline" {{checked this.staged}} {{stage_onclick this}} />
+                        <label for="stage" title="Only release technicians will see this folder in the file browser." {{stage_onclick this}}>{{stage_message this staging_days}}</label>
+                        <span title="Only release technicians will see this folder in the file browser." class="ico-help">?</span>
+                        {{stage_date this}}
+                    </td>
+                </tr>
+                {{/if}}
+            {{/if}}
+        </tbody>
+    </table>
+
+    <div id="file-details">
+        {{#if f_type}}
+        <div id="file-info">
+            {{stage_date this}}
+
+            <div class="label">
+                <span>SHA1:</span>
+            </div>
+            <div class="value">
+                <pre class="selectable">{{sha1}}</pre>
+            </div>
+
+            <div class="label">
+                <span>MD5:</span>
+            </div>
+            <div class="value">
+                <pre class="selectable">{{md5}}</pre>
+            </div>
+
+            {{#if authorized}}
+            <div class="label">
+                <span>Download URL:</span>
+            </div>
+            <div class="value">
+                {{#if not_downloadable}}
+                    <pre class="selectable" title="This file will be ready for download shortly.">This file will be ready for download shortly.</pre>
+                {{else}}
+                <pre class="selectable" title="{{download_url}}">{{download_url}}</pre>
+                {{/if}}
+            </div>
+
+            <div class="label">
+                <label for="download_label">Download Button:</label>
+            </div>
+            <div class="value">
+                <span class="text"><input id="download_label" type="text" class="text" name="download_label" placeholder="Change the label used on the download button" value="{{download_label}}"></span>
+            </div>
+
+            <div class="label">
+                <label for="exclude_reports">Exclude Stats:</label>
+            </div>
+            <div class="value">
+                <span class="checkbox"><input type="checkbox" id="exclude_reports" name="exclude_reports" value="1" {{should_exclude_reports exclude_reports}}></span>
+            </div>
+            {{/if}}
+
+            {{#if legacy_release_notes}}
+            <div class="value no-label">
+                <span><a href="{{legacy_release_notes}}">Release Notes</a></span>
+            </div>
+            {{/if}}
+        </div>
+
+        <div id="download-info">
+            <div class="label" style="width: 137px">
+                <span>Downloads (All-Time):</span>
+            </div>
+            <div class="value" style="width:100px">
+                <span>{{download_display downloads}}</span>
+            </div>
+
+            {{#if authorized}}
+            <div class="label">
+                <span>Mirror Status:</span>
+            </div>
+            <div class="value">
+                <span id="mirror_count">Loading ...</span>
+            </div>
+            {{/if}}
+
+            <div class="default">
+                {{#if show_platforms}}
+                <div class="drawer-label">
+                    <span>Default Download For:</span>
+                </div>
+                {{/if}}
+                <div class="drawer-value">
+                    <ul>
+                    {{#each platforms}}
+                        {{> platform}}
+                    {{/each}}
+
+                    {{#if authorized}}
+                    <li><a href="#select_all" title="Select all">Select all</a></li>
+                    {{/if}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+
+        {{#if authorized}}
+        <hr />
+        <p><input type="submit" value="Save"> <a href="#" id="cancel" class="btn link cancel">Cancel</a></p>
+        {{/if}}
+    </div>
+</form>
+
+</script>
+
+<script type="text/x-handlebars-template" id="platform-partial">
+
+    <li>
+        <label>
+            {{#if authorized}}
+            <input type="checkbox" name="default" value="{{value}}" {{_checked}}>
+            <span title="{{title}}" class="platform-icon {{value}}">{{title}}</span>
+            {{/if}}
+
+            {{#unless authorized}}
+            {{#unless skip}}
+            <span title="{{title}}" class="platform-icon {{value}}">{{title}}</span>
+            {{/unless}}
+            {{/unless}}
+        </label>
+    </li>
+
+</script>
+
+<script type="text/javascript">
+    $(function ($) {
+        $('#files').files();
+        $.ajax({
+            url: window.location.pathname + '/list',
+            success: function(data) { net.sf.files = data; },
+            dataType: "json",
+            global: false
+        });
+    });
+    $(window).load(function() {
+        $('.fs-sparklines').each(function(){
+          $(this).attr('src', $(this).attr('data-src'));
+        });
+
+        var tsConfig = {
+            widgets: ['zebra'],
+            sortForce: [[4, 0]],
+            headers: {
+                1: { sorter: 'abbrdate' },
+                2: { sorter: 'filesize' },
+                3: { sorter: 'localnum' },
+                4: { sorter: 'type'}
+            },
+            textExtraction: function (node) {
+                return node.innerHTML;
+            }
+        };
+
+        if ($('#files_list tbody tr').length) {
+            $('#files_list').tablesorter(tsConfig);
+            $('#files_list tr th#parent_folder').unbind();
+            $('#files_list tr th.header').not('.typesort').not('#parent_folder').addClass('usersortable').append('<span class="ui-icon fs-toggle"><\/span>');
+        }
+    });
+</script>
+
+        
+      </body>
+</html>
+

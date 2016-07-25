@@ -1,0 +1,366 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Esfinge SystemGlue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Html5TemplatesDreamweaver.com">
+
+    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
+    <link href="scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
+   
+    <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+
+    <link href="styles/custom.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="pageBody">
+
+<div id="divBoxed" class="container">
+
+    <div class="transparent-bg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;zoom: 1;"></div>
+
+    <div class="divPanel notop nobottom">
+            <div class="row-fluid">
+                <div class="span12">
+
+                    
+                    <div id="divLogo" class="pull-left">
+                        <a href="index.html" id="Esfinge Framework"><img src="images/logo.png" alt="Site Name" title="Site Name" /></a>
+                        <div style="clear:both"></div>
+                        <a href="index.html" id="divTagLine"<></a>
+                    </div>
+
+                    <div id="divMenuRight" class="pull-right">
+                    <div class="navbar">
+                        <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
+                            NAVEGAÇÃO<span class="icon-chevron-down icon-white"></span>
+                        </button>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav nav-pills ddmenu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Oprojeto.html">O Projeto</a></li>
+                            <li class="dropdown">
+                            <a class="dropdown-toggle">Download<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/QueryBuilder%201.4/">Esfinge Query Builder</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/Comparison%201.0/">Esfinge Comparasion</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/Guardian%201.0/">Esfinge Guardian</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/SystemGlue%201.0/">Esfinge SystemGlue</a></li>
+                            <li><a href="http://sourceforge.net/projects/esfinge/files/Esfinge2/AOM%20Role%20Mapper%200.1/">Esfinge AOM Role Mapper</a></li>
+                            </ul>
+                            </li>
+                            <li class="dropdown">
+                            <a class="dropdown-toggle">Documentação<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="Query Builder.html">Esfinge Query Builder</a></li>
+                            <li><a href="Comparasion.html">Esfinge Comparasion</a></li>
+                            <li><a href="Guardian.html">Esfinge Guardian</a></li>
+                            <li><a href="SystemGlue.html">Esfinge SystemGlue</a></li>
+                            <li><a href="AOM.html">Esfinge AOM Role Mapper</a></li>
+                            <li><a href="Gamification.html">Esfinge Gamification</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="http://frameworkesfinge.wix.com/esfinge">Blog</a></li>
+                            <li><a href="Contato.html">Contato</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="span12">
+                    <div id="contentInnerSeparator"></div>
+                </div>
+            </div>
+    </div>
+
+    <div class="contentArea">
+
+        <div class="divPanel notop page-content">
+            <div class="row-fluid">
+            <!--Edit Main Content Area here-->
+                <div class="span12" id="divMain">
+
+                    <h2>Esfinge SystemGlue - Framework para Integração de Aplicações</h2>
+                    <td><a href="https://github.com/EsfingeFramework/systemglue"><div align="right"><p><img src="images/codigofonte.png"></div></td></a>
+                    <hr>
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Visão geral</h3><div class="ui-collapsible-content"></div>
+<hr></hr>
+<div style="text-align: justify;">O SystemGlue é um framework com a proposta de produzir um modelo flexível para gerenciar a integração de aplicações em cenários distintos através de configurações baseadas em metadados. Utilizado uma estrutura simples de configuração por metadados, permite o desenvolvimento de pontos de integração sem, no entanto, criar acoplamento sintático entre as aplicações, mantendo a coesão do software.</div>
+<p>Ele permite que sejam criados contextos na aplicação de forma que o framework possa:</p>
+<ul>
+<div style="text-align: justify;"><li>Executar um método de integração, de forma síncrona ou assíncrona, com a possibilidade de utilizar seus próprios objetos como parâmetros a serem passados ou sinalizados como destino de retorno da chamada. Esta execução pode ser configurada para disparar antes ou após a invocação de um método da aplicação principal;</li></div>
+<li>Executar um conjunto de métodos em uma ou mais classes, da mesma forma que o item anterior;</li>
+<li>Agendar a execução de métodos;</li>
+<li>Enviar ou consumir mensagens de um servidor JMS;</li>
+</ul>
+<p></div></div><!-- end div.wp-spoiler -->
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Configuração de metadados</h3><div class="ui-collapsible-content"></p>
+    <hr></hr>
+<div style="text-align: justify;">Esta seção do tutorial irá mostrar uma perspectiva geral sobre a configuração de metadados no SystemGlue. Nesse momento, o objetivo é apenas dar uma visão geral das diferentes formas de configurar os metadados. As seções a seguir irão detalhar cada um dos usos do framework.</div>
+<div style="text-align: justify;">O exemplo de código a seguir exemplifica como as anotações podem ser utilizadas para configurar a execução de funcionalidade antes e depois da execução do método. Durante a invocação dos métodos, existe um mapeamento entre os parâmetros e os retornos baseados em seus nomes. O nome de um parâmetro pode ser configurado utilizando a anotação @Param e o nome do retorno a anotação @ReturnName.</div>
+<pre>@Executions ({
+   @Execute(clazz=InteligenceIntegration.class, method="getTargetInfo",
+          when=ExecutionMoment.BEFORE, rule="order.targets.size==0") ,
+   @Execute(clazz= UnitsIntegration.class, method="sendOrder",
+          when = ExecutionMoment.AFTER,async = true)                            
+})
+public void saveOrder(@Param("order") Order order){
+  //core functionality implementation
+}</pre>
+<p><strong style="font-size: 15px; color: #e05f03;">Utilizando Arquivos XML</strong></p>
+<div style="text-align: justify;">A utilização de anotações do SystemGlue é indicada para invocações que devem ser sempre executadas. Para questões que podem ser modificadas entre diferentes implantações da aplicação, é mais indicado o uso de XML, onde os metadados são definidos de forma externa ao código fonte. Veja abaixo como a mesma configuração poderia ser feita com um arquivo XML.</div>
+<pre>
+&lt;systemglue&gt;
+   &lt;class name="expl.OrderService"&gt;
+      &lt;method name="saveOrder" params="expl.Order"&gt;
+         &lt;execute class="expl.InteligenceIntegration" method="getTargetInfo" when="BEFORE" rule="order.targets.size == 0"/&gt;
+         &lt;execute class="expl.UnitsIntegration" when="AFTER" method="sendOrder" async="true"/&gt;
+      &lt;/method&gt;
+   &lt;/class&gt;
+&lt;/systemglue&gt;
+</pre>
+<div style="text-align: justify;">Para que o framework consuma esse arquivo, é preciso chamar o método loadXMLFile() na classe MetadataRepository. Um arquivo pode conter metadados de mais de uma classe e uma classe pode possuir metadados definidos em mais de um arquivo.</div>
+<p><strong style="font-size: 15px; color: #e05f03;">Anotações de Domínio</strong></p>
+<div style="text-align: justify;">Uma desvantagem das formas de definição de metadados apresentada é que se a mesma ação precisar ser tomada em métodos diferentes, o código de configuração precisa ser duplicado. Uma forma de evitar isso é o uso de anotações de domínio, que representam conceitos da aplicação e podem ser mapeadas para metadados do SystemGlue.</div>
+<div style="text-align: justify;">O exemplo a seguir mostra a utilização de uma anotação de domínio. Veja que é a anotação que é configurada com as anotações do SystemGlue. Essa nova anotação pode então ser utilizada nos métodos.</div>
+<pre>//anotação de domínio
+@Executions({ 
+  @Execute(clazz = InteligenceIntegration.class, 
+    when=ExecutionMoment.AFTER, method="getTargetInfo",  
+    rule="order.targets.size==0"),
+  @Execute (clazz= UnitsIntegration.class,
+    when = ExecutionMoment.AFTER, method="sendOrder", 
+    async = true)
+})
+public @interface OrderModification{}
+
+//definição do método
+@OrderModification
+public void saveOrder(@Param("order") Order o){}</pre>
+<div style="text-align: justify;">As configurações de uma anotação de domínio também podem ser feitas utilizando arquivos XML. Veja abaixo como ficaria a configuração:</div>
+<pre>
+&lt;systemglue&gt; 
+   &lt;annotation name="expl.OrderModification"&gt; 
+      &lt;execute class="expl.InteligenceIntegration" method="getTargetInfo" when="BEFORE" rule="order.targets.size == 0"/&gt; 
+      &lt;execute class="expl.UnitsIntegration" when="AFTER" method="sendOrder" async="true"/&gt; 
+   &lt;/annotation&gt; 
+&lt;systemglue&gt;
+</pre>
+<div style="text-align: justify;">É importante ressaltar que essas técnicas pode ser combinadas em um mesmo método para definir diferentes perfis de integração.</div>
+<p></div></div><!-- end div.wp-spoiler -->
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Anotações do SystemGlue</h3><div class="ui-collapsible-content"></p>
+    <hr></hr>
+<p>Segue uma lista que dá uma visão geral as anotações do SystemGlue que configuram execuções nos métodos:</p>
+<ul>
+<div style="text-align: justify;"><li>@Execute (Métodos e outras anotações): Configura a classe e o método a ser executado em outra aplicação.</li></div>
+<div style="text-align: justify;"><li>@Executions (Métodos e outras Anotações): Aceita um array de @Execute. Portanto, permite a execução de vários métodos em um só evento.</li></div>
+<div style="text-align: justify;"><li>@ScheduleAt (Métodos e outras Anotações): Agenda a execução de um método para data e hora definidas. Pode definir ainda um intervalo e uma data / hora final para um ciclo de execuções.</li></div>
+<div style="text-align: justify;"><li>@ScheduleFor (Métodos e outras Anotações): Agenda a execução de um método dentro de um intervalo definido. Exemplo: em 5 minutos. Permite ainda configurar ciclos de execução.</li></div>
+<li>@MessageRetriever (Métodos): Configura um método para receber uma mensagem de um servidor JMS.</li>
+<li>@MessageSender (Métodos): Configura um método para enviar um objeto a um servidor JMS.</li>
+</ul>
+<p>Seguem as anotações utilizadas para o mapeamento de parâmetros e retorno:</p>
+<ul>
+<div style="text-align: justify;"><li>@ReturnName (Métodos): Define um rótulo para o objeto de retorno da execução do método principal, para que o framework possa reutilizá-lo posteriormente.</li></div>
+<div style="text-align: justify;"><li>@Param (Parâmetros): Utilizado em parâmetros para sinalizá-lo com um rótulo específico e poder mapeá-lo para reutilização durante a execução do método.</li></div>
+</ul>
+<p>A seguir estão detalhadas as anotações com seus respectivos atributos:</p>
+<p><strong>@Execute</strong></p>
+<ul>
+<li>clazz: Class – classe que contém o método a ser executado.</li>
+<li>method: String – nome do método a ser executado.</li>
+<li>finder: Class – classe que estende de ObjectFinder e é responsável por instanciar “clazz”. Uma classe padrão é fornecida.</li>
+<li>rule: String – expressão que define uma regra condicional para a execução do método. Como padrão ele sempre será executado.</li>
+<li>async: Boolean – indicador de execução assíncrona do método. O padrão é “false”.</li>
+<div style="text-align: justify;"><li>when: ExecutionMoment – sinaliza o momento de execução do método na outra aplicação, em relação à que dispara a integração: antes (BEFORE) ou depois (AFTER – sendo este o valor padrão).</li></div>
+</ul>
+<p><strong>@Executions</strong></p>
+<ul>
+<li>value: Execute[ ] – array de Anotações @Execute.</li>
+</ul>
+<p><strong>@ScheduleAt</strong></p>
+<ul>
+<li>clazz: Class – classe que contém o método a ser executado.</li>
+<li>method: String – nome do método a ser executado.</li>
+<div style="text-align: justify;"><li>startExecution: String – Data e hora para o início da execução, no formato &#8220;dd,MM,yyyy,hh24,mi,ss&#8221;. Para indicar o dia corrente, é possível utilizar apenas a notação “*,*,*,hh24,mi,ss” onde cada um dos três asteriscos representam, respectivamente: dia atual, mês atual e ano atual.</li></div>
+<div style="text-align: justify;"><li>endExecution:String – Caso deseje mais de uma execução, informar data e hora para a última execução, no formato &#8220;dd,MM,yyyy,hh24,mi,ss&#8221;.</li></div>
+<li>secondsInterval: inteiro – define o intervalo em segundos entre cada execução dentro de um ciclo.</li>
+<div style="text-align: justify;"><li>when: ExecutionMoment – sinaliza o momento de execução do método na outra aplicação, em relação à que dispara a integração: antes (BEFORE) ou depois (AFTER – sendo este o valor padrão).</li></div>
+<li>finder: Class – classe que estende de ObjectFinder e é responsável por instanciar “clazz”. Uma classe padrão é fornecida.</li>
+<li>rule: String – expressão que define uma regra condicional para a execução do método.</li>
+</ul>
+<p><strong>@ScheduleFor</strong></p>
+<ul>
+<li>clazz: Class – classe que contém o método a ser executado.</li>
+<li>method: String – nome do método a ser executado.</li>
+<li>startInHours: int – valor inteiro representando o número de horas para executar o método.</li>
+<div style="text-align: justify;"><li>startInMinutes: int – valor inteiro representando o número de minutos para executar o método. Se houver quantidade de horas informada, soma-se a ela.</li></div>
+<div style="text-align: justify;"><li>startInSeconds: int – valor inteiro representando o número de segundos para executar o método. Se houver quantidade de horas e minutos informada, soma-se a ela(s).</li></div>
+<li>secondsInterval: inteiro – define o intervalo em segundos entre cada execução dentro de um ciclo.</li>
+<li>times: inteiro – define o número de execuções, caso deseje mais de uma. O valor padrão é 1.</li>
+<div style="text-align: justify;"><li>when: ExecutionMoment – sinaliza o momento de execução do método na outra aplicação, em relação à que dispara a integração: antes (BEFORE) ou depois (AFTER – sendo este o valor padrão).</li></div>
+<li>finder: Class – classe que estende de ObjectFinder e é responsável por instanciar “clazz”. Uma classe padrão é fornecida.</li>
+<li>rule: String – expressão que define uma regra condicional para a execução do método.</li>
+</ul>
+<p><strong>@MessageRetriever</strong></p>
+<ul>
+<li>IPandPort: String – IP e porta do servidor JMS</li>
+<div style="text-align: justify;"><li>target: String – identificador para o objeto-alvo que receberá o conteúdo da Message. O mesmo identificador será utilizado com @Param ou @ReturnName anotando o elemento com o mesmo identificador.</li></div>
+<li>destination: DestinationType – informa se a mensagem vem de um tópico (TOPIC) ou uma fila (QUEUE – que é o valor padrão) .</li>
+<li>destinationName: String – nome do tópico ou fila que irá enviar a mensagem.</li>
+<div style="text-align: justify;"><li>when: ExecutionMoment – sinaliza o momento de execução que a conexão será realizada para obtenção da mensagem, em relação ao instante que é chamado o método original: antes (BEFORE) ou depois (AFTER – sendo este o valor padrão).</li></div>
+<div style="text-align: justify;"><li>messageType: MessageType – indica o tipo do objeto enviado. Os tipos suportados são Objeto (OBJECT) e Texto ( TEXT – sendo este o valor padrão).</li></div>
+<div style="text-align: justify;"><li>timeoutInSeconds: long – representa o valor em segundos para configurar um time out, caso não exista mensagem no servidor para ser consumida. O padrão é 1 segundo.</li></div>
+</ul>
+<p>&nbsp;</p>
+<p><strong>@MessageSender</strong></p>
+<ul>
+<li>IPandPort: String – IP e porta do servidor JMS</li>
+<div style="text-align: justify;"><li>target: String – identificador para o objeto-alvo que terá o conteúdo convertido para a Message. O mesmo identificador será utilizado com @Param ou @ReturnName anotando o elemento com o mesmo identificador.</li></div>
+<li>destination: DestinationType – informa se o destino é um tópico (TOPIC) ou uma fila (QUEUE – que é o valor padrão) .</li>
+<li>destinationName: String – nome do tópico ou fila para onde será enviada a mensagem.</li>
+<div style="text-align: justify;"><li>messageType: MessageType – indica o tipo do objeto enviado. Os tipos suportados são Objeto (OBJECT) e Texto (TEXT – sendo este o valor padrão). O objeto real deve implementar a interface Serializable.</li>
+</ul></div>
+<p></div></div>
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Execução de Método</h3><div class="ui-collapsible-content"></p>
+    <hr></hr>
+<div style="text-align: justify;">Para habilitar a chamada a um serviço em outro software através do framework, é preciso sinalizar qual invocação de método na aplicação principal irá disparar a integração e, portanto, o método desejado na outra aplicação. Os parâmetros que devem ser enviados ou os objetos que precisam ser retornados à aplicação principal também são indicados via configuração no framework.</div>
+<div style="text-align: justify;">Um exemplo simples que mostra como habilitar a integração através do framework pode ser mostrado nas listagens abaixo. Ele ilustra uma aplicação de Gerenciamento de Suprimentos, cujas solicitações de compras que são aprovadas precisam ativar um serviço de cotação de preços em uma aplicação web. Em primeiro lugar, o código irá mostrar a configuração do método da outra aplicação e posteriormente, como o framework será ativado. Segue a classe principal da aplicação:</div>
+<pre>@Execute(clazz=ServicoCotacao.class, method="publicarSolicitacaoAprovada", when=ExecutionMoment.AFTER)
+public void aprovarSolicitacao(@param(“solicitacao”) SolicitacaoCompra solicitacao){
+    solicitacao.setAprovada();  
+}</pre>
+<p>Segue a classe que será invocada pelo framework:</p>
+<pre>public class ServicoCotacao{
+
+   public void publicarSolicitacaoAprovada(@param(“solicitacao”) SolicitacaoCompra solicitacao){
+      //implementação do método
+   }
+}</pre>
+<div style="text-align: justify;">Nestes dois trechos de código é possível visualizar como é configurada a execução do método publicarSolicitacaoAprovada() da classe ServicoCotacao (por questões de praticidade e brevidade os pacotes das classes configuradas no atributo clazz serão omitidos, mas devem ser informados num caso real) e como seria a implementação desta classe. A invocação configurada ocorrerá após a execução do método aprovarSolicitacao(), como pode ser observado pela configuração do atributo when, em que é informado o valor ExecutionMoment.AFTER. O parâmetro do método, que é a própria Solicitação de Compra, está sendo sinalizado com a anotação @param e será passado naturalmente para o framework, que por sua vez, irá injetá-lo na chamada de método da outra aplicação.</div>
+<div style="text-align: justify;">Para ativar o framework, é necessário passar o controle sobre os objetos da aplicação para o componente do SystemGlue. Isto é mostrado a seguir:</div>
+<pre>AprovadorSolicitacaoCompra aprovador = (AprovadorSolicitacaoCompra) ProxyFactory.createProxy(new AprovadorSolicitacaoCompra());
+aprovador.aprovarSolicitacao(solicitacao);</pre>
+<div style="text-align: justify;">O ponto de entrada do framework é a classe ProxyFactory, cujo método createProxy() recebe como parâmetro a instanciação do objeto que deverá ser interceptado para as funcionalidades de integração. Na última linha, a chamada ao método aprovarSolicitacao() do aprovador será interceptado pelo framework, que adquire o controle sobre o fluxo de execução da aplicação.</div>
+<div style="text-align: justify;">Outro exemplo mostra a configuração de duas execuções distintas, ou seja, após um evento ser disparado em uma determinada aplicação, o framework executa tarefas em outras duas aplicações diferentes, reaproveitando um objeto que é passado entre as invocações.</div>
+<div style="text-align: justify;">Neste segundo exemplo, suponha que um software para Prescrição Médica de pacientes internados é utilizado por médicos para informar o que deve ser ministrado. Além disto, é usado um Dispensário Eletrônico – um equipamento de automação que armazena e controla o estoque de medicamentos em cada andar. Então, o software de Prescrição Médica deve enviar uma solicitação dos medicamentos prescritos ao software do Dispensário Eletrônico, que possui uma interface em Java. Este responde com a quantidade que falta para atender a prescrição, ou seja, um valor que pode ser zero se houver quantidade disponível, ou maior que zero correspondendo à quantidade que falta do medicamento. Quando o valor for diferente de zero, o framework irá disparar uma solicitação de reabastecimento ao software de controle de estoque da farmácia do hospital.</div>
+<div style="text-align: justify;">Uma vez que em Java não é possível utilizar a mesma anotação mais de uma vez no mesmo elemento, a estratégia para configurar duas ações iguais – embora representem objetivos diferentes – é empregar a anotação @Executions, que aceita um array de anotações. O novo código deverá ficar de acordo com o seguinte:</div>
+<pre>@Executions({
+   @Execute(clazz=ControleDispensario.class, method="verificarQuantidadeMedicamento", when=ExecutionMoment.AFTER), 
+   @Execute(clazz=ServicoReabastecimento.class,method="solicitacaoMedicamento", when=ExecutionMoment.AFTER rule="qtdPedida&gt;=qtdPresente")
+)}
+public void prescrever(Medicamento medicamento, @Param("qtdPedida") double quantidade){ 
+   //implementação da prescrição
+}</pre>
+<p>Abaixo segue a classe ControleDispensario que será invocada:</p>
+<pre>public class ControleDispensario{
+
+   @ReturnName("qtdPresente")
+   public double verificarQuantidadeMedicamento(Medicamento medicamento){
+      //retorna quantidade do medicamento
+   }
+}</pre>
+<p>Abaixo segue a classe ServicoReabastecimento que será invocada de forma condicional:</p>
+<pre>public class ServicoReabastecimento{
+
+   public void solicitacaoMedicamento(Medicamento medicamento){
+      //solicita o reabastecimento do medicamento
+   }
+}</pre>
+<div style="text-align: justify;">No exemplo acima, após executar o método prescrever() o framework irá invocar o método verificarQuantidadeMedicamento() da classe ControleDispensario. O retorno do método será armazenado com o rótulo identificador “qtdPresente”. Em seguida, o framework irá invocar o método solicitacaoMedicamento() da classe ServicoReabastecimento, apenas caso o valor correspondente seja menor que a quantidade pedida na prescrição, conforme a regra configurada no atributo rule: qtdPedida&gt;=qtdPresente&#8221;.</div>
+<div style="text-align: justify;">Vale à pena destacar que a Anotação @Executions aceita como valor do atributo value() um array de @Execute (no código percebe-se que as anotações @Execute são declaradas entre chaves “{}” e separadas por vírgula), sendo um mecanismo de execução de várias integrações associadas a um método da aplicação principal.</div>
+<p></div></div><!-- end div.wp-spoiler -->
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Agendamento de uma Execução</h3><div class="ui-collapsible-content"></p>
+    <hr></hr>
+<div style="text-align: justify;">Outra possibilidade é a execução de um método via agendamento. Ou seja, ele não será executado imediatamente após o método principal, pois um agendador de tarefas (Scheduler) é que receberá a incumbência de invocar o método configurado.</div>
+<div style="text-align: justify;">Para o agendamento com o framework, utilizaremos como exemplo a aplicação de uma pizzaria delivery com um software de gerenciamento de pedidos e outro para o controle de entregas. Após a cozinha confirmar o recebimento do pedido e o início da preparação, gasta em média 14 minutos para assar e embalar a pizza. Desta forma, a aplicação está configurada para disparar o aviso ao software de controle de entregas 15 minutos após o início da preparação, para que a cozinha não precise avisar ao entregador que existe um pedido pronto para entrega. A Listagem abaixo mostra o código da aplicação de gerenciamento de pedidos:</div>
+<pre>@ScheduleFor(clazz=ServicoEntregas.class, method="registraPedido",
+   startInHours=0, startInMinutes=15, startInSeconds=0, when=ExecutionMoment.AFTER)
+public void iniciaPreparacao(Pedido pedido) {
+   //implementação do método
+}</pre>
+<div style="text-align: justify;">Existe também a opção é o agendamento para um momento específico. Por exemplo, um software de vendas que registra os pedidos de vários vendedores durante o dia na filial de uma empresa e precisa transmiti-los à noite, após as 22 h. Desta forma, cada lote de pedido confirmado por um vendedor dispara um agendamento no software de transmissão, de forma que apenas no horário determinado a transmissão será iniciada.</div>
+<div style="text-align: justify;">Este exemplo, ilustrado na listagem a seguir, utilizará a notação “*,*,*” para configurar a data da execução como o dia atual (dia, mês e ano correntes).</div>
+<pre>@ScheduleAt(clazz=ServicoAgendaTransmissao.class, method="registraPedido",
+            startExecution="*,*,*,22,0,0", when=ExecutionMoment.AFTER)
+public void confirmacaoPedido(Pedido pedido) {
+   //implementação do método
+}</pre>
+<p></div></div><!-- end div.wp-spoiler -->
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Envio e Recebimento de Mensagens</h3><div class="ui-collapsible-content"></p>
+    <hr></hr>
+<div style="text-align: justify;">É possível enviar e receber mensagens de um servidor JMS utilizando o SystemGlue, com o propósito de aproveitar os objetos da aplicação e poder enviá-los como mensagem ou receber algo do servidor e utilizá-los no método configurado.</div>
+<div style="text-align: justify;">Um exemplo clássico envolvendo JMS é o de aprovação do pagamento de compras em sites de vendas online, em que a venda é fechada, mas o pagamento fica aguardando confirmação da instituição que representa a forma de pagamento escolhida pelo cliente. O site de vendas não pode determinar quanto tempo irá levar até que o pagamento seja aprovado. Portanto, não haverá necessidade de ocupar recursos do site com esta espera.</div>
+<div style="text-align: justify;">Para ilustrar, um software que registra a entrada de carga de caminhões numa usina de cana-de-açúcar não precisa aguardar a pesagem em uma balança logo na entrada da usina, devido ao volume de caminhões. Em vez disso, o controlador registra a entrada pela placa do caminhão e a quantidade de reboques, enviando para uma fila no servidor JMS que posteriormente é consumida pela balança para distribuir os caminhões a caminho e registrar o peso de cada carro para efeitos de produção da usina e pagamento aos caminhoneiros. O código de envio das informações do software de controle da entrada da usina pode ser visto na listagem a seguir:</<div>
+<pre>
+@MessageSender(target="veiculo", IPandPort="192.168.0.1:1099",
+destination=DestinationType.QUEUE, destinationName="queue/QueueBalancaCentral", messageType=MessageType.OBJECT)
+public void registrarEntradaVeiculo(@Param("veiculo") Veiculo veiculo) {
+   //Implementação do método
+}
+</pre>
+<div style="text-align: justify;">Outra possibilidade em termos de configurações com anotações é o uso de anotações de domínio, que são suportadas pelo SystemGlue, e visam criar uma independência semântica entre o framework e as aplicações que o utilizam, eliminado este tipo de acoplamento. Veja novamente o exemplo da definição da anotação de domínio:</div>
+<pre>
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+@MessageSender(target="veiculo", IPandPort="192.168.0.1:1099",
+destination=DestinationType.QUEUE, destinationName="queue/QueueBalancaCentral", messageType=MessageType.OBJECT)
+public @interface RegistraEntradaVeiculo{ }
+</pre>
+<p>Segue agora a classe que utiliza essa anotação:</p>
+<pre>
+@RegistraEntradaVeiculo
+public void registrarEntradaVeiculo(@Param("veiculo")Veiculo veiculo) {
+//Implementação do método
+}
+</pre>
+<p></div></div><!-- end div.wp-spoiler -->
+<div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Tratamento de erros</h3><div class="ui-collapsible-content"></p>
+    <hr></hr>
+<div style="text-align: justify;">Basicamente, o framework declara três exceções: SystemGlueException, InvalidPropertyException e SystemGlueConfigurationException. Em comum, as três estendem de RuntimeException, sendo portanto exceções Java do tipo Unchecked e por isso não possuem tratamento obrigatório. De forma geral, as exceções levantadas pelo SystemGlue encapsulam a real exceção que causou o erro.</div>
+<div style="text-align: justify;">Destas, mais genérica, utilizada em diversas situações para propagar uma exceção dentro da lógica do framework é a SystemGlueException, que está mais relacionada a problemas ocorridos durante os processos de reflexão e introspecção – concentrados em sua maioria nas atividades de leitura de metadados, instanciação dinâmica de objetos e invocação dinâmica de métodos. Caso seja necessário estender as funcionalidades do framework, esta pode ser a exceção utilizada, para que o usuário mantenha a consistência no tratamento das funcionalidades do framework.</div>
+<div style="text-align: justify;">Quanto as outras duas, SystemGlueConfigurationException e InvalidPropertyException, são utilizadas em componentes internos, que não estão relacionados aos hot spots do framework.</div>
+<div style="text-align: justify;">De qualquer forma, é importante, como boa prática, fazer uso do tratamento de exceções nos métodos em que são realizadas as chamadas ao framework – uma vez que as configurações dos metadados tratam de classes e métodos presentes em outra aplicação e quase sempre não estão sujeitas à causar erros no momento da execução. Pode-se utilizar um mecanismo de Logging com o objetivo de diagnosticar situações adversas. Nestes casos, o tratamento de exceções diminui eventuais impactos ao funcionamento do software em si pela inclusão do SystemGlue na aplicação.</div>
+<p></div></div>
+     <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+                    <div align="center"><p><strong style="font-size: 20px;color: #000000">Apoio</strong></p></div>
+                    <div align="center"><td><a href="http://www.inpe.br/"><img class="alignleft size-full wp-image-192" title="bt_leiamais" src="images/inpe.png" border="0" alt="" width="123" height="34" /></a></td></div>
+
+    <div id="divFooter" style="height:50px;margin-top:40px;padding:30px">
+                    <div class="row-fluid">
+                    <div align="center"><p><img src="images/logo2.png" alt="" width="611" height="104" /></p></div>
+                    <div align="center"><p><strong style="font-size: 10px; color: #000000">Todos os direitos reservados</strong></p></div>
+                    </div>
+                    
+                    </div>
+                </div>
+
+
+<script src="scripts/jquery.min.js" type="text/javascript"></script> 
+<script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="scripts/default.js" type="text/javascript"></script>
+
+<script src="scripts/carousel/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script><script type="text/javascript">$('#list_photos').carouFredSel({ responsive: true, width: '100%', scroll: 2, items: {width: 320,visible: {min: 2, max: 6}} });</script><script src="scripts/camera/scripts/camera.min.js" type="text/javascript"></script>
+<script src="scripts/easing/jquery.easing.1.3.js" type="text/javascript"></script>
+<script type="text/javascript">function startCamera() {$('#camera_wrap').camera({ fx: 'scrollLeft', time: 2000, loader: 'none', playPause: false, navigation: true, height: '35%', pagination: true });}$(function(){startCamera()});</script>
+
+    </body>
+</html>
