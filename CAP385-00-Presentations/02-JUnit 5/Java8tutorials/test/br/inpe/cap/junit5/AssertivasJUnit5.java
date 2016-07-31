@@ -13,7 +13,10 @@ import java.awt.Dimension;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.runner.JUnitPlatform;
@@ -94,6 +97,16 @@ class AssertivasJUnit5 {
 	}
 
 	private void lancandoExcecao() throws Exception {
+		Set<String> collect = Arrays.asList(
+				org.junit.jupiter.api.Assertions.class.getDeclaredMethods()).stream()
+				.filter(
+						(s) -> {
+							String name = s.getName();
+							return name.startsWith("assert") || name.startsWith("equals") || name.startsWith("fail");
+						})
+				.map((m) -> 
+						Assertions.class.getCanonicalName() + "." + m.getName())
+				.collect(Collectors.toSet());
 		throw new RuntimeException("Teste de exceptions, sem try/catch.");
 	}
 
