@@ -1,0 +1,933 @@
+15:28:21  INFO # -------------------------------------------------- #
+15:28:21  INFO #                   MetricMiner                      #
+15:28:21  INFO #                      v2.0                          #
+15:28:21  INFO #             www.metricminer.org.br                 #
+15:28:21  INFO # -------------------------------------------------- #
+15:28:21  INFO Starting engine: 07-26-2016 21:08:21
+15:28:21  INFO Git repository in R:\Temp\java-design-patterns
+15:28:21  INFO Total of commits: 1340
+15:28:21  INFO Starting threads: 6
+.
+.
+.
+
+20:09:33 ERROR error processing #a9971dc38fadefcd9d4f9aca3bb55a36aee13a44 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:09:33  INFO Commit #5cd611bf19235d330ac60a8c8604e1fc9a67aa3a in 16/08/2014 13:43:42 from Ilkka Seppälä with 1 modifications
+20:09:33  INFO -> Processing 5cd611bf19235d330ac60a8c8604e1fc9a67aa3a with java-parser
+23e2faeca228ad165f3e70a3f5153c1e1845a929
+20:09:41 ERROR error processing #23e2faeca228ad165f3e70a3f5153c1e1845a929 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:09:41  INFO Commit #6157f22ea4170d261e1cf7965527831033959679 in 23/08/2014 07:18:53 from Ilkka Seppala with 8 modifications
+20:09:41  INFO -> Processing 6157f22ea4170d261e1cf7965527831033959679 with java-parser
+e6ab48a00576c20495b0227656e4680daa509308
+20:09:49 ERROR error processing #e6ab48a00576c20495b0227656e4680daa509308 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:09:49  INFO Commit #74e60922adbfb845ddeb41d9d7661de043f11810 in 23/08/2014 14:15:12 from Ilkka Seppälä with 1 modifications
+20:09:49  INFO -> Processing 74e60922adbfb845ddeb41d9d7661de043f11810 with java-parser
+6157f22ea4170d261e1cf7965527831033959679
+20:09:57 ERROR error processing #6157f22ea4170d261e1cf7965527831033959679 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:09:57  INFO Commit #87259699086a76619a451f4b01141687362b65ab in 13/08/2014 16:19:28 from Ilkka Seppala with 8 modifications
+20:09:57  INFO -> Processing 87259699086a76619a451f4b01141687362b65ab with java-parser
+5cd611bf19235d330ac60a8c8604e1fc9a67aa3a
+20:10:05 ERROR error processing #5cd611bf19235d330ac60a8c8604e1fc9a67aa3a in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:05  INFO Commit #881b77ba4e05d67da84b72c5ebd71fca38a4671e in 16/08/2014 13:41:07 from Ilkka Seppala with 1 modifications
+20:10:05  INFO -> Processing 881b77ba4e05d67da84b72c5ebd71fca38a4671e with java-parser
+46408565cdbc5e5eee6b5c22020a2862666e20c9
+20:10:12 ERROR error processing #46408565cdbc5e5eee6b5c22020a2862666e20c9 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:13  INFO Commit #91ed79e6bd5e042461b4dbcb7b4f0e3a2f9260e3 in 18/08/2014 17:18:15 from Ilkka Seppala with 8 modifications
+20:10:13  INFO -> Processing 91ed79e6bd5e042461b4dbcb7b4f0e3a2f9260e3 with java-parser
+07f63256b681121a9bae19cd4309ade678891a73
+20:10:20 ERROR error processing #07f63256b681121a9bae19cd4309ade678891a73 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:20  INFO Commit #0785bccffbb18c8a28513b5bb49e0a1db812d45c in 17/08/2014 08:42:10 from Ilkka Seppala with 11 modifications
+20:10:20  INFO -> Processing 0785bccffbb18c8a28513b5bb49e0a1db812d45c with java-parser
+9166d47ffc6bafd6ed1118cce8699028fc50a06b
+20:10:28 ERROR error processing #9166d47ffc6bafd6ed1118cce8699028fc50a06b in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:28  INFO Commit #fd5467dc75bc7bfb4762023dca0f736bb29e6730 in 22/08/2014 15:59:58 from Ilkka Seppälä with 1 modifications
+20:10:28  INFO -> Processing fd5467dc75bc7bfb4762023dca0f736bb29e6730 with java-parser
+0785bccffbb18c8a28513b5bb49e0a1db812d45c
+20:10:36 ERROR error processing #0785bccffbb18c8a28513b5bb49e0a1db812d45c in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:36  INFO Commit #f0e7f22266d589a57082d94a112019fb6e4018d9 in 17/08/2014 03:08:56 from Ilkka Seppälä with 1 modifications
+20:10:36  INFO -> Processing f0e7f22266d589a57082d94a112019fb6e4018d9 with java-parser
+91ed79e6bd5e042461b4dbcb7b4f0e3a2f9260e3
+20:10:44 ERROR error processing #91ed79e6bd5e042461b4dbcb7b4f0e3a2f9260e3 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:44  INFO Commit #71d7c875d64950f8b03c13f4b28b083c52ecc880 in 18/08/2014 12:27:59 from Ilkka Seppälä with 1 modifications
+20:10:44  INFO -> Processing 71d7c875d64950f8b03c13f4b28b083c52ecc880 with java-parser
+881b77ba4e05d67da84b72c5ebd71fca38a4671e
+20:10:51 ERROR error processing #881b77ba4e05d67da84b72c5ebd71fca38a4671e in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:51  INFO Commit #3fcca577f8933d4ab62981bcff733ba64c36fa0e in 16/08/2014 13:40:39 from Ilkka Seppala with 12 modifications
+20:10:51  INFO -> Processing 3fcca577f8933d4ab62981bcff733ba64c36fa0e with java-parser
+87259699086a76619a451f4b01141687362b65ab
+20:10:59 ERROR error processing #87259699086a76619a451f4b01141687362b65ab in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:10:59  INFO Commit #dcf82b01c624624a83beda01037d914094fd406c in 13/08/2014 15:47:14 from Ilkka Seppälä with 1 modifications
+20:10:59  INFO -> Processing dcf82b01c624624a83beda01037d914094fd406c with java-parser
+74e60922adbfb845ddeb41d9d7661de043f11810
+20:11:07 ERROR error processing #74e60922adbfb845ddeb41d9d7661de043f11810 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:07  INFO Commit #66b352a4d12f1009700ad4e2fa13f9707d4ec325 in 23/08/2014 14:13:47 from Ilkka Seppala with 2 modifications
+20:11:07  INFO -> Processing 66b352a4d12f1009700ad4e2fa13f9707d4ec325 with java-parser
+dcf82b01c624624a83beda01037d914094fd406c
+20:11:14 ERROR error processing #dcf82b01c624624a83beda01037d914094fd406c in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:14  INFO Commit #e742950c193893524b4909962b1a9759b79958f7 in 13/08/2014 15:45:19 from Ilkka Seppala with 5 modifications
+20:11:14  INFO -> Processing e742950c193893524b4909962b1a9759b79958f7 with java-parser
+3fcca577f8933d4ab62981bcff733ba64c36fa0e
+20:11:22 ERROR error processing #3fcca577f8933d4ab62981bcff733ba64c36fa0e in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:22  INFO Commit #d05de2c387a373e35ba11fcc834692d633a2805f in 13/08/2014 16:21:26 from Ilkka Seppälä with 1 modifications
+20:11:22  INFO -> Processing d05de2c387a373e35ba11fcc834692d633a2805f with java-parser
+71d7c875d64950f8b03c13f4b28b083c52ecc880
+20:11:30 ERROR error processing #71d7c875d64950f8b03c13f4b28b083c52ecc880 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:30  INFO Commit #e6d9b6e6369c778812395362a08f8f4997333139 in 12/08/2014 17:11:33 from Ilkka Seppälä with 1 modifications
+20:11:30  INFO -> Processing e6d9b6e6369c778812395362a08f8f4997333139 with java-parser
+f0e7f22266d589a57082d94a112019fb6e4018d9
+20:11:37 ERROR error processing #f0e7f22266d589a57082d94a112019fb6e4018d9 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:37  INFO Commit #9e7db125a816d2f5d8d61e43170e8b21c813b6de in 17/08/2014 03:05:37 from Ilkka Seppala with 10 modifications
+20:11:37  INFO -> Processing 9e7db125a816d2f5d8d61e43170e8b21c813b6de with java-parser
+fd5467dc75bc7bfb4762023dca0f736bb29e6730
+20:11:45 ERROR error processing #fd5467dc75bc7bfb4762023dca0f736bb29e6730 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:45  INFO Commit #b3d48cc4dfa07c33ae2235ac2a701e2bded62fa4 in 22/08/2014 15:57:54 from Ilkka Seppala with 8 modifications
+20:11:45  INFO -> Processing b3d48cc4dfa07c33ae2235ac2a701e2bded62fa4 with java-parser
+9e7db125a816d2f5d8d61e43170e8b21c813b6de
+20:11:53 ERROR error processing #9e7db125a816d2f5d8d61e43170e8b21c813b6de in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:11:53  INFO Commit #01bdcdc1ed662dacdceca61e7ee46ce5923297ae in 10/08/2014 16:57:44 from Ilkka Seppälä with 1 modifications
+20:11:53  INFO -> Processing 01bdcdc1ed662dacdceca61e7ee46ce5923297ae with java-parser
+e6d9b6e6369c778812395362a08f8f4997333139
+20:12:00 ERROR error processing #e6d9b6e6369c778812395362a08f8f4997333139 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:00  INFO Commit #e5fc4396871fd5b02ce1b7009d7c2256fe668a57 in 12/08/2014 17:09:32 from Ilkka Seppala with 14 modifications
+20:12:00  INFO -> Processing e5fc4396871fd5b02ce1b7009d7c2256fe668a57 with java-parser
+d05de2c387a373e35ba11fcc834692d633a2805f
+20:12:08 ERROR error processing #d05de2c387a373e35ba11fcc834692d633a2805f in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:08  INFO Commit #fbb9ebd46cc11acc802ab6a1ed466e0823f8e973 in 10/08/2014 04:07:18 from Ilkka Seppala with 4 modifications
+20:12:08  INFO -> Processing fbb9ebd46cc11acc802ab6a1ed466e0823f8e973 with java-parser
+e742950c193893524b4909962b1a9759b79958f7
+20:12:15 ERROR error processing #e742950c193893524b4909962b1a9759b79958f7 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:15  INFO Commit #1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583 in 13/08/2014 15:16:37 from Ilkka Seppälä with 1 modifications
+20:12:15  INFO -> Processing 1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583 with java-parser
+66b352a4d12f1009700ad4e2fa13f9707d4ec325
+20:12:23 ERROR error processing #66b352a4d12f1009700ad4e2fa13f9707d4ec325 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:24  INFO Commit #f42c34059829607d373dc827d06a8df97cf36047 in 23/08/2014 13:13:09 from Ilkka Seppala with 7 modifications
+20:12:24  INFO -> Processing f42c34059829607d373dc827d06a8df97cf36047 with java-parser
+1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583
+20:12:31 ERROR error processing #1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:31  INFO Commit #0c9136ac01a6d71805b9cc9518a4f614bd525240 in 13/08/2014 15:14:03 from Ilkka Seppala with 8 modifications
+20:12:31  INFO -> Processing 0c9136ac01a6d71805b9cc9518a4f614bd525240 with java-parser
+fbb9ebd46cc11acc802ab6a1ed466e0823f8e973
+20:12:38 ERROR error processing #fbb9ebd46cc11acc802ab6a1ed466e0823f8e973 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:38  INFO Commit #fb24bf8c1f56418e74c4004ecb9248f86f7be40a in 09/08/2014 16:40:45 from Ilkka Seppälä with 1 modifications
+20:12:38  INFO -> Processing fb24bf8c1f56418e74c4004ecb9248f86f7be40a with java-parser
+e5fc4396871fd5b02ce1b7009d7c2256fe668a57
+20:12:45 ERROR error processing #e5fc4396871fd5b02ce1b7009d7c2256fe668a57 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:45  INFO Commit #9ae662943c632bdd38e28a91d007afb52f57248a in 11/08/2014 16:09:09 from Ilkka Seppälä with 1 modifications
+20:12:45  INFO -> Processing 9ae662943c632bdd38e28a91d007afb52f57248a with java-parser
+01bdcdc1ed662dacdceca61e7ee46ce5923297ae
+20:12:53 ERROR error processing #01bdcdc1ed662dacdceca61e7ee46ce5923297ae in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:12:53  INFO Commit #4ae82e4302ce531206572465a166cfdaa14ae901 in 10/08/2014 16:55:58 from Ilkka Seppala with 15 modifications
+20:12:53  INFO -> Processing 4ae82e4302ce531206572465a166cfdaa14ae901 with java-parser
+b3d48cc4dfa07c33ae2235ac2a701e2bded62fa4
+20:13:01 ERROR error processing #b3d48cc4dfa07c33ae2235ac2a701e2bded62fa4 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:01  INFO Commit #6246ed6d266d4a371970660a782cbdb4f182ae48 in 22/08/2014 15:33:20 from Ilkka Seppälä with 1 modifications
+20:13:01  INFO -> Processing 6246ed6d266d4a371970660a782cbdb4f182ae48 with java-parser
+4ae82e4302ce531206572465a166cfdaa14ae901
+20:13:08 ERROR error processing #4ae82e4302ce531206572465a166cfdaa14ae901 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:08  INFO Commit #d6bff9fd601d3a277969265aff75904d33a578d1 in 10/08/2014 16:01:25 from Ilkka Seppala with 1 modifications
+20:13:08  INFO -> Processing d6bff9fd601d3a277969265aff75904d33a578d1 with java-parser
+9ae662943c632bdd38e28a91d007afb52f57248a
+20:13:15 ERROR error processing #9ae662943c632bdd38e28a91d007afb52f57248a in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:15  INFO Commit #13e6589471edd5abd831ac2499d6f356b1f681e6 in 11/08/2014 16:07:16 from Ilkka Seppala with 5 modifications
+20:13:15  INFO -> Processing 13e6589471edd5abd831ac2499d6f356b1f681e6 with java-parser
+fb24bf8c1f56418e74c4004ecb9248f86f7be40a
+20:13:22 ERROR error processing #fb24bf8c1f56418e74c4004ecb9248f86f7be40a in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:22  INFO Commit #f8616ec5742a67371ad239c5d106b51a7e498472 in 09/08/2014 16:39:53 from Ilkka Seppälä with 1 modifications
+20:13:22  INFO -> Processing f8616ec5742a67371ad239c5d106b51a7e498472 with java-parser
+0c9136ac01a6d71805b9cc9518a4f614bd525240
+20:13:30 ERROR error processing #0c9136ac01a6d71805b9cc9518a4f614bd525240 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:30  INFO Commit #6a3c206bcea3f5d9a6974636314e41e92ec9b7c3 in 12/08/2014 17:13:01 from Ilkka Seppälä with 1 modifications
+20:13:30  INFO -> Processing 6a3c206bcea3f5d9a6974636314e41e92ec9b7c3 with java-parser
+f42c34059829607d373dc827d06a8df97cf36047
+20:13:38 ERROR error processing #f42c34059829607d373dc827d06a8df97cf36047 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:38  INFO Commit #54d54097ebfba82ac3b28adb21826f10fec01965 in 09/08/2014 13:52:29 from Ilkka Seppälä with 1 modifications
+20:13:38  INFO -> Processing 54d54097ebfba82ac3b28adb21826f10fec01965 with java-parser
+6a3c206bcea3f5d9a6974636314e41e92ec9b7c3
+20:13:45 ERROR error processing #6a3c206bcea3f5d9a6974636314e41e92ec9b7c3 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+f8616ec5742a67371ad239c5d106b51a7e498472
+20:13:53 ERROR error processing #f8616ec5742a67371ad239c5d106b51a7e498472 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:13:53  INFO Commit #a4b58fe06ef0278165c334c4ff79cdae000ebc12 in 09/08/2014 16:38:07 from Ilkka Seppala with 9 modifications
+20:13:53  INFO -> Processing a4b58fe06ef0278165c334c4ff79cdae000ebc12 with java-parser
+13e6589471edd5abd831ac2499d6f356b1f681e6
+20:14:00 ERROR error processing #13e6589471edd5abd831ac2499d6f356b1f681e6 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:14:00  INFO Commit #ec8d730113624370ad951382cb62ce33848d1b6f in 11/08/2014 15:45:42 from Ilkka Seppälä with 1 modifications
+20:14:00  INFO -> Processing ec8d730113624370ad951382cb62ce33848d1b6f with java-parser
+d6bff9fd601d3a277969265aff75904d33a578d1
+20:14:07 ERROR error processing #d6bff9fd601d3a277969265aff75904d33a578d1 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:14:07  INFO Commit #b93b060713636982e72057f12263b3c1f8d68b83 in 10/08/2014 04:12:15 from Ilkka Seppälä with 1 modifications
+20:14:07  INFO -> Processing b93b060713636982e72057f12263b3c1f8d68b83 with java-parser
+6246ed6d266d4a371970660a782cbdb4f182ae48
+20:14:15 ERROR error processing #6246ed6d266d4a371970660a782cbdb4f182ae48 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+b93b060713636982e72057f12263b3c1f8d68b83
+20:14:22 ERROR error processing #b93b060713636982e72057f12263b3c1f8d68b83 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:14:22  INFO Commit #888126283e7236ac67b85671d1b88e7e92e6c7bb in 10/08/2014 04:09:20 from Ilkka Seppälä with 1 modifications
+20:14:22  INFO -> Processing 888126283e7236ac67b85671d1b88e7e92e6c7bb with java-parser
+ec8d730113624370ad951382cb62ce33848d1b6f
+20:14:29 ERROR error processing #ec8d730113624370ad951382cb62ce33848d1b6f in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:14:29  INFO Commit #72415386fe641a736cd5fed33575dde804d9b6d8 in 11/08/2014 15:43:08 from Ilkka Seppala with 4 modifications
+20:14:29  INFO -> Processing 72415386fe641a736cd5fed33575dde804d9b6d8 with java-parser
+a4b58fe06ef0278165c334c4ff79cdae000ebc12
+20:14:37 ERROR error processing #a4b58fe06ef0278165c334c4ff79cdae000ebc12 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:14:37  INFO Commit #959a1f63ba39b8873474e85157adccf190a9e9c9 in 09/08/2014 14:44:21 from Ilkka Seppälä with 1 modifications
+20:14:37  INFO -> Processing 959a1f63ba39b8873474e85157adccf190a9e9c9 with java-parser
+54d54097ebfba82ac3b28adb21826f10fec01965
+959a1f63ba39b8873474e85157adccf190a9e9c9
+20:14:51 ERROR error processing #959a1f63ba39b8873474e85157adccf190a9e9c9 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:14:51  INFO Commit #ce5700c1b7e9b64476504870b9e41b5972b9aeb0 in 09/08/2014 14:38:00 from Ilkka Seppala with 15 modifications
+20:14:51  INFO -> Processing ce5700c1b7e9b64476504870b9e41b5972b9aeb0 with java-parser
+72415386fe641a736cd5fed33575dde804d9b6d8
+20:14:58 ERROR error processing #72415386fe641a736cd5fed33575dde804d9b6d8 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+888126283e7236ac67b85671d1b88e7e92e6c7bb
+20:15:05 ERROR error processing #888126283e7236ac67b85671d1b88e7e92e6c7bb in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:15:05  INFO Commit #a9de8980726319dedd882ff75170f62b6babf606 in 10/08/2014 04:07:38 from Ilkka Seppala with 10 modifications
+20:15:05  INFO -> Processing a9de8980726319dedd882ff75170f62b6babf606 with java-parser
+ce5700c1b7e9b64476504870b9e41b5972b9aeb0
+20:15:13 ERROR error processing #ce5700c1b7e9b64476504870b9e41b5972b9aeb0 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\ElfArmy.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+a9de8980726319dedd882ff75170f62b6babf606
+20:15:20 ERROR error processing #a9de8980726319dedd882ff75170f62b6babf606 in R:\Temp\java-design-patterns, processor=java-parser, error=error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+java.lang.RuntimeException: error reading file R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:73)
+	at com.mystudy.JavaParserVisitor.process(JavaParserVisitor.java:29)
+	at br.com.metricminer2.RepositoryMining.processEverythingOnChangeSet(RepositoryMining.java:155)
+	at br.com.metricminer2.RepositoryMining.lambda$mine$0(RepositoryMining.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: R:\Temp\java-design-patterns\abstract-factory\src\main\java\com\iluwatar\OrcKingdomFactory.java (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.mystudy.JavaParserVisitor.readFile(JavaParserVisitor.java:68)
+	... 8 more
+20:15:20  INFO # --------------------------------------------------
+20:15:20  INFO Study has been executed in the following projects:
+20:15:20  INFO - https://github.com/iluwatar/java-design-patterns, from 54d54097ebfba82ac3b28adb21826f10fec01965 to bc94d0fc26688a20480851f5c974f46396179a92
+20:15:20  INFO The following processors were executed:
+20:15:20  INFO - java-parser (com.mystudy.JavaParserVisitor)
+20:15:20  INFO Finished: 07-26-2016 20:15:20
+20:15:20  INFO It took 14613 seconds (~243 minutes).
+20:15:20  INFO Brought to you by MetricMiner2 (metricminer.org.br)
+20:15:20  INFO # -------------------------------------------------- #
+Finish!
