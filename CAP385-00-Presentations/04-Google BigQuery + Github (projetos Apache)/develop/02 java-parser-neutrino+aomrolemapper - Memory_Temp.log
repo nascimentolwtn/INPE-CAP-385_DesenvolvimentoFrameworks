@@ -1,0 +1,74 @@
+22:24:07  INFO # -------------------------------------------------- #
+22:24:07  INFO #                   MetricMiner                      #
+22:24:07  INFO #                      v2.0                          #
+22:24:07  INFO #             www.metricminer.org.br                 #
+22:24:07  INFO # -------------------------------------------------- #
+22:24:07  INFO Starting engine: 08-01-2016 22:24:07
+22:24:07  INFO Git repository in R:\Temp\Neutrino
+22:24:07  INFO Git repository in R:\Temp\aomrolemapper
+22:24:07  INFO Total of commits: 35
+22:24:07  INFO Starting threads: 1
+22:24:07  INFO Total of commits: 773
+22:24:07  INFO Starting threads: 1
+22:24:07  INFO Commit #e50c05573020ce40fcb816c4ebe5d8caa7948e5e in 31/07/2016 02:51:27 from Luiz Wagner with 1 modifications
+22:24:07  INFO -> Processing e50c05573020ce40fcb816c4ebe5d8caa7948e5e with java-parser
+22:24:07  INFO Commit #089c8897c57bc6cd924576cd43c9bc9483c656dd in 26/07/2016 07:59:24 from Eduardo Pereira de Sousa with 2 modifications
+22:24:07  INFO -> Processing 089c8897c57bc6cd924576cd43c9bc9483c656dd with java-parser
+22:24:10  INFO Commit #f4ee1d9cb5d872b057b7a992ed377f0c846b04a7 in 30/07/2016 22:49:20 from Luiz Wagner with 2 modifications
+22:24:10  INFO -> Processing f4ee1d9cb5d872b057b7a992ed377f0c846b04a7 with java-parser
+22:24:12  INFO Commit #72e322f349df18820755c2c623fceb1dc1db5758 in 21/07/2016 17:37:09 from Eduardo Pereira de Sousa with 1 modifications
+22:24:12  INFO -> Processing 72e322f349df18820755c2c623fceb1dc1db5758 with java-parser
+22:24:13  INFO Commit #ca8a3f41adad8624d7cde5cb6e299597ddef0258 in 30/07/2016 19:03:00 from Luiz Wagner with 4 modifications
+22:24:13  INFO -> Processing ca8a3f41adad8624d7cde5cb6e299597ddef0258 with java-parser
+22:24:16  INFO Commit #473f6f52339fdb33d9ddc6418526baee65143278 in 21/07/2016 17:32:20 from Eduardo Pereira de Sousa with 1 modifications
+22:24:16  INFO -> Processing 473f6f52339fdb33d9ddc6418526baee65143278 with java-parser
+22:24:17  INFO Commit #3c4690df3db87a957a91a606c4a8ff1dbfc1c22a in 30/07/2016 18:45:22 from Luiz Wagner with 1 modifications
+22:24:17  INFO -> Processing 3c4690df3db87a957a91a606c4a8ff1dbfc1c22a with java-parser
+22:24:19  INFO Commit #73471fca40f67f378694af9b238aab7df0180441 in 21/07/2016 16:39:52 from Eduardo Pereira de Sousa with 5 modifications
+22:24:19  INFO -> Processing 73471fca40f67f378694af9b238aab7df0180441 with java-parser
+22:24:20  INFO Commit #c041820d5d973e9dd71ffc7405083a729db3593f in 30/07/2016 17:04:34 from Luiz Wagner with 2 modifications
+22:24:20  INFO -> Processing c041820d5d973e9dd71ffc7405083a729db3593f with java-parser
+22:24:22  INFO Commit #2c9608a136f4f1e1ae78df7956fe63c94119a1e7 in 21/07/2016 11:25:18 from Eduardo Pereira de Sousa with 4 modifications
+22:24:22  INFO -> Processing 2c9608a136f4f1e1ae78df7956fe63c94119a1e7 with java-parser
+22:24:23  INFO Commit #aeb4bcd27da17e95f73d827cd4ed638402ef68e0 in 30/07/2016 16:37:20 from Luiz Wagner with 1 modifications
+22:24:23  INFO -> Processing aeb4bcd27da17e95f73d827cd4ed638402ef68e0 with java-parser
+22:24:25  INFO Commit #5607dd71feea0501c5349416c3c129a870a8e82b in 21/07/2016 10:20:21 from Eduardo Pereira de Sousa with 1 modifications
+22:24:25  INFO -> Processing 5607dd71feea0501c5349416c3c129a870a8e82b with java-parser
+22:24:26  INFO Commit #096350d99d67a7aa7e88d9d0fe0b91000d85a660 in 30/07/2016 16:37:04 from Luiz Wagner with 4 modifications
+22:24:26  INFO -> Processing 096350d99d67a7aa7e88d9d0fe0b91000d85a660 with java-parser
+22:24:28  INFO Commit #3b23054e9bb7b2f1bbabdacef0a30ee7f9281cfd in 20/07/2016 20:00:11 from Eduardo Pereira de Sousa with 2 modifications
+22:24:28  INFO -> Processing 3b23054e9bb7b2f1bbabdacef0a30ee7f9281cfd with java-parser
+22:24:29  INFO Commit #39fc186e7e7ef43368bb21fa3007cc3de92ea7f8 in 30/07/2016 16:33:27 from Luiz Wagner with 2 modifications
+22:24:29  INFO -> Processing 39fc186e7e7ef43368bb21fa3007cc3de92ea7f8 with java-parser
+22:24:32  INFO Commit #08da95d18a374f52057f29a8f746775157e2121e in 20/07/2016 19:25:44 from Eduardo Pereira de Sousa with 105 modifications
+22:24:32  INFO -> Processing 08da95d18a374f52057f29a8f746775157e2121e with java-parser
+22:24:32  INFO Commit #a6e3ed828304d9bcaea9d1c3fc0bc0d5818aea4b in 30/07/2016 16:31:01 from Luiz Wagner with 17 modifications
+22:24:32  INFO -> Processing a6e3ed828304d9bcaea9d1c3fc0bc0d5818aea4b with java-parser
+22:24:35  INFO Commit #7dd9594a7b5afae474d489905f49404e6b15db3c in 20/07/2016 19:23:24 from Eduardo Pereira de Sousa with 105 modifications
+22:24:35  INFO -> Processing 7dd9594a7b5afae474d489905f49404e6b15db3c with java-parser
+22:24:36  INFO Commit #8a970395b21faf3463966a5d4f47fe1826208ef2 in 30/07/2016 15:20:51 from Luiz Wagner with 4 modifications
+22:24:36  INFO -> Processing 8a970395b21faf3463966a5d4f47fe1826208ef2 with java-parser
+22:24:38  INFO Commit #879f741bfb076effb0b2ed42985828d620a504c8 in 20/07/2016 19:16:40 from Eduardo Pereira de Sousa with 2 modifications
+22:24:38  INFO -> Processing 879f741bfb076effb0b2ed42985828d620a504c8 with java-parser
+22:24:38  INFO Commit #ec8e898e60eeea4976999d777733803bf8f39f97 in 29/07/2016 21:53:00 from Luiz Wagner with 3 modifications
+22:24:38  INFO -> Processing ec8e898e60eeea4976999d777733803bf8f39f97 with java-parser
+22:24:41  INFO Commit #f6b3c72f268bc080d84fe923781b43db65241fe4 in 20/07/2016 08:58:31 from Eduardo Guerra with 2 modifications
+22:24:41  INFO -> Processing f6b3c72f268bc080d84fe923781b43db65241fe4 with java-parser
+22:24:41  INFO Commit #5d70087c96a2db9c308c77bd5d90e433e860af02 in 29/07/2016 19:54:51 from Luiz Wagner with 1 modifications
+22:24:41  INFO -> Processing 5d70087c96a2db9c308c77bd5d90e433e860af02 with java-parser
+22:24:43  INFO Commit #a0d0a07c2495c63bb8c25de3545703d5a418a06e in 20/07/2016 01:43:16 from Eduardo Pereira de Sousa with 1 modifications
+22:24:43  INFO -> Processing a0d0a07c2495c63bb8c25de3545703d5a418a06e with java-parser
+22:24:44  INFO Commit #bf24ec52a134700c1a62f478b667b808dacdc0bf in 29/07/2016 19:54:51 from Luiz Wagner with 3 modifications
+22:24:44  INFO -> Processing bf24ec52a134700c1a62f478b667b808dacdc0bf with java-parser
+22:24:46  INFO Commit #c0dde229fe810f8de246caa1919154c92f0719ea in 20/07/2016 01:41:40 from Eduardo Pereira de Sousa with 1 modifications
+22:24:46  INFO -> Processing c0dde229fe810f8de246caa1919154c92f0719ea with java-parser
+22:24:47  INFO Commit #16fd4f1030b4daabc5b7913e8312079b26c74397 in 29/07/2016 19:54:50 from Luiz Wagner with 12 modifications
+22:24:47  INFO -> Processing 16fd4f1030b4daabc5b7913e8312079b26c74397 with java-parser
+22:24:49  INFO Commit #146d94f17170632d1337ec3853c17191ac9f67e7 in 20/07/2016 00:36:26 from Eduardo Pereira de Sousa with 1 modifications
+22:24:49  INFO -> Processing 146d94f17170632d1337ec3853c17191ac9f67e7 with java-parser
+22:24:49  INFO Commit #c4f24a72361be4b3f2a11982a6775770082ff6cb in 29/07/2016 19:34:22 from Luiz Wagner with 4 modifications
+22:24:49  INFO -> Processing c4f24a72361be4b3f2a11982a6775770082ff6cb with java-parser
+22:24:51  INFO Commit #aca53ad601071efda966abc2c7aac4ebbf612234 in 20/07/2016 00:35:33 from Eduardo Pereira de Sousa with 6 modifications
+22:24:51  INFO -> Processing aca53ad601071efda966abc2c7aac4ebbf612234 with java-parser
+22:24:52  INFO Commit #a502d13a1652a2f06eed92879971b7cf95239cae in 24/07/2016 05:56:10 from Luiz Wagner with 2 modifications
+22:24:52  INFO -> Processing a502d13a1652a2f06eed92879971b7cf95239cae with java-parser
