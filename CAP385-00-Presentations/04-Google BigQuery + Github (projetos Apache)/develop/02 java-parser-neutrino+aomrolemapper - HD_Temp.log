@@ -1,0 +1,1639 @@
+22:26:25  INFO # -------------------------------------------------- #
+22:26:25  INFO #                   MetricMiner                      #
+22:26:25  INFO #                      v2.0                          #
+22:26:25  INFO #             www.metricminer.org.br                 #
+22:26:25  INFO # -------------------------------------------------- #
+22:26:25  INFO Starting engine: 08-01-2016 22:26:25
+22:26:25  INFO Git repository in G:\temp\ApacheStudy\aomrolemapper
+22:26:25  INFO Git repository in G:\temp\ApacheStudy\Neutrino
+22:26:25  INFO Total of commits: 35
+22:26:25  INFO Starting threads: 1
+22:26:25  INFO Total of commits: 773
+22:26:25  INFO Starting threads: 1
+22:26:25  INFO Commit #089c8897c57bc6cd924576cd43c9bc9483c656dd in 26/07/2016 07:59:24 from Eduardo Pereira de Sousa with 2 modifications
+22:26:25  INFO -> Processing 089c8897c57bc6cd924576cd43c9bc9483c656dd with java-parser
+22:26:25  INFO Commit #e50c05573020ce40fcb816c4ebe5d8caa7948e5e in 31/07/2016 02:51:27 from Luiz Wagner with 1 modifications
+22:26:25  INFO -> Processing e50c05573020ce40fcb816c4ebe5d8caa7948e5e with java-parser
+22:26:31  INFO Commit #72e322f349df18820755c2c623fceb1dc1db5758 in 21/07/2016 17:37:09 from Eduardo Pereira de Sousa with 1 modifications
+22:26:31  INFO -> Processing 72e322f349df18820755c2c623fceb1dc1db5758 with java-parser
+22:26:32  INFO Commit #f4ee1d9cb5d872b057b7a992ed377f0c846b04a7 in 30/07/2016 22:49:20 from Luiz Wagner with 2 modifications
+22:26:32  INFO -> Processing f4ee1d9cb5d872b057b7a992ed377f0c846b04a7 with java-parser
+22:26:32  INFO Commit #473f6f52339fdb33d9ddc6418526baee65143278 in 21/07/2016 17:32:20 from Eduardo Pereira de Sousa with 1 modifications
+22:26:32  INFO -> Processing 473f6f52339fdb33d9ddc6418526baee65143278 with java-parser
+22:26:33  INFO Commit #ca8a3f41adad8624d7cde5cb6e299597ddef0258 in 30/07/2016 19:03:00 from Luiz Wagner with 4 modifications
+22:26:33  INFO -> Processing ca8a3f41adad8624d7cde5cb6e299597ddef0258 with java-parser
+22:26:34  INFO Commit #73471fca40f67f378694af9b238aab7df0180441 in 21/07/2016 16:39:52 from Eduardo Pereira de Sousa with 5 modifications
+22:26:34  INFO -> Processing 73471fca40f67f378694af9b238aab7df0180441 with java-parser
+22:26:34  INFO Commit #3c4690df3db87a957a91a606c4a8ff1dbfc1c22a in 30/07/2016 18:45:22 from Luiz Wagner with 1 modifications
+22:26:34  INFO -> Processing 3c4690df3db87a957a91a606c4a8ff1dbfc1c22a with java-parser
+22:26:35  INFO Commit #2c9608a136f4f1e1ae78df7956fe63c94119a1e7 in 21/07/2016 11:25:18 from Eduardo Pereira de Sousa with 4 modifications
+22:26:35  INFO -> Processing 2c9608a136f4f1e1ae78df7956fe63c94119a1e7 with java-parser
+22:26:35  INFO Commit #c041820d5d973e9dd71ffc7405083a729db3593f in 30/07/2016 17:04:34 from Luiz Wagner with 2 modifications
+22:26:35  INFO -> Processing c041820d5d973e9dd71ffc7405083a729db3593f with java-parser
+22:26:36  INFO Commit #aeb4bcd27da17e95f73d827cd4ed638402ef68e0 in 30/07/2016 16:37:20 from Luiz Wagner with 1 modifications
+22:26:36  INFO -> Processing aeb4bcd27da17e95f73d827cd4ed638402ef68e0 with java-parser
+22:26:36  INFO Commit #5607dd71feea0501c5349416c3c129a870a8e82b in 21/07/2016 10:20:21 from Eduardo Pereira de Sousa with 1 modifications
+22:26:36  INFO -> Processing 5607dd71feea0501c5349416c3c129a870a8e82b with java-parser
+22:26:37  INFO Commit #096350d99d67a7aa7e88d9d0fe0b91000d85a660 in 30/07/2016 16:37:04 from Luiz Wagner with 4 modifications
+22:26:37  INFO -> Processing 096350d99d67a7aa7e88d9d0fe0b91000d85a660 with java-parser
+22:26:37  INFO Commit #3b23054e9bb7b2f1bbabdacef0a30ee7f9281cfd in 20/07/2016 20:00:11 from Eduardo Pereira de Sousa with 2 modifications
+22:26:37  INFO -> Processing 3b23054e9bb7b2f1bbabdacef0a30ee7f9281cfd with java-parser
+22:26:37  INFO Commit #39fc186e7e7ef43368bb21fa3007cc3de92ea7f8 in 30/07/2016 16:33:27 from Luiz Wagner with 2 modifications
+22:26:37  INFO -> Processing 39fc186e7e7ef43368bb21fa3007cc3de92ea7f8 with java-parser
+22:26:38  INFO Commit #08da95d18a374f52057f29a8f746775157e2121e in 20/07/2016 19:25:44 from Eduardo Pereira de Sousa with 105 modifications
+22:26:38  INFO -> Processing 08da95d18a374f52057f29a8f746775157e2121e with java-parser
+22:26:39  INFO Commit #a6e3ed828304d9bcaea9d1c3fc0bc0d5818aea4b in 30/07/2016 16:31:01 from Luiz Wagner with 17 modifications
+22:26:39  INFO -> Processing a6e3ed828304d9bcaea9d1c3fc0bc0d5818aea4b with java-parser
+22:26:39  INFO Commit #7dd9594a7b5afae474d489905f49404e6b15db3c in 20/07/2016 19:23:24 from Eduardo Pereira de Sousa with 105 modifications
+22:26:39  INFO -> Processing 7dd9594a7b5afae474d489905f49404e6b15db3c with java-parser
+22:26:39  INFO Commit #8a970395b21faf3463966a5d4f47fe1826208ef2 in 30/07/2016 15:20:51 from Luiz Wagner with 4 modifications
+22:26:39  INFO -> Processing 8a970395b21faf3463966a5d4f47fe1826208ef2 with java-parser
+22:26:40  INFO Commit #879f741bfb076effb0b2ed42985828d620a504c8 in 20/07/2016 19:16:40 from Eduardo Pereira de Sousa with 2 modifications
+22:26:40  INFO -> Processing 879f741bfb076effb0b2ed42985828d620a504c8 with java-parser
+22:26:40  INFO Commit #ec8e898e60eeea4976999d777733803bf8f39f97 in 29/07/2016 21:53:00 from Luiz Wagner with 3 modifications
+22:26:40  INFO -> Processing ec8e898e60eeea4976999d777733803bf8f39f97 with java-parser
+22:26:41  INFO Commit #f6b3c72f268bc080d84fe923781b43db65241fe4 in 20/07/2016 08:58:31 from Eduardo Guerra with 2 modifications
+22:26:41  INFO -> Processing f6b3c72f268bc080d84fe923781b43db65241fe4 with java-parser
+22:26:41  INFO Commit #5d70087c96a2db9c308c77bd5d90e433e860af02 in 29/07/2016 19:54:51 from Luiz Wagner with 1 modifications
+22:26:41  INFO -> Processing 5d70087c96a2db9c308c77bd5d90e433e860af02 with java-parser
+22:26:42  INFO Commit #a0d0a07c2495c63bb8c25de3545703d5a418a06e in 20/07/2016 01:43:16 from Eduardo Pereira de Sousa with 1 modifications
+22:26:42  INFO -> Processing a0d0a07c2495c63bb8c25de3545703d5a418a06e with java-parser
+22:26:42  INFO Commit #bf24ec52a134700c1a62f478b667b808dacdc0bf in 29/07/2016 19:54:51 from Luiz Wagner with 3 modifications
+22:26:42  INFO -> Processing bf24ec52a134700c1a62f478b667b808dacdc0bf with java-parser
+22:26:43  INFO Commit #c0dde229fe810f8de246caa1919154c92f0719ea in 20/07/2016 01:41:40 from Eduardo Pereira de Sousa with 1 modifications
+22:26:43  INFO -> Processing c0dde229fe810f8de246caa1919154c92f0719ea with java-parser
+22:26:43  INFO Commit #16fd4f1030b4daabc5b7913e8312079b26c74397 in 29/07/2016 19:54:50 from Luiz Wagner with 12 modifications
+22:26:43  INFO -> Processing 16fd4f1030b4daabc5b7913e8312079b26c74397 with java-parser
+22:26:43  INFO Commit #146d94f17170632d1337ec3853c17191ac9f67e7 in 20/07/2016 00:36:26 from Eduardo Pereira de Sousa with 1 modifications
+22:26:43  INFO -> Processing 146d94f17170632d1337ec3853c17191ac9f67e7 with java-parser
+22:26:43  INFO Commit #c4f24a72361be4b3f2a11982a6775770082ff6cb in 29/07/2016 19:34:22 from Luiz Wagner with 4 modifications
+22:26:43  INFO -> Processing c4f24a72361be4b3f2a11982a6775770082ff6cb with java-parser
+22:26:44  INFO Commit #aca53ad601071efda966abc2c7aac4ebbf612234 in 20/07/2016 00:35:33 from Eduardo Pereira de Sousa with 6 modifications
+22:26:44  INFO -> Processing aca53ad601071efda966abc2c7aac4ebbf612234 with java-parser
+22:26:44  INFO Commit #a502d13a1652a2f06eed92879971b7cf95239cae in 24/07/2016 05:56:10 from Luiz Wagner with 2 modifications
+22:26:44  INFO -> Processing a502d13a1652a2f06eed92879971b7cf95239cae with java-parser
+22:26:45  INFO Commit #89805780f2d7aeffc7b4daea3a247947d729eed2 in 19/07/2016 22:09:48 from Eduardo Pereira de Sousa with 7 modifications
+22:26:45  INFO -> Processing 89805780f2d7aeffc7b4daea3a247947d729eed2 with java-parser
+22:26:45  INFO Commit #7e9d3b588283e651f10e0a1315e8cc59fb025961 in 24/07/2016 05:40:06 from Luiz Wagner with 5 modifications
+22:26:45  INFO -> Processing 7e9d3b588283e651f10e0a1315e8cc59fb025961 with java-parser
+22:26:46  INFO Commit #50f7761394c2b1e949c2e06041e1daed0803c002 in 19/07/2016 16:06:29 from Eduardo Pereira de Sousa with 1 modifications
+22:26:46  INFO -> Processing 50f7761394c2b1e949c2e06041e1daed0803c002 with java-parser
+22:26:46  INFO Commit #bb2c463a70bfe19b380de61527afdaa0e41acfdf in 23/07/2016 23:44:10 from Luiz Wagner with 1 modifications
+22:26:46  INFO -> Processing bb2c463a70bfe19b380de61527afdaa0e41acfdf with java-parser
+22:26:46  INFO Commit #121ef92b8914a24e4baec9f7d063c7b9e1d5ed01 in 19/07/2016 15:14:39 from Eduardo Pereira de Sousa with 1 modifications
+22:26:46  INFO -> Processing 121ef92b8914a24e4baec9f7d063c7b9e1d5ed01 with java-parser
+22:26:46  INFO Commit #1b533e9b05c49659883a09df8f1d674879e045df in 24/01/2013 18:26:07 from bbonagura9 with 1 modifications
+22:26:46  INFO -> Processing 1b533e9b05c49659883a09df8f1d674879e045df with java-parser
+22:26:47  INFO Commit #cf285ea539e3b53816ad4cdac2979121590a1621 in 19/10/2015 17:57:24 from lgveras with 10 modifications
+22:26:47  INFO -> Processing cf285ea539e3b53816ad4cdac2979121590a1621 with java-parser
+22:26:47  INFO Commit #dc31a825c82ca6512cb3409c0a287f095e5f9c03 in 24/01/2013 17:08:54 from bbonagura9 with 12 modifications
+22:26:47  INFO -> Processing dc31a825c82ca6512cb3409c0a287f095e5f9c03 with java-parser
+22:26:48  INFO Commit #dad4c67750bb72f37a400fa7dca1b134aceb101f in 24/01/2013 05:47:14 from bbonagura9 with 2 modifications
+22:26:48  INFO -> Processing dad4c67750bb72f37a400fa7dca1b134aceb101f with java-parser
+22:26:48  INFO Commit #85106492fb8c8d38b9c56a41c138fa14c80899a6 in 19/10/2015 02:20:48 from lgveras with 30 modifications
+22:26:48  INFO -> Processing 85106492fb8c8d38b9c56a41c138fa14c80899a6 with java-parser
+22:26:48  INFO Commit #2b18a590f0cada50230c2a2b81688c40360228ff in 24/01/2013 05:03:29 from Bruno Bonagura with 15 modifications
+22:26:48  INFO -> Processing 2b18a590f0cada50230c2a2b81688c40360228ff with java-parser
+22:26:49 ERROR diff for .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi too big
+22:26:49  INFO Commit #bebec8a22e974824dcf9ce3d278c024539ecb7d4 in 19/10/2015 02:11:43 from lgveras with 127 modifications
+22:26:49  INFO -> Processing bebec8a22e974824dcf9ce3d278c024539ecb7d4 with java-parser
+22:26:49  INFO Commit #5a8f19a19eff6f73e969b3cdaae9e7bee2bafd69 in 24/01/2013 01:19:51 from Bruno Bonagura with 37 modifications
+22:26:49  INFO -> Processing 5a8f19a19eff6f73e969b3cdaae9e7bee2bafd69 with java-parser
+22:26:50  INFO Commit #6d58e8a3941f4d04aecf4a4346001c22873b2ed4 in 16/01/2013 01:32:45 from Bruno Bonagura with 21 modifications
+22:26:50  INFO -> Processing 6d58e8a3941f4d04aecf4a4346001c22873b2ed4 with java-parser
+22:26:50  INFO Commit #5e445befe5c4ad8cbf07079bab8806a28b20db8e in 14/08/2015 12:20:09 from lgveras with 19 modifications
+22:26:50  INFO -> Processing 5e445befe5c4ad8cbf07079bab8806a28b20db8e with java-parser
+22:26:51  INFO Commit #94d5315842b2957ce72a95357eff6ee1954b8f78 in 15/01/2013 01:58:30 from Bruno Bonagura with 3 modifications
+22:26:51  INFO -> Processing 94d5315842b2957ce72a95357eff6ee1954b8f78 with java-parser
+22:26:52  INFO Commit #0830996c59a9c798e6016ec5726e2b2563dc2829 in 12/01/2013 16:39:53 from Bruno Bonagura with 2 modifications
+22:26:52  INFO -> Processing 0830996c59a9c798e6016ec5726e2b2563dc2829 with java-parser
+22:26:52  INFO Commit #dfa0fc7b973530e910caff2c55994e5ac9f3e2fd in 13/08/2015 16:43:57 from lgveras with 22 modifications
+22:26:52  INFO -> Processing dfa0fc7b973530e910caff2c55994e5ac9f3e2fd with java-parser
+22:26:53  INFO Commit #5234ed36459e8983c0ed01099dc3a215d2316906 in 11/01/2013 04:26:09 from Bruno Bonagura with 63 modifications
+22:26:53  INFO -> Processing 5234ed36459e8983c0ed01099dc3a215d2316906 with java-parser
+22:26:54  INFO Commit #8408a8db0e01a3e5807dbf379d709ffdb7ffc53c in 10/01/2013 05:37:50 from Bruno Bonagura with 28 modifications
+22:26:54  INFO -> Processing 8408a8db0e01a3e5807dbf379d709ffdb7ffc53c with java-parser
+22:26:54  INFO Commit #48d44e505d87a8a45c1b427ba107d2ac741ec4b9 in 11/08/2015 00:03:53 from lgveras with 48 modifications
+22:26:54  INFO -> Processing 48d44e505d87a8a45c1b427ba107d2ac741ec4b9 with java-parser
+22:26:55  INFO Commit #86da89887985d3fec547b747dda754dccb3d18fd in 03/01/2013 20:42:32 from Bruno Bonagura with 196 modifications
+22:26:55  INFO -> Processing 86da89887985d3fec547b747dda754dccb3d18fd with java-parser
+22:26:57  INFO Commit #70195f9fbc60f8d69bca54cc12ff68837520b56e in 29/05/2012 13:15:27 from rmonico with 1 modifications
+22:26:57  INFO -> Processing 70195f9fbc60f8d69bca54cc12ff68837520b56e with java-parser
+22:26:58  INFO Commit #e1eac798561897dc0e26bbcc758195b893b89239 in 31/07/2015 15:34:44 from lgveras with 59 modifications
+22:26:58  INFO -> Processing e1eac798561897dc0e26bbcc758195b893b89239 with java-parser
+22:26:59  INFO Commit #eea590257be76e69db8d05a7e469c58a18418f68 in 28/05/2012 23:42:28 from rmonico with 110 modifications
+22:26:59  INFO -> Processing eea590257be76e69db8d05a7e469c58a18418f68 with java-parser
+22:27:00  INFO Commit #76bc092fbf1f3ff92d50cf48282ae4c661fa5628 in 17/07/2015 10:21:31 from Eduardo Guerra with 78 modifications
+22:27:00  INFO -> Processing 76bc092fbf1f3ff92d50cf48282ae4c661fa5628 with java-parser
+22:27:02  INFO Commit #ce7e07cc963ee00a20889844d8f47e79a382acd8 in 07/02/2012 23:22:42 from Bruno Demboscki with 5 modifications
+22:27:02  INFO -> Processing ce7e07cc963ee00a20889844d8f47e79a382acd8 with java-parser
+22:27:03  INFO Commit #6ffb90d21898fcb4f6d83cf421d536fd6aefcb7e in 15/07/2015 17:23:02 from lgveras with 114 modifications
+22:27:03  INFO -> Processing 6ffb90d21898fcb4f6d83cf421d536fd6aefcb7e with java-parser
+22:27:03  INFO Commit #98b54f15891cd2656c21b2c2bb062bb903f2b8c5 in 07/02/2012 22:14:58 from Bruno Demboscki with 2 modifications
+22:27:03  INFO -> Processing 98b54f15891cd2656c21b2c2bb062bb903f2b8c5 with java-parser
+22:27:05  INFO Commit #3f842903b83380947cecafb6d7a1c8744da12e80 in 06/07/2015 21:57:21 from lgveras with 56 modifications
+22:27:05  INFO -> Processing 3f842903b83380947cecafb6d7a1c8744da12e80 with java-parser
+22:27:05  INFO Commit #60e6f84d1ba89dc524542a7e370219ece02a9a36 in 29/01/2012 21:56:12 from Bruno Demboscki with 3 modifications
+22:27:05  INFO -> Processing 60e6f84d1ba89dc524542a7e370219ece02a9a36 with java-parser
+22:27:09  INFO Commit #b24f24f31b103f9e3c303e613d1c99729bdb9bc5 in 26/06/2015 09:48:15 from Eduardo Guerra with 7 modifications
+22:27:09  INFO -> Processing b24f24f31b103f9e3c303e613d1c99729bdb9bc5 with java-parser
+22:27:09  INFO Commit #9f985acdd888b47d08d7240841bd50e1ecaf66ea in 29/01/2012 19:25:18 from Bruno Demboscki with 1 modifications
+22:27:09  INFO -> Processing 9f985acdd888b47d08d7240841bd50e1ecaf66ea with java-parser
+22:27:12  INFO Commit #64229feb1066eb9ba5fac59ff311c3634e77448a in 30/12/2011 16:14:08 from rmonico with 1 modifications
+22:27:12  INFO -> Processing 64229feb1066eb9ba5fac59ff311c3634e77448a with java-parser
+22:27:12  INFO Commit #f54fb53566036e0f2e4f5e57c8eddedc3c1d3ed8 in 23/06/2015 10:03:53 from Santosjn with 35 modifications
+22:27:12  INFO -> Processing f54fb53566036e0f2e4f5e57c8eddedc3c1d3ed8 with java-parser
+22:27:13  INFO Commit #b0509f41d390bce6d811571ad9ea6e74a1fb9b22 in 30/11/2011 12:57:38 from rmonico with 35 modifications
+22:27:13  INFO -> Processing b0509f41d390bce6d811571ad9ea6e74a1fb9b22 with java-parser
+22:27:15  INFO Commit #0fc0326615e64d42b6a974ac3d49a9ed2afdcda8 in 25/11/2011 22:06:50 from rmonico with 1 modifications
+22:27:15  INFO -> Processing 0fc0326615e64d42b6a974ac3d49a9ed2afdcda8 with java-parser
+22:27:15  INFO Commit #8238febfeb8e9a6fe1926ba8a03cf86fa45f433e in 27/02/2015 10:40:49 from Santosjn with 23 modifications
+22:27:15  INFO -> Processing 8238febfeb8e9a6fe1926ba8a03cf86fa45f433e with java-parser
+22:27:16  INFO Commit #d580572474ea3835875bf4f95fffe5a769fb454e in 24/11/2011 19:58:56 from rmonico with 1 modifications
+22:27:16  INFO -> Processing d580572474ea3835875bf4f95fffe5a769fb454e with java-parser
+22:27:20  INFO Commit #ebf71d048b52c16a17da06b8b0253ce1b827c998 in 24/11/2011 19:47:22 from rmonico with 1 modifications
+22:27:20  INFO -> Processing ebf71d048b52c16a17da06b8b0253ce1b827c998 with java-parser
+22:27:20  INFO Commit #d0eb3fc97d6b93d7fcd206ca0a0a275ea1d7ba06 in 27/02/2015 10:12:57 from Santosjn with 26 modifications
+22:27:20  INFO -> Processing d0eb3fc97d6b93d7fcd206ca0a0a275ea1d7ba06 with java-parser
+22:27:23  INFO Commit #d72008fd17020816aff789ff52c7e6dc0f6c57e2 in 24/11/2011 19:30:31 from rmonico with 31 modifications
+22:27:23  INFO -> Processing d72008fd17020816aff789ff52c7e6dc0f6c57e2 with java-parser
+22:27:24  INFO Commit #6a86564aa14c9bf1709c4fef866d09e388cce2ba in 05/12/2014 13:01:38 from Eduardo Guerra with 2 modifications
+22:27:24  INFO -> Processing 6a86564aa14c9bf1709c4fef866d09e388cce2ba with java-parser
+22:27:24  INFO Commit #232502a20f81f80e65bad1dd2f617a0185c660de in 24/11/2011 18:48:02 from rmonico with 1 modifications
+22:27:24  INFO -> Processing 232502a20f81f80e65bad1dd2f617a0185c660de with java-parser
+22:27:27  INFO Commit #fba834a126929e19d82c1b9d283a2b669405845f in 02/12/2014 12:08:29 from Santosjn with 23 modifications
+22:27:27  INFO -> Processing fba834a126929e19d82c1b9d283a2b669405845f with java-parser
+22:27:27  INFO Commit #95731c52afb761ccbf1d85bac537aa2aa22a76a4 in 24/11/2011 11:55:12 from rmonico with 1 modifications
+22:27:27  INFO -> Processing 95731c52afb761ccbf1d85bac537aa2aa22a76a4 with java-parser
+22:27:30  INFO Commit #b54d2eb583cb0bb7e7bbfb51a7d1a65053f8ff8a in 30/05/2014 14:20:37 from Eduardo Guerra with 195 modifications
+22:27:30  INFO -> Processing b54d2eb583cb0bb7e7bbfb51a7d1a65053f8ff8a with java-parser
+22:27:30  INFO Commit #97464a25a870f3378d7b219c8606312eb1923bdf in 24/11/2011 11:53:48 from rmonico with 1 modifications
+22:27:30  INFO -> Processing 97464a25a870f3378d7b219c8606312eb1923bdf with java-parser
+22:27:35  INFO Commit #4cc96496634b223d4185a1c352d1c81dad01fa27 in 24/11/2011 11:37:03 from rmonico with 1 modifications
+22:27:35  INFO -> Processing 4cc96496634b223d4185a1c352d1c81dad01fa27 with java-parser
+22:27:38  INFO Commit #3a53e8e07daa389df803c2c174399ad775e53b4f in 24/11/2011 11:34:37 from rmonico with 1 modifications
+22:27:38  INFO -> Processing 3a53e8e07daa389df803c2c174399ad775e53b4f with java-parser
+22:27:40  INFO Commit #2f49dade9d6fbf266ef747fd73ca120e512445f3 in 23/11/2011 23:17:13 from rmonico with 4 modifications
+22:27:40  INFO -> Processing 2f49dade9d6fbf266ef747fd73ca120e512445f3 with java-parser
+22:27:41  INFO Commit #56941a48bee46890e56a216ccc6c74df095c9a1d in 23/11/2011 18:43:08 from rmonico with 1 modifications
+22:27:41  INFO -> Processing 56941a48bee46890e56a216ccc6c74df095c9a1d with java-parser
+22:27:42  INFO Commit #2164b0a1a8bcb7a2f2b4078773a83d542968ca9f in 23/11/2011 18:02:33 from rmonico with 1 modifications
+22:27:42  INFO -> Processing 2164b0a1a8bcb7a2f2b4078773a83d542968ca9f with java-parser
+22:27:44  INFO Commit #e15f10484cb53b57645a3d21e6cd78036a53f079 in 23/11/2011 17:04:45 from rmonico with 1 modifications
+22:27:44  INFO -> Processing e15f10484cb53b57645a3d21e6cd78036a53f079 with java-parser
+22:27:47  INFO Commit #fdbfdf15224f2c53896a070f6036865aa1a464da in 10/11/2011 21:38:03 from rsalmeidafl with 4 modifications
+22:27:47  INFO -> Processing fdbfdf15224f2c53896a070f6036865aa1a464da with java-parser
+22:27:48  INFO Commit #25264b237a8dc96c690e00cd146dadf35d35ddf5 in 10/11/2011 21:35:14 from rsalmeidafl with 21 modifications
+22:27:48  INFO -> Processing 25264b237a8dc96c690e00cd146dadf35d35ddf5 with java-parser
+22:27:50  INFO Commit #0d5a0f4e768fa149ebb9131aeba679bf7c1616a6 in 10/11/2011 21:10:35 from rsalmeidafl with 2 modifications
+22:27:50  INFO -> Processing 0d5a0f4e768fa149ebb9131aeba679bf7c1616a6 with java-parser
+22:27:52  INFO Commit #82467d6332d6e6d24f4cbaea35081a3cee3cdbf1 in 10/11/2011 21:10:04 from rsalmeidafl with 1 modifications
+22:27:52  INFO -> Processing 82467d6332d6e6d24f4cbaea35081a3cee3cdbf1 with java-parser
+22:27:54  INFO Commit #de2259c07c0f304feeb8a7d01ce9b8843b7370f4 in 10/11/2011 21:09:39 from rsalmeidafl with 1 modifications
+22:27:54  INFO -> Processing de2259c07c0f304feeb8a7d01ce9b8843b7370f4 with java-parser
+22:27:56  INFO Commit #810da8a6655e7c0a0c6fa7e7fdfee206e576bbda in 10/11/2011 20:55:20 from rsalmeidafl with 16 modifications
+22:27:56  INFO -> Processing 810da8a6655e7c0a0c6fa7e7fdfee206e576bbda with java-parser
+22:27:57  INFO Commit #e53f5f6c6d5fd2742a05d5bcb1ebb401088646a6 in 09/11/2011 01:32:32 from rsalmeidafl with 24 modifications
+22:27:57  INFO -> Processing e53f5f6c6d5fd2742a05d5bcb1ebb401088646a6 with java-parser
+22:27:59  INFO Commit #65662cd1b26ec6f47c6764875cf9d318ed90a1dc in 05/11/2011 15:57:23 from Bruno Demboscki with 75 modifications
+22:27:59  INFO -> Processing 65662cd1b26ec6f47c6764875cf9d318ed90a1dc with java-parser
+22:28:00  INFO Commit #da9107a108fb6b298b4436f528bbf180249c972b in 24/10/2011 22:47:17 from unknown with 9 modifications
+22:28:00  INFO -> Processing da9107a108fb6b298b4436f528bbf180249c972b with java-parser
+22:28:02  INFO Commit #9887bac942b3f1683630ce9ea59de8484a721173 in 18/10/2011 23:05:59 from unknown with 3 modifications
+22:28:02  INFO -> Processing 9887bac942b3f1683630ce9ea59de8484a721173 with java-parser
+22:28:04  INFO Commit #e54d2a178f3d5a6414c820dbfcb5fb9150fc9afe in 18/10/2011 00:20:56 from unknown with 5 modifications
+22:28:04  INFO -> Processing e54d2a178f3d5a6414c820dbfcb5fb9150fc9afe with java-parser
+22:28:06  INFO Commit #2cecb8ef08b69aa16e1c2628ed989fcc3bed98f7 in 17/10/2011 09:51:30 from rmonico with 75 modifications
+22:28:06  INFO -> Processing 2cecb8ef08b69aa16e1c2628ed989fcc3bed98f7 with java-parser
+22:28:09  INFO Commit #c2effdf12c621606130c589ada0f4b0b0e61cf1e in 15/10/2011 12:37:54 from unknown with 4 modifications
+22:28:09  INFO -> Processing c2effdf12c621606130c589ada0f4b0b0e61cf1e with java-parser
+22:28:11  INFO Commit #a63519528a1a85ae9f819d832e1bf5a06c7d0f07 in 15/10/2011 11:27:04 from unknown with 6 modifications
+22:28:11  INFO -> Processing a63519528a1a85ae9f819d832e1bf5a06c7d0f07 with java-parser
+22:28:12  INFO Commit #e209a4e0a9f3b178a6ce3cfc2790bbf40b541828 in 14/10/2011 01:00:10 from rsalmeidafl with 21 modifications
+22:28:12  INFO -> Processing e209a4e0a9f3b178a6ce3cfc2790bbf40b541828 with java-parser
+22:28:14  INFO Commit #ff09a8584faa412af322d6ad415a3610fbf67f62 in 14/10/2011 00:50:28 from rsalmeidafl with 2 modifications
+22:28:14  INFO -> Processing ff09a8584faa412af322d6ad415a3610fbf67f62 with java-parser
+22:28:15  INFO Commit #0ed3b24572fd47af379b015c1b1a2dfbfecd222f in 14/10/2011 00:37:57 from rsalmeidafl with 13 modifications
+22:28:15  INFO -> Processing 0ed3b24572fd47af379b015c1b1a2dfbfecd222f with java-parser
+22:28:17  INFO Commit #32b1745679ba73de5406c2ef4d6d2ad6f45857ec in 13/10/2011 18:28:29 from rsalmeidafl with 4 modifications
+22:28:17  INFO -> Processing 32b1745679ba73de5406c2ef4d6d2ad6f45857ec with java-parser
+22:28:18  INFO Commit #68fc0e6f43aff49b53755260ed2ab8867471390f in 13/10/2011 18:10:37 from rsalmeidafl with 1 modifications
+22:28:18  INFO -> Processing 68fc0e6f43aff49b53755260ed2ab8867471390f with java-parser
+22:28:20  INFO Commit #226f9370e43f8976d5a2215e71d362ded498ec56 in 12/10/2011 23:43:21 from rsalmeidafl with 2 modifications
+22:28:20  INFO -> Processing 226f9370e43f8976d5a2215e71d362ded498ec56 with java-parser
+22:28:22  INFO Commit #67dba66f32d3614baf95421664a7fb03e6dcbbb3 in 12/10/2011 20:26:28 from unknown with 21 modifications
+22:28:22  INFO -> Processing 67dba66f32d3614baf95421664a7fb03e6dcbbb3 with java-parser
+22:28:24  INFO Commit #597da6e93bb2397372483956a4a51718baacf10a in 12/10/2011 18:07:27 from rsalmeidafl with 1 modifications
+22:28:24  INFO -> Processing 597da6e93bb2397372483956a4a51718baacf10a with java-parser
+22:28:26  INFO Commit #1ce771ca560b10dcdc0da243592572143646369a in 12/10/2011 17:43:48 from rsalmeidafl with 1 modifications
+22:28:26  INFO -> Processing 1ce771ca560b10dcdc0da243592572143646369a with java-parser
+22:28:27  INFO Commit #3a212299e8784d09463bc5f0552b19d30c49fc0e in 12/10/2011 17:32:52 from rsalmeidafl with 10 modifications
+22:28:27  INFO -> Processing 3a212299e8784d09463bc5f0552b19d30c49fc0e with java-parser
+22:28:29  INFO Commit #1a075e4166f3ff58666e5d34eb02d933419f1ab0 in 12/10/2011 17:26:32 from rsalmeidafl with 3 modifications
+22:28:29  INFO -> Processing 1a075e4166f3ff58666e5d34eb02d933419f1ab0 with java-parser
+22:28:31  INFO Commit #dd58ddf08a10fbec59e6338b1ae5b8789f1596e8 in 12/10/2011 17:24:04 from rsalmeidafl with 12 modifications
+22:28:31  INFO -> Processing dd58ddf08a10fbec59e6338b1ae5b8789f1596e8 with java-parser
+22:28:33  INFO Commit #193a1bdb1d4fba2a60ff0c3ca65dc131d3fd0cea in 12/10/2011 04:27:42 from rsalmeidafl with 6 modifications
+22:28:33  INFO -> Processing 193a1bdb1d4fba2a60ff0c3ca65dc131d3fd0cea with java-parser
+22:28:34  INFO Commit #8e25b558a870a36c630676fc01ead89a1729f0d1 in 12/10/2011 03:49:48 from rsalmeidafl with 2 modifications
+22:28:34  INFO -> Processing 8e25b558a870a36c630676fc01ead89a1729f0d1 with java-parser
+22:28:36  INFO Commit #d80a66655db73b2c9bf1b4327da2a3f1142badb2 in 12/10/2011 03:46:00 from rsalmeidafl with 4 modifications
+22:28:36  INFO -> Processing d80a66655db73b2c9bf1b4327da2a3f1142badb2 with java-parser
+22:28:37  INFO Commit #8951bbc83490a77ceeb2c35836458ed039c7d1ab in 12/10/2011 03:43:36 from rsalmeidafl with 4 modifications
+22:28:37  INFO -> Processing 8951bbc83490a77ceeb2c35836458ed039c7d1ab with java-parser
+22:28:39  INFO Commit #f85fad7023dc5e4f9d48d724d6d00cdff8d400af in 12/10/2011 03:35:28 from rsalmeidafl with 5 modifications
+22:28:39  INFO -> Processing f85fad7023dc5e4f9d48d724d6d00cdff8d400af with java-parser
+22:28:41  INFO Commit #9c6c4b49aa62bf789c9bd0bfa7090a558a25fe61 in 12/10/2011 02:57:24 from rsalmeidafl with 5 modifications
+22:28:41  INFO -> Processing 9c6c4b49aa62bf789c9bd0bfa7090a558a25fe61 with java-parser
+22:28:42  INFO Commit #9efa3c6bbf966401e758189931554dcd5ad87507 in 12/10/2011 02:22:00 from rsalmeidafl with 2 modifications
+22:28:42  INFO -> Processing 9efa3c6bbf966401e758189931554dcd5ad87507 with java-parser
+22:28:44  INFO Commit #2e851739b13a10467d54435638eb47b3b5e08fc6 in 12/10/2011 02:21:26 from rsalmeidafl with 0 modifications
+22:28:44  INFO -> Processing 2e851739b13a10467d54435638eb47b3b5e08fc6 with java-parser
+22:28:45  INFO Commit #7a816dcd6f57f1a16beba04499c4a2fc431f32b1 in 12/10/2011 02:20:26 from rsalmeidafl with 3 modifications
+22:28:45  INFO -> Processing 7a816dcd6f57f1a16beba04499c4a2fc431f32b1 with java-parser
+22:28:47  INFO Commit #f531bb61aba00b79b14c7e99840f5c34ff30c9f1 in 12/10/2011 01:54:52 from rsalmeidafl with 3 modifications
+22:28:47  INFO -> Processing f531bb61aba00b79b14c7e99840f5c34ff30c9f1 with java-parser
+22:28:49  INFO Commit #9ddf71eda49f704294a6667dd4dd09cb41b3e77b in 12/10/2011 01:41:49 from rsalmeidafl with 1 modifications
+22:28:49  INFO -> Processing 9ddf71eda49f704294a6667dd4dd09cb41b3e77b with java-parser
+22:28:50  INFO Commit #7afff253c8e8c1cd32f0a7c5bd3fe3a1e17a2291 in 12/10/2011 01:10:56 from rsalmeidafl with 2 modifications
+22:28:50  INFO -> Processing 7afff253c8e8c1cd32f0a7c5bd3fe3a1e17a2291 with java-parser
+22:28:52  INFO Commit #dd74cddc288a9006c73055a0a718e2c1bea9453e in 12/10/2011 01:10:24 from rsalmeidafl with 2 modifications
+22:28:52  INFO -> Processing dd74cddc288a9006c73055a0a718e2c1bea9453e with java-parser
+22:28:54  INFO Commit #b7db094333b2203eca1c90d79c192016f55e067d in 12/10/2011 00:48:08 from rsalmeidafl with 1 modifications
+22:28:54  INFO -> Processing b7db094333b2203eca1c90d79c192016f55e067d with java-parser
+22:28:55  INFO Commit #6b71e42ce76f19b11aa601e9de1389870be89e3c in 12/10/2011 00:38:49 from rsalmeidafl with 2 modifications
+22:28:55  INFO -> Processing 6b71e42ce76f19b11aa601e9de1389870be89e3c with java-parser
+22:28:57  INFO Commit #8985996e83490cd2b4e2dafda65ee9125ea64769 in 12/10/2011 00:10:07 from rsalmeidafl with 3 modifications
+22:28:57  INFO -> Processing 8985996e83490cd2b4e2dafda65ee9125ea64769 with java-parser
+22:28:59  INFO Commit #0588de3dd5424ed47c247647e33d21158132e706 in 11/10/2011 23:14:37 from rsalmeidafl with 20 modifications
+22:28:59  INFO -> Processing 0588de3dd5424ed47c247647e33d21158132e706 with java-parser
+22:29:00  INFO Commit #da6bf48e30212c2a051ef121e0bbe71b3eb53aff in 11/10/2011 23:10:08 from rsalmeidafl with 0 modifications
+22:29:00  INFO -> Processing da6bf48e30212c2a051ef121e0bbe71b3eb53aff with java-parser
+22:29:02  INFO Commit #20e4d3cfade6560a5b6ec35f18fe1f9c6a2735b0 in 11/10/2011 22:55:54 from rsalmeidafl with 8 modifications
+22:29:02  INFO -> Processing 20e4d3cfade6560a5b6ec35f18fe1f9c6a2735b0 with java-parser
+22:29:03  INFO Commit #9bc9d48f260acd74ded20bcedf6d810a09cc41ae in 11/10/2011 11:40:47 from rsalmeidafl with 2 modifications
+22:29:03  INFO -> Processing 9bc9d48f260acd74ded20bcedf6d810a09cc41ae with java-parser
+22:29:05  INFO Commit #26f27836699d28ce6124eddfabf036de04034ad2 in 11/10/2011 11:40:27 from rsalmeidafl with 7 modifications
+22:29:05  INFO -> Processing 26f27836699d28ce6124eddfabf036de04034ad2 with java-parser
+22:29:07  INFO Commit #1123bc7c34dfa03bf551032d6d00a31ea6f152a6 in 11/10/2011 11:20:50 from rsalmeidafl with 5 modifications
+22:29:07  INFO -> Processing 1123bc7c34dfa03bf551032d6d00a31ea6f152a6 with java-parser
+22:29:09  INFO Commit #6716c2b3b9685c15300cf97dbca6df5112ffc349 in 11/10/2011 11:19:06 from rsalmeidafl with 2 modifications
+22:29:09  INFO -> Processing 6716c2b3b9685c15300cf97dbca6df5112ffc349 with java-parser
+22:29:10  INFO Commit #acd93dd04a82e58334364489c7b585589a4f1851 in 11/10/2011 10:03:09 from rsalmeidafl with 18 modifications
+22:29:10  INFO -> Processing acd93dd04a82e58334364489c7b585589a4f1851 with java-parser
+22:29:12  INFO Commit #e536df4070fe81e5ec5dbb50c3dded30eb96fb66 in 11/10/2011 10:02:13 from rsalmeidafl with 6 modifications
+22:29:12  INFO -> Processing e536df4070fe81e5ec5dbb50c3dded30eb96fb66 with java-parser
+22:29:13  INFO Commit #3ba31415b6cc8c38f67c5b8ab2f0a270fba0edbd in 11/10/2011 03:09:21 from rsalmeidafl with 5 modifications
+22:29:13  INFO -> Processing 3ba31415b6cc8c38f67c5b8ab2f0a270fba0edbd with java-parser
+22:29:15  INFO Commit #d404169246bcba943a3ad390741462c409e02c50 in 10/10/2011 22:31:40 from unknown with 20 modifications
+22:29:15  INFO -> Processing d404169246bcba943a3ad390741462c409e02c50 with java-parser
+22:29:17  INFO Commit #f038e8e38f81999c21760c4201d31ea60ba32c7d in 07/10/2011 16:42:52 from unknown with 7 modifications
+22:29:17  INFO -> Processing f038e8e38f81999c21760c4201d31ea60ba32c7d with java-parser
+22:29:18  INFO Commit #0714abcc44fd2df239cef48e2043ce9b67677d88 in 05/10/2011 20:31:17 from unknown with 2 modifications
+22:29:18  INFO -> Processing 0714abcc44fd2df239cef48e2043ce9b67677d88 with java-parser
+22:29:20  INFO Commit #49a514e6d1415f1fc5edec8f73d3a765f511cc72 in 05/10/2011 20:13:53 from unknown with 12 modifications
+22:29:20  INFO -> Processing 49a514e6d1415f1fc5edec8f73d3a765f511cc72 with java-parser
+22:29:22  INFO Commit #4abe3e0ffd280ee6f901f03888daf834ef281490 in 28/09/2011 18:12:19 from unknown with 5 modifications
+22:29:22  INFO -> Processing 4abe3e0ffd280ee6f901f03888daf834ef281490 with java-parser
+22:29:24  INFO Commit #3908e6f58fddf822d23900169a127d9542e11e5f in 27/09/2011 21:08:15 from unknown with 11 modifications
+22:29:24  INFO -> Processing 3908e6f58fddf822d23900169a127d9542e11e5f with java-parser
+22:29:25  INFO Commit #26d87012415ab714339797b4ee6e7c79f75f9be2 in 26/09/2011 21:21:09 from unknown with 4 modifications
+22:29:25  INFO -> Processing 26d87012415ab714339797b4ee6e7c79f75f9be2 with java-parser
+22:29:27  INFO Commit #362f6e06626b67ffb4db46c56c21de6521448bdf in 26/09/2011 18:18:14 from unknown with 3 modifications
+22:29:27  INFO -> Processing 362f6e06626b67ffb4db46c56c21de6521448bdf with java-parser
+22:29:28  INFO Commit #774addb43391137d10718977099b10e69fc74a81 in 26/09/2011 17:05:57 from unknown with 1 modifications
+22:29:28  INFO -> Processing 774addb43391137d10718977099b10e69fc74a81 with java-parser
+22:29:30  INFO Commit #8c8beca64b36676ed11a4d99de23536641723d9f in 26/09/2011 16:07:21 from unknown with 1 modifications
+22:29:30  INFO -> Processing 8c8beca64b36676ed11a4d99de23536641723d9f with java-parser
+22:29:32  INFO Commit #ef684a50f67da676fef90611fd2477bd7384af36 in 26/09/2011 15:00:42 from unknown with 3 modifications
+22:29:32  INFO -> Processing ef684a50f67da676fef90611fd2477bd7384af36 with java-parser
+22:29:33  INFO Commit #d7a00acbc97a8661a32ae88583cf2ff45445b9f1 in 26/09/2011 10:44:44 from unknown with 3 modifications
+22:29:33  INFO -> Processing d7a00acbc97a8661a32ae88583cf2ff45445b9f1 with java-parser
+22:29:36  INFO Commit #d25ff3816a43d05eaf7cbb721844e61f22f654bf in 24/09/2011 18:59:50 from unknown with 1 modifications
+22:29:36  INFO -> Processing d25ff3816a43d05eaf7cbb721844e61f22f654bf with java-parser
+22:29:37  INFO Commit #db8a44108f80f698b500354e7352b4166b20a577 in 24/09/2011 17:54:01 from unknown with 11 modifications
+22:29:37  INFO -> Processing db8a44108f80f698b500354e7352b4166b20a577 with java-parser
+22:29:38  INFO Commit #17ce35b2cd0fb57215d5bf335f7aace3d6c914dc in 24/09/2011 16:54:35 from rmonico with 1 modifications
+22:29:38  INFO -> Processing 17ce35b2cd0fb57215d5bf335f7aace3d6c914dc with java-parser
+22:29:40  INFO Commit #4ee9918dbe215eb039cd3d9171d857adc0167697 in 24/09/2011 16:21:54 from unknown with 6 modifications
+22:29:40  INFO -> Processing 4ee9918dbe215eb039cd3d9171d857adc0167697 with java-parser
+22:29:42  INFO Commit #7dcde73cf2e54fb9ed8359d99e568fcee28caff4 in 22/09/2011 19:23:59 from unknown with 16 modifications
+22:29:42  INFO -> Processing 7dcde73cf2e54fb9ed8359d99e568fcee28caff4 with java-parser
+22:29:44  INFO Commit #e6c4f07f0506240cd2f57bb597631e50b54e0404 in 19/09/2011 18:07:42 from unknown with 1 modifications
+22:29:44  INFO -> Processing e6c4f07f0506240cd2f57bb597631e50b54e0404 with java-parser
+22:29:46  INFO Commit #da6d6fcc9918e7b7a16ded6ae3f8ee90c931c548 in 18/09/2011 19:39:50 from unknown with 1 modifications
+22:29:46  INFO -> Processing da6d6fcc9918e7b7a16ded6ae3f8ee90c931c548 with java-parser
+22:29:49  INFO Commit #765c47a13b2efdfed71b14b3293364a1ac37e2af in 18/09/2011 19:25:13 from unknown with 1 modifications
+22:29:49  INFO -> Processing 765c47a13b2efdfed71b14b3293364a1ac37e2af with java-parser
+22:29:50  INFO Commit #4fd5e0eeee6a1bc539899fce1dbc27bfe29c429d in 18/09/2011 19:21:05 from unknown with 1 modifications
+22:29:50  INFO -> Processing 4fd5e0eeee6a1bc539899fce1dbc27bfe29c429d with java-parser
+22:29:51  INFO Commit #a3d98e4165ee25f18b29325bbecc09993b0b36a6 in 18/09/2011 18:38:49 from rmonico with 1 modifications
+22:29:51  INFO -> Processing a3d98e4165ee25f18b29325bbecc09993b0b36a6 with java-parser
+22:29:53  INFO Commit #0e31091c0e55a83acec7c0a7c0ff96febdc7f478 in 18/09/2011 18:32:36 from unknown with 1 modifications
+22:29:53  INFO -> Processing 0e31091c0e55a83acec7c0a7c0ff96febdc7f478 with java-parser
+22:29:55  INFO Commit #1d52cc2c08618879a27a0ebc66a5d6f7cabbe3ef in 18/09/2011 17:53:09 from unknown with 2 modifications
+22:29:55  INFO -> Processing 1d52cc2c08618879a27a0ebc66a5d6f7cabbe3ef with java-parser
+22:29:56  INFO Commit #2b7642943e248cdb03a3f9c0707fa8b8eed7d483 in 18/09/2011 17:37:00 from unknown with 1 modifications
+22:29:56  INFO -> Processing 2b7642943e248cdb03a3f9c0707fa8b8eed7d483 with java-parser
+22:29:57  INFO Commit #26ec61d2dcd7277e057e885d4f241f16371e40b6 in 18/09/2011 16:43:40 from unknown with 2 modifications
+22:29:57  INFO -> Processing 26ec61d2dcd7277e057e885d4f241f16371e40b6 with java-parser
+22:29:59  INFO Commit #34cbb9707fbbe09015144b4abfb6e6ea867ef683 in 18/09/2011 16:35:22 from unknown with 5 modifications
+22:29:59  INFO -> Processing 34cbb9707fbbe09015144b4abfb6e6ea867ef683 with java-parser
+22:30:01  INFO Commit #3a41e51c586828aa2224ec9ec006fcceac8e0838 in 18/09/2011 15:59:09 from rmonico with 1 modifications
+22:30:01  INFO -> Processing 3a41e51c586828aa2224ec9ec006fcceac8e0838 with java-parser
+22:30:02  INFO Commit #227cdcd7e69562a0b11657db943b9738f8519b27 in 18/09/2011 15:34:17 from unknown with 4 modifications
+22:30:02  INFO -> Processing 227cdcd7e69562a0b11657db943b9738f8519b27 with java-parser
+22:30:04  INFO Commit #66527a03a3134258e19a60d1718986c6b174e4de in 03/09/2011 19:44:19 from rmonico with 1 modifications
+22:30:04  INFO -> Processing 66527a03a3134258e19a60d1718986c6b174e4de with java-parser
+22:30:06  INFO Commit #95447b34113900923b81cc0189c313309e092e24 in 03/09/2011 19:29:24 from rmonico with 1 modifications
+22:30:06  INFO -> Processing 95447b34113900923b81cc0189c313309e092e24 with java-parser
+22:30:07  INFO Commit #f2d15931dee11f4cdbe2f5d941dff6308a61f88d in 03/09/2011 19:18:30 from unknown with 2 modifications
+22:30:07  INFO -> Processing f2d15931dee11f4cdbe2f5d941dff6308a61f88d with java-parser
+22:30:09  INFO Commit #fec59acf8dd9f5e773dc2bc63996f2e7691da184 in 03/09/2011 18:16:14 from rmonico with 2 modifications
+22:30:09  INFO -> Processing fec59acf8dd9f5e773dc2bc63996f2e7691da184 with java-parser
+22:30:11  INFO Commit #c23353e500e8538d9885c7454e1cdc4aedfc0526 in 27/08/2011 23:47:24 from rmonico with 2 modifications
+22:30:11  INFO -> Processing c23353e500e8538d9885c7454e1cdc4aedfc0526 with java-parser
+22:30:12  INFO Commit #930c0da77970cf82378aa79238e373390ff760bf in 27/08/2011 23:43:21 from rmonico with 1 modifications
+22:30:12  INFO -> Processing 930c0da77970cf82378aa79238e373390ff760bf with java-parser
+22:30:14  INFO Commit #15575e2686ee934302704871888f2029dff28ec8 in 27/08/2011 23:07:15 from rmonico with 2 modifications
+22:30:14  INFO -> Processing 15575e2686ee934302704871888f2029dff28ec8 with java-parser
+22:30:16  INFO Commit #daed125b3cfd1d3f2458d01984a9b2850c9101df in 27/08/2011 22:31:00 from rmonico with 1 modifications
+22:30:16  INFO -> Processing daed125b3cfd1d3f2458d01984a9b2850c9101df with java-parser
+22:30:17  INFO Commit #f38011fd0428b9ae3de7386fa0012db6ed4f6fe8 in 27/08/2011 22:10:52 from rmonico with 1 modifications
+22:30:17  INFO -> Processing f38011fd0428b9ae3de7386fa0012db6ed4f6fe8 with java-parser
+22:30:19  INFO Commit #6eb543b83e09b05cb83d35774958d18d451807cc in 27/08/2011 22:05:24 from rmonico with 1 modifications
+22:30:19  INFO -> Processing 6eb543b83e09b05cb83d35774958d18d451807cc with java-parser
+22:30:21  INFO Commit #f8284f29b434003c576e7e34ab272dfb721d24a9 in 27/08/2011 21:36:36 from rmonico with 4 modifications
+22:30:21  INFO -> Processing f8284f29b434003c576e7e34ab272dfb721d24a9 with java-parser
+22:30:22  INFO Commit #08d4863c5df4a57f48bae8fb8ea47b151b9395f4 in 27/08/2011 19:12:21 from unknown with 15 modifications
+22:30:22  INFO -> Processing 08d4863c5df4a57f48bae8fb8ea47b151b9395f4 with java-parser
+22:30:23  INFO Commit #c4ae8bea6739018816505cb5495dede89674345d in 13/08/2011 16:22:23 from rmonico with 1 modifications
+22:30:23  INFO -> Processing c4ae8bea6739018816505cb5495dede89674345d with java-parser
+22:30:26  INFO Commit #b09d05b2799028f86bbd8125973f39fe3c0c5ef4 in 13/08/2011 16:16:57 from Bruno Demboscki with 1 modifications
+22:30:26  INFO -> Processing b09d05b2799028f86bbd8125973f39fe3c0c5ef4 with java-parser
+22:30:27  INFO Commit #a0dd5ee3b2ebae38f5ad914f7f6b1027c066919a in 13/08/2011 16:12:47 from rmonico with 1 modifications
+22:30:27  INFO -> Processing a0dd5ee3b2ebae38f5ad914f7f6b1027c066919a with java-parser
+22:30:29  INFO Commit #bf64be821ed0a32a15ac42a3a425ab23d752d2b4 in 13/08/2011 15:44:51 from Rafael Monico with 2 modifications
+22:30:29  INFO -> Processing bf64be821ed0a32a15ac42a3a425ab23d752d2b4 with java-parser
+22:30:30  INFO Commit #2a8c88e4e0ec3bee5e320e07832ca2352d1f457b in 13/08/2011 15:03:10 from Rafael Monico with 3 modifications
+22:30:30  INFO -> Processing 2a8c88e4e0ec3bee5e320e07832ca2352d1f457b with java-parser
+22:30:32  INFO Commit #5a05d6c5a04191cb63e8bd8276652b93e7e9b7ea in 13/08/2011 14:59:06 from Rafael Monico with 22 modifications
+22:30:32  INFO -> Processing 5a05d6c5a04191cb63e8bd8276652b93e7e9b7ea with java-parser
+22:30:35  INFO Commit #a790f1a3f87522792fd1ef22316cf2a970a64db2 in 06/08/2011 19:00:53 from rmonico with 21 modifications
+22:30:35  INFO -> Processing a790f1a3f87522792fd1ef22316cf2a970a64db2 with java-parser
+22:30:36  INFO Commit #ca84c2c9b48aa1eab3939e341170ffff8c576536 in 06/08/2011 18:53:26 from Bruno Demboscki with 21 modifications
+22:30:36  INFO -> Processing ca84c2c9b48aa1eab3939e341170ffff8c576536 with java-parser
+22:30:37  INFO Commit #ba064cff926e896828f6d561760ee23e6b3a4776 in 30/07/2011 18:12:30 from Rafael Monico with 3 modifications
+22:30:37  INFO -> Processing ba064cff926e896828f6d561760ee23e6b3a4776 with java-parser
+22:30:39  INFO Commit #6ab92b8e7564da91043046ebdeae9bcfbfcf028c in 30/07/2011 18:10:35 from rmonico with 1 modifications
+22:30:39  INFO -> Processing 6ab92b8e7564da91043046ebdeae9bcfbfcf028c with java-parser
+22:30:40  INFO Commit #f3d3ef600283fbe9192a698af8025c8ce72e8273 in 30/07/2011 17:42:47 from unknown with 2 modifications
+22:30:40  INFO -> Processing f3d3ef600283fbe9192a698af8025c8ce72e8273 with java-parser
+22:30:42  INFO Commit #a2693765b45b9c78e0ee04ad9ac292fb1785b808 in 07/07/2011 10:14:26 from Rafael Monico with 1 modifications
+22:30:42  INFO -> Processing a2693765b45b9c78e0ee04ad9ac292fb1785b808 with java-parser
+22:30:44  INFO Commit #a7237bca25e3dbc8f2cbc034869c317310a381c7 in 07/07/2011 10:14:01 from Rafael Monico with 3 modifications
+22:30:44  INFO -> Processing a7237bca25e3dbc8f2cbc034869c317310a381c7 with java-parser
+22:30:45  INFO Commit #deddedc45cc579fe3c5ffa84caf640d65cbc654e in 07/07/2011 09:51:08 from Rafael Monico with 1 modifications
+22:30:45  INFO -> Processing deddedc45cc579fe3c5ffa84caf640d65cbc654e with java-parser
+22:30:48  INFO Commit #f6a8a9e52f934d1482f37e3f22fbc3433656b470 in 07/07/2011 09:50:48 from Rafael Monico with 1 modifications
+22:30:48  INFO -> Processing f6a8a9e52f934d1482f37e3f22fbc3433656b470 with java-parser
+22:30:51  INFO Commit #327e717ba41dfc517445df8d18b803d2e60de6bd in 07/07/2011 09:28:08 from Rafael Monico with 7 modifications
+22:30:51  INFO -> Processing 327e717ba41dfc517445df8d18b803d2e60de6bd with java-parser
+22:30:52  INFO Commit #7be5344920206ec1da92686eaa29c0a655311e8d in 07/07/2011 09:17:31 from Rafael Monico with 12 modifications
+22:30:52  INFO -> Processing 7be5344920206ec1da92686eaa29c0a655311e8d with java-parser
+22:30:53  INFO Commit #967d1f387658ab987e047529ed88f8acaf579188 in 07/07/2011 08:32:48 from Rafael Monico with 5 modifications
+22:30:53  INFO -> Processing 967d1f387658ab987e047529ed88f8acaf579188 with java-parser
+22:30:55  INFO Commit #80680c3f0fc41f96ff1fce702e7879d76178a17d in 07/07/2011 07:48:25 from Rafael Monico with 2 modifications
+22:30:55  INFO -> Processing 80680c3f0fc41f96ff1fce702e7879d76178a17d with java-parser
+22:30:56  INFO Commit #a9145e34d872874c12d1b894be0aeb66e3890b16 in 07/07/2011 07:46:37 from Rafael Monico with 10 modifications
+22:30:56  INFO -> Processing a9145e34d872874c12d1b894be0aeb66e3890b16 with java-parser
+22:30:58  INFO Commit #b6425f7c618a3dd44058f51baeebc52790a1ed00 in 07/07/2011 07:25:15 from Rafael Monico with 5 modifications
+22:30:58  INFO -> Processing b6425f7c618a3dd44058f51baeebc52790a1ed00 with java-parser
+22:31:00  INFO Commit #c1c48624c653eccb5c7a362a0e13f5c0b8f245b7 in 07/07/2011 07:09:11 from Rafael Monico with 21 modifications
+22:31:00  INFO -> Processing c1c48624c653eccb5c7a362a0e13f5c0b8f245b7 with java-parser
+22:31:01  INFO Commit #8270b544c41955954b262cf86890d950e983adc3 in 07/07/2011 07:06:54 from Rafael Monico with 10 modifications
+22:31:01  INFO -> Processing 8270b544c41955954b262cf86890d950e983adc3 with java-parser
+22:31:05  INFO Commit #916d64ed11b0814e97eea93be7c472840d03b244 in 07/07/2011 07:06:49 from Rafael Monico with 1 modifications
+22:31:05  INFO -> Processing 916d64ed11b0814e97eea93be7c472840d03b244 with java-parser
+22:31:06  INFO Commit #0e434109cf8f32f9e3b4808413c2a402848efff5 in 07/07/2011 07:00:13 from Rafael Monico with 6 modifications
+22:31:06  INFO -> Processing 0e434109cf8f32f9e3b4808413c2a402848efff5 with java-parser
+22:31:09  INFO Commit #023570af73dfbfad3361d6b264fcbe0782d9c440 in 07/07/2011 06:59:45 from Rafael Monico with 1 modifications
+22:31:09  INFO -> Processing 023570af73dfbfad3361d6b264fcbe0782d9c440 with java-parser
+22:31:10  INFO Commit #77f2a16759c01484e51d8db5eb8b40c452b5bf5b in 07/07/2011 06:49:06 from Rafael Monico with 3 modifications
+22:31:10  INFO -> Processing 77f2a16759c01484e51d8db5eb8b40c452b5bf5b with java-parser
+22:31:12  INFO Commit #7af87c7fc14ef4649fb304c05d60c81a94f25841 in 07/07/2011 06:29:00 from Rafael Monico with 3 modifications
+22:31:12  INFO -> Processing 7af87c7fc14ef4649fb304c05d60c81a94f25841 with java-parser
+22:31:13  INFO Commit #4173c6ddc2c0e669795fce948139b3bf8730c7e6 in 07/07/2011 06:28:33 from Rafael Monico with 1 modifications
+22:31:13  INFO -> Processing 4173c6ddc2c0e669795fce948139b3bf8730c7e6 with java-parser
+22:31:15  INFO Commit #d6355ec4e1cff94017a95994a392ee90c97ce7bf in 07/07/2011 06:08:36 from Rafael Monico with 9 modifications
+22:31:15  INFO -> Processing d6355ec4e1cff94017a95994a392ee90c97ce7bf with java-parser
+22:31:16  INFO Commit #f259b3408f3474b8966f699cc831547d495bb40d in 07/07/2011 05:18:28 from Rafael Monico with 6 modifications
+22:31:16  INFO -> Processing f259b3408f3474b8966f699cc831547d495bb40d with java-parser
+22:31:18  INFO Commit #19e26627e4b14be2f7ddc7fe967b69faba8a124d in 07/07/2011 04:38:15 from Rafael Monico with 1 modifications
+22:31:18  INFO -> Processing 19e26627e4b14be2f7ddc7fe967b69faba8a124d with java-parser
+22:31:21  INFO Commit #f195aca4b2d5d47b17ef92c3015583e210d77811 in 07/07/2011 04:25:08 from Rafael Monico with 8 modifications
+22:31:21  INFO -> Processing f195aca4b2d5d47b17ef92c3015583e210d77811 with java-parser
+22:31:22  INFO Commit #2b80f2226dc443a7af8b5f98a9deb40f6398fb55 in 07/07/2011 03:56:41 from Rafael Monico with 3 modifications
+22:31:22  INFO -> Processing 2b80f2226dc443a7af8b5f98a9deb40f6398fb55 with java-parser
+22:31:24  INFO Commit #1c58d1582d9b8a5747342fdae267813d987565ac in 07/07/2011 02:42:06 from Rafael Monico with 19 modifications
+22:31:24  INFO -> Processing 1c58d1582d9b8a5747342fdae267813d987565ac with java-parser
+22:31:26  INFO Commit #389d30097c0a31c433a5cbed0a5ca86a63deca39 in 07/07/2011 01:14:24 from Rafael Monico with 15 modifications
+22:31:26  INFO -> Processing 389d30097c0a31c433a5cbed0a5ca86a63deca39 with java-parser
+22:31:27  INFO Commit #298bc433ce05263fc8ef99ba4d28277df9e39e5b in 06/07/2011 18:54:17 from Rafael Monico with 7 modifications
+22:31:27  INFO -> Processing 298bc433ce05263fc8ef99ba4d28277df9e39e5b with java-parser
+22:31:28  INFO Commit #dc1220971167dc4f8262ed5de1fd7b912c35a880 in 06/07/2011 18:38:31 from Rafael Monico with 3 modifications
+22:31:28  INFO -> Processing dc1220971167dc4f8262ed5de1fd7b912c35a880 with java-parser
+22:31:30  INFO Commit #33e7f4748bd7faeeacb21b27d0e56c802cd7396d in 06/07/2011 16:59:21 from Rafael Monico with 1 modifications
+22:31:30  INFO -> Processing 33e7f4748bd7faeeacb21b27d0e56c802cd7396d with java-parser
+22:31:31  INFO Commit #b752e33b8f258d18c0cda429b1085bbbe776f5a6 in 06/07/2011 16:58:24 from Rafael Monico with 1 modifications
+22:31:31  INFO -> Processing b752e33b8f258d18c0cda429b1085bbbe776f5a6 with java-parser
+22:31:33  INFO Commit #382b8ab1a5cabb971ced4105c15b8313819ee881 in 06/07/2011 16:43:59 from Rafael Monico with 1 modifications
+22:31:33  INFO -> Processing 382b8ab1a5cabb971ced4105c15b8313819ee881 with java-parser
+22:31:35  INFO Commit #c1050787310446fd141569db7cf023c2c3083b12 in 06/07/2011 16:43:27 from Rafael Monico with 1 modifications
+22:31:35  INFO -> Processing c1050787310446fd141569db7cf023c2c3083b12 with java-parser
+22:31:37  INFO Commit #22fe731c0905e860040a66249e4106c40b817be5 in 06/07/2011 16:43:09 from Rafael Monico with 3 modifications
+22:31:37  INFO -> Processing 22fe731c0905e860040a66249e4106c40b817be5 with java-parser
+22:31:39  INFO Commit #2b88348492a27de29f4c3e6676d9e4d3118bc9a5 in 06/07/2011 16:42:37 from Rafael Monico with 1 modifications
+22:31:39  INFO -> Processing 2b88348492a27de29f4c3e6676d9e4d3118bc9a5 with java-parser
+22:31:41  INFO Commit #16dca9901f181d277e2c4febb3eb2a22c9250415 in 06/07/2011 16:10:52 from Rafael Monico with 8 modifications
+22:31:41  INFO -> Processing 16dca9901f181d277e2c4febb3eb2a22c9250415 with java-parser
+22:31:42  INFO Commit #f116aab556277510f4106273d2d12f2d2d3d5cbc in 06/07/2011 15:40:22 from Rafael Monico with 1 modifications
+22:31:42  INFO -> Processing f116aab556277510f4106273d2d12f2d2d3d5cbc with java-parser
+22:31:45  INFO Commit #d3e612ffef86eb2e99a16e412b3bff195029bc49 in 06/07/2011 15:31:16 from Rafael Monico with 12 modifications
+22:31:45  INFO -> Processing d3e612ffef86eb2e99a16e412b3bff195029bc49 with java-parser
+22:31:46  INFO Commit #c5e7baed9f52846dfa7ceee0ccdb7b82a3de8f5c in 06/07/2011 14:57:33 from Rafael Monico with 14 modifications
+22:31:46  INFO -> Processing c5e7baed9f52846dfa7ceee0ccdb7b82a3de8f5c with java-parser
+22:31:48  INFO Commit #77ac11860290a498fb99812490e54af83d4ed889 in 05/07/2011 23:40:20 from Rafael Monico with 1 modifications
+22:31:48  INFO -> Processing 77ac11860290a498fb99812490e54af83d4ed889 with java-parser
+22:31:50  INFO Commit #cf618ac2543ae1a6b05f9d4ceeeb7e6d2aaafd7f in 05/07/2011 23:32:29 from Rafael Monico with 30 modifications
+22:31:50  INFO -> Processing cf618ac2543ae1a6b05f9d4ceeeb7e6d2aaafd7f with java-parser
+22:31:51  INFO Commit #13e12519514e1fffcecc672a98c55df4f44f0aa5 in 05/07/2011 18:51:30 from Rafael Monico with 1 modifications
+22:31:51  INFO -> Processing 13e12519514e1fffcecc672a98c55df4f44f0aa5 with java-parser
+22:31:52  INFO Commit #537441fdf598472c3c47f393ec8419305f625cf5 in 05/07/2011 18:50:47 from Rafael Monico with 1 modifications
+22:31:52  INFO -> Processing 537441fdf598472c3c47f393ec8419305f625cf5 with java-parser
+22:31:55  INFO Commit #828baa611006cefe594a155c82d3ef735cdf5b71 in 05/07/2011 18:03:16 from Rafael Monico with 4 modifications
+22:31:55  INFO -> Processing 828baa611006cefe594a155c82d3ef735cdf5b71 with java-parser
+22:31:56  INFO Commit #597123d487ce488bedb25d564a86534a380d02cf in 05/07/2011 17:34:25 from Rafael Monico with 2 modifications
+22:31:56  INFO -> Processing 597123d487ce488bedb25d564a86534a380d02cf with java-parser
+22:31:57  INFO Commit #17c72087fc5632c62c2d70bd438db21798cf626d in 05/07/2011 17:31:12 from Rafael Monico with 1 modifications
+22:31:57  INFO -> Processing 17c72087fc5632c62c2d70bd438db21798cf626d with java-parser
+22:31:59  INFO Commit #ba153611c9b7d343b466b4f704422ca7bcf03d7f in 05/07/2011 17:25:33 from Rafael Monico with 1 modifications
+22:31:59  INFO -> Processing ba153611c9b7d343b466b4f704422ca7bcf03d7f with java-parser
+22:32:01  INFO Commit #8d1545af36321e9f4db9f77a80e401ae91e5eb86 in 05/07/2011 17:12:39 from Rafael Monico with 1 modifications
+22:32:01  INFO -> Processing 8d1545af36321e9f4db9f77a80e401ae91e5eb86 with java-parser
+22:32:03  INFO Commit #6046a7ec7c333ce138d31a7e66d5b60fc5ba5074 in 05/07/2011 17:01:18 from Rafael Monico with 1 modifications
+22:32:03  INFO -> Processing 6046a7ec7c333ce138d31a7e66d5b60fc5ba5074 with java-parser
+22:32:05  INFO Commit #dfd3a8aea3f1c2494417233e7affb628191e39df in 05/07/2011 16:39:15 from Rafael Monico with 1 modifications
+22:32:05  INFO -> Processing dfd3a8aea3f1c2494417233e7affb628191e39df with java-parser
+22:32:06  INFO Commit #a230aa20425ee4278bc8ecc52ba9350e08a0e502 in 05/07/2011 16:39:01 from Rafael Monico with 1 modifications
+22:32:06  INFO -> Processing a230aa20425ee4278bc8ecc52ba9350e08a0e502 with java-parser
+22:32:08  INFO Commit #d72bd070d640454bace2a61658207166cd965810 in 05/07/2011 16:37:35 from Rafael Monico with 1 modifications
+22:32:08  INFO -> Processing d72bd070d640454bace2a61658207166cd965810 with java-parser
+22:32:10  INFO Commit #070674f140840e5fb77afcf59fb21bb1d61ae43f in 05/07/2011 16:37:21 from Rafael Monico with 3 modifications
+22:32:10  INFO -> Processing 070674f140840e5fb77afcf59fb21bb1d61ae43f with java-parser
+22:32:12  INFO Commit #7935d68e821f4a70e772ca317bd708b58f9a3feb in 05/07/2011 16:19:01 from Rafael Monico with 24 modifications
+22:32:12  INFO -> Processing 7935d68e821f4a70e772ca317bd708b58f9a3feb with java-parser
+22:32:13  INFO Commit #26ab243cb54ea8306d6cae04ea40482d2bccfc4b in 05/07/2011 15:36:30 from Rafael Monico with 15 modifications
+22:32:13  INFO -> Processing 26ab243cb54ea8306d6cae04ea40482d2bccfc4b with java-parser
+22:32:15  INFO Commit #89f96bb098273b5fd3260fd883ef46d5ec706bb7 in 05/07/2011 15:06:30 from Rafael Monico with 1 modifications
+22:32:15  INFO -> Processing 89f96bb098273b5fd3260fd883ef46d5ec706bb7 with java-parser
+22:32:17  INFO Commit #66957c1ae634a0c723f5768aea4451386fadf9f4 in 05/07/2011 15:03:29 from Rafael Monico with 3 modifications
+22:32:17  INFO -> Processing 66957c1ae634a0c723f5768aea4451386fadf9f4 with java-parser
+22:32:18  INFO Commit #6bc0e8285bf7a9d7f88b4eba0c266ecd3894fdbf in 05/07/2011 14:35:21 from Rafael Monico with 8 modifications
+22:32:18  INFO -> Processing 6bc0e8285bf7a9d7f88b4eba0c266ecd3894fdbf with java-parser
+22:32:20  INFO Commit #a17a8a180d076ced646008030cfe6f16d3a0ea8c in 04/07/2011 01:18:29 from Rafael Monico with 11 modifications
+22:32:20  INFO -> Processing a17a8a180d076ced646008030cfe6f16d3a0ea8c with java-parser
+22:32:22  INFO Commit #f2be3a805175249f454fb51a67c1726172a84256 in 29/06/2011 22:13:16 from Rafael Monico with 22 modifications
+22:32:22  INFO -> Processing f2be3a805175249f454fb51a67c1726172a84256 with java-parser
+22:32:23  INFO Commit #6a62fc8bf03d480342336262e687306aa57e6778 in 29/06/2011 17:14:48 from Rafael Monico with 22 modifications
+22:32:23  INFO -> Processing 6a62fc8bf03d480342336262e687306aa57e6778 with java-parser
+22:32:24  INFO Commit #13ec39a380ddcc0aaeda2cae213dd7575a2055dc in 29/06/2011 15:18:01 from Rafael Monico with 9 modifications
+22:32:24  INFO -> Processing 13ec39a380ddcc0aaeda2cae213dd7575a2055dc with java-parser
+22:32:27  INFO Commit #d355aa2bd11aef416aefde5aa608b5f3156a045b in 29/06/2011 14:11:07 from Rafael Monico with 1 modifications
+22:32:27  INFO -> Processing d355aa2bd11aef416aefde5aa608b5f3156a045b with java-parser
+22:32:29  INFO Commit #bcdecc1398ed473c1a517b73aa5959a2f2708bca in 29/06/2011 14:09:20 from Rafael Monico with 12 modifications
+22:32:29  INFO -> Processing bcdecc1398ed473c1a517b73aa5959a2f2708bca with java-parser
+22:32:30  INFO Commit #78a0db04d4b2d8bc775645e0f23651d7b7db9814 in 29/06/2011 14:06:36 from Rafael Monico with 4 modifications
+22:32:30  INFO -> Processing 78a0db04d4b2d8bc775645e0f23651d7b7db9814 with java-parser
+22:32:32  INFO Commit #9b70312c412f2fa21f38d197547cc3de894bde5b in 28/06/2011 23:09:21 from Rafael Monico with 4 modifications
+22:32:32  INFO -> Processing 9b70312c412f2fa21f38d197547cc3de894bde5b with java-parser
+22:32:33  INFO Commit #561c3d068da08c7c7e44f80c1670d5bca232fe29 in 28/06/2011 22:38:38 from Rafael Monico with 3 modifications
+22:32:33  INFO -> Processing 561c3d068da08c7c7e44f80c1670d5bca232fe29 with java-parser
+22:32:35  INFO Commit #5d0f7edc1f5e1563adebf587b778a8aef4edadf1 in 27/06/2011 08:02:00 from Rafael Monico with 7 modifications
+22:32:35  INFO -> Processing 5d0f7edc1f5e1563adebf587b778a8aef4edadf1 with java-parser
+22:32:37  INFO Commit #b086aa128e854db2b5f1c11d3e477ef9c9071cf2 in 25/06/2011 14:22:37 from Rafael Monico with 1 modifications
+22:32:37  INFO -> Processing b086aa128e854db2b5f1c11d3e477ef9c9071cf2 with java-parser
+22:32:38  INFO Commit #a88e97a1ec18bd1c86e65ded7373925ad9fcf414 in 15/06/2011 22:19:24 from Rafael Monico with 1 modifications
+22:32:38  INFO -> Processing a88e97a1ec18bd1c86e65ded7373925ad9fcf414 with java-parser
+22:32:39  INFO Commit #25fe97d3dda5ac9a546b244b547a06ce7df92ece in 15/06/2011 21:34:22 from Rafael Monico with 1 modifications
+22:32:39  INFO -> Processing 25fe97d3dda5ac9a546b244b547a06ce7df92ece with java-parser
+22:32:41  INFO Commit #f095f2b3125630d6486fd70e89101df2b71eb6fb in 15/06/2011 17:31:26 from Rafael Monico with 1 modifications
+22:32:41  INFO -> Processing f095f2b3125630d6486fd70e89101df2b71eb6fb with java-parser
+22:32:42  INFO Commit #398f94642b47b86bb204a6006cbf3a7005633433 in 15/06/2011 01:39:02 from Rafael Monico with 2 modifications
+22:32:42  INFO -> Processing 398f94642b47b86bb204a6006cbf3a7005633433 with java-parser
+22:32:44  INFO Commit #04efba5f97bbe1848af280edf4a449164f036c08 in 14/06/2011 16:23:28 from Rafael Monico with 1 modifications
+22:32:44  INFO -> Processing 04efba5f97bbe1848af280edf4a449164f036c08 with java-parser
+22:32:45  INFO Commit #5b82193ba61d6f01d37b2463ce99147c8a3d5039 in 14/06/2011 16:22:13 from Rafael Monico with 1 modifications
+22:32:45  INFO -> Processing 5b82193ba61d6f01d37b2463ce99147c8a3d5039 with java-parser
+22:32:48  INFO Commit #460a1b4c90ae586832b0c8c9998206a006e3ba2f in 06/06/2011 00:35:12 from Rafael Monico with 1 modifications
+22:32:48  INFO -> Processing 460a1b4c90ae586832b0c8c9998206a006e3ba2f with java-parser
+22:32:51  INFO Commit #ac2e64cd6249425c917128e819f48a3059aee87f in 06/06/2011 00:18:11 from Rafael Monico with 1 modifications
+22:32:51  INFO -> Processing ac2e64cd6249425c917128e819f48a3059aee87f with java-parser
+22:32:53  INFO Commit #5ee03baba950ca07d0f6f00692b7f079486ad20f in 12/05/2011 13:40:02 from Rafael Monico with 1 modifications
+22:32:53  INFO -> Processing 5ee03baba950ca07d0f6f00692b7f079486ad20f with java-parser
+22:32:54  INFO Commit #680eeae3ebe6155b8ce8b3e3eaba7940a8ffc5ed in 09/05/2011 16:08:25 from Rafael Monico with 1 modifications
+22:32:54  INFO -> Processing 680eeae3ebe6155b8ce8b3e3eaba7940a8ffc5ed with java-parser
+22:32:55  INFO Commit #3946da3b0f614b7398932e7ea44c3f9be91f46e0 in 09/05/2011 15:57:41 from Rafael Monico with 1 modifications
+22:32:55  INFO -> Processing 3946da3b0f614b7398932e7ea44c3f9be91f46e0 with java-parser
+22:32:57  INFO Commit #287ad6da8cfb6bd9d74e073d8f174ca0330b9a19 in 09/05/2011 15:57:18 from Rafael Monico with 1 modifications
+22:32:57  INFO -> Processing 287ad6da8cfb6bd9d74e073d8f174ca0330b9a19 with java-parser
+22:32:58  INFO Commit #f48172118728472234b0be843152d8c6bd641411 in 09/05/2011 15:50:33 from Rafael Monico with 2 modifications
+22:32:58  INFO -> Processing f48172118728472234b0be843152d8c6bd641411 with java-parser
+22:33:00  INFO Commit #141f33641c220bfd4c0e71b2b78ef92f1f786660 in 09/05/2011 15:49:03 from Rafael Monico with 5 modifications
+22:33:00  INFO -> Processing 141f33641c220bfd4c0e71b2b78ef92f1f786660 with java-parser
+22:33:01  INFO Commit #f65cf878062514bc319b70ac3e48c329bad9f046 in 09/05/2011 15:19:10 from Rafael Monico with 3 modifications
+22:33:01  INFO -> Processing f65cf878062514bc319b70ac3e48c329bad9f046 with java-parser
+22:33:04  INFO Commit #3210f8218145dbea05d4730ba2ee5bb352143264 in 09/05/2011 15:16:18 from Rafael Monico with 2 modifications
+22:33:04  INFO -> Processing 3210f8218145dbea05d4730ba2ee5bb352143264 with java-parser
+22:33:06  INFO Commit #43f18603275c42981fe333b119122515fb1179c9 in 09/05/2011 15:10:03 from Rafael Monico with 12 modifications
+22:33:06  INFO -> Processing 43f18603275c42981fe333b119122515fb1179c9 with java-parser
+22:33:07  INFO Commit #eec4795171f1216844ed659742948561c9ad5370 in 09/05/2011 15:06:40 from Rafael Monico with 15 modifications
+22:33:07  INFO -> Processing eec4795171f1216844ed659742948561c9ad5370 with java-parser
+22:33:09  INFO Commit #30316c3d81d0709716a7e33460d89b258eea3ce5 in 04/05/2011 15:25:42 from Rafael Monico with 1 modifications
+22:33:09  INFO -> Processing 30316c3d81d0709716a7e33460d89b258eea3ce5 with java-parser
+22:33:10  INFO Commit #426d80b0ba8095bb24efb6d2ad635b831a6b06d7 in 24/03/2011 13:52:34 from Rafael Monico with 1 modifications
+22:33:10  INFO -> Processing 426d80b0ba8095bb24efb6d2ad635b831a6b06d7 with java-parser
+22:33:13  INFO Commit #a3554b657ab3119739e83da6eec9a3e6824a9d90 in 24/03/2011 12:55:20 from Rafael Monico with 160 modifications
+22:33:13  INFO -> Processing a3554b657ab3119739e83da6eec9a3e6824a9d90 with java-parser
+22:33:14  INFO Commit #fe0147fb9cd91d1515f77b2480deacc43a8432f3 in 17/03/2011 20:02:12 from Rafael Monico with 1 modifications
+22:33:14  INFO -> Processing fe0147fb9cd91d1515f77b2480deacc43a8432f3 with java-parser
+22:33:16  INFO Commit #4eac1c505db514d367498e8ca7fad281ee1f9038 in 17/03/2011 18:47:53 from Rafael Monico with 1 modifications
+22:33:16  INFO -> Processing 4eac1c505db514d367498e8ca7fad281ee1f9038 with java-parser
+22:33:18  INFO Commit #0552e54ff5511b17806ee7bf4337c4bceb5ab421 in 17/03/2011 18:45:30 from Rafael Monico with 1 modifications
+22:33:18  INFO -> Processing 0552e54ff5511b17806ee7bf4337c4bceb5ab421 with java-parser
+22:33:20  INFO Commit #e728ef132cead727c659326d6ffc744b4c0948ae in 17/03/2011 18:42:49 from Rafael Monico with 1 modifications
+22:33:20  INFO -> Processing e728ef132cead727c659326d6ffc744b4c0948ae with java-parser
+22:33:22  INFO Commit #d63cd24ff84d0463b65626bd909d1058ed0c2a09 in 17/03/2011 18:30:42 from Rafael Monico with 3 modifications
+22:33:22  INFO -> Processing d63cd24ff84d0463b65626bd909d1058ed0c2a09 with java-parser
+22:33:23  INFO Commit #45b2438cb07ff3764d00a4296034ccca9b0e7c06 in 17/03/2011 18:28:01 from Rafael Monico with 1 modifications
+22:33:23  INFO -> Processing 45b2438cb07ff3764d00a4296034ccca9b0e7c06 with java-parser
+22:33:25  INFO Commit #ae83402f5c0b6ce9fd8961a2cb384457ae8abaa1 in 17/03/2011 06:06:47 from Rafael Monico with 1 modifications
+22:33:25  INFO -> Processing ae83402f5c0b6ce9fd8961a2cb384457ae8abaa1 with java-parser
+22:33:27  INFO Commit #79dcc7d225336898519d1f7e4df35463751fcd1a in 17/03/2011 05:58:07 from Rafael Monico with 2 modifications
+22:33:27  INFO -> Processing 79dcc7d225336898519d1f7e4df35463751fcd1a with java-parser
+22:33:29  INFO Commit #7d9f0fee5c22441a2c3eb48c54b453b335b125b3 in 17/03/2011 05:41:55 from Rafael Monico with 1 modifications
+22:33:29  INFO -> Processing 7d9f0fee5c22441a2c3eb48c54b453b335b125b3 with java-parser
+22:33:31  INFO Commit #9b1cb894727f4d0d29a87566ca836f44504f6f5c in 17/03/2011 05:41:44 from Rafael Monico with 1 modifications
+22:33:31  INFO -> Processing 9b1cb894727f4d0d29a87566ca836f44504f6f5c with java-parser
+22:33:32  INFO Commit #3e3cf514ca7da6e3780af3b3d1cf6ec859f8bec3 in 17/03/2011 05:41:05 from Rafael Monico with 1 modifications
+22:33:32  INFO -> Processing 3e3cf514ca7da6e3780af3b3d1cf6ec859f8bec3 with java-parser
+22:33:35  INFO Commit #c0928af150b78b9679d7200a1aa3b278657a3f45 in 17/03/2011 05:39:56 from Rafael Monico with 3 modifications
+22:33:35  INFO -> Processing c0928af150b78b9679d7200a1aa3b278657a3f45 with java-parser
+22:33:37  INFO Commit #09717047da1e17e28513c82007307de77a202728 in 17/03/2011 05:39:01 from Rafael Monico with 2 modifications
+22:33:37  INFO -> Processing 09717047da1e17e28513c82007307de77a202728 with java-parser
+22:33:38  INFO Commit #76de8957adcb1485ca6c4ca48a90654d0cd52af2 in 17/03/2011 03:18:29 from Rafael Monico with 1 modifications
+22:33:38  INFO -> Processing 76de8957adcb1485ca6c4ca48a90654d0cd52af2 with java-parser
+22:33:40  INFO Commit #1456548ac673daa3136b923e5d87c83773e6eb72 in 17/03/2011 03:18:19 from Rafael Monico with 2 modifications
+22:33:40  INFO -> Processing 1456548ac673daa3136b923e5d87c83773e6eb72 with java-parser
+22:33:42  INFO Commit #4d2626ccccb921ffc116c752d16d103d9b713aac in 17/03/2011 03:17:26 from Rafael Monico with 1 modifications
+22:33:42  INFO -> Processing 4d2626ccccb921ffc116c752d16d103d9b713aac with java-parser
+22:33:44  INFO Commit #42a99ac8170a0bdfaf55b3ca3ea6545bc28550e1 in 17/03/2011 02:58:19 from Rafael Monico with 2 modifications
+22:33:44  INFO -> Processing 42a99ac8170a0bdfaf55b3ca3ea6545bc28550e1 with java-parser
+22:33:46  INFO Commit #bb9ad6cacaaaa6d2dc22f58af36b638650f7650d in 17/03/2011 02:37:01 from Rafael Monico with 2 modifications
+22:33:46  INFO -> Processing bb9ad6cacaaaa6d2dc22f58af36b638650f7650d with java-parser
+22:33:47  INFO Commit #2e9eb6ed6212800c5bea2d852a407c1569f9e4c6 in 17/03/2011 02:19:33 from Rafael Monico with 4 modifications
+22:33:47  INFO -> Processing 2e9eb6ed6212800c5bea2d852a407c1569f9e4c6 with java-parser
+22:33:50  INFO Commit #66b99c39f39e829f656a4749a10e32e5bc148701 in 17/03/2011 01:58:36 from Rafael Monico with 2 modifications
+22:33:50  INFO -> Processing 66b99c39f39e829f656a4749a10e32e5bc148701 with java-parser
+22:33:52  INFO Commit #d754afc6cc949797e05edfbd4e68a87f8f6a0cbc in 17/03/2011 01:55:56 from Rafael Monico with 8 modifications
+22:33:52  INFO -> Processing d754afc6cc949797e05edfbd4e68a87f8f6a0cbc with java-parser
+22:33:53  INFO Commit #100d3c00944935177b9bffa0ecb366b812885048 in 16/03/2011 11:19:44 from Rafael Monico with 3 modifications
+22:33:53  INFO -> Processing 100d3c00944935177b9bffa0ecb366b812885048 with java-parser
+22:33:55  INFO Commit #4166655f17b87f3aa8d089b447ba6f7dae5dabdb in 15/03/2011 02:32:17 from Rafael Monico with 2 modifications
+22:33:55  INFO -> Processing 4166655f17b87f3aa8d089b447ba6f7dae5dabdb with java-parser
+22:33:57  INFO Commit #3a5774ea77848eac8c812080b9773b503215f6ee in 15/03/2011 02:30:58 from Rafael Monico with 1 modifications
+22:33:57  INFO -> Processing 3a5774ea77848eac8c812080b9773b503215f6ee with java-parser
+22:33:59  INFO Commit #b66bf6a4ace8ea14655968d633fe4f6c063f1e76 in 15/03/2011 02:28:17 from Rafael Monico with 1 modifications
+22:33:59  INFO -> Processing b66bf6a4ace8ea14655968d633fe4f6c063f1e76 with java-parser
+22:34:01  INFO Commit #84e20f93a7c8185e17ea59bb18dc54465852ca97 in 15/03/2011 02:20:03 from Rafael Monico with 3 modifications
+22:34:01  INFO -> Processing 84e20f93a7c8185e17ea59bb18dc54465852ca97 with java-parser
+22:34:02  INFO Commit #1fe1d7df3e94de7f39e4c36ac1b41c6a5377ca2f in 15/03/2011 02:11:31 from Rafael Monico with 1 modifications
+22:34:02  INFO -> Processing 1fe1d7df3e94de7f39e4c36ac1b41c6a5377ca2f with java-parser
+22:34:04  INFO Commit #cd41c428088b2df674383a5e8f025b9e771994ad in 15/03/2011 02:09:57 from Rafael Monico with 2 modifications
+22:34:04  INFO -> Processing cd41c428088b2df674383a5e8f025b9e771994ad with java-parser
+22:34:06  INFO Commit #8fc3a6656113910b20164c1c8e05eecf3b1ed66f in 15/03/2011 02:08:37 from Rafael Monico with 2 modifications
+22:34:06  INFO -> Processing 8fc3a6656113910b20164c1c8e05eecf3b1ed66f with java-parser
+22:34:08  INFO Commit #c129e02856072f932ec8fb042d45d60bb5135c5f in 15/03/2011 01:56:56 from Rafael Monico with 1 modifications
+22:34:08  INFO -> Processing c129e02856072f932ec8fb042d45d60bb5135c5f with java-parser
+22:34:10  INFO Commit #ac3ae61031b6abfe6c73e03707d983855178881c in 15/03/2011 01:56:21 from Rafael Monico with 1 modifications
+22:34:10  INFO -> Processing ac3ae61031b6abfe6c73e03707d983855178881c with java-parser
+22:34:12  INFO Commit #1a2a6e7ef7c875917f17799838e152d88632df39 in 15/03/2011 01:55:24 from Rafael Monico with 1 modifications
+22:34:12  INFO -> Processing 1a2a6e7ef7c875917f17799838e152d88632df39 with java-parser
+22:34:15  INFO Commit #2f1f6ebb3cbf6635f1353632c8ef4373c1f599ca in 15/03/2011 01:54:53 from Rafael Monico with 1 modifications
+22:34:15  INFO -> Processing 2f1f6ebb3cbf6635f1353632c8ef4373c1f599ca with java-parser
+22:34:16  INFO Commit #49835d0ed840b807a0444cc4f40f8bd0898b8c7f in 15/03/2011 01:39:57 from Rafael Monico with 1 modifications
+22:34:16  INFO -> Processing 49835d0ed840b807a0444cc4f40f8bd0898b8c7f with java-parser
+22:34:18  INFO Commit #b7c3fafe52ccd9b038843b12b206246a054028c7 in 15/03/2011 01:39:38 from Rafael Monico with 1 modifications
+22:34:18  INFO -> Processing b7c3fafe52ccd9b038843b12b206246a054028c7 with java-parser
+22:34:19  INFO Commit #8e408945f1ed68a3d474cd302d39a3df8ffdbfee in 15/03/2011 01:01:28 from Rafael Monico with 1 modifications
+22:34:19  INFO -> Processing 8e408945f1ed68a3d474cd302d39a3df8ffdbfee with java-parser
+22:34:22  INFO Commit #28ff674bac2af97d41a8c16df259b470d9f922f0 in 12/03/2011 22:16:31 from Rafael Monico with 3 modifications
+22:34:22  INFO -> Processing 28ff674bac2af97d41a8c16df259b470d9f922f0 with java-parser
+22:34:24  INFO Commit #a187822c98b0c4cdcc3aeafd4292f6da5825c11d in 12/03/2011 22:01:34 from Rafael Monico with 3 modifications
+22:34:24  INFO -> Processing a187822c98b0c4cdcc3aeafd4292f6da5825c11d with java-parser
+22:34:27  INFO Commit #0a0e1e88592cc373e3c8c0b8dd6f5879cad798df in 12/03/2011 22:01:28 from Rafael Monico with 1 modifications
+22:34:27  INFO -> Processing 0a0e1e88592cc373e3c8c0b8dd6f5879cad798df with java-parser
+22:34:28  INFO Commit #6dfa7d5e8177b4ea27ad067e3c7d826a8d0a84f6 in 12/03/2011 21:43:29 from Rafael Monico with 1 modifications
+22:34:28  INFO -> Processing 6dfa7d5e8177b4ea27ad067e3c7d826a8d0a84f6 with java-parser
+22:34:31  INFO Commit #32df0f2dd7ec54c622b2a78cf1797bc97cdad4bb in 12/03/2011 21:38:46 from Rafael Monico with 1 modifications
+22:34:31  INFO -> Processing 32df0f2dd7ec54c622b2a78cf1797bc97cdad4bb with java-parser
+22:34:33  INFO Commit #9140b70cbc2b0856966edd430abe45856ee19ad5 in 12/03/2011 19:39:13 from Rafael Monico with 2 modifications
+22:34:33  INFO -> Processing 9140b70cbc2b0856966edd430abe45856ee19ad5 with java-parser
+22:34:35  INFO Commit #18213d4f5d317f6586699dc6319f44ded4770cf2 in 12/03/2011 17:24:15 from Rafael Monico with 1 modifications
+22:34:35  INFO -> Processing 18213d4f5d317f6586699dc6319f44ded4770cf2 with java-parser
+22:34:37  INFO Commit #a1668fd0a7752bb31850d6d000989a9952f4e5c9 in 12/03/2011 16:57:53 from Rafael Monico with 1 modifications
+22:34:37  INFO -> Processing a1668fd0a7752bb31850d6d000989a9952f4e5c9 with java-parser
+22:34:39  INFO Commit #f46a4ed745d0ab8cb662f25832f9f3955aa1c3a7 in 12/03/2011 16:57:38 from Rafael Monico with 1 modifications
+22:34:39  INFO -> Processing f46a4ed745d0ab8cb662f25832f9f3955aa1c3a7 with java-parser
+22:34:41  INFO Commit #73ab7252503b47693c41d815497e506520e081c6 in 12/03/2011 16:49:22 from Rafael Monico with 1 modifications
+22:34:41  INFO -> Processing 73ab7252503b47693c41d815497e506520e081c6 with java-parser
+22:34:42  INFO Commit #8476fb0f2f74c02d52bfd9e04fc75d039645f5e5 in 12/03/2011 16:46:56 from Rafael Monico with 1 modifications
+22:34:42  INFO -> Processing 8476fb0f2f74c02d52bfd9e04fc75d039645f5e5 with java-parser
+22:34:44  INFO Commit #e418fca7f1dbce1fe2b2860f37ad26bae7cbde5f in 12/03/2011 16:38:26 from Rafael Monico with 1 modifications
+22:34:44  INFO -> Processing e418fca7f1dbce1fe2b2860f37ad26bae7cbde5f with java-parser
+22:34:46  INFO Commit #b8d49b464cd2c2d9bb44cb668e94433f48f4f0da in 12/03/2011 16:37:45 from Rafael Monico with 4 modifications
+22:34:46  INFO -> Processing b8d49b464cd2c2d9bb44cb668e94433f48f4f0da with java-parser
+22:34:48  INFO Commit #9bcfe1f09f498870f9b9efede041d3b0102cc2e9 in 12/03/2011 16:36:51 from Rafael Monico with 1 modifications
+22:34:48  INFO -> Processing 9bcfe1f09f498870f9b9efede041d3b0102cc2e9 with java-parser
+22:34:50  INFO Commit #47396c4e0aa94b3d5e9bdeaa9674e40c294e5d8f in 12/03/2011 16:36:05 from Rafael Monico with 4 modifications
+22:34:50  INFO -> Processing 47396c4e0aa94b3d5e9bdeaa9674e40c294e5d8f with java-parser
+22:34:51  INFO Commit #8e346b2e11f3db28d8fe01eeaabb6c0fcf3d32b6 in 12/03/2011 16:35:43 from Rafael Monico with 1 modifications
+22:34:51  INFO -> Processing 8e346b2e11f3db28d8fe01eeaabb6c0fcf3d32b6 with java-parser
+22:34:53  INFO Commit #d5a2f86199a1ea1e96ca4d6a1e2441bf81c7be4d in 12/03/2011 16:34:07 from Rafael Monico with 4 modifications
+22:34:53  INFO -> Processing d5a2f86199a1ea1e96ca4d6a1e2441bf81c7be4d with java-parser
+22:34:55  INFO Commit #570a0e3cd6dd796f6e425a34ac86caf15c616f7e in 12/03/2011 14:15:47 from Rafael Monico with 1 modifications
+22:34:55  INFO -> Processing 570a0e3cd6dd796f6e425a34ac86caf15c616f7e with java-parser
+22:34:57  INFO Commit #c818edab1792b6c8d22f2475addae1018f69db56 in 12/03/2011 00:29:54 from Rafael Monico with 2 modifications
+22:34:57  INFO -> Processing c818edab1792b6c8d22f2475addae1018f69db56 with java-parser
+22:34:59  INFO Commit #01d637f216cb876e08104c779d4c1843855d8d5f in 12/03/2011 00:29:28 from Rafael Monico with 1 modifications
+22:34:59  INFO -> Processing 01d637f216cb876e08104c779d4c1843855d8d5f with java-parser
+22:35:01  INFO Commit #f73822d9346c1be27bf31a40d89806545bb30b3b in 12/03/2011 00:28:46 from Rafael Monico with 4 modifications
+22:35:01  INFO -> Processing f73822d9346c1be27bf31a40d89806545bb30b3b with java-parser
+22:35:02  INFO Commit #5fcaf0a32f85ccea40d38ad1f33b9ed586712f32 in 12/03/2011 00:12:02 from Rafael Monico with 2 modifications
+22:35:02  INFO -> Processing 5fcaf0a32f85ccea40d38ad1f33b9ed586712f32 with java-parser
+22:35:05  INFO Commit #58f231152c9d68d29dc0742bc45bd152cd0598a3 in 11/03/2011 23:54:16 from Rafael Monico with 1 modifications
+22:35:05  INFO -> Processing 58f231152c9d68d29dc0742bc45bd152cd0598a3 with java-parser
+22:35:06  INFO Commit #a8fc859cf17ca4c4e98dde287b00862e2efb6710 in 11/03/2011 23:53:14 from Rafael Monico with 2 modifications
+22:35:06  INFO -> Processing a8fc859cf17ca4c4e98dde287b00862e2efb6710 with java-parser
+22:35:08  INFO Commit #67b337c94915fe28900b9cd44e23151a1794897f in 11/03/2011 23:53:02 from Rafael Monico with 1 modifications
+22:35:08  INFO -> Processing 67b337c94915fe28900b9cd44e23151a1794897f with java-parser
+22:35:09  INFO Commit #b44b63829afe8e47f4f655a7e9e63b38452d8840 in 11/03/2011 23:52:48 from Rafael Monico with 1 modifications
+22:35:09  INFO -> Processing b44b63829afe8e47f4f655a7e9e63b38452d8840 with java-parser
+22:35:11  INFO Commit #2e28fb98c2aef6b894a019e14917171e45a9e51c in 11/03/2011 23:35:08 from Rafael Monico with 1 modifications
+22:35:11  INFO -> Processing 2e28fb98c2aef6b894a019e14917171e45a9e51c with java-parser
+22:35:13  INFO Commit #df94ae2e2a41a7dc4624df48cd1c0cea48417088 in 11/03/2011 23:34:51 from Rafael Monico with 1 modifications
+22:35:13  INFO -> Processing df94ae2e2a41a7dc4624df48cd1c0cea48417088 with java-parser
+22:35:15  INFO Commit #d5c97e9c20346eb899e1955967c16743e53eff03 in 11/03/2011 22:49:33 from Rafael Monico with 1 modifications
+22:35:15  INFO -> Processing d5c97e9c20346eb899e1955967c16743e53eff03 with java-parser
+22:35:16  INFO Commit #6122709227511a8538a45de10c48fd97accacab0 in 11/03/2011 22:25:29 from Rafael Monico with 1 modifications
+22:35:16  INFO -> Processing 6122709227511a8538a45de10c48fd97accacab0 with java-parser
+22:35:19  INFO Commit #76b6d7d27b72dcb24dc9fd39994ee0125f1491b6 in 11/03/2011 22:25:19 from Rafael Monico with 1 modifications
+22:35:19  INFO -> Processing 76b6d7d27b72dcb24dc9fd39994ee0125f1491b6 with java-parser
+22:35:20  INFO Commit #2436f34d01a1cec8c97369ed025944fb33aa1be9 in 11/03/2011 22:21:23 from Rafael Monico with 1 modifications
+22:35:20  INFO -> Processing 2436f34d01a1cec8c97369ed025944fb33aa1be9 with java-parser
+22:35:22  INFO Commit #41f95022cafc69ad2a937f0fde8b1755225f907e in 11/03/2011 22:20:24 from Rafael Monico with 1 modifications
+22:35:22  INFO -> Processing 41f95022cafc69ad2a937f0fde8b1755225f907e with java-parser
+22:35:25  INFO Commit #e32408ee2c02265eb2890836667b6bcdbbf1d496 in 11/03/2011 21:31:51 from Rafael Monico with 1 modifications
+22:35:25  INFO -> Processing e32408ee2c02265eb2890836667b6bcdbbf1d496 with java-parser
+22:35:26  INFO Commit #b27c79732311628bbe89aec4dd1b57c94f8b9804 in 11/03/2011 14:05:10 from Rafael Monico with 1 modifications
+22:35:26  INFO -> Processing b27c79732311628bbe89aec4dd1b57c94f8b9804 with java-parser
+22:35:28  INFO Commit #aeb1b172fcfd0be3c922bd60455f40147fa5924f in 11/03/2011 14:04:56 from Rafael Monico with 1 modifications
+22:35:28  INFO -> Processing aeb1b172fcfd0be3c922bd60455f40147fa5924f with java-parser
+22:35:30  INFO Commit #53b9e5bff07a71604d68d93689f991fc7ef8970e in 11/03/2011 14:04:22 from Rafael Monico with 1 modifications
+22:35:30  INFO -> Processing 53b9e5bff07a71604d68d93689f991fc7ef8970e with java-parser
+22:35:31  INFO Commit #979f342e98cf4fda5dfa429e6d803b94908292ab in 11/03/2011 14:03:58 from Rafael Monico with 2 modifications
+22:35:31  INFO -> Processing 979f342e98cf4fda5dfa429e6d803b94908292ab with java-parser
+22:35:33  INFO Commit #6cf81e28bd373fea0a84bb531822b99b0995b6e3 in 11/03/2011 14:03:37 from Rafael Monico with 1 modifications
+22:35:33  INFO -> Processing 6cf81e28bd373fea0a84bb531822b99b0995b6e3 with java-parser
+22:35:35  INFO Commit #ed2bf303c4796cf466bd9f01d71cca4c7b1cf75b in 11/03/2011 14:03:07 from Rafael Monico with 1 modifications
+22:35:35  INFO -> Processing ed2bf303c4796cf466bd9f01d71cca4c7b1cf75b with java-parser
+22:35:37  INFO Commit #3bc351e01c7205b72dc1d756a449cdb145b4637b in 10/03/2011 23:27:23 from Rafael Monico with 4 modifications
+22:35:37  INFO -> Processing 3bc351e01c7205b72dc1d756a449cdb145b4637b with java-parser
+22:35:39  INFO Commit #90f98edab969b259c4a36b0e6ea31302cbcf93f9 in 10/03/2011 16:16:15 from Rafael Monico with 1 modifications
+22:35:39  INFO -> Processing 90f98edab969b259c4a36b0e6ea31302cbcf93f9 with java-parser
+22:35:41  INFO Commit #1d2a716a10929a76aee45c4339a47a6e0c49fa74 in 10/03/2011 15:43:38 from Rafael Monico with 8 modifications
+22:35:41  INFO -> Processing 1d2a716a10929a76aee45c4339a47a6e0c49fa74 with java-parser
+22:35:42  INFO Commit #1b3f1aaf454d893841e611bc9d6278eb6d4def6d in 10/03/2011 12:05:19 from Rafael Monico with 1 modifications
+22:35:42  INFO -> Processing 1b3f1aaf454d893841e611bc9d6278eb6d4def6d with java-parser
+22:35:45  INFO Commit #1161838165ec1353f8dea05cf789e0d93bb2c556 in 10/03/2011 12:05:04 from Rafael Monico with 1 modifications
+22:35:45  INFO -> Processing 1161838165ec1353f8dea05cf789e0d93bb2c556 with java-parser
+22:35:47  INFO Commit #213f3dd02ddec0b67b682315febe6da123a2510f in 10/03/2011 12:02:42 from Rafael Monico with 1 modifications
+22:35:47  INFO -> Processing 213f3dd02ddec0b67b682315febe6da123a2510f with java-parser
+22:35:49  INFO Commit #0cce9bfba6f92de56681bb244e326e13dca755eb in 10/03/2011 11:58:44 from Rafael Monico with 4 modifications
+22:35:49  INFO -> Processing 0cce9bfba6f92de56681bb244e326e13dca755eb with java-parser
+22:35:51  INFO Commit #6bf7652f302525c2ba26268dffbd6981d741106d in 10/03/2011 11:54:15 from Rafael Monico with 1 modifications
+22:35:51  INFO -> Processing 6bf7652f302525c2ba26268dffbd6981d741106d with java-parser
+22:35:54  INFO Commit #fadc11f9995cf5e7925824dc1f4faa078a7bf61d in 10/03/2011 11:52:37 from Rafael Monico with 4 modifications
+22:35:54  INFO -> Processing fadc11f9995cf5e7925824dc1f4faa078a7bf61d with java-parser
+22:35:55  INFO Commit #b59ea28b90cc7dcf6109f787200a598a5319222b in 10/03/2011 11:50:33 from Rafael Monico with 1 modifications
+22:35:55  INFO -> Processing b59ea28b90cc7dcf6109f787200a598a5319222b with java-parser
+22:35:57  INFO Commit #f538f0b83a05c1bcce0672c1694475d893bba743 in 10/03/2011 11:41:12 from Rafael Monico with 2 modifications
+22:35:57  INFO -> Processing f538f0b83a05c1bcce0672c1694475d893bba743 with java-parser
+22:35:58  INFO Commit #15dedf6d086798aed3d2fa1008dc6c3ab09305a2 in 09/03/2011 16:57:01 from Rafael Monico with 1 modifications
+22:35:58  INFO -> Processing 15dedf6d086798aed3d2fa1008dc6c3ab09305a2 with java-parser
+22:36:00  INFO Commit #b52921408479e28ebcef2a902c760225b41e62ae in 08/03/2011 17:07:09 from Rafael Monico with 2 modifications
+22:36:00  INFO -> Processing b52921408479e28ebcef2a902c760225b41e62ae with java-parser
+22:36:02  INFO Commit #b251a52e4f2ce134f4e5c088798c8c86a93c6eda in 08/03/2011 16:37:58 from Rafael Monico with 1 modifications
+22:36:02  INFO -> Processing b251a52e4f2ce134f4e5c088798c8c86a93c6eda with java-parser
+22:36:04  INFO Commit #222ecf8585bef7fc8777973c2ea89ad3c3166107 in 08/03/2011 16:37:46 from Rafael Monico with 1 modifications
+22:36:04  INFO -> Processing 222ecf8585bef7fc8777973c2ea89ad3c3166107 with java-parser
+22:36:06  INFO Commit #b9a1993066eebac510943a782879087c305319b6 in 08/03/2011 16:36:55 from Rafael Monico with 1 modifications
+22:36:06  INFO -> Processing b9a1993066eebac510943a782879087c305319b6 with java-parser
+22:36:08  INFO Commit #4e69c9a14e1d3217344420a138b6199ee718ce92 in 08/03/2011 16:32:59 from Rafael Monico with 1 modifications
+22:36:08  INFO -> Processing 4e69c9a14e1d3217344420a138b6199ee718ce92 with java-parser
+22:36:10  INFO Commit #020031c2845fd2a6627b5a191c7cba604a41c92d in 08/03/2011 16:32:45 from Rafael Monico with 1 modifications
+22:36:10  INFO -> Processing 020031c2845fd2a6627b5a191c7cba604a41c92d with java-parser
+22:36:12  INFO Commit #a1cabd6a449604d60a395e426fee572d8b018d03 in 08/03/2011 16:32:27 from Rafael Monico with 1 modifications
+22:36:12  INFO -> Processing a1cabd6a449604d60a395e426fee572d8b018d03 with java-parser
+22:36:13  INFO Commit #f74c4c11a412b0e048363ba2c4a2c1321a45959e in 08/03/2011 16:32:18 from Rafael Monico with 1 modifications
+22:36:13  INFO -> Processing f74c4c11a412b0e048363ba2c4a2c1321a45959e with java-parser
+22:36:16  INFO Commit #22755681040721f4c3379e7e1a21a97665a18f70 in 08/03/2011 16:22:29 from Rafael Monico with 1 modifications
+22:36:16  INFO -> Processing 22755681040721f4c3379e7e1a21a97665a18f70 with java-parser
+22:36:18  INFO Commit #330ece766080f43479598bd8535339c98db76470 in 08/03/2011 16:11:34 from Rafael Monico with 1 modifications
+22:36:18  INFO -> Processing 330ece766080f43479598bd8535339c98db76470 with java-parser
+22:36:20  INFO Commit #4cc60cd555b6976df32d91749ce1c83d1ad217fa in 08/03/2011 16:11:05 from Rafael Monico with 1 modifications
+22:36:20  INFO -> Processing 4cc60cd555b6976df32d91749ce1c83d1ad217fa with java-parser
+22:36:22  INFO Commit #2a808efbaed207c1573a8f671c05f6bf06f6268d in 08/03/2011 16:09:06 from Rafael Monico with 1 modifications
+22:36:22  INFO -> Processing 2a808efbaed207c1573a8f671c05f6bf06f6268d with java-parser
+22:36:25  INFO Commit #18f8e6fbe085c33f2951bb675eaba5749247295b in 08/03/2011 15:56:00 from Rafael Monico with 1 modifications
+22:36:25  INFO -> Processing 18f8e6fbe085c33f2951bb675eaba5749247295b with java-parser
+22:36:27  INFO Commit #74f6166ff5ced14111324ed6313c29cca2a0bc6b in 08/03/2011 15:55:42 from Rafael Monico with 1 modifications
+22:36:27  INFO -> Processing 74f6166ff5ced14111324ed6313c29cca2a0bc6b with java-parser
+22:36:29  INFO Commit #e9794d289bb09f7b91d61157e06f059e0aa64717 in 08/03/2011 15:53:09 from Rafael Monico with 2 modifications
+22:36:29  INFO -> Processing e9794d289bb09f7b91d61157e06f059e0aa64717 with java-parser
+22:36:30  INFO Commit #919a78f96040c205c0eb652c05db799062bda8a5 in 08/03/2011 15:50:36 from Rafael Monico with 2 modifications
+22:36:30  INFO -> Processing 919a78f96040c205c0eb652c05db799062bda8a5 with java-parser
+22:36:32  INFO Commit #77b4f2466c342ad9015abd7b30ec99e2d8819b05 in 08/03/2011 15:50:17 from Rafael Monico with 1 modifications
+22:36:32  INFO -> Processing 77b4f2466c342ad9015abd7b30ec99e2d8819b05 with java-parser
+22:36:33  INFO Commit #46e7416cbaaf1d6225d83be29727a9d5261e74ba in 08/03/2011 15:49:46 from Rafael Monico with 2 modifications
+22:36:33  INFO -> Processing 46e7416cbaaf1d6225d83be29727a9d5261e74ba with java-parser
+22:36:36  INFO Commit #6b50f62e1b9732a3b8df07579141354d5c33a4ca in 08/03/2011 15:49:09 from Rafael Monico with 2 modifications
+22:36:36  INFO -> Processing 6b50f62e1b9732a3b8df07579141354d5c33a4ca with java-parser
+22:36:38  INFO Commit #cbf8a65b939b21899e40bcb5062f21ad47f3f094 in 08/03/2011 15:27:00 from Rafael Monico with 2 modifications
+22:36:38  INFO -> Processing cbf8a65b939b21899e40bcb5062f21ad47f3f094 with java-parser
+22:36:40  INFO Commit #9282e713f484dc79f7822bdad42b2d00f29bab1c in 08/03/2011 15:24:26 from Rafael Monico with 1 modifications
+22:36:40  INFO -> Processing 9282e713f484dc79f7822bdad42b2d00f29bab1c with java-parser
+22:36:42  INFO Commit #1fe29b036f909d7b3734feba5647376bd0dc9866 in 08/03/2011 15:24:15 from Rafael Monico with 1 modifications
+22:36:42  INFO -> Processing 1fe29b036f909d7b3734feba5647376bd0dc9866 with java-parser
+22:36:44  INFO Commit #c2af039db408069b991fd5906b5fc026b7fc94b2 in 08/03/2011 15:20:16 from Rafael Monico with 1 modifications
+22:36:44  INFO -> Processing c2af039db408069b991fd5906b5fc026b7fc94b2 with java-parser
+22:36:47  INFO Commit #b4fcdcd7170ad54176898325466b7c5c6b84bdc3 in 08/03/2011 15:19:53 from Rafael Monico with 2 modifications
+22:36:47  INFO -> Processing b4fcdcd7170ad54176898325466b7c5c6b84bdc3 with java-parser
+22:36:49  INFO Commit #d2c9bad72a7fceb1ab6c58b68bdf13a5fefd141b in 08/03/2011 15:17:18 from Rafael Monico with 1 modifications
+22:36:49  INFO -> Processing d2c9bad72a7fceb1ab6c58b68bdf13a5fefd141b with java-parser
+22:36:51  INFO Commit #2387f99c87505d37ef217d47bd9bba63749600ba in 07/03/2011 22:20:18 from Rafael Monico with 1 modifications
+22:36:51  INFO -> Processing 2387f99c87505d37ef217d47bd9bba63749600ba with java-parser
+22:36:53  INFO Commit #37df2c050d1ebec913d247c1bb1477fb1b26a4f7 in 07/03/2011 21:21:22 from Rafael Monico with 1 modifications
+22:36:53  INFO -> Processing 37df2c050d1ebec913d247c1bb1477fb1b26a4f7 with java-parser
+22:36:55  INFO Commit #78fc83e727e5a2f4d02706154edc3c1092803ee4 in 07/03/2011 21:14:11 from Rafael Monico with 2 modifications
+22:36:55  INFO -> Processing 78fc83e727e5a2f4d02706154edc3c1092803ee4 with java-parser
+22:36:57  INFO Commit #f81a9ccac91e0a0fee6f5a6d69a2651499031086 in 07/03/2011 21:05:32 from Rafael Monico with 2 modifications
+22:36:57  INFO -> Processing f81a9ccac91e0a0fee6f5a6d69a2651499031086 with java-parser
+22:36:59  INFO Commit #c95d38644cd2f36790dc3e04dd2c74892a7eeb48 in 07/03/2011 18:06:37 from Rafael Monico with 1 modifications
+22:36:59  INFO -> Processing c95d38644cd2f36790dc3e04dd2c74892a7eeb48 with java-parser
+22:37:00  INFO Commit #45b0bf6533000d3119638be81bb47a3e22b3ed68 in 07/03/2011 17:51:52 from Rafael Monico with 2 modifications
+22:37:00  INFO -> Processing 45b0bf6533000d3119638be81bb47a3e22b3ed68 with java-parser
+22:37:02  INFO Commit #0cf5b4055ec4e36880f1dbe29c7c65de86a8c0f2 in 07/03/2011 17:50:48 from Rafael Monico with 1 modifications
+22:37:02  INFO -> Processing 0cf5b4055ec4e36880f1dbe29c7c65de86a8c0f2 with java-parser
+22:37:04  INFO Commit #0a03866d837e7c1ff711998437dc3c8ca890d793 in 07/03/2011 16:18:15 from Rafael Monico with 1 modifications
+22:37:04  INFO -> Processing 0a03866d837e7c1ff711998437dc3c8ca890d793 with java-parser
+22:37:06  INFO Commit #13203f5cd217f8977aeb7007ff10d85560f9aad8 in 07/03/2011 16:17:31 from Rafael Monico with 2 modifications
+22:37:06  INFO -> Processing 13203f5cd217f8977aeb7007ff10d85560f9aad8 with java-parser
+22:37:07  INFO Commit #9d722512dd878434872aa22933da5aab3d7b6b9f in 07/03/2011 16:16:05 from Rafael Monico with 2 modifications
+22:37:07  INFO -> Processing 9d722512dd878434872aa22933da5aab3d7b6b9f with java-parser
+22:37:10  INFO Commit #46a67e73091f7e39544af46ae3b0f773a9751abd in 07/03/2011 16:14:15 from Rafael Monico with 4 modifications
+22:37:10  INFO -> Processing 46a67e73091f7e39544af46ae3b0f773a9751abd with java-parser
+22:37:13  INFO Commit #8226d309f1621b6e1e56548bd78868af88c0f7ff in 07/03/2011 16:08:56 from Rafael Monico with 1 modifications
+22:37:13  INFO -> Processing 8226d309f1621b6e1e56548bd78868af88c0f7ff with java-parser
+22:37:14  INFO Commit #8598d358116f3f87310ae0edc5d4a20619eafc31 in 07/03/2011 15:51:16 from Rafael Monico with 1 modifications
+22:37:14  INFO -> Processing 8598d358116f3f87310ae0edc5d4a20619eafc31 with java-parser
+22:37:16  INFO Commit #6711736ef84ba48887c3715d5fd037a04d2c3953 in 07/03/2011 15:51:09 from Rafael Monico with 1 modifications
+22:37:16  INFO -> Processing 6711736ef84ba48887c3715d5fd037a04d2c3953 with java-parser
+22:37:17  INFO Commit #614474c6b4e8b58e2257d580e1408e5dbc56956f in 07/03/2011 15:46:49 from Rafael Monico with 1 modifications
+22:37:17  INFO -> Processing 614474c6b4e8b58e2257d580e1408e5dbc56956f with java-parser
+22:37:19  INFO Commit #a1213ac5792bc89839eb76940780aa2cc63da071 in 07/03/2011 15:36:55 from Rafael Monico with 1 modifications
+22:37:19  INFO -> Processing a1213ac5792bc89839eb76940780aa2cc63da071 with java-parser
+22:37:21  INFO Commit #200355bd9db5554272990371f4cb582593a4d7b9 in 07/03/2011 15:36:27 from Rafael Monico with 1 modifications
+22:37:21  INFO -> Processing 200355bd9db5554272990371f4cb582593a4d7b9 with java-parser
+22:37:22  INFO Commit #d8ba8dc7df60fd6ec29d1209bd2706c2a97f4c4f in 07/03/2011 15:36:15 from Rafael Monico with 1 modifications
+22:37:22  INFO -> Processing d8ba8dc7df60fd6ec29d1209bd2706c2a97f4c4f with java-parser
+22:37:25  INFO Commit #cc439f9453c3f2010f010c419d196eacb1c538fd in 07/03/2011 15:27:12 from Rafael Monico with 1 modifications
+22:37:25  INFO -> Processing cc439f9453c3f2010f010c419d196eacb1c538fd with java-parser
+22:37:27  INFO Commit #c0e9add823dcb52032f6c39171418c8963beea2d in 07/03/2011 15:26:34 from Rafael Monico with 2 modifications
+22:37:27  INFO -> Processing c0e9add823dcb52032f6c39171418c8963beea2d with java-parser
+22:37:29  INFO Commit #3bafb8296bf996e1832532a7b1656edafe56d99e in 07/03/2011 15:23:58 from Rafael Monico with 1 modifications
+22:37:29  INFO -> Processing 3bafb8296bf996e1832532a7b1656edafe56d99e with java-parser
+22:37:30  INFO Commit #d363e6b7165b21064ededaa1769b40bc17b89d8d in 07/03/2011 15:23:32 from Rafael Monico with 1 modifications
+22:37:30  INFO -> Processing d363e6b7165b21064ededaa1769b40bc17b89d8d with java-parser
+22:37:32  INFO Commit #dd4e99735009e7c76d1794fc9bd5cb268dd8d872 in 07/03/2011 15:22:11 from Rafael Monico with 1 modifications
+22:37:32  INFO -> Processing dd4e99735009e7c76d1794fc9bd5cb268dd8d872 with java-parser
+22:37:33  INFO Commit #6d5b46a1f2edb88aec3e17a037c41afe041670c2 in 07/03/2011 15:20:52 from Rafael Monico with 1 modifications
+22:37:33  INFO -> Processing 6d5b46a1f2edb88aec3e17a037c41afe041670c2 with java-parser
+22:37:35  INFO Commit #af25d331a56eec4c2fd0fd5ba65027aa87651e2d in 07/03/2011 15:20:03 from Rafael Monico with 1 modifications
+22:37:35  INFO -> Processing af25d331a56eec4c2fd0fd5ba65027aa87651e2d with java-parser
+22:37:37  INFO Commit #ac32e16865f3ef695a3c1ad456653b9c72e3d49c in 07/03/2011 14:58:22 from Rafael Monico with 1 modifications
+22:37:37  INFO -> Processing ac32e16865f3ef695a3c1ad456653b9c72e3d49c with java-parser
+22:37:39  INFO Commit #ea8ddf501f4f62c648839d4da22a4a73fce40c13 in 07/03/2011 14:57:33 from Rafael Monico with 1 modifications
+22:37:39  INFO -> Processing ea8ddf501f4f62c648839d4da22a4a73fce40c13 with java-parser
+22:37:40  INFO Commit #f27a8be8a5dbe27b69158712c186e7280e5e257b in 06/03/2011 23:54:51 from Rafael Monico with 6 modifications
+22:37:40  INFO -> Processing f27a8be8a5dbe27b69158712c186e7280e5e257b with java-parser
+22:37:43  INFO Commit #f2eedca73371a08844f3b3b0f5ef1208f030c63b in 06/03/2011 18:13:22 from Rafael Monico with 1 modifications
+22:37:43  INFO -> Processing f2eedca73371a08844f3b3b0f5ef1208f030c63b with java-parser
+22:37:44  INFO Commit #ef5af3eb507345bbe7670ee6a303a48ed2d31449 in 06/03/2011 18:06:18 from Rafael Monico with 1 modifications
+22:37:44  INFO -> Processing ef5af3eb507345bbe7670ee6a303a48ed2d31449 with java-parser
+22:37:47  INFO Commit #e87f18200d5ced56dbcf2017e183a8161f756c8e in 06/03/2011 18:05:58 from Rafael Monico with 1 modifications
+22:37:47  INFO -> Processing e87f18200d5ced56dbcf2017e183a8161f756c8e with java-parser
+22:37:50  INFO Commit #a73826c9dd964a861da9a26f0f4ad2a1d378893b in 06/03/2011 18:01:11 from Rafael Monico with 1 modifications
+22:37:50  INFO -> Processing a73826c9dd964a861da9a26f0f4ad2a1d378893b with java-parser
+22:37:52  INFO Commit #a4355cb48fb9fd7b760622d74bf908ec5f7b6db2 in 06/03/2011 18:00:44 from Rafael Monico with 2 modifications
+22:37:52  INFO -> Processing a4355cb48fb9fd7b760622d74bf908ec5f7b6db2 with java-parser
+22:37:55  INFO Commit #630e7741070fdb864f6e0f00f752ab4d29901859 in 06/03/2011 17:58:38 from Rafael Monico with 2 modifications
+22:37:55  INFO -> Processing 630e7741070fdb864f6e0f00f752ab4d29901859 with java-parser
+22:37:56  INFO Commit #1a482dc9fcf207c1b1dd283e6be67287052a7b27 in 06/03/2011 17:56:46 from Rafael Monico with 2 modifications
+22:37:56  INFO -> Processing 1a482dc9fcf207c1b1dd283e6be67287052a7b27 with java-parser
+22:37:58  INFO Commit #d36b9892677f168fee5c948f91d5bcc8effe0c0e in 06/03/2011 17:50:06 from Rafael Monico with 1 modifications
+22:37:58  INFO -> Processing d36b9892677f168fee5c948f91d5bcc8effe0c0e with java-parser
+22:38:00  INFO Commit #a29b22e90d1b9563700f41cb77ec22b78a7b23b1 in 06/03/2011 17:47:56 from Rafael Monico with 2 modifications
+22:38:00  INFO -> Processing a29b22e90d1b9563700f41cb77ec22b78a7b23b1 with java-parser
+22:38:02  INFO Commit #2d9252331f101ff8a46e630d1fd9b608faadf132 in 06/03/2011 17:14:03 from Rafael Monico with 2 modifications
+22:38:02  INFO -> Processing 2d9252331f101ff8a46e630d1fd9b608faadf132 with java-parser
+22:38:03  INFO Commit #24efa11b9a7279287396279a8a7a94bc63893e03 in 06/03/2011 17:01:25 from Rafael Monico with 1 modifications
+22:38:03  INFO -> Processing 24efa11b9a7279287396279a8a7a94bc63893e03 with java-parser
+22:38:05  INFO Commit #7d8a082983b3f3c3cab6dc8682c911ab0399aaab in 06/03/2011 16:33:00 from Rafael Monico with 1 modifications
+22:38:05  INFO -> Processing 7d8a082983b3f3c3cab6dc8682c911ab0399aaab with java-parser
+22:38:07  INFO Commit #b1d65ecab6d6b59f4786432957d6912358c16484 in 06/03/2011 15:43:26 from Rafael Monico with 1 modifications
+22:38:07  INFO -> Processing b1d65ecab6d6b59f4786432957d6912358c16484 with java-parser
+22:38:10  INFO Commit #52f3fa2ca70e38b356ba808ea86c80de31e3d8ec in 06/03/2011 15:43:14 from Rafael Monico with 2 modifications
+22:38:10  INFO -> Processing 52f3fa2ca70e38b356ba808ea86c80de31e3d8ec with java-parser
+22:38:12  INFO Commit #fbe4205d9b7d06322838862ecc06fe89887e4dc3 in 06/03/2011 15:34:58 from Rafael Monico with 1 modifications
+22:38:12  INFO -> Processing fbe4205d9b7d06322838862ecc06fe89887e4dc3 with java-parser
+22:38:13  INFO Commit #f95bec68dd12058691bf96566205f5af55e92792 in 06/03/2011 15:34:42 from Rafael Monico with 2 modifications
+22:38:13  INFO -> Processing f95bec68dd12058691bf96566205f5af55e92792 with java-parser
+22:38:16  INFO Commit #347bbfa80b8ef216f88ef9452c8356233381865c in 06/03/2011 15:34:06 from Rafael Monico with 1 modifications
+22:38:16  INFO -> Processing 347bbfa80b8ef216f88ef9452c8356233381865c with java-parser
+22:38:17  INFO Commit #b77defa009a53d3ff8172ad19ffabc1e68552593 in 06/03/2011 15:27:49 from Rafael Monico with 1 modifications
+22:38:17  INFO -> Processing b77defa009a53d3ff8172ad19ffabc1e68552593 with java-parser
+22:38:19  INFO Commit #27d8bc9ed60795b4429aae27b5c5a15546626f42 in 06/03/2011 15:27:11 from Rafael Monico with 1 modifications
+22:38:19  INFO -> Processing 27d8bc9ed60795b4429aae27b5c5a15546626f42 with java-parser
+22:38:20  INFO Commit #31cb662bf8cd59fc2075b7202e273587493dab80 in 06/03/2011 15:25:53 from Rafael Monico with 1 modifications
+22:38:20  INFO -> Processing 31cb662bf8cd59fc2075b7202e273587493dab80 with java-parser
+22:38:23  INFO Commit #6867503719f18f342a3cdffe5972f05d5b71fc24 in 06/03/2011 15:25:38 from Rafael Monico with 1 modifications
+22:38:23  INFO -> Processing 6867503719f18f342a3cdffe5972f05d5b71fc24 with java-parser
+22:38:24  INFO Commit #338470eed3b6b124d8e479b253b562addc218ebe in 06/03/2011 15:19:40 from Rafael Monico with 1 modifications
+22:38:24  INFO -> Processing 338470eed3b6b124d8e479b253b562addc218ebe with java-parser
+22:38:26  INFO Commit #1875376b827bc77587b3347a26c328b4c95737c9 in 06/03/2011 15:19:25 from Rafael Monico with 1 modifications
+22:38:26  INFO -> Processing 1875376b827bc77587b3347a26c328b4c95737c9 with java-parser
+22:38:28  INFO Commit #5af481944c887ba8b629a715fbf1d2d08680eb95 in 06/03/2011 15:18:07 from Rafael Monico with 2 modifications
+22:38:28  INFO -> Processing 5af481944c887ba8b629a715fbf1d2d08680eb95 with java-parser
+22:38:30  INFO Commit #8b94c7b0a31a790619eb36c60dd7848f47f4437a in 06/03/2011 15:16:16 from Rafael Monico with 1 modifications
+22:38:30  INFO -> Processing 8b94c7b0a31a790619eb36c60dd7848f47f4437a with java-parser
+22:38:32  INFO Commit #2ed6582528c32a9ed3cc3bf4c6632f5e6bc426b4 in 06/03/2011 15:12:34 from Rafael Monico with 1 modifications
+22:38:32  INFO -> Processing 2ed6582528c32a9ed3cc3bf4c6632f5e6bc426b4 with java-parser
+22:38:33  INFO Commit #e38446d8cac5f58e9a7e396b4a719f6630672363 in 06/03/2011 15:11:54 from Rafael Monico with 1 modifications
+22:38:33  INFO -> Processing e38446d8cac5f58e9a7e396b4a719f6630672363 with java-parser
+22:38:35  INFO Commit #d0a79e1678eada7c9334e99fefb699a7b46cf868 in 06/03/2011 14:54:07 from Rafael Monico with 1 modifications
+22:38:35  INFO -> Processing d0a79e1678eada7c9334e99fefb699a7b46cf868 with java-parser
+22:38:36  INFO Commit #3b305942e2588344eb73adfd9967922a4c482dde in 06/03/2011 14:53:59 from Rafael Monico with 1 modifications
+22:38:36  INFO -> Processing 3b305942e2588344eb73adfd9967922a4c482dde with java-parser
+22:38:38  INFO Commit #249c068690df5a04b763bfb8991067f12259bacb in 06/03/2011 14:49:29 from Rafael Monico with 2 modifications
+22:38:38  INFO -> Processing 249c068690df5a04b763bfb8991067f12259bacb with java-parser
+22:38:40  INFO Commit #c1e3845e0a96ad47458df77f54fe0b037bf00814 in 06/03/2011 14:48:20 from Rafael Monico with 1 modifications
+22:38:40  INFO -> Processing c1e3845e0a96ad47458df77f54fe0b037bf00814 with java-parser
+22:38:43  INFO Commit #c12a1ddf02b3362642d08a79e07cd99635ee7fdf in 06/03/2011 14:47:37 from Rafael Monico with 1 modifications
+22:38:43  INFO -> Processing c12a1ddf02b3362642d08a79e07cd99635ee7fdf with java-parser
+22:38:45  INFO Commit #47dc3862104acf27ee7f04242b19464a1c5edc80 in 06/03/2011 14:47:17 from Rafael Monico with 2 modifications
+22:38:45  INFO -> Processing 47dc3862104acf27ee7f04242b19464a1c5edc80 with java-parser
+22:38:46  INFO Commit #310cf9ae89d03dec82ec26343b2074f4b851eeb8 in 06/03/2011 14:44:50 from Rafael Monico with 1 modifications
+22:38:46  INFO -> Processing 310cf9ae89d03dec82ec26343b2074f4b851eeb8 with java-parser
+22:38:48  INFO Commit #e39958632a86894e955fa04fc8b93303829b31ab in 06/03/2011 14:44:16 from Rafael Monico with 1 modifications
+22:38:48  INFO -> Processing e39958632a86894e955fa04fc8b93303829b31ab with java-parser
+22:38:50  INFO Commit #2076f2fed003e0b1a08729496095df3a5df0f221 in 06/03/2011 14:42:21 from Rafael Monico with 3 modifications
+22:38:50  INFO -> Processing 2076f2fed003e0b1a08729496095df3a5df0f221 with java-parser
+22:38:52  INFO Commit #eadc74f6278f5b675312ed48c70466e6d28a267c in 06/03/2011 14:39:06 from Rafael Monico with 2 modifications
+22:38:52  INFO -> Processing eadc74f6278f5b675312ed48c70466e6d28a267c with java-parser
+22:38:54  INFO Commit #1d2c95bf5de76da0d9d2e68b25678ebe6da4a055 in 06/03/2011 14:38:32 from Rafael Monico with 1 modifications
+22:38:54  INFO -> Processing 1d2c95bf5de76da0d9d2e68b25678ebe6da4a055 with java-parser
+22:38:56  INFO Commit #23f39a1d5a6ea6f3419b79973e6e94d46be07569 in 06/03/2011 00:55:29 from Rafael Monico with 13 modifications
+22:38:56  INFO -> Processing 23f39a1d5a6ea6f3419b79973e6e94d46be07569 with java-parser
+22:38:57  INFO Commit #0aab349af20f1c425f63e88eb0074dbe35d4a46b in 06/03/2011 00:54:53 from Rafael Monico with 11 modifications
+22:38:57  INFO -> Processing 0aab349af20f1c425f63e88eb0074dbe35d4a46b with java-parser
+22:38:59  INFO Commit #f6663d360b83c8c150d793b201ca892e5d5e55c2 in 06/03/2011 00:47:58 from Rafael Monico with 4 modifications
+22:38:59  INFO -> Processing f6663d360b83c8c150d793b201ca892e5d5e55c2 with java-parser
+22:39:01  INFO Commit #b5494ae2f8e13621313a7b53dc16836b29e4f31b in 06/03/2011 00:34:53 from Rafael Monico with 1 modifications
+22:39:01  INFO -> Processing b5494ae2f8e13621313a7b53dc16836b29e4f31b with java-parser
+22:39:03  INFO Commit #da8fb9b68c0c0056c04e375e2333bbde96192aa8 in 06/03/2011 00:27:04 from Rafael Monico with 1 modifications
+22:39:03  INFO -> Processing da8fb9b68c0c0056c04e375e2333bbde96192aa8 with java-parser
+22:39:04  INFO Commit #a83bb6857346e9c540f18e2ce7f4f90fc4f2edda in 06/03/2011 00:25:46 from Rafael Monico with 1 modifications
+22:39:04  INFO -> Processing a83bb6857346e9c540f18e2ce7f4f90fc4f2edda with java-parser
+22:39:06  INFO Commit #bd7bbc05d0ab9c8288f22bf1029d9874c690ddf9 in 06/03/2011 00:25:29 from Rafael Monico with 1 modifications
+22:39:06  INFO -> Processing bd7bbc05d0ab9c8288f22bf1029d9874c690ddf9 with java-parser
+22:39:08  INFO Commit #4dd3259ac6f876276c9a04b0f52357aeae1244fc in 06/03/2011 00:23:31 from Rafael Monico with 3 modifications
+22:39:08  INFO -> Processing 4dd3259ac6f876276c9a04b0f52357aeae1244fc with java-parser
+22:39:10  INFO Commit #a25428ae67dea5561dcb83790f4e3f64eb288567 in 06/03/2011 00:12:51 from Rafael Monico with 3 modifications
+22:39:10  INFO -> Processing a25428ae67dea5561dcb83790f4e3f64eb288567 with java-parser
+22:39:12  INFO Commit #ff12cc164422adb1a8396aef222d7bcaa9c02666 in 06/03/2011 00:11:09 from Rafael Monico with 1 modifications
+22:39:12  INFO -> Processing ff12cc164422adb1a8396aef222d7bcaa9c02666 with java-parser
+22:39:14  INFO Commit #70b28ae211b5866abd29a613697f8cba943837a3 in 06/03/2011 00:07:45 from Rafael Monico with 12 modifications
+22:39:14  INFO -> Processing 70b28ae211b5866abd29a613697f8cba943837a3 with java-parser
+22:39:16  INFO Commit #ecf8cfb5dc6cc239462b151e5321cdb5b5fa0c01 in 05/03/2011 23:52:24 from Rafael Monico with 5 modifications
+22:39:16  INFO -> Processing ecf8cfb5dc6cc239462b151e5321cdb5b5fa0c01 with java-parser
+22:39:18  INFO Commit #66158152eeba6d74e54a4687355be40b54cfd8de in 05/03/2011 23:49:11 from Rafael Monico with 1 modifications
+22:39:18  INFO -> Processing 66158152eeba6d74e54a4687355be40b54cfd8de with java-parser
+22:39:19  INFO Commit #344edaa10df403b5207a37aa5ce93600bf1e63ea in 05/03/2011 23:42:48 from Rafael Monico with 3 modifications
+22:39:19  INFO -> Processing 344edaa10df403b5207a37aa5ce93600bf1e63ea with java-parser
+22:39:21  INFO Commit #cc0b327bccf995729cfc5274f8fd7672535b49fc in 05/03/2011 23:33:23 from Rafael Monico with 10 modifications
+22:39:21  INFO -> Processing cc0b327bccf995729cfc5274f8fd7672535b49fc with java-parser
+22:39:23  INFO Commit #48898c65e0d2fce6e1ac9f8b85ff1859b4ad7375 in 05/03/2011 23:29:17 from Rafael Monico with 3 modifications
+22:39:23  INFO -> Processing 48898c65e0d2fce6e1ac9f8b85ff1859b4ad7375 with java-parser
+22:39:24  INFO Commit #9e60d03958e80146ef6286c842564c9a40620eda in 05/03/2011 22:31:38 from Rafael Monico with 1 modifications
+22:39:24  INFO -> Processing 9e60d03958e80146ef6286c842564c9a40620eda with java-parser
+22:39:26  INFO Commit #2b32afc68f9b57ff601767cc8d3ef6b3bab4d26e in 05/03/2011 22:31:15 from Rafael Monico with 4 modifications
+22:39:26  INFO -> Processing 2b32afc68f9b57ff601767cc8d3ef6b3bab4d26e with java-parser
+22:39:28  INFO Commit #42a66790982e2ef39daf10689b51b327473afb12 in 05/03/2011 22:29:44 from Rafael Monico with 10 modifications
+22:39:28  INFO -> Processing 42a66790982e2ef39daf10689b51b327473afb12 with java-parser
+22:39:30  INFO Commit #d04e9d01cf7a7e7ba280e0b7b242b49285c5f8b2 in 05/03/2011 20:08:57 from Rafael Monico with 1 modifications
+22:39:30  INFO -> Processing d04e9d01cf7a7e7ba280e0b7b242b49285c5f8b2 with java-parser
+22:39:32  INFO Commit #928249f7e19b2bf0a20ab73ddff4aaddc4a39be0 in 05/03/2011 20:08:45 from Rafael Monico with 1 modifications
+22:39:32  INFO -> Processing 928249f7e19b2bf0a20ab73ddff4aaddc4a39be0 with java-parser
+22:39:34  INFO Commit #0e0b85616a00c73a3e12f002a79c3921a16e8577 in 05/03/2011 20:08:31 from Rafael Monico with 1 modifications
+22:39:34  INFO -> Processing 0e0b85616a00c73a3e12f002a79c3921a16e8577 with java-parser
+22:39:36  INFO Commit #ce6ccda2b94203101eb2d551bca4d07f899ad055 in 05/03/2011 20:08:18 from Rafael Monico with 1 modifications
+22:39:36  INFO -> Processing ce6ccda2b94203101eb2d551bca4d07f899ad055 with java-parser
+22:39:38  INFO Commit #5f39a0f1b5a72dd62d35586e1317231b073ef8e4 in 05/03/2011 10:45:26 from Rafael Monico with 6 modifications
+22:39:38  INFO -> Processing 5f39a0f1b5a72dd62d35586e1317231b073ef8e4 with java-parser
+22:39:40  INFO Commit #2a4607a456bdeadd7c7762b07ef875951fe1ed0e in 05/03/2011 10:05:42 from Rafael Monico with 4 modifications
+22:39:40  INFO -> Processing 2a4607a456bdeadd7c7762b07ef875951fe1ed0e with java-parser
+22:39:41  INFO Commit #55393bf3f296fc6591897a6dc0eadf7c3bca558c in 05/03/2011 10:04:14 from Rafael Monico with 1 modifications
+22:39:41  INFO -> Processing 55393bf3f296fc6591897a6dc0eadf7c3bca558c with java-parser
+22:39:43  INFO Commit #b4874ec9e68ee3236e6ca8f7b49fe0e33d3ebc7e in 05/03/2011 09:45:12 from Rafael Monico with 1 modifications
+22:39:43  INFO -> Processing b4874ec9e68ee3236e6ca8f7b49fe0e33d3ebc7e with java-parser
+22:39:45  INFO Commit #05e729eafe89329aa9f43460e483699f6d036f43 in 05/03/2011 09:35:12 from Rafael Monico with 1 modifications
+22:39:45  INFO -> Processing 05e729eafe89329aa9f43460e483699f6d036f43 with java-parser
+22:39:46  INFO Commit #3e6ebaf6f5ac0cdba52a5e65d3dc44fbcb799fdb in 05/03/2011 09:26:36 from Rafael Monico with 1 modifications
+22:39:46  INFO -> Processing 3e6ebaf6f5ac0cdba52a5e65d3dc44fbcb799fdb with java-parser
+22:39:48  INFO Commit #014fe9658dc707b1521fa0b96db86c3edd67a2ea in 05/03/2011 09:23:35 from Rafael Monico with 1 modifications
+22:39:48  INFO -> Processing 014fe9658dc707b1521fa0b96db86c3edd67a2ea with java-parser
+22:39:50  INFO Commit #8c22421ac0ee13d8e9091ac72c514136c1aeac8e in 05/03/2011 01:01:29 from Rafael Monico with 1 modifications
+22:39:50  INFO -> Processing 8c22421ac0ee13d8e9091ac72c514136c1aeac8e with java-parser
+22:39:52  INFO Commit #aecd87c583f188d07a3898731b3476b7a17678d0 in 05/03/2011 01:01:12 from Rafael Monico with 3 modifications
+22:39:52  INFO -> Processing aecd87c583f188d07a3898731b3476b7a17678d0 with java-parser
+22:39:53  INFO Commit #a2250bbb871d8d5aae9e52c6b993409c2f95a7e1 in 05/03/2011 01:00:43 from Rafael Monico with 3 modifications
+22:39:53  INFO -> Processing a2250bbb871d8d5aae9e52c6b993409c2f95a7e1 with java-parser
+22:39:56  INFO Commit #c404b6daf92f1de2701234c5cd47ea9f68f6785b in 05/03/2011 00:25:33 from Rafael Monico with 1 modifications
+22:39:56  INFO -> Processing c404b6daf92f1de2701234c5cd47ea9f68f6785b with java-parser
+22:39:57  INFO Commit #9b812c406c6edace0759fb11e6a0953bfbbed3de in 04/03/2011 23:36:45 from Rafael Monico with 2 modifications
+22:39:57  INFO -> Processing 9b812c406c6edace0759fb11e6a0953bfbbed3de with java-parser
+22:40:00  INFO Commit #0f705611001b76e6d5454a926e5108d1f979904b in 04/03/2011 23:35:45 from Rafael Monico with 78 modifications
+22:40:00  INFO -> Processing 0f705611001b76e6d5454a926e5108d1f979904b with java-parser
+22:40:02  INFO Commit #29c29e3d301dac344afe9d41df0e7fb5b3cf430f in 04/03/2011 23:33:39 from Rafael Monico with 3 modifications
+22:40:02  INFO -> Processing 29c29e3d301dac344afe9d41df0e7fb5b3cf430f with java-parser
+22:40:04  INFO Commit #cb5919479d61c4671dc67ca54a112c309a6462ac in 04/03/2011 23:32:49 from Rafael Monico with 28 modifications
+22:40:04  INFO -> Processing cb5919479d61c4671dc67ca54a112c309a6462ac with java-parser
+22:40:06  INFO Commit #4edc120a565b5afb013ae31bed8c0234be85669c in 04/03/2011 22:24:25 from Rafael Monico with 6 modifications
+22:40:06  INFO -> Processing 4edc120a565b5afb013ae31bed8c0234be85669c with java-parser
+22:40:07  INFO Commit #3a78e8b1fed957cc6e4f65c336048399a457d814 in 03/03/2011 22:43:26 from Rafael Monico with 1 modifications
+22:40:07  INFO -> Processing 3a78e8b1fed957cc6e4f65c336048399a457d814 with java-parser
+22:40:09  INFO Commit #c042420dad5f995b6098f380c1fb7f3372ebb072 in 03/03/2011 22:35:12 from Rafael Monico with 1 modifications
+22:40:09  INFO -> Processing c042420dad5f995b6098f380c1fb7f3372ebb072 with java-parser
+22:40:11  INFO Commit #0fc5115b170abfcfa9307f8dd1e905db5cfc3f18 in 03/03/2011 22:26:22 from Rafael Monico with 3 modifications
+22:40:11  INFO -> Processing 0fc5115b170abfcfa9307f8dd1e905db5cfc3f18 with java-parser
+22:40:13  INFO Commit #ab1556ccd9501a939143e15ec004d828b849964e in 02/03/2011 11:10:48 from Rafael Monico with 1 modifications
+22:40:13  INFO -> Processing ab1556ccd9501a939143e15ec004d828b849964e with java-parser
+22:40:14  INFO Commit #472cca1944de403222336d044c67a09cd920fd6e in 02/03/2011 11:09:01 from Rafael Monico with 1 modifications
+22:40:14  INFO -> Processing 472cca1944de403222336d044c67a09cd920fd6e with java-parser
+22:40:16  INFO Commit #664b0c5f6714ef689f2de999dbf11d29c26ef8a3 in 02/03/2011 11:08:15 from Rafael Monico with 1 modifications
+22:40:16  INFO -> Processing 664b0c5f6714ef689f2de999dbf11d29c26ef8a3 with java-parser
+22:40:19  INFO Commit #be4fd686b7b9efdd170e3d834d92f15e55d09c03 in 02/03/2011 11:07:08 from Rafael Monico with 3 modifications
+22:40:19  INFO -> Processing be4fd686b7b9efdd170e3d834d92f15e55d09c03 with java-parser
+22:40:20  INFO Commit #8b9fbda3bf4477095c5bf21754aba37a2448ea3e in 02/03/2011 11:05:48 from Rafael Monico with 2 modifications
+22:40:20  INFO -> Processing 8b9fbda3bf4477095c5bf21754aba37a2448ea3e with java-parser
+22:40:23  INFO Commit #4a4a334b235c2f5b6619d414906599520ebc164b in 01/03/2011 22:31:58 from Rafael Monico with 3 modifications
+22:40:23  INFO -> Processing 4a4a334b235c2f5b6619d414906599520ebc164b with java-parser
+22:40:24  INFO Commit #4bf79b4686d67b6d6065a94174d8b5966e812ef5 in 28/02/2011 16:23:59 from Rafael Monico with 1 modifications
+22:40:24  INFO -> Processing 4bf79b4686d67b6d6065a94174d8b5966e812ef5 with java-parser
+22:40:26  INFO Commit #49c09839a4699ed7f6b9cdf2acc1ae2ed5fad24d in 28/02/2011 16:21:40 from Rafael Monico with 3 modifications
+22:40:26  INFO -> Processing 49c09839a4699ed7f6b9cdf2acc1ae2ed5fad24d with java-parser
+22:40:27  INFO Commit #b2cf5514804a4bb0cb9d5e2d7d4d1f06c5af5037 in 28/02/2011 16:20:42 from Rafael Monico with 1 modifications
+22:40:27  INFO -> Processing b2cf5514804a4bb0cb9d5e2d7d4d1f06c5af5037 with java-parser
+22:40:29  INFO Commit #22300748f274cfd02fb2cb603d09a09e8ec46b69 in 28/02/2011 16:14:38 from Rafael Monico with 1 modifications
+22:40:29  INFO -> Processing 22300748f274cfd02fb2cb603d09a09e8ec46b69 with java-parser
+22:40:31  INFO Commit #449425c712d679829170adc4e94e47879b40d2cd in 28/02/2011 16:05:18 from Rafael Monico with 1 modifications
+22:40:31  INFO -> Processing 449425c712d679829170adc4e94e47879b40d2cd with java-parser
+22:40:33  INFO Commit #4fe1f2b878a8da1230293739a0c2e7fc426fd13d in 28/02/2011 16:04:06 from Rafael Monico with 1 modifications
+22:40:33  INFO -> Processing 4fe1f2b878a8da1230293739a0c2e7fc426fd13d with java-parser
+22:40:34  INFO Commit #21aa372760945b6f3266a795c76d6c0fa73ea555 in 28/02/2011 15:38:15 from Rafael Monico with 1 modifications
+22:40:34  INFO -> Processing 21aa372760945b6f3266a795c76d6c0fa73ea555 with java-parser
+22:40:37  INFO Commit #711993b4ec09d07dae22164094de8a6e2f549721 in 28/02/2011 15:37:01 from Rafael Monico with 3 modifications
+22:40:37  INFO -> Processing 711993b4ec09d07dae22164094de8a6e2f549721 with java-parser
+22:40:38  INFO Commit #b2ed37057ddb7ac3035913e043a4c983a6df93fb in 28/02/2011 15:22:09 from Rafael Monico with 1 modifications
+22:40:38  INFO -> Processing b2ed37057ddb7ac3035913e043a4c983a6df93fb with java-parser
+22:40:40  INFO Commit #c3bf1f037b470e03b02295d7fc6a0061f749804d in 28/02/2011 15:15:17 from Rafael Monico with 1 modifications
+22:40:40  INFO -> Processing c3bf1f037b470e03b02295d7fc6a0061f749804d with java-parser
+22:40:42  INFO Commit #2ec33325edf72e2dde408312a0ed6d0988ccf3b3 in 28/02/2011 15:14:23 from Rafael Monico with 1 modifications
+22:40:42  INFO -> Processing 2ec33325edf72e2dde408312a0ed6d0988ccf3b3 with java-parser
+22:40:44  INFO Commit #bb637c0b3104d6086923e9c20c0cddcd9d26622b in 28/02/2011 15:04:28 from Rafael Monico with 1 modifications
+22:40:44  INFO -> Processing bb637c0b3104d6086923e9c20c0cddcd9d26622b with java-parser
+22:40:45  INFO Commit #b381f40708ed394a88d792ac85c3fe86d5159e6b in 28/02/2011 15:00:35 from Rafael Monico with 1 modifications
+22:40:45  INFO -> Processing b381f40708ed394a88d792ac85c3fe86d5159e6b with java-parser
+22:40:47  INFO Commit #7fa207be47ff2db76ff78bba2001bd9e07078e4b in 28/02/2011 14:53:29 from Rafael Monico with 1 modifications
+22:40:47  INFO -> Processing 7fa207be47ff2db76ff78bba2001bd9e07078e4b with java-parser
+22:40:49  INFO Commit #32537fe1335cfdad81f9f7e4437ef737410ebab1 in 28/02/2011 14:50:02 from Rafael Monico with 1 modifications
+22:40:49  INFO -> Processing 32537fe1335cfdad81f9f7e4437ef737410ebab1 with java-parser
+22:40:51  INFO Commit #cd0f4921073ac2f16475a42a3e7ff9ef85d50d2f in 28/02/2011 14:32:01 from Rafael Monico with 14 modifications
+22:40:51  INFO -> Processing cd0f4921073ac2f16475a42a3e7ff9ef85d50d2f with java-parser
+22:40:53  INFO Commit #5661bf18c8aa7136a37203499d083ebdccb02f06 in 28/02/2011 14:31:56 from Rafael Monico with 1 modifications
+22:40:53  INFO -> Processing 5661bf18c8aa7136a37203499d083ebdccb02f06 with java-parser
+22:40:55  INFO Commit #b949654299f209dadac9ce6625ccc02eb461f4aa in 27/02/2011 21:52:07 from Rafael Monico with 1 modifications
+22:40:55  INFO -> Processing b949654299f209dadac9ce6625ccc02eb461f4aa with java-parser
+22:40:56  INFO Commit #ccd884858fbda83d8853e1ac9e200199614d98e7 in 27/02/2011 21:27:51 from Rafael Monico with 1 modifications
+22:40:56  INFO -> Processing ccd884858fbda83d8853e1ac9e200199614d98e7 with java-parser
+22:40:59  INFO Commit #f312b41ce59222530fd225cd595c1ee1570d5e8f in 27/02/2011 21:22:24 from Rafael Monico with 1 modifications
+22:40:59  INFO -> Processing f312b41ce59222530fd225cd595c1ee1570d5e8f with java-parser
+22:41:00  INFO Commit #b8d1c47d8e512abe0ab57bb0a3ac47d6c2c83d74 in 27/02/2011 21:09:42 from Rafael Monico with 1 modifications
+22:41:00  INFO -> Processing b8d1c47d8e512abe0ab57bb0a3ac47d6c2c83d74 with java-parser
+22:41:02  INFO Commit #d57cff1ac6641cbfd0db225f0a8f7d756ad3ea5e in 27/02/2011 21:09:33 from Rafael Monico with 1 modifications
+22:41:02  INFO -> Processing d57cff1ac6641cbfd0db225f0a8f7d756ad3ea5e with java-parser
+22:41:04  INFO Commit #d18622d935425cc9a99d8634c11eb45ab6172912 in 27/02/2011 21:09:08 from Rafael Monico with 1 modifications
+22:41:04  INFO -> Processing d18622d935425cc9a99d8634c11eb45ab6172912 with java-parser
+22:41:06  INFO Commit #4989f733e8f92eba74338c1fbc11869fdc77b89e in 27/02/2011 21:07:07 from Rafael Monico with 3 modifications
+22:41:06  INFO -> Processing 4989f733e8f92eba74338c1fbc11869fdc77b89e with java-parser
+22:41:08  INFO Commit #27635046c9ad5b1a0f27a1eda47897bde1458e5e in 27/02/2011 21:06:30 from Rafael Monico with 1 modifications
+22:41:08  INFO -> Processing 27635046c9ad5b1a0f27a1eda47897bde1458e5e with java-parser
+22:41:09  INFO Commit #252c6750300feaee2392c97978b3562b883a7566 in 27/02/2011 20:30:45 from Rafael Monico with 1 modifications
+22:41:09  INFO -> Processing 252c6750300feaee2392c97978b3562b883a7566 with java-parser
+22:41:11  INFO Commit #40f41761c6e284d0a01205cc0b65a0dc42f22af4 in 27/02/2011 20:29:52 from Rafael Monico with 3 modifications
+22:41:11  INFO -> Processing 40f41761c6e284d0a01205cc0b65a0dc42f22af4 with java-parser
+22:41:12  INFO Commit #ac128e4da8b2ee65d5bd0178399d9d8be958b12e in 27/02/2011 14:21:50 from Rafael Monico with 1 modifications
+22:41:12  INFO -> Processing ac128e4da8b2ee65d5bd0178399d9d8be958b12e with java-parser
+22:41:15  INFO Commit #405e8d27c9b9d254b0df541948b648300e9979ea in 27/02/2011 14:07:44 from Rafael Monico with 1 modifications
+22:41:15  INFO -> Processing 405e8d27c9b9d254b0df541948b648300e9979ea with java-parser
+22:41:17  INFO Commit #6216ce29beb02ef68ccceb4ee57ad6f3bae64568 in 27/02/2011 14:06:18 from Rafael Monico with 1 modifications
+22:41:17  INFO -> Processing 6216ce29beb02ef68ccceb4ee57ad6f3bae64568 with java-parser
+22:41:18  INFO Commit #9eb6e03477a4b425acdd1c2fa09e4fc7f5466dfb in 27/02/2011 14:03:43 from Rafael Monico with 1 modifications
+22:41:18  INFO -> Processing 9eb6e03477a4b425acdd1c2fa09e4fc7f5466dfb with java-parser
+22:41:21  INFO Commit #a2ad3759937ab2170468295edfe4d3504260ffbb in 27/02/2011 14:00:44 from Rafael Monico with 1 modifications
+22:41:21  INFO -> Processing a2ad3759937ab2170468295edfe4d3504260ffbb with java-parser
+22:41:22  INFO Commit #43576e8e9b7ffbc5a03a46081968c5e1f2a369d8 in 27/02/2011 12:39:02 from Rafael Monico with 4 modifications
+22:41:22  INFO -> Processing 43576e8e9b7ffbc5a03a46081968c5e1f2a369d8 with java-parser
+22:41:25  INFO Commit #9fe71c624bd1cf7163f3cbb2e8cea5de4eac6837 in 27/02/2011 12:38:40 from Rafael Monico with 1 modifications
+22:41:25  INFO -> Processing 9fe71c624bd1cf7163f3cbb2e8cea5de4eac6837 with java-parser
+22:41:26  INFO Commit #1f79e8fcc918fe352f8d45cfe547db9e8cd92cb2 in 27/02/2011 12:38:01 from Rafael Monico with 1 modifications
+22:41:26  INFO -> Processing 1f79e8fcc918fe352f8d45cfe547db9e8cd92cb2 with java-parser
+22:41:28  INFO Commit #9dd5acd6d45d85ab1b4e93b5a49b0d7f6739164f in 27/02/2011 12:20:47 from Rafael Monico with 1 modifications
+22:41:28  INFO -> Processing 9dd5acd6d45d85ab1b4e93b5a49b0d7f6739164f with java-parser
+22:41:29  INFO Commit #d36871b7ca1f39ce1353659b10b1bf2b23bb3f52 in 27/02/2011 12:02:24 from Rafael Monico with 1 modifications
+22:41:29  INFO -> Processing d36871b7ca1f39ce1353659b10b1bf2b23bb3f52 with java-parser
+22:41:31  INFO Commit #3b3e113e2befe868a42b2d8e972c83aeb85ba711 in 27/02/2011 12:00:52 from Rafael Monico with 1 modifications
+22:41:31  INFO -> Processing 3b3e113e2befe868a42b2d8e972c83aeb85ba711 with java-parser
+22:41:33  INFO Commit #35207da0a7681c3a7775edc73253bfb25c00b786 in 27/02/2011 12:00:18 from Rafael Monico with 1 modifications
+22:41:33  INFO -> Processing 35207da0a7681c3a7775edc73253bfb25c00b786 with java-parser
+22:41:36  INFO Commit #2120475d2d98880a40da07fa3902f78b8afcba5f in 27/02/2011 11:58:56 from Rafael Monico with 1 modifications
+22:41:36  INFO -> Processing 2120475d2d98880a40da07fa3902f78b8afcba5f with java-parser
+22:41:37  INFO Commit #e624a9e7f2eccfc4e026c1e9b7ecd3431f2ca98c in 27/02/2011 11:42:35 from Rafael Monico with 3 modifications
+22:41:37  INFO -> Processing e624a9e7f2eccfc4e026c1e9b7ecd3431f2ca98c with java-parser
+22:41:39  INFO Commit #00ceab27881063afdc6d41715751ce6b1737dd75 in 27/02/2011 11:34:57 from Rafael Monico with 10 modifications
+22:41:39  INFO -> Processing 00ceab27881063afdc6d41715751ce6b1737dd75 with java-parser
+22:41:41  INFO Commit #86f3978047969025a5750cdfce1839d2d8f06704 in 27/02/2011 11:16:30 from Rafael Monico with 4 modifications
+22:41:41  INFO -> Processing 86f3978047969025a5750cdfce1839d2d8f06704 with java-parser
+22:41:43  INFO Commit #87b01693ab6f6322d8164843c0a107e9f6970d50 in 27/02/2011 11:11:46 from Rafael Monico with 1 modifications
+22:41:43  INFO -> Processing 87b01693ab6f6322d8164843c0a107e9f6970d50 with java-parser
+22:41:44  INFO Commit #268eb0a1f4aee6cbe47c96a814e4b75fcb21e347 in 27/02/2011 11:11:31 from Rafael Monico with 4 modifications
+22:41:44  INFO -> Processing 268eb0a1f4aee6cbe47c96a814e4b75fcb21e347 with java-parser
+22:41:46  INFO Commit #2bd8408159fe20ec000ccbd10a250e1b96f4ee65 in 26/02/2011 15:11:36 from Rafael Monico with 1 modifications
+22:41:46  INFO -> Processing 2bd8408159fe20ec000ccbd10a250e1b96f4ee65 with java-parser
+22:41:48  INFO Commit #27298f7aa958499368f1b2ac9e0264b625b8495c in 26/02/2011 15:10:47 from Rafael Monico with 1 modifications
+22:41:48  INFO -> Processing 27298f7aa958499368f1b2ac9e0264b625b8495c with java-parser
+22:41:49  INFO Commit #6d7eccb9ee53880b11271c15870e8ed6daa38488 in 26/02/2011 15:10:31 from Rafael Monico with 1 modifications
+22:41:49  INFO -> Processing 6d7eccb9ee53880b11271c15870e8ed6daa38488 with java-parser
+22:41:52  INFO Commit #f6865e11efc3b7f86fd64371c8c4c24885515b33 in 26/02/2011 15:09:53 from Rafael Monico with 1 modifications
+22:41:52  INFO -> Processing f6865e11efc3b7f86fd64371c8c4c24885515b33 with java-parser
+22:41:54  INFO Commit #81e1e48076b07194a0370a0a7b366d7501a05b4b in 26/02/2011 15:09:33 from Rafael Monico with 1 modifications
+22:41:54  INFO -> Processing 81e1e48076b07194a0370a0a7b366d7501a05b4b with java-parser
+22:41:55  INFO Commit #bec720a5bd1e92748e6ba4fb0d4869158adc0c0c in 26/02/2011 13:58:29 from Rafael Monico with 1 modifications
+22:41:55  INFO -> Processing bec720a5bd1e92748e6ba4fb0d4869158adc0c0c with java-parser
+22:41:58  INFO Commit #9400fc8524cd13e3fb53fb32b0e4af4cb02ef27f in 26/02/2011 13:56:02 from Rafael Monico with 1 modifications
+22:41:58  INFO -> Processing 9400fc8524cd13e3fb53fb32b0e4af4cb02ef27f with java-parser
+22:41:59  INFO Commit #e67e5e46c84ceff2066ce66b4b5c28bdfa8abfbb in 26/02/2011 13:55:45 from Rafael Monico with 2 modifications
+22:41:59  INFO -> Processing e67e5e46c84ceff2066ce66b4b5c28bdfa8abfbb with java-parser
+22:42:01  INFO Commit #f25aa75edae83bc67905151f8d7bd798fc645ba2 in 26/02/2011 13:55:27 from Rafael Monico with 1 modifications
+22:42:01  INFO -> Processing f25aa75edae83bc67905151f8d7bd798fc645ba2 with java-parser
+22:42:03  INFO Commit #a69b14cc1f6fd6ca68d562e0c527e0b44ca371f7 in 26/02/2011 13:55:16 from Rafael Monico with 1 modifications
+22:42:03  INFO -> Processing a69b14cc1f6fd6ca68d562e0c527e0b44ca371f7 with java-parser
+22:42:05  INFO Commit #9cf3b48f54b1d67719cbcd2f45f64e7c66e98880 in 26/02/2011 13:55:00 from Rafael Monico with 1 modifications
+22:42:05  INFO -> Processing 9cf3b48f54b1d67719cbcd2f45f64e7c66e98880 with java-parser
+22:42:06  INFO Commit #bb5320518c33456168216a9f118d3ebd2d1f377d in 26/02/2011 13:48:04 from Rafael Monico with 1 modifications
+22:42:06  INFO -> Processing bb5320518c33456168216a9f118d3ebd2d1f377d with java-parser
+22:42:08  INFO Commit #90d393e4a7ab50c08eb49236bf34693becb03983 in 26/02/2011 13:47:36 from Rafael Monico with 1 modifications
+22:42:08  INFO -> Processing 90d393e4a7ab50c08eb49236bf34693becb03983 with java-parser
+22:42:11  INFO Commit #8c44ed8cab03c9232ef5aa4eddcc6090fa8dd762 in 26/02/2011 13:46:23 from Rafael Monico with 1 modifications
+22:42:11  INFO -> Processing 8c44ed8cab03c9232ef5aa4eddcc6090fa8dd762 with java-parser
+22:42:12  INFO Commit #4a0b15e275173658d2958c100c982fb2a706a797 in 26/02/2011 13:38:54 from Rafael Monico with 1 modifications
+22:42:12  INFO -> Processing 4a0b15e275173658d2958c100c982fb2a706a797 with java-parser
+22:42:14  INFO Commit #9bb3b2cc85b5669245c4b4947fcfea90a7f46998 in 26/02/2011 13:38:37 from Rafael Monico with 1 modifications
+22:42:14  INFO -> Processing 9bb3b2cc85b5669245c4b4947fcfea90a7f46998 with java-parser
+22:42:16  INFO Commit #0f616a214b2bc89d190332e429c6ee767f8f10e6 in 25/02/2011 23:21:55 from Rafael Monico with 1 modifications
+22:42:16  INFO -> Processing 0f616a214b2bc89d190332e429c6ee767f8f10e6 with java-parser
+22:42:17  INFO Commit #1c33302ab7c1e05158850e9aaeb674ce7cc573ea in 25/02/2011 23:21:14 from Rafael Monico with 1 modifications
+22:42:17  INFO -> Processing 1c33302ab7c1e05158850e9aaeb674ce7cc573ea with java-parser
+22:42:19  INFO Commit #0255024d50e1348dcfc94edb90104f76dfab0d4f in 25/02/2011 23:19:50 from Rafael Monico with 1 modifications
+22:42:19  INFO -> Processing 0255024d50e1348dcfc94edb90104f76dfab0d4f with java-parser
+22:42:21  INFO Commit #87b87049e66ae82f6e8787759ee7fb902d5a7d73 in 25/02/2011 22:52:32 from Rafael Monico with 1 modifications
+22:42:21  INFO -> Processing 87b87049e66ae82f6e8787759ee7fb902d5a7d73 with java-parser
+22:42:22  INFO Commit #82b95d830e7e518493fc3e1a53601680609ad83b in 25/02/2011 22:44:14 from Rafael Monico with 1 modifications
+22:42:22  INFO -> Processing 82b95d830e7e518493fc3e1a53601680609ad83b with java-parser
+22:42:24  INFO Commit #fb414cb84f807affbb304653a890891a63daa56a in 25/02/2011 22:43:50 from Rafael Monico with 1 modifications
+22:42:24  INFO -> Processing fb414cb84f807affbb304653a890891a63daa56a with java-parser
+22:42:26  INFO Commit #9e17055b9a87ebe881a773be4d475ba65f5ef1c4 in 25/02/2011 22:13:59 from Rafael Monico with 1 modifications
+22:42:26  INFO -> Processing 9e17055b9a87ebe881a773be4d475ba65f5ef1c4 with java-parser
+22:42:28  INFO Commit #2277788977a7621fcf64db3fd1d860ea315e6b91 in 25/02/2011 22:03:19 from Rafael Monico with 1 modifications
+22:42:28  INFO -> Processing 2277788977a7621fcf64db3fd1d860ea315e6b91 with java-parser
+22:42:29  INFO Commit #f588ba554aa89f59f360906a503b9e3673e65022 in 25/02/2011 22:02:34 from Rafael Monico with 1 modifications
+22:42:29  INFO -> Processing f588ba554aa89f59f360906a503b9e3673e65022 with java-parser
+22:42:32  INFO Commit #a289b033020659437bd3aaf8e8b2ba9fbf1eeafd in 25/02/2011 21:50:06 from Rafael Monico with 2 modifications
+22:42:32  INFO -> Processing a289b033020659437bd3aaf8e8b2ba9fbf1eeafd with java-parser
+22:42:34  INFO Commit #7a7fac91d19afdc8d0dacfe561c69e10c39c79a8 in 25/02/2011 21:49:37 from Rafael Monico with 1 modifications
+22:42:34  INFO -> Processing 7a7fac91d19afdc8d0dacfe561c69e10c39c79a8 with java-parser
+22:42:36  INFO Commit #b08695d8d848219124a97e233fe185babbad8cac in 25/02/2011 21:48:44 from Rafael Monico with 1 modifications
+22:42:36  INFO -> Processing b08695d8d848219124a97e233fe185babbad8cac with java-parser
+22:42:37  INFO Commit #855e4dd4c30d1babc734c0659b0e18b8e44332b4 in 25/02/2011 21:48:27 from Rafael Monico with 3 modifications
+22:42:37  INFO -> Processing 855e4dd4c30d1babc734c0659b0e18b8e44332b4 with java-parser
+22:42:39  INFO Commit #a0b80b85dfa040bd5f812647df95a2228ed88347 in 25/02/2011 16:41:40 from Rafael Monico with 5 modifications
+22:42:39  INFO -> Processing a0b80b85dfa040bd5f812647df95a2228ed88347 with java-parser
+22:42:41  INFO Commit #3a54abec45aec8e5599a9eded6d0e7df5e30a611 in 25/02/2011 16:36:46 from Rafael Monico with 2 modifications
+22:42:41  INFO -> Processing 3a54abec45aec8e5599a9eded6d0e7df5e30a611 with java-parser
+22:42:42  INFO Commit #4eed2519e9abe40af66a48571b0d772affc253a9 in 25/02/2011 16:33:43 from Rafael Monico with 1 modifications
+22:42:42  INFO -> Processing 4eed2519e9abe40af66a48571b0d772affc253a9 with java-parser
+22:42:44  INFO Commit #d3dc8fbb7311923b0f3807d2e6d8fe542b8c769f in 25/02/2011 16:33:28 from Rafael Monico with 1 modifications
+22:42:44  INFO -> Processing d3dc8fbb7311923b0f3807d2e6d8fe542b8c769f with java-parser
+22:42:46  INFO Commit #c6bf90cb9fae4ea46a3988971f1aba08937df31f in 25/02/2011 16:33:09 from Rafael Monico with 1 modifications
+22:42:46  INFO -> Processing c6bf90cb9fae4ea46a3988971f1aba08937df31f with java-parser
+22:42:49  INFO Commit #8fffc3f68e278808df4f1089469ca3b45a4a50a0 in 25/02/2011 16:32:53 from Rafael Monico with 1 modifications
+22:42:49  INFO -> Processing 8fffc3f68e278808df4f1089469ca3b45a4a50a0 with java-parser
+22:42:51  INFO Commit #7b819a7107242f4dbd161f02d0937edc2c256ecf in 25/02/2011 16:32:41 from Rafael Monico with 1 modifications
+22:42:51  INFO -> Processing 7b819a7107242f4dbd161f02d0937edc2c256ecf with java-parser
+22:42:53  INFO Commit #6fa0fd418ee6d74f5b0f70819d18b596a811a7f6 in 25/02/2011 16:32:29 from Rafael Monico with 1 modifications
+22:42:53  INFO -> Processing 6fa0fd418ee6d74f5b0f70819d18b596a811a7f6 with java-parser
+22:42:55  INFO Commit #54b09204e1d65031b3d2ceca9d1536cb969442a4 in 24/02/2011 13:52:05 from Rafael Monico with 1 modifications
+22:42:55  INFO -> Processing 54b09204e1d65031b3d2ceca9d1536cb969442a4 with java-parser
+22:42:56  INFO Commit #0959446431cdcc762df60dab75562a658596438f in 24/02/2011 13:51:49 from Rafael Monico with 1 modifications
+22:42:56  INFO -> Processing 0959446431cdcc762df60dab75562a658596438f with java-parser
+22:42:58  INFO Commit #a979d2b1efea02fa379ae0478b7f6eabb454f94a in 24/02/2011 13:30:47 from Rafael Monico with 3 modifications
+22:42:58  INFO -> Processing a979d2b1efea02fa379ae0478b7f6eabb454f94a with java-parser
+22:43:00  INFO Commit #b1254c0586c0187c90c684c8cb8e69f411955567 in 24/02/2011 11:26:32 from Rafael Monico with 1 modifications
+22:43:00  INFO -> Processing b1254c0586c0187c90c684c8cb8e69f411955567 with java-parser
+22:43:01  INFO Commit #5848e5d17bec7c38dfd1d59f45af558e12ffd610 in 24/02/2011 11:24:11 from Rafael Monico with 13 modifications
+22:43:01  INFO -> Processing 5848e5d17bec7c38dfd1d59f45af558e12ffd610 with java-parser
+22:43:03  INFO Commit #b80f134663cfca06c496bcaeda37e624e1d02008 in 24/02/2011 11:20:13 from Rafael Monico with 1 modifications
+22:43:03  INFO -> Processing b80f134663cfca06c496bcaeda37e624e1d02008 with java-parser
+22:43:06  INFO Commit #5b6869354d3f7ad9ab612e735aeb8a5dba3f0fa9 in 24/02/2011 11:19:27 from Rafael Monico with 1 modifications
+22:43:06  INFO -> Processing 5b6869354d3f7ad9ab612e735aeb8a5dba3f0fa9 with java-parser
+22:43:07  INFO Commit #e56bab578938985c2127ba043bef9bfa0106cd43 in 24/02/2011 11:18:52 from Rafael Monico with 1 modifications
+22:43:07  INFO -> Processing e56bab578938985c2127ba043bef9bfa0106cd43 with java-parser
+22:43:09  INFO Commit #072ab7a3f1be3edec848b2745fbd589af745fb4f in 24/02/2011 11:18:39 from Rafael Monico with 1 modifications
+22:43:09  INFO -> Processing 072ab7a3f1be3edec848b2745fbd589af745fb4f with java-parser
+22:43:11  INFO Commit #ec3bfc01e728a1851434d88e9c290b19018b9ed7 in 24/02/2011 11:07:22 from Rafael Monico with 1 modifications
+22:43:11  INFO -> Processing ec3bfc01e728a1851434d88e9c290b19018b9ed7 with java-parser
+22:43:13  INFO Commit #8cbad86155a1cc406542d8e876bbe7cb3e896659 in 21/02/2011 21:15:47 from Rafael Monico with 3 modifications
+22:43:13  INFO -> Processing 8cbad86155a1cc406542d8e876bbe7cb3e896659 with java-parser
+22:43:16  INFO Commit #d022da4fa6678fbd78775d7e9bbc99882f9627f0 in 21/02/2011 19:12:48 from Rafael Monico with 4 modifications
+22:43:16  INFO -> Processing d022da4fa6678fbd78775d7e9bbc99882f9627f0 with java-parser
+22:43:17  INFO Commit #5dbea27defeb87acf5087dfb7b111b7e31cbdb96 in 20/02/2011 23:00:41 from Rafael Monico with 1 modifications
+22:43:17  INFO -> Processing 5dbea27defeb87acf5087dfb7b111b7e31cbdb96 with java-parser
+22:43:19  INFO Commit #793602d904c79e55010df54fc6730b1dc1b3d35d in 20/02/2011 22:12:03 from Rafael Monico with 2 modifications
+22:43:19  INFO -> Processing 793602d904c79e55010df54fc6730b1dc1b3d35d with java-parser
+22:43:20  INFO Commit #7c6f0d02389956411db6eef7821369b5c533b890 in 20/02/2011 22:06:44 from Rafael Monico with 1 modifications
+22:43:20  INFO -> Processing 7c6f0d02389956411db6eef7821369b5c533b890 with java-parser
+22:43:23  INFO Commit #b64f0b8e1d0f01b19ff6c064fab2d56b5473ff31 in 20/02/2011 22:04:57 from Rafael Monico with 3 modifications
+22:43:23  INFO -> Processing b64f0b8e1d0f01b19ff6c064fab2d56b5473ff31 with java-parser
+22:43:24  INFO Commit #04d78dc72736166a221b8beceae7d93f4778b3af in 20/02/2011 21:49:53 from Rafael Monico with 1 modifications
+22:43:24  INFO -> Processing 04d78dc72736166a221b8beceae7d93f4778b3af with java-parser
+22:43:26  INFO Commit #5f3d136bdd5138ee62d3dc800592d506541d3f83 in 20/02/2011 21:48:24 from Rafael Monico with 1 modifications
+22:43:26  INFO -> Processing 5f3d136bdd5138ee62d3dc800592d506541d3f83 with java-parser
+22:43:28  INFO Commit #d602bad6158b1a305fee9344358f675880cd3633 in 20/02/2011 21:44:30 from Rafael Monico with 1 modifications
+22:43:28  INFO -> Processing d602bad6158b1a305fee9344358f675880cd3633 with java-parser
+22:43:30  INFO Commit #10162c6f951d3ffe494a87977947321368e42259 in 20/02/2011 21:43:40 from Rafael Monico with 1 modifications
+22:43:30  INFO -> Processing 10162c6f951d3ffe494a87977947321368e42259 with java-parser
+22:43:32  INFO Commit #8517d1ce20ca955b8179a1f1eca81ab64e9d8433 in 20/02/2011 21:37:24 from Rafael Monico with 2 modifications
+22:43:32  INFO -> Processing 8517d1ce20ca955b8179a1f1eca81ab64e9d8433 with java-parser
+22:43:34  INFO Commit #b2998ce97240df274f9f2a67a6b3706bc1324641 in 20/02/2011 21:36:36 from Rafael Monico with 1 modifications
+22:43:34  INFO -> Processing b2998ce97240df274f9f2a67a6b3706bc1324641 with java-parser
+22:43:35  INFO Commit #a6cc197eefaa665f2478ff91e2cb0149678ff190 in 20/02/2011 21:34:56 from Rafael Monico with 1 modifications
+22:43:35  INFO -> Processing a6cc197eefaa665f2478ff91e2cb0149678ff190 with java-parser
+22:43:37  INFO Commit #8163d47302ef3bc4af7ba74d6e98a6d26b5bb665 in 20/02/2011 21:33:42 from Rafael Monico with 1 modifications
+22:43:37  INFO -> Processing 8163d47302ef3bc4af7ba74d6e98a6d26b5bb665 with java-parser
+22:43:40  INFO Commit #2920a79232b0bc467b93eed1f16ae65b9e219ae1 in 20/02/2011 21:30:59 from Rafael Monico with 3 modifications
+22:43:40  INFO -> Processing 2920a79232b0bc467b93eed1f16ae65b9e219ae1 with java-parser
+22:43:41  INFO Commit #53ec7add64e4d3357d3923b2e980ce25a328e26a in 20/02/2011 21:17:51 from Rafael Monico with 1 modifications
+22:43:41  INFO -> Processing 53ec7add64e4d3357d3923b2e980ce25a328e26a with java-parser
+22:43:43  INFO Commit #496623995d22dab841e518da2d76c1d7a503cdd6 in 20/02/2011 21:14:06 from Rafael Monico with 2 modifications
+22:43:43  INFO -> Processing 496623995d22dab841e518da2d76c1d7a503cdd6 with java-parser
+22:43:45  INFO Commit #cf7166a2e3776089e9c92968e664580525c9a772 in 20/02/2011 17:32:00 from Rafael Monico with 1 modifications
+22:43:45  INFO -> Processing cf7166a2e3776089e9c92968e664580525c9a772 with java-parser
+22:43:47  INFO Commit #23cb02e9c2c913b593296f3a48fe69faa6f34968 in 20/02/2011 17:20:52 from Rafael Monico with 10 modifications
+22:43:47  INFO -> Processing 23cb02e9c2c913b593296f3a48fe69faa6f34968 with java-parser
+22:43:49  INFO Commit #da1f67a85073fe3d5030dfd281264db4fef5fe4f in 20/02/2011 17:04:47 from Rafael Monico with 1 modifications
+22:43:49  INFO -> Processing da1f67a85073fe3d5030dfd281264db4fef5fe4f with java-parser
+22:43:50  INFO Commit #93621fb93ab02945e18d3c006901f1c412d81c58 in 20/02/2011 17:04:09 from Rafael Monico with 2 modifications
+22:43:50  INFO -> Processing 93621fb93ab02945e18d3c006901f1c412d81c58 with java-parser
+22:43:52  INFO Commit #248ce51e6dd03a0824114593285ce11bdad3b54f in 20/02/2011 16:58:36 from Rafael Monico with 6 modifications
+22:43:52  INFO -> Processing 248ce51e6dd03a0824114593285ce11bdad3b54f with java-parser
+22:43:54  INFO Commit #966eb779f1997ed14f992185feaed005954057c1 in 20/02/2011 16:58:30 from Rafael Monico with 1 modifications
+22:43:54  INFO -> Processing 966eb779f1997ed14f992185feaed005954057c1 with java-parser
+22:43:56  INFO Commit #da51144f2d257a63e6e81d6247671a79c07de814 in 20/02/2011 16:34:59 from Rafael Monico with 2 modifications
+22:43:56  INFO -> Processing da51144f2d257a63e6e81d6247671a79c07de814 with java-parser
+22:43:57  INFO Commit #097ee7f3276b5216e2c335374667b894b3862b92 in 20/02/2011 16:34:37 from Rafael Monico with 2 modifications
+22:43:57  INFO -> Processing 097ee7f3276b5216e2c335374667b894b3862b92 with java-parser
+22:43:59  INFO Commit #aa5231eaa251b3a930c45072bf364f2ec1cdab8d in 20/02/2011 16:14:45 from Rafael Monico with 1 modifications
+22:43:59  INFO -> Processing aa5231eaa251b3a930c45072bf364f2ec1cdab8d with java-parser
+22:44:01  INFO Commit #f3d1cc302eef2e88a048e4f82b62a0ff483b2d06 in 20/02/2011 16:06:23 from Rafael Monico with 1 modifications
+22:44:01  INFO -> Processing f3d1cc302eef2e88a048e4f82b62a0ff483b2d06 with java-parser
+22:44:03  INFO Commit #124e4d46f64c2a5499904b6a4836f99d4eec6e7b in 20/02/2011 15:51:05 from Rafael Monico with 1 modifications
+22:44:03  INFO -> Processing 124e4d46f64c2a5499904b6a4836f99d4eec6e7b with java-parser
+22:44:05  INFO Commit #87c8d9ba0f5f9cc96f08800c93a522491fb08cd3 in 20/02/2011 15:50:29 from Rafael Monico with 1 modifications
+22:44:05  INFO -> Processing 87c8d9ba0f5f9cc96f08800c93a522491fb08cd3 with java-parser
+22:44:07  INFO Commit #cddfcca3fe52273baa4ef0f14b7ffd76ca263ce1 in 20/02/2011 15:29:26 from Rafael Monico with 1 modifications
+22:44:07  INFO -> Processing cddfcca3fe52273baa4ef0f14b7ffd76ca263ce1 with java-parser
+22:44:08  INFO Commit #9504cabdf468259c521679f39c72c09cd54b4fe2 in 20/02/2011 15:29:02 from Rafael Monico with 1 modifications
+22:44:08  INFO -> Processing 9504cabdf468259c521679f39c72c09cd54b4fe2 with java-parser
+22:44:10  INFO Commit #ad66a08a8043e973a909f970053b698b6c41a03a in 20/02/2011 15:28:38 from Rafael Monico with 1 modifications
+22:44:10  INFO -> Processing ad66a08a8043e973a909f970053b698b6c41a03a with java-parser
+22:44:12  INFO Commit #548eb3cdae306cf55c76fe7fecebd097cdc2675e in 20/02/2011 15:28:08 from Rafael Monico with 1 modifications
+22:44:12  INFO -> Processing 548eb3cdae306cf55c76fe7fecebd097cdc2675e with java-parser
+22:44:13  INFO Commit #674efa954d0fb59f6c339e8e26d4a586227a759b in 20/02/2011 15:24:34 from Rafael Monico with 1 modifications
+22:44:13  INFO -> Processing 674efa954d0fb59f6c339e8e26d4a586227a759b with java-parser
+22:44:15  INFO Commit #fa3f1698a3c663a1db6987fcef4c80693e640934 in 20/02/2011 15:24:14 from Rafael Monico with 1 modifications
+22:44:15  INFO -> Processing fa3f1698a3c663a1db6987fcef4c80693e640934 with java-parser
+22:44:18  INFO Commit #18264b92d1addd78389cecff99357cd4b9677cb6 in 19/02/2011 23:04:50 from Rafael Monico with 3 modifications
+22:44:18  INFO -> Processing 18264b92d1addd78389cecff99357cd4b9677cb6 with java-parser
+22:44:20  INFO Commit #ed3f92980fabdd89de1105535fd6173bc725e5a9 in 19/02/2011 21:51:14 from Rafael Monico with 1 modifications
+22:44:20  INFO -> Processing ed3f92980fabdd89de1105535fd6173bc725e5a9 with java-parser
+22:44:21  INFO Commit #d55b7fabc79db4503886093453e0d78a37f74bfb in 19/02/2011 21:50:54 from Rafael Monico with 1 modifications
+22:44:21  INFO -> Processing d55b7fabc79db4503886093453e0d78a37f74bfb with java-parser
+22:44:24  INFO Commit #101b5d4a8a989211ff22e83ee464c14e329fd505 in 19/02/2011 21:50:46 from Rafael Monico with 1 modifications
+22:44:24  INFO -> Processing 101b5d4a8a989211ff22e83ee464c14e329fd505 with java-parser
+22:44:25  INFO Commit #f58db39b62fa641ad634a6b0e86afff97a1ff888 in 19/02/2011 21:43:58 from Rafael Monico with 4 modifications
+22:44:25  INFO -> Processing f58db39b62fa641ad634a6b0e86afff97a1ff888 with java-parser
+22:44:27  INFO Commit #857b11d879baece50c81f30673d6ef3497f5d27a in 19/02/2011 21:40:03 from Rafael Monico with 1 modifications
+22:44:27  INFO -> Processing 857b11d879baece50c81f30673d6ef3497f5d27a with java-parser
+22:44:28  INFO Commit #aad7f5d6d259dd89c7b43e1ea4f36100222d9197 in 19/02/2011 21:37:24 from Rafael Monico with 1 modifications
+22:44:28  INFO -> Processing aad7f5d6d259dd89c7b43e1ea4f36100222d9197 with java-parser
+22:44:31  INFO Commit #3727b3a040b3f21859f270be5fd76943072cb6aa in 19/02/2011 21:35:06 from Rafael Monico with 2 modifications
+22:44:31  INFO -> Processing 3727b3a040b3f21859f270be5fd76943072cb6aa with java-parser
+22:44:32  INFO Commit #6533e875aa1c1cbbf095ffed08fe6158ee75001a in 19/02/2011 21:32:48 from Rafael Monico with 1 modifications
+22:44:32  INFO -> Processing 6533e875aa1c1cbbf095ffed08fe6158ee75001a with java-parser
+22:44:35  INFO Commit #eb2ec8a4a9d3dbd38bb298cf82dfc2cf3e82763f in 19/02/2011 21:26:49 from Rafael Monico with 2 modifications
+22:44:35  INFO -> Processing eb2ec8a4a9d3dbd38bb298cf82dfc2cf3e82763f with java-parser
+22:44:36  INFO Commit #df6a8e5dc3486195467aeac7cc77fa77b17e9e45 in 19/02/2011 21:26:08 from Rafael Monico with 1 modifications
+22:44:36  INFO -> Processing df6a8e5dc3486195467aeac7cc77fa77b17e9e45 with java-parser
+22:44:38  INFO Commit #230898b08c713273ff6c3969fc0fe23534ad47f9 in 19/02/2011 21:25:36 from Rafael Monico with 1 modifications
+22:44:38  INFO -> Processing 230898b08c713273ff6c3969fc0fe23534ad47f9 with java-parser
+22:44:40  INFO Commit #413f9d99074872389174667186ed77e2d597f4f4 in 19/02/2011 21:02:32 from Rafael Monico with 2 modifications
+22:44:40  INFO -> Processing 413f9d99074872389174667186ed77e2d597f4f4 with java-parser
+22:44:42  INFO Commit #ca10a593db7b3f1621187ba6b39a2a565f295caf in 19/02/2011 18:57:50 from Rafael Monico with 3 modifications
+22:44:42  INFO -> Processing ca10a593db7b3f1621187ba6b39a2a565f295caf with java-parser
+22:44:43  INFO Commit #65c2a03810b147aa9cb2b3700572932d62031860 in 19/02/2011 18:52:44 from Rafael Monico with 2 modifications
+22:44:43  INFO -> Processing 65c2a03810b147aa9cb2b3700572932d62031860 with java-parser
+22:44:45  INFO Commit #7be590a9da0f33e6f47f8b9ed4372fa75498ac62 in 19/02/2011 18:40:06 from Rafael Monico with 4 modifications
+22:44:45  INFO -> Processing 7be590a9da0f33e6f47f8b9ed4372fa75498ac62 with java-parser
+22:44:47  INFO Commit #8d31a08976c51774a598fb5e77ef34c1021cca1e in 19/02/2011 17:49:15 from Rafael Monico with 1 modifications
+22:44:47  INFO -> Processing 8d31a08976c51774a598fb5e77ef34c1021cca1e with java-parser
+22:44:48  INFO Commit #fb11c6e0343de7a08f986db059b1945705a830e3 in 19/02/2011 17:35:46 from Rafael Monico with 1 modifications
+22:44:48  INFO -> Processing fb11c6e0343de7a08f986db059b1945705a830e3 with java-parser
+22:44:51  INFO Commit #3c961136c161eb5a3c4af28e42e8b542f442df8b in 19/02/2011 17:06:49 from Rafael Monico with 16 modifications
+22:44:51  INFO -> Processing 3c961136c161eb5a3c4af28e42e8b542f442df8b with java-parser
+22:44:53  INFO Commit #918b96617f682d8a590165dbbe2dac997e276bf5 in 18/02/2011 17:44:11 from Rafael Monico with 2 modifications
+22:44:53  INFO -> Processing 918b96617f682d8a590165dbbe2dac997e276bf5 with java-parser
+22:44:55  INFO Commit #de937106c6be224111fd3304b8e8bfba4d07dcf7 in 18/02/2011 17:21:52 from Rafael Monico with 1 modifications
+22:44:55  INFO -> Processing de937106c6be224111fd3304b8e8bfba4d07dcf7 with java-parser
+22:44:56  INFO Commit #01d41e6860c4b0e67f000adc9075e3a84c770e38 in 18/02/2011 17:20:07 from Rafael Monico with 1 modifications
+22:44:56  INFO -> Processing 01d41e6860c4b0e67f000adc9075e3a84c770e38 with java-parser
+22:44:58  INFO Commit #8e43b73f9b6677fe75c780d8f318c7936e32503a in 18/02/2011 17:19:59 from Rafael Monico with 2 modifications
+22:44:58  INFO -> Processing 8e43b73f9b6677fe75c780d8f318c7936e32503a with java-parser
+22:44:59  INFO Commit #54177bb80b5ceb3810b2a46c2eb40550042d25e1 in 18/02/2011 17:17:16 from Rafael Monico with 3 modifications
+22:44:59  INFO -> Processing 54177bb80b5ceb3810b2a46c2eb40550042d25e1 with java-parser
+22:45:01  INFO Commit #2dcef537624d5a384d2dbfb85032615541861d59 in 18/02/2011 17:16:34 from Rafael Monico with 1 modifications
+22:45:01  INFO -> Processing 2dcef537624d5a384d2dbfb85032615541861d59 with java-parser
+22:45:03  INFO Commit #9738709b45547f1d657a5c6c2df1a806f6732d55 in 18/02/2011 17:11:07 from Rafael Monico with 2 modifications
+22:45:03  INFO -> Processing 9738709b45547f1d657a5c6c2df1a806f6732d55 with java-parser
+22:45:05  INFO Commit #ef1fae0c8e075dbbba309409e14481cbb9236809 in 18/02/2011 16:56:54 from Rafael Monico with 1 modifications
+22:45:05  INFO -> Processing ef1fae0c8e075dbbba309409e14481cbb9236809 with java-parser
+22:45:07  INFO Commit #ceefdf7591532e29524d2b3facf47b8c8122eb5b in 18/02/2011 16:50:18 from Rafael Monico with 1 modifications
+22:45:07  INFO -> Processing ceefdf7591532e29524d2b3facf47b8c8122eb5b with java-parser
+22:45:09  INFO Commit #d022be5f65b0832dc155a15582805652188693d4 in 18/02/2011 15:49:32 from Rafael Monico with 3 modifications
+22:45:09  INFO -> Processing d022be5f65b0832dc155a15582805652188693d4 with java-parser
+22:45:10  INFO Commit #ab703847048d4d2bef1d7e0280ac2deae9b13a59 in 18/02/2011 14:35:26 from Rafael Monico with 12 modifications
+22:45:10  INFO -> Processing ab703847048d4d2bef1d7e0280ac2deae9b13a59 with java-parser
+22:45:12  INFO Commit #e3eb5531aa794179bd1056dc183c596d95a7fa3d in 18/02/2011 14:35:06 from Rafael Monico with 1 modifications
+22:45:12  INFO -> Processing e3eb5531aa794179bd1056dc183c596d95a7fa3d with java-parser
+22:45:13  INFO Commit #356933df9e13c001e9f6ce640f56d3d4b3048a36 in 17/02/2011 16:41:53 from Rafael Monico with 2 modifications
+22:45:13  INFO -> Processing 356933df9e13c001e9f6ce640f56d3d4b3048a36 with java-parser
+22:45:15  INFO Commit #8028a170a4424d9792003a2a031d9a86c327e1fd in 17/02/2011 16:33:26 from Rafael Monico with 2 modifications
+22:45:15  INFO -> Processing 8028a170a4424d9792003a2a031d9a86c327e1fd with java-parser
+22:45:16  INFO Commit #f55a08992dc3e2d46048dd9be1b8b6e92bad665d in 17/02/2011 16:25:15 from Rafael Monico with 6 modifications
+22:45:16  INFO -> Processing f55a08992dc3e2d46048dd9be1b8b6e92bad665d with java-parser
+22:45:18  INFO Commit #6d214b3a99262c3052eae6006a1721b458fc1aa6 in 17/02/2011 15:29:36 from Rafael Monico with 2 modifications
+22:45:18  INFO -> Processing 6d214b3a99262c3052eae6006a1721b458fc1aa6 with java-parser
+22:45:20  INFO Commit #23ab6e430ecd4ec836a36300afb871fc89038229 in 17/02/2011 15:20:39 from Rafael Monico with 2 modifications
+22:45:20  INFO -> Processing 23ab6e430ecd4ec836a36300afb871fc89038229 with java-parser
+22:45:22  INFO Commit #52dfc0d3f6b1b0041280b21de1edf91b132c9cfd in 17/02/2011 14:47:43 from Rafael Monico with 1 modifications
+22:45:22  INFO -> Processing 52dfc0d3f6b1b0041280b21de1edf91b132c9cfd with java-parser
+22:45:24  INFO Commit #325bab4a196287dfcaae3aac630b038a1c8d96d7 in 17/02/2011 14:41:53 from Rafael Monico with 2 modifications
+22:45:24  INFO -> Processing 325bab4a196287dfcaae3aac630b038a1c8d96d7 with java-parser
+22:45:26  INFO Commit #3144e366abfff025007ff8ecd7ff755b929f04fb in 17/02/2011 14:27:50 from Rafael Monico with 1 modifications
+22:45:26  INFO -> Processing 3144e366abfff025007ff8ecd7ff755b929f04fb with java-parser
+22:45:27  INFO Commit #be99f87a3133d21b0c3b4c72df05b991213eb53c in 17/02/2011 14:27:42 from Rafael Monico with 1 modifications
+22:45:27  INFO -> Processing be99f87a3133d21b0c3b4c72df05b991213eb53c with java-parser
+22:45:30  INFO Commit #59d9ddf0c2ec69ab8727e94067e1cc570fddd589 in 17/02/2011 13:56:31 from Rafael Monico with 1 modifications
+22:45:30  INFO -> Processing 59d9ddf0c2ec69ab8727e94067e1cc570fddd589 with java-parser
+22:45:31  INFO Commit #d67aa60f41bfff3ae3d80b514e028d066526f063 in 17/02/2011 13:50:02 from Rafael Monico with 1 modifications
+22:45:31  INFO -> Processing d67aa60f41bfff3ae3d80b514e028d066526f063 with java-parser
+22:45:33  INFO Commit #24ac657d80986372e567a089e124791a793b4c57 in 17/02/2011 13:45:18 from Rafael Monico with 5 modifications
+22:45:33  INFO -> Processing 24ac657d80986372e567a089e124791a793b4c57 with java-parser
+22:45:34  INFO Commit #7e0a37b4a74187e92033724eafaf8ab54a30c350 in 17/02/2011 12:54:05 from Rafael Monico with 6 modifications
+22:45:34  INFO -> Processing 7e0a37b4a74187e92033724eafaf8ab54a30c350 with java-parser
+22:45:37  INFO Commit #1f49c4e2613dcbc2697671313861007c866413a4 in 17/02/2011 12:21:39 from Rafael Monico with 1 modifications
+22:45:37  INFO -> Processing 1f49c4e2613dcbc2697671313861007c866413a4 with java-parser
+22:45:38  INFO Commit #e209641d32be4a0da64328ea2e735f043d8a3a30 in 16/02/2011 13:35:28 from Rafael Monico with 2 modifications
+22:45:38  INFO -> Processing e209641d32be4a0da64328ea2e735f043d8a3a30 with java-parser
+22:45:40  INFO Commit #b7b2bb3021a6e8785b2fcad11897b777b19e38d8 in 16/02/2011 13:24:47 from Rafael Monico with 1 modifications
+22:45:40  INFO -> Processing b7b2bb3021a6e8785b2fcad11897b777b19e38d8 with java-parser
+22:45:42  INFO Commit #c1d1c69fbaa932ca06c6fef151c2d75f72817e83 in 16/02/2011 12:55:14 from Rafael Monico with 1 modifications
+22:45:42  INFO -> Processing c1d1c69fbaa932ca06c6fef151c2d75f72817e83 with java-parser
+22:45:43  INFO Commit #0456dd8ad1af81c751972ddd0ab5716daded3993 in 16/02/2011 12:52:13 from Rafael Monico with 1 modifications
+22:45:43  INFO -> Processing 0456dd8ad1af81c751972ddd0ab5716daded3993 with java-parser
+22:45:45  INFO Commit #ca21d4bd92822867ae51c31339ab0ae87eb361f2 in 16/02/2011 12:51:58 from Rafael Monico with 1 modifications
+22:45:45  INFO -> Processing ca21d4bd92822867ae51c31339ab0ae87eb361f2 with java-parser
+22:45:47  INFO Commit #faa3523ae951d0a780e834eb6a9696bcbebc808b in 16/02/2011 12:51:31 from Rafael Monico with 1 modifications
+22:45:47  INFO -> Processing faa3523ae951d0a780e834eb6a9696bcbebc808b with java-parser
+22:45:49  INFO Commit #992dea374824095653ae1a62944b35700f4e42c2 in 16/02/2011 12:45:59 from Rafael Monico with 1 modifications
+22:45:49  INFO -> Processing 992dea374824095653ae1a62944b35700f4e42c2 with java-parser
+22:45:50  INFO Commit #5bde279b0fc074230576c8b07ed4e576bdd0db8d in 16/02/2011 12:37:13 from Rafael Monico with 1 modifications
+22:45:50  INFO -> Processing 5bde279b0fc074230576c8b07ed4e576bdd0db8d with java-parser
+22:45:53  INFO Commit #c2fce6cae87fdfb73c293f41753be7c8158b06da in 16/02/2011 12:19:30 from Rafael Monico with 1 modifications
+22:45:53  INFO -> Processing c2fce6cae87fdfb73c293f41753be7c8158b06da with java-parser
+22:45:54  INFO Commit #65382271e702e22078a89509184efcb35ce6fe7b in 16/02/2011 11:52:46 from Rafael Monico with 1 modifications
+22:45:54  INFO -> Processing 65382271e702e22078a89509184efcb35ce6fe7b with java-parser
+22:45:56  INFO Commit #8634ee6ba2747c7caa413ca1cba3a442cec5e9c3 in 16/02/2011 11:39:51 from Rafael Monico with 1 modifications
+22:45:56  INFO -> Processing 8634ee6ba2747c7caa413ca1cba3a442cec5e9c3 with java-parser
+22:45:58  INFO Commit #970214096e45112887d381ceeeacd93916c9f326 in 16/02/2011 11:39:15 from Rafael Monico with 2 modifications
+22:45:58  INFO -> Processing 970214096e45112887d381ceeeacd93916c9f326 with java-parser
+22:45:59  INFO Commit #4e65a820481a17c45268e9f00006c202dc5879e9 in 16/02/2011 11:37:33 from Rafael Monico with 1 modifications
+22:45:59  INFO -> Processing 4e65a820481a17c45268e9f00006c202dc5879e9 with java-parser
+22:46:01  INFO Commit #aa6adb067dd8b960490163446a70d79ae68e6a5b in 16/02/2011 11:31:37 from Rafael Monico with 1 modifications
+22:46:01  INFO -> Processing aa6adb067dd8b960490163446a70d79ae68e6a5b with java-parser
+22:46:03  INFO Commit #2f589b24e61b01c4a4bce1b3f2273b406706d7e4 in 16/02/2011 11:30:07 from Rafael Monico with 1 modifications
+22:46:03  INFO -> Processing 2f589b24e61b01c4a4bce1b3f2273b406706d7e4 with java-parser
+22:46:04  INFO Commit #ac9741c4a4c4c5d0bdd86f341df79f0f08801726 in 16/02/2011 11:21:53 from Rafael Monico with 1 modifications
+22:46:04  INFO -> Processing ac9741c4a4c4c5d0bdd86f341df79f0f08801726 with java-parser
+22:46:06  INFO Commit #234e0a17032bb3abee1ca85b2bc15418035f6179 in 16/02/2011 11:20:40 from Rafael Monico with 1 modifications
+22:46:06  INFO -> Processing 234e0a17032bb3abee1ca85b2bc15418035f6179 with java-parser
+22:46:09  INFO Commit #9b0b568ba2b0b997e3d7453a20c375d2de4932d5 in 16/02/2011 11:19:30 from Rafael Monico with 1 modifications
+22:46:09  INFO -> Processing 9b0b568ba2b0b997e3d7453a20c375d2de4932d5 with java-parser
+22:46:10  INFO Commit #a213f82ade8d231b0b6debb10577831b9c5cbc4e in 16/02/2011 11:18:31 from Rafael Monico with 4 modifications
+22:46:10  INFO -> Processing a213f82ade8d231b0b6debb10577831b9c5cbc4e with java-parser
+22:46:13  INFO Commit #d42a4c972d0e09b8875abd1d8aa8194e6e71ccf8 in 16/02/2011 11:17:46 from Rafael Monico with 4 modifications
+22:46:13  INFO -> Processing d42a4c972d0e09b8875abd1d8aa8194e6e71ccf8 with java-parser
+22:46:14  INFO Commit #b9f2136ff3b05f46ae921ff022eca03ac77e580e in 16/02/2011 11:14:08 from Rafael Monico with 1 modifications
+22:46:14  INFO -> Processing b9f2136ff3b05f46ae921ff022eca03ac77e580e with java-parser
+22:46:16  INFO Commit #d8028a46d2e0eef872a4c3313c08a8d7812ce309 in 16/02/2011 11:13:56 from Rafael Monico with 2 modifications
+22:46:16  INFO -> Processing d8028a46d2e0eef872a4c3313c08a8d7812ce309 with java-parser
+22:46:17  INFO Commit #bb90623b2f0aad42e7780325245f28198fd8ef88 in 16/02/2011 11:13:18 from Rafael Monico with 1 modifications
+22:46:17  INFO -> Processing bb90623b2f0aad42e7780325245f28198fd8ef88 with java-parser
+22:46:20  INFO Commit #3adfbbf4b166f46de24b57f71ac64b582c487099 in 16/02/2011 11:12:54 from Rafael Monico with 1 modifications
+22:46:20  INFO -> Processing 3adfbbf4b166f46de24b57f71ac64b582c487099 with java-parser
+22:46:21  INFO Commit #c6f85d7f40aee5006d4a6d9ea29cecc536488622 in 16/02/2011 10:41:19 from Rafael Monico with 1 modifications
+22:46:21  INFO -> Processing c6f85d7f40aee5006d4a6d9ea29cecc536488622 with java-parser
+22:46:23  INFO Commit #89bfdc2e9ae38c94db548ceafdc67b28da08f85d in 16/02/2011 10:40:59 from Rafael Monico with 1 modifications
+22:46:23  INFO -> Processing 89bfdc2e9ae38c94db548ceafdc67b28da08f85d with java-parser
+22:46:25  INFO Commit #7a59886eaf9b27b63a50f60321adcb0c43d68fb5 in 16/02/2011 10:40:07 from Rafael Monico with 1 modifications
+22:46:25  INFO -> Processing 7a59886eaf9b27b63a50f60321adcb0c43d68fb5 with java-parser
+22:46:26  INFO Commit #aa63b47c90dfbfc293915812dc05305d8d0b81a4 in 16/02/2011 10:17:38 from Rafael Monico with 1 modifications
+22:46:26  INFO -> Processing aa63b47c90dfbfc293915812dc05305d8d0b81a4 with java-parser
+22:46:28  INFO Commit #cc90e82c927a1052fcf0abbe6676f4a697437fa4 in 14/02/2011 20:26:41 from Rafael Monico with 1 modifications
+22:46:28  INFO -> Processing cc90e82c927a1052fcf0abbe6676f4a697437fa4 with java-parser
+22:46:29  INFO Commit #cfdc539ee981c9c63337c12b647c9624b7228b17 in 14/02/2011 20:17:02 from Rafael Monico with 18 modifications
+22:46:29  INFO -> Processing cfdc539ee981c9c63337c12b647c9624b7228b17 with java-parser
+22:46:31  INFO Commit #7a4c7fe7c5e33a36f2862de63c061aa7fb882a5c in 14/02/2011 20:13:05 from Rafael Monico with 2 modifications
+22:46:31  INFO -> Processing 7a4c7fe7c5e33a36f2862de63c061aa7fb882a5c with java-parser
+22:46:33  INFO Commit #655c10178c1c4c8a98b218d49ff6ef4bf8554c9f in 14/02/2011 19:31:08 from Rafael Monico with 1 modifications
+22:46:33  INFO -> Processing 655c10178c1c4c8a98b218d49ff6ef4bf8554c9f with java-parser
+22:46:34  INFO Commit #9f5441fe0013c27b421b9050fa5e66275372031e in 14/02/2011 19:13:47 from Rafael Monico with 2 modifications
+22:46:34  INFO -> Processing 9f5441fe0013c27b421b9050fa5e66275372031e with java-parser
+22:46:36  INFO Commit #ab666edca9c104ba40238f417c79a21c03399ba3 in 14/02/2011 18:38:09 from Rafael Monico with 11 modifications
+22:46:36  INFO -> Processing ab666edca9c104ba40238f417c79a21c03399ba3 with java-parser
+22:46:38  INFO Commit #404207efb0e1d584b411f31bf5bc3c3c73715364 in 14/02/2011 16:55:34 from Rafael Monico with 1 modifications
+22:46:38  INFO -> Processing 404207efb0e1d584b411f31bf5bc3c3c73715364 with java-parser
+22:46:40  INFO Commit #58fdd9ca593cbb6cbbe500afaaacaec770aac6dd in 14/02/2011 16:55:07 from Rafael Monico with 1 modifications
+22:46:40  INFO -> Processing 58fdd9ca593cbb6cbbe500afaaacaec770aac6dd with java-parser
+22:46:41  INFO Commit #d651e5f2f56878fe2b99cfe6bcba8918901b24f1 in 14/02/2011 16:54:50 from Rafael Monico with 2 modifications
+22:46:41  INFO -> Processing d651e5f2f56878fe2b99cfe6bcba8918901b24f1 with java-parser
+22:46:43  INFO Commit #24f9de0127e8c90db8d9c202157ad3e6904fc53d in 14/02/2011 16:54:16 from Rafael Monico with 1 modifications
+22:46:43  INFO -> Processing 24f9de0127e8c90db8d9c202157ad3e6904fc53d with java-parser
+22:46:44  INFO Commit #b71b1dd036bf1b40ed1ba7f48705fff0919330ab in 14/02/2011 16:53:56 from Rafael Monico with 1 modifications
+22:46:44  INFO -> Processing b71b1dd036bf1b40ed1ba7f48705fff0919330ab with java-parser
+22:46:45  INFO Commit #4fdd1d1d8282d964db0691caec4d4515c51ee45c in 14/02/2011 16:38:52 from Rafael Monico with 2 modifications
+22:46:45  INFO -> Processing 4fdd1d1d8282d964db0691caec4d4515c51ee45c with java-parser
+22:46:48  INFO Commit #09736aa1912c02a639ff6feec235cb693af4590e in 14/02/2011 16:37:12 from Rafael Monico with 1 modifications
+22:46:48  INFO -> Processing 09736aa1912c02a639ff6feec235cb693af4590e with java-parser
+22:46:49  INFO Commit #d0c51063cf5e7ccb1e07a71e58b1f1a6de601315 in 14/02/2011 16:14:30 from Rafael Monico with 2 modifications
+22:46:49  INFO -> Processing d0c51063cf5e7ccb1e07a71e58b1f1a6de601315 with java-parser
+22:46:51  INFO Commit #fe259edff48bd397c667969dbe5832e9ac27f3b6 in 14/02/2011 16:09:45 from Rafael Monico with 7 modifications
+22:46:51  INFO -> Processing fe259edff48bd397c667969dbe5832e9ac27f3b6 with java-parser
+22:46:53  INFO Commit #f61924e9014e3554efa4b9dd673b7e0aa31bf795 in 14/02/2011 15:37:54 from Rafael Monico with 7 modifications
+22:46:53  INFO -> Processing f61924e9014e3554efa4b9dd673b7e0aa31bf795 with java-parser
+22:46:54  INFO Commit #63d09d537708fe62b2a6d4a88a28964e57e69b87 in 14/02/2011 15:36:08 from Rafael Monico with 1 modifications
+22:46:54  INFO -> Processing 63d09d537708fe62b2a6d4a88a28964e57e69b87 with java-parser
+22:46:56  INFO Commit #de245bb8d6dfb2e05e08b5c906de1c55425baefb in 14/02/2011 15:13:57 from Rafael Monico with 1 modifications
+22:46:56  INFO -> Processing de245bb8d6dfb2e05e08b5c906de1c55425baefb with java-parser
+22:46:57  INFO Commit #2c1b1b44105f077219f1beb8dbab48a93f8a4b49 in 14/02/2011 15:04:08 from Rafael Monico with 1 modifications
+22:46:57  INFO -> Processing 2c1b1b44105f077219f1beb8dbab48a93f8a4b49 with java-parser
+22:46:59  INFO Commit #0cf4a37ffb179a6d13ec3eef5788395063a7fd16 in 14/02/2011 14:48:22 from Rafael Monico with 1 modifications
+22:46:59  INFO -> Processing 0cf4a37ffb179a6d13ec3eef5788395063a7fd16 with java-parser
+22:47:00  INFO Commit #de61d53a9dea5f2b836d8652acb6b538c0f6bdeb in 14/02/2011 14:47:49 from Rafael Monico with 1 modifications
+22:47:00  INFO -> Processing de61d53a9dea5f2b836d8652acb6b538c0f6bdeb with java-parser
+22:47:02  INFO Commit #312494311d2257a5682d45c776a505f2910a4994 in 14/02/2011 14:43:08 from Rafael Monico with 5 modifications
+22:47:02  INFO -> Processing 312494311d2257a5682d45c776a505f2910a4994 with java-parser
+22:47:04  INFO Commit #403c05fbd02d742168d1c0f4032eb03fe63505a5 in 14/02/2011 11:35:07 from Rafael Monico with 1 modifications
+22:47:04  INFO -> Processing 403c05fbd02d742168d1c0f4032eb03fe63505a5 with java-parser
+22:47:05  INFO Commit #be59e3ecf54b57c7276961e5ae6110f376f0b399 in 14/02/2011 11:33:13 from Rafael Monico with 9 modifications
+22:47:05  INFO -> Processing be59e3ecf54b57c7276961e5ae6110f376f0b399 with java-parser
+22:47:08  INFO Commit #2306a752f440916f528b72a1fd08459f96911dc3 in 14/02/2011 11:15:15 from Rafael Monico with 2 modifications
+22:47:08  INFO -> Processing 2306a752f440916f528b72a1fd08459f96911dc3 with java-parser
+22:47:09  INFO Commit #a952168821e13cd27314a03a600e2f98d851e121 in 14/02/2011 10:47:09 from Rafael Monico with 2 modifications
+22:47:09  INFO -> Processing a952168821e13cd27314a03a600e2f98d851e121 with java-parser
+22:47:11  INFO Commit #e3b1efd9717d7732aef8761b06a4754f3f68e476 in 14/02/2011 10:28:38 from Rafael Monico with 3 modifications
+22:47:11  INFO -> Processing e3b1efd9717d7732aef8761b06a4754f3f68e476 with java-parser
+22:47:13  INFO Commit #ba70674df6a8f0aa7542b42f06d1e4199c88dbae in 14/02/2011 10:22:56 from Rafael Monico with 2 modifications
+22:47:13  INFO -> Processing ba70674df6a8f0aa7542b42f06d1e4199c88dbae with java-parser
+22:47:15  INFO Commit #740f600dde3dcaab2e5c590830177d9b573463c3 in 13/02/2011 19:31:51 from Rafael Monico with 5 modifications
+22:47:15  INFO -> Processing 740f600dde3dcaab2e5c590830177d9b573463c3 with java-parser
+22:47:17  INFO Commit #736337b560ae06156f6b1b265413b57bca28bf26 in 13/02/2011 14:56:16 from Rafael Monico with 1 modifications
+22:47:17  INFO -> Processing 736337b560ae06156f6b1b265413b57bca28bf26 with java-parser
+22:47:18  INFO Commit #10ef9c72664fd80c06d3cf2be0f494541221a12c in 13/02/2011 14:55:48 from Rafael Monico with 1 modifications
+22:47:18  INFO -> Processing 10ef9c72664fd80c06d3cf2be0f494541221a12c with java-parser
+22:47:20  INFO Commit #125907b08e735f830f7bbadebb152aff7d7fbefd in 13/02/2011 14:55:18 from Rafael Monico with 1 modifications
+22:47:20  INFO -> Processing 125907b08e735f830f7bbadebb152aff7d7fbefd with java-parser
+22:47:22  INFO Commit #b464e0915f7a3c1c810bfc0deb2a6bf610ab790e in 13/02/2011 14:53:45 from Rafael Monico with 3 modifications
+22:47:22  INFO -> Processing b464e0915f7a3c1c810bfc0deb2a6bf610ab790e with java-parser
+22:47:23  INFO Commit #99e4decfcc95ebbb9bdac8645726e2779bea49f7 in 13/02/2011 14:53:25 from Rafael Monico with 1 modifications
+22:47:23  INFO -> Processing 99e4decfcc95ebbb9bdac8645726e2779bea49f7 with java-parser
+22:47:25  INFO Commit #1134073cad0171614855c977efcd84bf69d9d5a7 in 13/02/2011 14:52:50 from Rafael Monico with 1 modifications
+22:47:25  INFO -> Processing 1134073cad0171614855c977efcd84bf69d9d5a7 with java-parser
+22:47:27  INFO Commit #51936589cffa735d658b415868a0a09cccad873b in 13/02/2011 14:51:47 from Rafael Monico with 1 modifications
+22:47:27  INFO -> Processing 51936589cffa735d658b415868a0a09cccad873b with java-parser
+22:47:29  INFO Commit #2bac9413698b4f041c66ed00ecc52d59782c6890 in 13/02/2011 14:51:00 from Rafael Monico with 1 modifications
+22:47:29  INFO -> Processing 2bac9413698b4f041c66ed00ecc52d59782c6890 with java-parser
+22:47:30  INFO Commit #4548e4c43f7d6aea5a63b00f20199fcccd86dd82 in 13/02/2011 14:50:18 from Rafael Monico with 1 modifications
+22:47:30  INFO -> Processing 4548e4c43f7d6aea5a63b00f20199fcccd86dd82 with java-parser
+22:47:34  INFO Commit #a1d6b2f5cfcc9a2b5d5419af407da16616de3830 in 13/02/2011 14:49:57 from Rafael Monico with 1 modifications
+22:47:34  INFO -> Processing a1d6b2f5cfcc9a2b5d5419af407da16616de3830 with java-parser
+22:47:35  INFO Commit #4431f7d6385d23659426121c0b47f4dbdea4783b in 13/02/2011 14:49:04 from Rafael Monico with 1 modifications
+22:47:35  INFO -> Processing 4431f7d6385d23659426121c0b47f4dbdea4783b with java-parser
+22:47:38  INFO Commit #5facda6217253b9025ce7535f9ca288a427a2800 in 13/02/2011 14:48:41 from Rafael Monico with 1 modifications
+22:47:38  INFO -> Processing 5facda6217253b9025ce7535f9ca288a427a2800 with java-parser
+22:47:39  INFO Commit #c6847e7bbc1de2e7554bfd667947c8b9d674b685 in 13/02/2011 14:48:00 from Rafael Monico with 1 modifications
+22:47:39  INFO -> Processing c6847e7bbc1de2e7554bfd667947c8b9d674b685 with java-parser
+22:47:40  INFO Commit #81833c3973221fded0096f442a6ae40e4c19bfbe in 13/02/2011 14:47:30 from Rafael Monico with 5 modifications
+22:47:40  INFO -> Processing 81833c3973221fded0096f442a6ae40e4c19bfbe with java-parser
+22:47:42  INFO Commit #5e5a6c0fcdef162b972a95ebc4c45cb3e041f93c in 13/02/2011 14:45:56 from Rafael Monico with 1 modifications
+22:47:42  INFO -> Processing 5e5a6c0fcdef162b972a95ebc4c45cb3e041f93c with java-parser
+22:47:44  INFO Commit #a2eb781a60bb382d44592a2b37ff0710edb54822 in 13/02/2011 14:44:52 from Rafael Monico with 2 modifications
+22:47:44  INFO -> Processing a2eb781a60bb382d44592a2b37ff0710edb54822 with java-parser
+22:47:46  INFO Commit #5fc1d59cad21a42b200948c9964bec96c3139e45 in 13/02/2011 14:44:22 from Rafael Monico with 1 modifications
+22:47:46  INFO -> Processing 5fc1d59cad21a42b200948c9964bec96c3139e45 with java-parser
+22:47:47  INFO Commit #946f53e63a5455ff9097a5867997a91062f14354 in 13/02/2011 14:43:36 from Rafael Monico with 5 modifications
+22:47:47  INFO -> Processing 946f53e63a5455ff9097a5867997a91062f14354 with java-parser
+22:47:49  INFO Commit #02874f1fc5dea870f658be35dd9898a86759d964 in 13/02/2011 14:39:50 from Rafael Monico with 1 modifications
+22:47:49  INFO -> Processing 02874f1fc5dea870f658be35dd9898a86759d964 with java-parser
+22:47:51  INFO Commit #8d06e9571f5987bdfa61d77597f796113c9bb6ce in 13/02/2011 14:39:09 from Rafael Monico with 2 modifications
+22:47:51  INFO -> Processing 8d06e9571f5987bdfa61d77597f796113c9bb6ce with java-parser
+22:47:52  INFO Commit #17e492daec55a8bc68713c4cb6bf17ddc83052a1 in 13/02/2011 02:12:47 from Rafael Monico with 5 modifications
+22:47:52  INFO -> Processing 17e492daec55a8bc68713c4cb6bf17ddc83052a1 with java-parser
+22:47:54  INFO Commit #2354c1082cb88db9f790d4afbefeaa9f5b085ca3 in 12/02/2011 22:39:22 from Rafael Monico with 4 modifications
+22:47:54  INFO -> Processing 2354c1082cb88db9f790d4afbefeaa9f5b085ca3 with java-parser
+22:47:56  INFO Commit #527a23fd85428e5a0273c67fecd7f3f057feb5e2 in 12/02/2011 22:39:14 from Rafael Monico with 1 modifications
+22:47:56  INFO -> Processing 527a23fd85428e5a0273c67fecd7f3f057feb5e2 with java-parser
+22:47:58  INFO Commit #5a1afdb79562745467689f80c386fb4a26e87e7d in 11/02/2011 18:07:16 from Rafael Monico with 4 modifications
+22:47:58  INFO -> Processing 5a1afdb79562745467689f80c386fb4a26e87e7d with java-parser
+22:48:00  INFO Commit #deb0e82e762a1c71f1aafc9dd50447274b1aa600 in 11/02/2011 17:27:47 from Rafael Monico with 1 modifications
+22:48:00  INFO -> Processing deb0e82e762a1c71f1aafc9dd50447274b1aa600 with java-parser
+22:48:01  INFO Commit #4f70d7eb35ad70c40cfefced151ae0f221fd64e7 in 11/02/2011 17:12:36 from Rafael Monico with 6 modifications
+22:48:01  INFO -> Processing 4f70d7eb35ad70c40cfefced151ae0f221fd64e7 with java-parser
+22:48:02  INFO Commit #32a13c95d9c48160397e558732c52efb6682d91d in 11/02/2011 16:14:12 from Rafael Monico with 2 modifications
+22:48:02  INFO -> Processing 32a13c95d9c48160397e558732c52efb6682d91d with java-parser
+22:48:04  INFO Commit #65f6dff4e007e4177d1e9ef7942e2d0f65a7ca0d in 11/02/2011 16:03:58 from Rafael Monico with 1 modifications
+22:48:04  INFO -> Processing 65f6dff4e007e4177d1e9ef7942e2d0f65a7ca0d with java-parser
+22:48:05  INFO Commit #36b2647d8181806c9e475cb8f9eed5cb6c77ddb3 in 11/02/2011 15:52:54 from Rafael Monico with 1 modifications
+22:48:05  INFO -> Processing 36b2647d8181806c9e475cb8f9eed5cb6c77ddb3 with java-parser
+22:48:07  INFO Commit #c68b4cbfbf68d454e164a2124388b3811a3612cf in 11/02/2011 15:40:40 from Rafael Monico with 2 modifications
+22:48:07  INFO -> Processing c68b4cbfbf68d454e164a2124388b3811a3612cf with java-parser
+22:48:10  INFO Commit #c8f2015f9bddc85b0b4f682d36803cd53814da92 in 11/02/2011 15:26:46 from Rafael Monico with 3 modifications
+22:48:10  INFO -> Processing c8f2015f9bddc85b0b4f682d36803cd53814da92 with java-parser
+22:48:11  INFO Commit #422960c8720a69392da34f7e1a110873de3d26b0 in 11/02/2011 15:14:43 from Rafael Monico with 3 modifications
+22:48:11  INFO -> Processing 422960c8720a69392da34f7e1a110873de3d26b0 with java-parser
+22:48:14  INFO Commit #c892df158cacd23861c049911c0584454b953135 in 11/02/2011 15:06:11 from Rafael Monico with 3 modifications
+22:48:14  INFO -> Processing c892df158cacd23861c049911c0584454b953135 with java-parser
+22:48:15  INFO Commit #b387ed3b6a2d12a1d2eff18ad11433d3df0c4927 in 11/02/2011 15:01:22 from Rafael Monico with 3 modifications
+22:48:15  INFO -> Processing b387ed3b6a2d12a1d2eff18ad11433d3df0c4927 with java-parser
+22:48:16  INFO Commit #ee9ce5a2cc8b27dd0f1e757e025755acaf6cc3f7 in 11/02/2011 14:52:17 from Rafael Monico with 4 modifications
+22:48:16  INFO -> Processing ee9ce5a2cc8b27dd0f1e757e025755acaf6cc3f7 with java-parser
+22:48:18  INFO Commit #20d11a8209abceb051d542d4b025cbdfa6853119 in 11/02/2011 14:45:23 from Rafael Monico with 1 modifications
+22:48:18  INFO -> Processing 20d11a8209abceb051d542d4b025cbdfa6853119 with java-parser
+22:48:19  INFO Commit #3111c49226147465ce739cd9ef1d4f82de8524bf in 11/02/2011 14:45:12 from Rafael Monico with 1 modifications
+22:48:19  INFO -> Processing 3111c49226147465ce739cd9ef1d4f82de8524bf with java-parser
+22:48:21  INFO Commit #3a49598f18a7fc940505892545802fc0031854a5 in 11/02/2011 14:30:48 from Rafael Monico with 7 modifications
+22:48:21  INFO -> Processing 3a49598f18a7fc940505892545802fc0031854a5 with java-parser
+22:48:23  INFO Commit #25a17a0d020630168ed986086686f211f49eed30 in 11/02/2011 12:52:54 from Rafael Monico with 4 modifications
+22:48:23  INFO -> Processing 25a17a0d020630168ed986086686f211f49eed30 with java-parser
+22:48:24  INFO Commit #d4f1532fb884125b30c82106af58c2449542faec in 11/02/2011 11:13:43 from Rafael Monico with 2 modifications
+22:48:24  INFO -> Processing d4f1532fb884125b30c82106af58c2449542faec with java-parser
+22:48:25  INFO Commit #3748b993f949a12160442a7f71f164a158a3f9e3 in 11/02/2011 11:12:23 from Rafael Monico with 1 modifications
+22:48:25  INFO -> Processing 3748b993f949a12160442a7f71f164a158a3f9e3 with java-parser
+22:48:28  INFO Commit #9c92a0894db2aebd561b235c7998ec3c902529d4 in 09/02/2011 18:00:54 from Rafael Monico with 1 modifications
+22:48:28  INFO -> Processing 9c92a0894db2aebd561b235c7998ec3c902529d4 with java-parser
+22:48:29  INFO Commit #6bddafcb02629bc9990f2093c5b70140cb44c43f in 09/02/2011 18:00:11 from Rafael Monico with 6 modifications
+22:48:29  INFO -> Processing 6bddafcb02629bc9990f2093c5b70140cb44c43f with java-parser
+22:48:30  INFO Commit #3c94aa68cc44d9b5a142848cba767cb8ef7f25f6 in 09/02/2011 17:30:06 from Rafael Monico with 1 modifications
+22:48:30  INFO -> Processing 3c94aa68cc44d9b5a142848cba767cb8ef7f25f6 with java-parser
+22:48:32  INFO Commit #ac407a5b02dbbd8d08725319cbcb508ba7763cd8 in 09/02/2011 17:25:37 from Rafael Monico with 3 modifications
+22:48:32  INFO -> Processing ac407a5b02dbbd8d08725319cbcb508ba7763cd8 with java-parser
+22:48:33  INFO Commit #1eca3eb58cb8ebc0b5e78decb26ddcba8b5a1599 in 09/02/2011 17:23:09 from Rafael Monico with 3 modifications
+22:48:33  INFO -> Processing 1eca3eb58cb8ebc0b5e78decb26ddcba8b5a1599 with java-parser
+22:48:36  INFO Commit #77db93a47deef3f52faa0d3b22761798aefb075c in 09/02/2011 17:04:09 from Rafael Monico with 3 modifications
+22:48:36  INFO -> Processing 77db93a47deef3f52faa0d3b22761798aefb075c with java-parser
+22:48:37  INFO Commit #885d89f6a424815c5b7e710e236fa65d3ae84234 in 09/02/2011 16:40:24 from Rafael Monico with 1 modifications
+22:48:37  INFO -> Processing 885d89f6a424815c5b7e710e236fa65d3ae84234 with java-parser
+22:48:39  INFO Commit #8c4a0d96e6ddff502def5fd5d1c6fc5cc715c687 in 09/02/2011 16:37:43 from Rafael Monico with 1 modifications
+22:48:39  INFO -> Processing 8c4a0d96e6ddff502def5fd5d1c6fc5cc715c687 with java-parser
+22:48:41  INFO Commit #eea50b3bc18bed0b40fc1e9d1f7bbc23bbca5e5d in 09/02/2011 16:37:39 from Rafael Monico with 1 modifications
+22:48:41  INFO -> Processing eea50b3bc18bed0b40fc1e9d1f7bbc23bbca5e5d with java-parser
+22:48:42  INFO Commit #663911ec3d40b301c9ad0b34f452ef442c5809b6 in 09/02/2011 16:33:22 from Rafael Monico with 1 modifications
+22:48:42  INFO -> Processing 663911ec3d40b301c9ad0b34f452ef442c5809b6 with java-parser
+22:48:45  INFO Commit #3873163d13c307ab4faf29e78e79ee4eac0d6a16 in 09/02/2011 16:22:50 from Rafael Monico with 3 modifications
+22:48:45  INFO -> Processing 3873163d13c307ab4faf29e78e79ee4eac0d6a16 with java-parser
+22:48:46  INFO Commit #924737fb5fab2beebf5f5443e86ac5d8e4ec38c4 in 09/02/2011 16:18:33 from Rafael Monico with 2 modifications
+22:48:46  INFO -> Processing 924737fb5fab2beebf5f5443e86ac5d8e4ec38c4 with java-parser
+22:48:48  INFO Commit #068a4722f835b93490ec209f763463992f35df66 in 09/02/2011 16:14:51 from Rafael Monico with 5 modifications
+22:48:48  INFO -> Processing 068a4722f835b93490ec209f763463992f35df66 with java-parser
+22:48:49  INFO Commit #fafd4dd915087ea212cf0b62227578a80449b745 in 09/02/2011 16:12:27 from Rafael Monico with 4 modifications
+22:48:49  INFO -> Processing fafd4dd915087ea212cf0b62227578a80449b745 with java-parser
+22:48:50  INFO Commit #7555b164500b69cf38149717041dd170e476fa61 in 09/02/2011 16:04:45 from Rafael Monico with 2 modifications
+22:48:50  INFO -> Processing 7555b164500b69cf38149717041dd170e476fa61 with java-parser
+22:48:53  INFO Commit #98a5d9151b4fdc06d99ce34152db25bd74214c3f in 09/02/2011 16:03:18 from Rafael Monico with 2 modifications
+22:48:53  INFO -> Processing 98a5d9151b4fdc06d99ce34152db25bd74214c3f with java-parser
+22:48:54  INFO Commit #7a01c6020be5c98b7ef9d498781ca1b6cdcc1607 in 09/02/2011 16:03:10 from Rafael Monico with 1 modifications
+22:48:54  INFO -> Processing 7a01c6020be5c98b7ef9d498781ca1b6cdcc1607 with java-parser
+22:48:57  INFO Commit #a99173b17749235100abd5bfdd064b233ba8eb31 in 09/02/2011 15:48:24 from Rafael Monico with 1 modifications
+22:48:57  INFO -> Processing a99173b17749235100abd5bfdd064b233ba8eb31 with java-parser
+22:48:58  INFO Commit #efe648b28605cc53a7b234689d6a5ef2b5df88dd in 09/02/2011 15:48:16 from Rafael Monico with 1 modifications
+22:48:58  INFO -> Processing efe648b28605cc53a7b234689d6a5ef2b5df88dd with java-parser
+22:49:00  INFO Commit #3d7bbed6aa237bff31d4c88f98268ad884e291d9 in 09/02/2011 15:41:51 from Rafael Monico with 2 modifications
+22:49:00  INFO -> Processing 3d7bbed6aa237bff31d4c88f98268ad884e291d9 with java-parser
+22:49:02  INFO Commit #9b00ea48e737da8bacce824e4d969ad3ca89faf4 in 09/02/2011 15:24:02 from Rafael Monico with 4 modifications
+22:49:02  INFO -> Processing 9b00ea48e737da8bacce824e4d969ad3ca89faf4 with java-parser
+22:49:03  INFO Commit #89d9d349870d2db6c080ac4bbd3507b777662254 in 09/02/2011 15:23:23 from Rafael Monico with 1 modifications
+22:49:03  INFO -> Processing 89d9d349870d2db6c080ac4bbd3507b777662254 with java-parser
+22:49:04  INFO Commit #2a054766cf925c2b40004bc3a9199b673d230142 in 09/02/2011 15:09:27 from Rafael Monico with 4 modifications
+22:49:04  INFO -> Processing 2a054766cf925c2b40004bc3a9199b673d230142 with java-parser
+22:49:06  INFO Commit #427abce896a12958734a1bdef826ed7f019c44e5 in 09/02/2011 15:04:03 from Rafael Monico with 2 modifications
+22:49:06  INFO -> Processing 427abce896a12958734a1bdef826ed7f019c44e5 with java-parser
+22:49:07  INFO Commit #19bc64fc755e347ce0f1ffbc765ac6a91e11f6d1 in 09/02/2011 15:00:23 from Rafael Monico with 1 modifications
+22:49:07  INFO -> Processing 19bc64fc755e347ce0f1ffbc765ac6a91e11f6d1 with java-parser
+22:49:09  INFO Commit #63620d084dc7b47c797dd797e58372d0a83c847c in 09/02/2011 14:45:20 from Rafael Monico with 2 modifications
+22:49:09  INFO -> Processing 63620d084dc7b47c797dd797e58372d0a83c847c with java-parser
+22:49:10  INFO Commit #77fe96c8e3beaea0c7f85773038e0b8045efb8ba in 09/02/2011 14:42:45 from Rafael Monico with 2 modifications
+22:49:10  INFO -> Processing 77fe96c8e3beaea0c7f85773038e0b8045efb8ba with java-parser
+22:49:12  INFO Commit #6752775a4c73777167fa4541371b0372a57753f5 in 09/02/2011 14:40:33 from Rafael Monico with 1 modifications
+22:49:12  INFO -> Processing 6752775a4c73777167fa4541371b0372a57753f5 with java-parser
+22:49:14  INFO Commit #02a516a334dd8412d4c05bd78cf335df5c2ed9d3 in 09/02/2011 14:10:29 from Rafael Monico with 1 modifications
+22:49:14  INFO -> Processing 02a516a334dd8412d4c05bd78cf335df5c2ed9d3 with java-parser
+22:49:15  INFO Commit #806f9b7d04d226a58fa62a2d369b351f8a68c5b2 in 09/02/2011 14:05:10 from Rafael Monico with 5 modifications
+22:49:15  INFO -> Processing 806f9b7d04d226a58fa62a2d369b351f8a68c5b2 with java-parser
+22:49:17  INFO Commit #b03773292c6ae68d550a68a2c76392b4caaf291e in 09/02/2011 13:07:22 from Rafael Monico with 4 modifications
+22:49:17  INFO -> Processing b03773292c6ae68d550a68a2c76392b4caaf291e with java-parser
+22:49:18  INFO Commit #bac08f5f935c61c1874f6e28247f5eb9ad6a4508 in 09/02/2011 11:30:07 from Rafael Monico with 5 modifications
+22:49:18  INFO -> Processing bac08f5f935c61c1874f6e28247f5eb9ad6a4508 with java-parser
+22:49:20  INFO Commit #b962c33d2069d345cac48ff60f839a55b06d3727 in 08/02/2011 17:38:26 from Rafael Monico with 55 modifications
+22:49:20  INFO -> Processing b962c33d2069d345cac48ff60f839a55b06d3727 with java-parser
+22:49:22  INFO Commit #6c0c1ee0e81a9a58c6303642f06c9d656f3a8c12 in 07/02/2011 21:03:31 from Rafael Monico with 47 modifications
+22:49:22  INFO -> Processing 6c0c1ee0e81a9a58c6303642f06c9d656f3a8c12 with java-parser
+22:49:23  INFO # --------------------------------------------------
+22:49:23  INFO Study has been executed in the following projects:
+22:49:23  INFO - https://github.com/nascimentolwtn/Neutrino, from 6c0c1ee0e81a9a58c6303642f06c9d656f3a8c12 to c041820d5d973e9dd71ffc7405083a729db3593f
+22:49:23  INFO - https://github.com/nascimentolwtn/aomrolemapper, from b54d2eb583cb0bb7e7bbfb51a7d1a65053f8ff8a to f6b3c72f268bc080d84fe923781b43db65241fe4
+22:49:23  INFO The following processors were executed:
+22:49:23  INFO - java-parser (com.mystudy.JavaParserVisitor)
+22:49:23  INFO Finished: 08-01-2016 22:49:23
+22:49:23  INFO It took 1378 seconds (~22 minutes).
+22:49:23  INFO Brought to you by MetricMiner2 (metricminer.org.br)
+22:49:23  INFO # -------------------------------------------------- #
