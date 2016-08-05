@@ -1,4 +1,4 @@
-package org.cbsoft.framework;
+package org.cbsoft.framework.processor;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

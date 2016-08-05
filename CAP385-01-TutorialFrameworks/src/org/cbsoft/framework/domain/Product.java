@@ -1,6 +1,8 @@
-package org.cbsoft.framework;
+package org.cbsoft.framework.domain;
 
 import org.aula.application.Uppercase;
+import org.cbsoft.framework.annotation.DontIncludeOnFile;
+import org.cbsoft.framework.annotation.Prefix;
 
 public class Product {
 	

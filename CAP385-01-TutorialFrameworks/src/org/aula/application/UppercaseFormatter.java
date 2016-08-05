@@ -2,7 +2,7 @@ package org.aula.application;
 
 import java.lang.annotation.Annotation;
 
-import org.cbsoft.framework.ValueFormatter;
+import org.cbsoft.framework.formatter.ValueFormatter;
 
 public class UppercaseFormatter implements ValueFormatter {
 

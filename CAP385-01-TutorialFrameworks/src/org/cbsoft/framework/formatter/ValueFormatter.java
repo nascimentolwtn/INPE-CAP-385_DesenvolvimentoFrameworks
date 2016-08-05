@@ -1,4 +1,4 @@
-package org.cbsoft.framework;
+package org.cbsoft.framework.formatter;
 
 import java.lang.annotation.Annotation;
 

@@ -1,4 +1,4 @@
-package org.cbsoft.framework;
+package org.cbsoft.framework.serializer;
 
 import java.io.FileOutputStream;
 import java.lang.annotation.Annotation;
@@ -6,7 +6,13 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FileSerializer {
+import org.cbsoft.framework.annotation.DontIncludeOnFile;
+import org.cbsoft.framework.annotation.FormatterImplementation;
+import org.cbsoft.framework.formatter.DataFormatter;
+import org.cbsoft.framework.formatter.ValueFormatter;
+import org.cbsoft.framework.processor.PostProcessor;
+
+public class FileSerializer implements Serializer {
 
 	private PostProcessor postProcessor;
 	private DataFormatter dataFormatter;
@@ -16,7 +22,18 @@ public class FileSerializer {
 		this.postProcessor = postProcessor;
 		this.dataFormatter = dataFormatter;
 	}
+	
+	@Override
+	public void setPostProcessor(PostProcessor postProcessor) {
+		this.postProcessor = postProcessor;
+	}
+	
+	@Override
+	public PostProcessor getPostProcessor() {
+		return postProcessor;
+	}
 
+	@Override
 	public void generateFile(String filename, Object propGetter) {
 		byte[] bytes = this.dataFormatter.formatData(this.getPropertiesList(propGetter));
 		

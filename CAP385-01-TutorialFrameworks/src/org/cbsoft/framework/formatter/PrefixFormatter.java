@@ -1,6 +1,8 @@
-package org.cbsoft.framework;
+package org.cbsoft.framework.formatter;
 
 import java.lang.annotation.Annotation;
+
+import org.cbsoft.framework.annotation.Prefix;
 
 public class PrefixFormatter implements ValueFormatter {
 
