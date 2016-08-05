@@ -11,7 +11,7 @@ public class Compressor implements PostProcessor {
 	public byte[] postProcess(byte[] bytes) throws IOException {
 		ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
 		ZipOutputStream out = new ZipOutputStream(byteOut);
-		out.putNextEntry(new ZipEntry("internal"));
+		out.putNextEntry(new ZipEntry("internal.txt"));
 		out.write(bytes);
 		out.closeEntry();
 		out.close();
