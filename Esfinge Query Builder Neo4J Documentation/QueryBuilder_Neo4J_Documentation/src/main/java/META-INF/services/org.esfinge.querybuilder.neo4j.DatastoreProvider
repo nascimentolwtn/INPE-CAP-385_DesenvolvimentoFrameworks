@@ -1,1 +1,1 @@
-br.inpe.cap.neo4j.Neo4JDatastoreProvider
+br.inpe.cap.neo4j.dao.Neo4JDatastoreProvider

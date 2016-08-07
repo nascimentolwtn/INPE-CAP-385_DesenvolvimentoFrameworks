@@ -1,4 +1,4 @@
-package br.inpe.cap.neo4j;
+package br.inpe.cap.neo4j.dao;
 
 import org.esfinge.querybuilder.annotation.ServicePriority;
 import org.esfinge.querybuilder.neo4j.DatastoreProvider;

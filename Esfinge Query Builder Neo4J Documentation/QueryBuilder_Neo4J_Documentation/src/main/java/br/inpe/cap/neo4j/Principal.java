@@ -1,9 +1,8 @@
 package br.inpe.cap.neo4j;
 
-import org.esfinge.querybuilder.neo4j.oomapper.Condition;
-import org.esfinge.querybuilder.neo4j.oomapper.Neo4J;
-import org.esfinge.querybuilder.neo4j.oomapper.Query;
+import org.esfinge.querybuilder.QueryBuilder;
 
+import br.inpe.cap.neo4j.dao.ClienteDAO;
 import br.inpe.cap.neo4j.domain.Cachorro;
 import br.inpe.cap.neo4j.domain.Cliente;
 import br.inpe.cap.neo4j.domain.Pagamento;
@@ -25,13 +24,16 @@ public class Principal {
 		pagamento.setData("30/07/2016");
 		cliente.add(pagamento);
 		
-		Neo4J neo = new Neo4JDatastoreProvider().getDatastore();
-		neo.save(cliente);
+		ClienteDAO dao = QueryBuilder.create(ClienteDAO.class);
+		dao.save(cliente);
 		
-		Query<Cliente> query = neo.query(Cliente.class);
-		query.or(new Condition("nome", "Luiz*"));
+		Cliente cliente2 = new Cliente();
+		cliente2.setNome("Luiz Amaral");
+		cliente2.setMatricula(1);
+		dao.save(cliente2);
 		
-		System.out.println(query.asList());
+		System.out.println(dao.getById(0));
+		System.out.println(dao.getCliente());
 		
 	}
 
