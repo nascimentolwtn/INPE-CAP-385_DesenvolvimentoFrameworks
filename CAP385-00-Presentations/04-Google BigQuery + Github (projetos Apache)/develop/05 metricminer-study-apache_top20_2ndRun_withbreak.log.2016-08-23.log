@@ -1,0 +1,190 @@
+23:48:07  INFO # -------------------------------------------------- #
+23:48:07  INFO #                   MetricMiner                      #
+23:48:07  INFO #                      v2.0                          #
+23:48:07  INFO #             www.metricminer.org.br                 #
+23:48:07  INFO # -------------------------------------------------- #
+23:48:07  INFO Starting engine: 08-23-2016 23:48:07
+23:48:08  INFO Git repository in E:\metricminer2_studies\onos
+23:48:08  INFO Total of commits: 8986
+23:48:08  INFO Starting threads: 1
+23:48:08  INFO Commit #cda04cffc94bc0b80ddb85ec68ad790a5088fbc4 in 14/08/2014 18:43:27 from Ali "The Bomb" Al-Shabibi with 0 modifications
+23:48:08  INFO -> Processing cda04cffc94bc0b80ddb85ec68ad790a5088fbc4 with apache-parser
+23:49:21  INFO Commit #1f44e8e3827f473f2db550b94a13847b6750356a in 14/08/2014 19:19:57 from alshabib with 170 modifications
+23:49:21  INFO -> Processing 1f44e8e3827f473f2db550b94a13847b6750356a with apache-parser
+23:50:08  INFO # --------------------------------------------------
+23:50:08  INFO Study has been executed in the following projects:
+23:50:08  INFO - https://github.com/opennetworkinglab/onos, from cda04cffc94bc0b80ddb85ec68ad790a5088fbc4 to 2f6f907260d57e068f17c69e4a3d716ea6d76cd2
+23:50:08  INFO The following processors were executed:
+23:50:08  INFO - apache-parser (br.inpe.cap.apache.ApacheParserVisitor)
+23:50:09  INFO Git repository in E:\metricminer2_studies\onos
+23:50:09  INFO Total of commits: 8986
+23:50:09  INFO Starting threads: 1
+23:50:09  INFO Commit #2f6f907260d57e068f17c69e4a3d716ea6d76cd2 in 23/08/2016 18:57:53 from Ray Milkey with 1 modifications
+23:50:09  INFO -> Processing 2f6f907260d57e068f17c69e4a3d716ea6d76cd2 with apache-parser
+23:50:17  INFO Commit #3680fabba35fdfcfae3f203b4c01da95e4309937 in 23/08/2016 18:44:46 from Yuta HIGUCHI with 4 modifications
+23:50:17  INFO -> Processing 3680fabba35fdfcfae3f203b4c01da95e4309937 with apache-parser
+23:50:23  INFO Commit #8e98f2f2e634fc7e4303384df1771adc81270ff9 in 23/08/2016 18:18:53 from Thomas Vachuska with 1 modifications
+23:50:23  INFO -> Processing 8e98f2f2e634fc7e4303384df1771adc81270ff9 with apache-parser
+23:50:28  INFO Commit #b8d3798a6fb8fdf64aa06582b075180577a9cbaa in 23/08/2016 18:13:55 from Simon Hunt with 6 modifications
+23:50:28  INFO -> Processing b8d3798a6fb8fdf64aa06582b075180577a9cbaa with apache-parser
+23:50:34  INFO Commit #b1995cb7611193ddbae9fb2db8a68b8b554a75d8 in 23/08/2016 17:58:54 from Thomas Vachuska with 2 modifications
+23:50:34  INFO -> Processing b1995cb7611193ddbae9fb2db8a68b8b554a75d8 with apache-parser
+23:50:39  INFO Commit #884d4436ed7f4dedaebdc54a251dedcbc8daace1 in 23/08/2016 17:09:54 from Madan Jampani with 1 modifications
+23:50:39  INFO -> Processing 884d4436ed7f4dedaebdc54a251dedcbc8daace1 with apache-parser
+23:50:45  INFO Commit #cedd0dffd02034361f49aacfee1b38afe4616623 in 23/08/2016 15:44:13 from Yuta HIGUCHI with 2 modifications
+23:50:45  INFO -> Processing cedd0dffd02034361f49aacfee1b38afe4616623 with apache-parser
+23:50:50  INFO Commit #ad0c990e6c8897d004338ef33be3d696e413c93e in 23/08/2016 14:37:32 from Yuta HIGUCHI with 1 modifications
+23:50:50  INFO -> Processing ad0c990e6c8897d004338ef33be3d696e413c93e with apache-parser
+23:50:56  INFO Commit #8ffb7759d333df35606a3416eacf4bd35a247901 in 23/08/2016 13:49:06 from Viswanath KSP with 1 modifications
+23:50:56  INFO -> Processing 8ffb7759d333df35606a3416eacf4bd35a247901 with apache-parser
+23:51:01  INFO Commit #2451a0996b5e01adfe585a8d94dee179a0df5116 in 23/08/2016 13:06:19 from Deepa Vaddireddy with 15 modifications
+23:51:01  INFO -> Processing 2451a0996b5e01adfe585a8d94dee179a0df5116 with apache-parser
+23:51:26  INFO Commit #98315a2a7737d4414633948779aa7ea6ea8aac21 in 23/08/2016 12:30:05 from Kavitha Alagesan with 2 modifications
+23:51:26  INFO -> Processing 98315a2a7737d4414633948779aa7ea6ea8aac21 with apache-parser
+23:51:32  INFO Commit #6704df37670809b6929a65cdd25a3a6cc36783ff in 23/08/2016 02:07:50 from Kavitha Alagesan with 1 modifications
+23:51:32  INFO -> Processing 6704df37670809b6929a65cdd25a3a6cc36783ff with apache-parser
+23:51:37  INFO Commit #d3ff540f3674d4d2fa064c1b30925dbb205bb7ac in 23/08/2016 01:49:45 from Jayasree Ghosh with 5 modifications
+23:51:37  INFO -> Processing d3ff540f3674d4d2fa064c1b30925dbb205bb7ac with apache-parser
+23:51:43  INFO Commit #5808d5245e1453ec378fafc33dc6c5ff884327e7 in 22/08/2016 21:01:41 from sangho with 1 modifications
+23:51:43  INFO -> Processing 5808d5245e1453ec378fafc33dc6c5ff884327e7 with apache-parser
+23:51:48  INFO Commit #28267ea1ffdc1a19ee064a55725ea54ce6eef4ac in 22/08/2016 20:38:38 from Charles Chan with 1 modifications
+23:51:48  INFO -> Processing 28267ea1ffdc1a19ee064a55725ea54ce6eef4ac with apache-parser
+23:51:54  INFO Commit #250d02817987bab378f7c6afdcaf559c52f34c97 in 22/08/2016 17:35:19 from Yuta HIGUCHI with 1 modifications
+23:51:54  INFO -> Processing 250d02817987bab378f7c6afdcaf559c52f34c97 with apache-parser
+23:51:59  INFO Commit #1fb0a8cfa119a18da8f59ca97eaf57da6bf606d1 in 22/08/2016 17:05:48 from Yuta HIGUCHI with 2 modifications
+23:51:59  INFO -> Processing 1fb0a8cfa119a18da8f59ca97eaf57da6bf606d1 with apache-parser
+23:52:05  INFO Commit #22774cd8636e1a3665cac02fe66a4a42b3ae2a92 in 22/08/2016 17:00:07 from Viswanath KSP with 11 modifications
+23:52:05  INFO -> Processing 22774cd8636e1a3665cac02fe66a4a42b3ae2a92 with apache-parser
+23:52:10  INFO Commit #34b306051cff4466bc0e1766dbfb23b26400de50 in 22/08/2016 15:31:40 from varunsha with 4 modifications
+23:52:10  INFO -> Processing 34b306051cff4466bc0e1766dbfb23b26400de50 with apache-parser
+23:52:16  INFO Commit #ba87170b5e74a0acc86e7d288eaec9bc6391d8db in 22/08/2016 15:26:37 from GUNi with 16 modifications
+23:52:16  INFO -> Processing ba87170b5e74a0acc86e7d288eaec9bc6391d8db with apache-parser
+23:52:22  INFO Commit #a7b394d410e1d5b97ded09888f9d3e68c2a3625b in 22/08/2016 15:20:37 from Jian Li with 17 modifications
+23:52:22  INFO -> Processing a7b394d410e1d5b97ded09888f9d3e68c2a3625b with apache-parser
+23:52:28  INFO Commit #4eb3e3ace0c429bc2260e551c782b3cdceb867bc in 22/08/2016 15:14:46 from Jian Li with 4 modifications
+23:52:28  INFO -> Processing 4eb3e3ace0c429bc2260e551c782b3cdceb867bc with apache-parser
+23:52:34  INFO Commit #115d8602af6ea8eed55b0fcbb797e92a6920bab8 in 22/08/2016 15:14:15 from Jian Li with 16 modifications
+23:52:34  INFO -> Processing 115d8602af6ea8eed55b0fcbb797e92a6920bab8 with apache-parser
+23:52:40  INFO Commit #d48320e8926460b9cf34989933cde3edc11f2233 in 22/08/2016 15:07:18 from Pier Ventre with 3 modifications
+23:52:40  INFO -> Processing d48320e8926460b9cf34989933cde3edc11f2233 with apache-parser
+23:52:46  INFO Commit #b47c9535b4081b35ac0a0e9cc6c3dbf94b23f7fb in 22/08/2016 15:06:41 from Yuta HIGUCHI with 1 modifications
+23:52:46  INFO -> Processing b47c9535b4081b35ac0a0e9cc6c3dbf94b23f7fb with apache-parser
+23:52:52  INFO Commit #c5a1754f88fba08ab9b1553fdb9b368fd845c995 in 22/08/2016 14:26:11 from Madan Jampani with 1 modifications
+23:52:52  INFO -> Processing c5a1754f88fba08ab9b1553fdb9b368fd845c995 with apache-parser
+23:52:59  INFO Commit #ecf9971d827129a7a0bc3c058cee79c97b5704e5 in 22/08/2016 14:05:20 from Madan Jampani with 1 modifications
+23:52:59  INFO -> Processing ecf9971d827129a7a0bc3c058cee79c97b5704e5 with apache-parser
+23:53:05  INFO Commit #03fb8b24ef313128dc3895a810483e1cabad7a82 in 22/08/2016 13:55:40 from Madan Jampani with 2 modifications
+23:53:05  INFO -> Processing 03fb8b24ef313128dc3895a810483e1cabad7a82 with apache-parser
+23:53:11  INFO Commit #f79ab48e2ef52219e52b6509a6a0fc86330e7517 in 22/08/2016 13:51:45 from Jonathan Hart with 1 modifications
+23:53:11  INFO -> Processing f79ab48e2ef52219e52b6509a6a0fc86330e7517 with apache-parser
+23:53:17  INFO Commit #a1c41154de95b26aa2a49a4a89956598aa88c879 in 22/08/2016 13:11:39 from helenyrwu with 4 modifications
+23:53:17  INFO -> Processing a1c41154de95b26aa2a49a4a89956598aa88c879 with apache-parser
+23:53:23  INFO Commit #9e51ba5c37055c41d983b67e95cb95b8ef7c5145 in 19/08/2016 18:26:15 from Jonathan Hart with 1 modifications
+23:53:23  INFO -> Processing 9e51ba5c37055c41d983b67e95cb95b8ef7c5145 with apache-parser
+23:53:30  INFO Commit #586bc4f764e7b2349b386d7f6656075e745e29d4 in 19/08/2016 17:31:08 from Thomas Vachuska with 1 modifications
+23:53:30  INFO -> Processing 586bc4f764e7b2349b386d7f6656075e745e29d4 with apache-parser
+23:53:36  INFO Commit #1375cfe97631d9322870c81af7317fe19efccd21 in 19/08/2016 17:03:35 from Sho SHIMIZU with 2 modifications
+23:53:36  INFO -> Processing 1375cfe97631d9322870c81af7317fe19efccd21 with apache-parser
+23:53:42  INFO Commit #dbf59f02814b939aad02819f3fe24723939475ca in 19/08/2016 17:01:58 from Ray Milkey with 4 modifications
+23:53:42  INFO -> Processing dbf59f02814b939aad02819f3fe24723939475ca with apache-parser
+23:53:48  INFO Commit #ae538ff4194d22424d1a0dc83ea7efc1e2087159 in 19/08/2016 16:49:28 from Madan Jampani with 1 modifications
+23:53:48  INFO -> Processing ae538ff4194d22424d1a0dc83ea7efc1e2087159 with apache-parser
+23:53:54  INFO Commit #67f1305b75815d3ccd1c26c721da548111617746 in 19/08/2016 16:42:10 from Thomas Vachuska with 2 modifications
+23:53:54  INFO -> Processing 67f1305b75815d3ccd1c26c721da548111617746 with apache-parser
+23:54:00  INFO Commit #f204ff7561734e0242844d0d73ef54ad8bc3978d in 19/08/2016 15:41:53 from Sho SHIMIZU with 3 modifications
+23:54:00  INFO -> Processing f204ff7561734e0242844d0d73ef54ad8bc3978d with apache-parser
+23:54:06  INFO Commit #a8e125a5c81133507e37d7fd3da8281291a64129 in 19/08/2016 15:04:29 from Thomas Vachuska with 1 modifications
+23:54:06  INFO -> Processing a8e125a5c81133507e37d7fd3da8281291a64129 with apache-parser
+23:54:13  INFO Commit #4f47a868f4c0e4c23aa18238a5d8911fa4665101 in 19/08/2016 14:31:21 from Hyunsun Moon with 1 modifications
+23:54:13  INFO -> Processing 4f47a868f4c0e4c23aa18238a5d8911fa4665101 with apache-parser
+23:54:19  INFO Commit #7c338a4bc6799e186e201e3e023f574588c6d349 in 19/08/2016 14:27:06 from Jonathan Hart with 1 modifications
+23:54:19  INFO -> Processing 7c338a4bc6799e186e201e3e023f574588c6d349 with apache-parser
+23:54:25  INFO Commit #d08e2e97f1c378b79990af886e37ffa58de30244 in 19/08/2016 14:26:57 from Yuta HIGUCHI with 13 modifications
+23:54:25  INFO -> Processing d08e2e97f1c378b79990af886e37ffa58de30244 with apache-parser
+23:54:32  INFO Commit #86f142f958d99300262a0304a25bc4d3e5441944 in 19/08/2016 14:26:54 from Yuta HIGUCHI with 6 modifications
+23:54:32  INFO -> Processing 86f142f958d99300262a0304a25bc4d3e5441944 with apache-parser
+23:54:38  INFO Commit #156d780de7c87a5f97bd2062770dc7230038a71e in 19/08/2016 14:25:12 from Yuta HIGUCHI with 1 modifications
+23:54:38  INFO -> Processing 156d780de7c87a5f97bd2062770dc7230038a71e with apache-parser
+23:54:44  INFO Commit #a5cda899717eb2756f8961e5c9982224fcc83c06 in 19/08/2016 13:51:24 from Yuta HIGUCHI with 1 modifications
+23:54:44  INFO -> Processing a5cda899717eb2756f8961e5c9982224fcc83c06 with apache-parser
+23:54:50  INFO Commit #6f4d586421a62f283db56b07b6abdb57d87a167b in 19/08/2016 13:47:36 from Jonathan Hart with 1 modifications
+23:54:50  INFO -> Processing 6f4d586421a62f283db56b07b6abdb57d87a167b with apache-parser
+23:54:56  INFO Commit #9efeb81a80bbeff109484133d42bb11525ca06ad in 19/08/2016 13:34:53 from Sho SHIMIZU with 2 modifications
+23:54:56  INFO -> Processing 9efeb81a80bbeff109484133d42bb11525ca06ad with apache-parser
+23:55:02  INFO Commit #54f420d15bf6fd9a4eab61b8ef27f7abaf6e9d8f in 19/08/2016 13:33:29 from Michele Santuari with 1 modifications
+23:55:02  INFO -> Processing 54f420d15bf6fd9a4eab61b8ef27f7abaf6e9d8f with apache-parser
+23:55:09  INFO Commit #57c7c31e578067de97006446d41451dbd5adbaa3 in 19/08/2016 13:23:30 from zhangyuanyou with 1 modifications
+23:55:09  INFO -> Processing 57c7c31e578067de97006446d41451dbd5adbaa3 with apache-parser
+23:55:15  INFO Commit #ca5969409d81e8ab3d31a6888a937929c70ba88d in 19/08/2016 00:22:41 from Sho SHIMIZU with 2 modifications
+23:55:15  INFO -> Processing ca5969409d81e8ab3d31a6888a937929c70ba88d with apache-parser
+23:55:21  INFO Commit #7faabd5102eb4fc00b8c4fd103a7e6e03a0afa8c in 18/08/2016 20:38:42 from Simon Hunt with 3 modifications
+23:55:21  INFO -> Processing 7faabd5102eb4fc00b8c4fd103a7e6e03a0afa8c with apache-parser
+23:55:28  INFO Commit #7c298f3e9e2b83d3ad5358f589cf74c8cd65cbf4 in 18/08/2016 18:32:32 from Yuta HIGUCHI with 1 modifications
+23:55:28  INFO -> Processing 7c298f3e9e2b83d3ad5358f589cf74c8cd65cbf4 with apache-parser
+23:55:34  INFO Commit #f24b88c87e186dbdcef9e4063f526414dd11f3a7 in 18/08/2016 17:54:46 from Yuta HIGUCHI with 1 modifications
+23:55:34  INFO -> Processing f24b88c87e186dbdcef9e4063f526414dd11f3a7 with apache-parser
+23:55:40  INFO Commit #13f6515c7012e7313471523de1652454cba3b2a3 in 18/08/2016 17:46:55 from Madan Jampani with 7 modifications
+23:55:40  INFO -> Processing 13f6515c7012e7313471523de1652454cba3b2a3 with apache-parser
+23:55:47  INFO Commit #c012dda796d5f57deb3a31afdafadbaa3c2b7fd4 in 18/08/2016 16:06:00 from Yuta HIGUCHI with 5 modifications
+23:55:47  INFO -> Processing c012dda796d5f57deb3a31afdafadbaa3c2b7fd4 with apache-parser
+23:55:53  INFO Commit #89470f1d99c29655546d4e177605fea8f235bf54 in 18/08/2016 13:56:47 from helenyrwu with 8 modifications
+23:55:53  INFO -> Processing 89470f1d99c29655546d4e177605fea8f235bf54 with apache-parser
+23:55:59  INFO Commit #06e890869d52fee79dd8fad6701ab1ee4ea41a65 in 18/08/2016 13:18:19 from Jonathan Hart with 8 modifications
+23:55:59  INFO -> Processing 06e890869d52fee79dd8fad6701ab1ee4ea41a65 with apache-parser
+23:56:06  INFO Commit #0de4ba9401cd005639bc1865a53e07de60356aeb in 18/08/2016 12:59:50 from Yuta HIGUCHI with 80 modifications
+23:56:06  INFO -> Processing 0de4ba9401cd005639bc1865a53e07de60356aeb with apache-parser
+23:56:12  INFO Commit #62363f50696c2790b81a3ecb018a9e598ea3f65f in 17/08/2016 22:30:18 from Jayasree Ghosh with 1 modifications
+23:56:12  INFO -> Processing 62363f50696c2790b81a3ecb018a9e598ea3f65f with apache-parser
+23:56:36  INFO Commit #ee5c83e2fc6bbb4eeba3fc4a873edac4c43257f1 in 22/08/2016 17:49:54 from Sho SHIMIZU with 1 modifications
+23:56:36  INFO -> Processing ee5c83e2fc6bbb4eeba3fc4a873edac4c43257f1 with apache-parser
+23:57:01  INFO Commit #bb3262d735c7a8a20cf4c9aa7b6d34103df844be in 22/08/2016 15:32:29 from Sho SHIMIZU with 1 modifications
+23:57:01  INFO -> Processing bb3262d735c7a8a20cf4c9aa7b6d34103df844be with apache-parser
+23:57:26  INFO Commit #217e53c517a1008e02d150d68cdd3813455ef8ba in 22/08/2016 15:12:40 from Sho SHIMIZU with 1 modifications
+23:57:26  INFO -> Processing 217e53c517a1008e02d150d68cdd3813455ef8ba with apache-parser
+23:58:29  INFO Commit #00cf2578c98295916006dfaf2185d4331bad63fa in 22/08/2016 15:11:57 from Sho SHIMIZU with 1 modifications
+23:58:29  INFO -> Processing 00cf2578c98295916006dfaf2185d4331bad63fa with apache-parser
+23:58:56  INFO Commit #924c54ccb05c648afa49c6c2bd509a060b8d174c in 22/08/2016 14:07:11 from Kavitha Alagesan with 2 modifications
+23:58:56  INFO -> Processing 924c54ccb05c648afa49c6c2bd509a060b8d174c with apache-parser
+23:59:22  INFO Commit #6683c2fcdc6659f2bd481a4536cb6f36fbe3a152 in 22/08/2016 13:51:24 from Kavitha Alagesan with 1 modifications
+23:59:22  INFO -> Processing 6683c2fcdc6659f2bd481a4536cb6f36fbe3a152 with apache-parser
+23:59:46  INFO Commit #45f806ccedf844dfc8fe1722eca653f274b83f12 in 19/08/2016 22:03:20 from varunsha with 4 modifications
+23:59:46  INFO -> Processing 45f806ccedf844dfc8fe1722eca653f274b83f12 with apache-parser
+00:00:12  INFO Commit #2fecae51876075295cf825ca6a32e9fd5dc17686 in 19/08/2016 02:34:42 from Jayasree Ghosh with 6 modifications
+00:00:12  INFO -> Processing 2fecae51876075295cf825ca6a32e9fd5dc17686 with apache-parser
+00:00:37  INFO Commit #07e31cf54da691398144d2eae0f250344a998539 in 17/08/2016 13:37:19 from Sho SHIMIZU with 3 modifications
+00:00:37  INFO -> Processing 07e31cf54da691398144d2eae0f250344a998539 with apache-parser
+00:00:44  INFO Commit #bc36560205923982ea132091d6019fb46ca38d19 in 17/08/2016 13:36:19 from Yuta HIGUCHI with 1 modifications
+00:00:44  INFO -> Processing bc36560205923982ea132091d6019fb46ca38d19 with apache-parser
+00:00:52  INFO Commit #695bac68ec5da46d6cefc4ef9ef2f6a6caf1f6bc in 17/08/2016 13:35:32 from Sho SHIMIZU with 2 modifications
+00:00:52  INFO -> Processing 695bac68ec5da46d6cefc4ef9ef2f6a6caf1f6bc with apache-parser
+00:00:59  INFO Commit #ba8c80501fc3f45b89a3b0fa787f2831f425f049 in 17/08/2016 13:35:05 from Simon Hunt with 1 modifications
+00:00:59  INFO -> Processing ba8c80501fc3f45b89a3b0fa787f2831f425f049 with apache-parser
+00:01:08  INFO Commit #e6aaa3376e0bbf502afaf5085d7be097dfec1b49 in 17/08/2016 13:33:07 from helenyrwu with 1 modifications
+00:01:08  INFO -> Processing e6aaa3376e0bbf502afaf5085d7be097dfec1b49 with apache-parser
+00:02:48  INFO Commit #53bcc24715ea01fa349046fb614b52d7b7afddfd in 17/08/2016 13:31:54 from Sho SHIMIZU with 1 modifications
+00:02:48  INFO -> Processing 53bcc24715ea01fa349046fb614b52d7b7afddfd with apache-parser
+00:05:16  INFO Commit #e4abf5b20f4455a670936cf60e3f2a16949afdae in 17/08/2016 13:30:32 from Thomas Vachuska with 1 modifications
+00:05:16  INFO -> Processing e4abf5b20f4455a670936cf60e3f2a16949afdae with apache-parser
+00:05:25  INFO Commit #a8f69ff3fdf70a71acf7bfdaee31221e6c58fd01 in 17/08/2016 13:23:56 from Chiara Contoli with 4 modifications
+00:05:25  INFO -> Processing a8f69ff3fdf70a71acf7bfdaee31221e6c58fd01 with apache-parser
+00:08:26  INFO Commit #ecc7ce938b21395e1515875b31f7f453e2f21a69 in 17/08/2016 13:20:56 from Hesam Rahimi with 1 modifications
+00:08:26  INFO -> Processing ecc7ce938b21395e1515875b31f7f453e2f21a69 with apache-parser
+00:08:33  INFO Commit #f508667727ae9b5c89c7eeadba763babda6e363d in 17/08/2016 12:39:58 from ke han with 1 modifications
+00:08:33  INFO -> Processing f508667727ae9b5c89c7eeadba763babda6e363d with apache-parser
+00:08:40  INFO Commit #e3bcfc3f0c4487486a7c767fa1e1dd7b4da1388b in 16/08/2016 22:42:37 from Jonathan Hart with 4 modifications
+00:08:40  INFO -> Processing e3bcfc3f0c4487486a7c767fa1e1dd7b4da1388b with apache-parser
+00:08:48  INFO Commit #0f2977060214275c58a1b17ff72d31a52d0dc79a in 16/08/2016 19:48:40 from Viswanath KSP with 7 modifications
+00:08:48  INFO -> Processing 0f2977060214275c58a1b17ff72d31a52d0dc79a with apache-parser
+00:08:56  INFO Commit #c2e6815ddcb82fbba6b6ffc378e781cd87bc4009 in 16/08/2016 19:45:15 from Yuta HIGUCHI with 6 modifications
+00:08:56  INFO -> Processing c2e6815ddcb82fbba6b6ffc378e781cd87bc4009 with apache-parser
+00:09:04  INFO Commit #a43d0334aa0237fd8d5ff8324fa62632bbf59ac0 in 16/08/2016 19:32:34 from Jon Hall with 1 modifications
+00:09:04  INFO -> Processing a43d0334aa0237fd8d5ff8324fa62632bbf59ac0 with apache-parser
+00:09:37  INFO # --------------------------------------------------
+00:09:37  INFO Study has been executed in the following projects:
+00:09:37  INFO - https://github.com/opennetworkinglab/onos, from cda04cffc94bc0b80ddb85ec68ad790a5088fbc4 to 2f6f907260d57e068f17c69e4a3d716ea6d76cd2
+00:09:37  INFO The following processors were executed:
+00:09:37  INFO - apache-parser (br.inpe.cap.apache.ApacheParserVisitor)
+00:09:37  INFO Finished: 08-24-2016 00:09:37
+00:09:37  INFO It took 1290 seconds (~21 minutes).
+00:09:37  INFO Brought to you by MetricMiner2 (metricminer.org.br)
+00:09:37  INFO # -------------------------------------------------- #

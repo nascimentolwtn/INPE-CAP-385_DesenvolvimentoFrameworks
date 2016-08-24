@@ -1,0 +1,32 @@
+00:24:46  INFO # -------------------------------------------------- #
+00:24:46  INFO #                   MetricMiner                      #
+00:24:46  INFO #                      v2.0                          #
+00:24:46  INFO #             www.metricminer.org.br                 #
+00:24:46  INFO # -------------------------------------------------- #
+00:24:46  INFO Starting engine: 08-24-2016 00:24:46
+00:24:46  INFO Git repository in E:\metricminer2_studies\hadoop-20
+00:24:47  INFO Total of commits: 556
+00:24:47  INFO Starting threads: 1
+00:24:47 ERROR commit b6449e4582e3d601df8507c10e0b201d69b5d06b has more than files than the limit
+00:24:47 ERROR java.lang.RuntimeException: error detailing b6449e4582e3d601df8507c10e0b201d69b5d06b in E:\metricminer2_studies\hadoop-20
+00:24:47  INFO Commit #fe528a0e9b8e732707846e542cd0acbf2c8a870f in 08/04/2011 22:59:17 from jgray with 67 modifications
+00:24:47  INFO -> Processing fe528a0e9b8e732707846e542cd0acbf2c8a870f with apache-parser
+00:25:11  INFO # --------------------------------------------------
+00:25:11  INFO Study has been executed in the following projects:
+00:25:11  INFO - https://github.com/facebookarchive/hadoop-20, from b6449e4582e3d601df8507c10e0b201d69b5d06b to 2a29bc6ecf30edb1ad8dbde32aa49a317b4d44f4
+00:25:11  INFO The following processors were executed:
+00:25:11  INFO - apache-parser (br.inpe.cap.apache.ApacheParserVisitor)
+00:25:11  INFO Git repository in E:\metricminer2_studies\hadoop-20
+00:25:11  INFO Total of commits: 556
+00:25:11  INFO Starting threads: 1
+00:25:11  INFO Commit #2a29bc6ecf30edb1ad8dbde32aa49a317b4d44f4 in 10/10/2014 15:40:52 from Christine Abernathy with 1 modifications
+00:25:11  INFO -> Processing 2a29bc6ecf30edb1ad8dbde32aa49a317b4d44f4 with apache-parser
+00:25:14  INFO # --------------------------------------------------
+00:25:14  INFO Study has been executed in the following projects:
+00:25:14  INFO - https://github.com/facebookarchive/hadoop-20, from b6449e4582e3d601df8507c10e0b201d69b5d06b to 2a29bc6ecf30edb1ad8dbde32aa49a317b4d44f4
+00:25:14  INFO The following processors were executed:
+00:25:14  INFO - apache-parser (br.inpe.cap.apache.ApacheParserVisitor)
+00:25:14  INFO Finished: 08-24-2016 00:25:14
+00:25:14  INFO It took 27 seconds (~0 minutes).
+00:25:14  INFO Brought to you by MetricMiner2 (metricminer.org.br)
+00:25:14  INFO # -------------------------------------------------- #
