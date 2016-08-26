@@ -12,7 +12,7 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		Cliente cliente = new Cliente();
-		cliente.setNome("Luiz Wagner");
+		cliente.setNome("William");
 		
 		Cachorro cachorro = new Cachorro();
 		cachorro.setNome("Gaia");
@@ -28,11 +28,12 @@ public class Principal {
 		dao.save(cliente);
 		
 		Cliente cliente2 = new Cliente();
-		cliente2.setNome("Luiz Amaral");
+		cliente2.setNome("Amaral");
 		cliente2.setMatricula(1);
 		dao.save(cliente2);
 		
 		System.out.println(dao.getById(0));
+		System.out.println(dao.getClienteByNome("Amaral"));
 		System.out.println(dao.getCliente());
 		
 	}

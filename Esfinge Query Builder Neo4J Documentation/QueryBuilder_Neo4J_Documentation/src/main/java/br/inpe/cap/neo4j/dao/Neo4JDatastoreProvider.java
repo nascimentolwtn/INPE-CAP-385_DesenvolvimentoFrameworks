@@ -11,8 +11,7 @@ import br.inpe.cap.neo4j.domain.Pagamento;
 @ServicePriority(1)
 public class Neo4JDatastoreProvider implements DatastoreProvider {
 	
-//	private static final Neo4J neo4j = new Neo4J();
-	private static final Neo4J neo4j = new Neo4J("cap385-frameworks");
+	private static final Neo4J neo4j = new Neo4J();
 	
 	public Neo4JDatastoreProvider(){
 		this.mapEntities();

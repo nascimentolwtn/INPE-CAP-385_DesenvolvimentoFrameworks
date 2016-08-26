@@ -115,7 +115,7 @@
 <div style="text-align: justify;">
 
     <p>
-		É um banco de dados NoSQL baseado em grafos. Cada nó do grafo apresenta informações associadas,
+		Neo4J é um banco de dados NoSQL baseado em grafos. Cada nó do grafo apresenta informações associadas,
 		de maneira análoga aos documentos, não existindo restrições quanto à forma dos dados -
 		cada nó define seus atributos de maneira independente. Os relacionamentos, contudo, ganham destaque:
 		não são simples ponteiros para outros nós, são dotados de tipo - um nó pode se relacionar com outro
@@ -127,7 +127,7 @@
 		banco Neo4j	e do módulo de mapeamento objeto-relacional: </p>
 	
 	<pre>
-&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0-SNAPSHOT&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder-neo4j-oomapper&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0-SNAPSHOT&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder-neo4j&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0-SNAPSHOT&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>
+&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder-neo4j-oomapper&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder-neo4j&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>
 	</pre>
 
 	<p> De maneira semelhante ao que foi feito na configuração do banco MongoDB,
@@ -919,7 +919,7 @@ Java para o banco.  </p>
     <p> Primeiramente crie um novo projeto Java e adicione os seguintes JARs nele: </p>
     <ul>
         <li> mongo-2.7.3.jar </li>
-        <li> morphia-0.99.1-SNAPSHOT.jar </li>
+        <li> morphia-0.99.1.jar </li>
         <li> QueryBuilder_jar.jar </li>
         <li> QueryBuilder_MongoDB_jar.jar </li> 
         <li> QueryBuilderParser_jar.jar </li>
