@@ -103,119 +103,6 @@
                     <hr>
 
 
-<div class="wp-spoiler wpui-light">
-    <h3 class="ui-collapsible-header fade-true slide-true open-false">
-        <span class="ui-icon"></span>
-        Query Builder com Neo4j
-    </h3>
-</div>
-
-<hr>
-
-<div style="text-align: justify;">
-
-    <p>
-		Neo4J é um banco de dados NoSQL baseado em grafos. Cada nó do grafo apresenta informações associadas,
-		de maneira análoga aos documentos, não existindo restrições quanto à forma dos dados -
-		cada nó define seus atributos de maneira independente. Os relacionamentos, contudo, ganham destaque:
-		não são simples ponteiros para outros nós, são dotados de tipo - um nó pode se relacionar com outro
-		de várias formas diferentes - e carregam informação. 
-    </p>
-    
-    <p> Para utilizá-lo com o Query Builder siga os seguintes passos: </p>
-    <p> Primeiramente crie um novo projeto Java e adicione ao pom.xml as dependências do QueryBuilder, do
-		banco Neo4j	e do módulo de mapeamento objeto-relacional: </p>
-	
-	<pre>
-&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder-neo4j-oomapper&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>&lt;dependency&gt;<br/>	&lt;groupId&gt;org.esfinge&lt;/groupId&gt;<br/>	&lt;artifactId&gt;querybuilder-neo4j&lt;/artifactId&gt;<br/>	&lt;version&gt;1.0.0&lt;/version&gt;<br/>&lt;/dependency&gt;<br/>
-	</pre>
-
-    <p><strong style="font-size: 15px; color: #e05f03;"> Mapeamento de objetos </strong></p>
-
-    <p> Crie a classe a ser persistida no Neo4J e marque com a anotação @NodeEntidy. Utilize a 
-anotação @Id para indicar quem é o indicador único do objeto/nó
-(ex.: classe Cliente). </p>
-
-    <p> Para informar ao mapeador que se deseja fazer consultas baseadas no valor de um atributo, marque-o com a anotação @Indexed.</p>
-
-    <p> Caso essa classe contenha referências, crie-as também (ex.: classe Cachorro e Pagamento) e marque com a anotação @RelatadeTo. </p>
-
-    <center>
-    	<div style="border:1px none black;">
-        <p><img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_MapeamentoObjeto_Cliente.png"/></p>
-    	</div>
-    
-        <br/><br/>
-
-        <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_MapeamentoObjeto_Cachorro.png"/>
-
-        <br/><br/>
-
-        <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_MapeamentoObjeto_Pagamento.png"/>
-    </center>
-
-
-    <p><strong style="font-size: 15px; color: #e05f03;"> Configuração </strong></p>
-
-	<p> De maneira semelhante ao que foi feito na configuração do banco MongoDB,
-	aqui também se faz necessário implementar a interface <i>DatastoreProvider</i>. 
-	"org.esfinge.querybuilder.neo4j.DatastoreProvider" em uma pasta 
-	META-INF/services no código-fonte do projeto. Neste arquivo coloque 
-	somente uma linha com o nome da classe que implementa a DatastoreProvider. </p>
-	<pre>org.esfinge.querybuilder.neo4j.TestDatastoreProvider</pre>
-	
-	<p> Crie uma classe que herde a DatastoreProvider, colocando o caminho 
-	do banco de dados Neo4j em seu construtor. Para efeito de testes, um banco
-	temporário pode ser utilizado, bastando fazer uso de
-	um construtor sem parâmetros. Sobreescreva o método getDatastore(), criando
-	um Datastore passando a conexão do banco com o 
-	nome do DB utilizado. Utilize o método neo4j.map() passando como 
-	parâmetro quais as classes que devem ser persistidas. A anotação 
-	@ServicePriority(1) serve para dar prioridade ao servição, no caso maior 
-	prioridade (ex.: classe TestDatastoreProvider).</p>
-
-    <center>
-        <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_DatastoreProvider.png"/>
-    </center>
-
-    <p><strong style="font-size: 15px; color: #e05f03;"> Uso do Neo4J com o Repositório QueryBuilder </strong></p>
-
-	<p> Conforme listado na sessão "QueryBuilder em 1 minuto", crie uma interface que extenda Repository&lt;E&gt;
-	e crie os métodos referentes as consultas a serem realizadas:</p>
-
-    <center>
-        <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_RepositorioDAO.png"/>
-    </center>
-
-	<p> Em seguida, utilize a interface de persistência para realizar as operações CRUD sobre seu objeto de domínio mapeado. Ex.:</p>
-	
-    <center>
-        <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_RepositorioDAO_Uso.png"/>
-    </center>
-
-
-    <p><strong style="font-size: 15px; color: #e05f03;"> Trabalhando diretamente com o Banco Neo4J </strong></p>
-
-    <p> Caso seja necessário trabalhar diretamente com o banco de dados Neo4J, a classe <i>Neo4J</i>
-	é responsável por expor todas as funcionalidades básicas, como a possibilidade
-    de mapear uma classe qualquer para uso com o banco de dados, funcionalidades CRUD e a montagem de 
-    queries. A classe <i>Query<E></i> é responsável por agrupar as diferentes condições que o usuário deseje
-    impor à sua consulta, assim como efetivamente executá-la. Já a classe <i>Condition</i> representa
-    a condição em si, o atributo e o valor desejado, além de poder ser utilizada para representar condições agrupadas
-    por conectores lógicos. Veja um exemplo: </p>
-
-    <center>
-        <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_QueryExemplo.png"/>
-    </center>
-
-</div>
-
-
-<!--  ==================================================================================================================================================  -->
-
-
-
-
 
 <div class="wp-spoiler wpui-light"><h3 class="ui-collapsible-header fade-true slide-true open-false"><span class="ui-icon"></span>Funcionalidades Básicas do Query Builder</h3></div>
 <hr>
@@ -269,7 +156,7 @@ arquivo não deve ser incluído.</span></div>
 banco de dados, como o driver de conexão e a implementação JPA.</p>
 <div style="text-align: justify;">Além disso, é necessário criar uma 
 classe, que implementa a interface 
-org.esfinge.querybuilder.jpa1.EntityManagerProvider, responsável por 
+net.sf.esfinge.querybuilder.jpa1.EntityManagerProvider, responsável por 
 retornar as instâncias de EntityManager e EntityManagerFactory 
 utilizadas pela aplicação. No caso de uma aplicação que utilizasse o JPA
  independente de um servidor de aplicações, essa classe seria como o 
@@ -287,7 +174,7 @@ implementação deveria recuperar as instâncias do contexto JNDI.</div>
     }
 }</pre>
 <p>Para configurar essa nova classe criada, é preciso criar um arquivo 
-chamado org.esfinge.querybuilder.jpa1.EntityManagerProvider no diretório
+chamado net.sf.esfinge.querybuilder.jpa1.EntityManagerProvider no diretório
  META-INF/services de algum dos arquivos JAR da aplicação. Esse arquivo 
 deve conter apenas o nome completo da classe criada.</p>
 <p><strong style="font-size: 15px; color: #e05f03;">Repositório</strong></p>
@@ -295,7 +182,7 @@ deve conter apenas o nome completo da classe criada.</p>
 funcionalidades principais, o Query Builder implementa as 
 funcionalidades básicas de CRUD. Para que isso possa ser utilizado basta
  que a interface criada implemente a interface 
-org.esfinge.querybuilder.Repository. É importante que ao implementar 
+net.sf.esfinge.querybuilder.Repository. É importante que ao implementar 
 essa interface seja definido qual a classe persistente que está sendo 
 utilizada, como por exemplo Repository&lt;Person&gt;.</div>
 <p>Abaixo seguem os métodos disponibilizados por essa interface com as respectivas descrições:</p>
@@ -616,10 +503,10 @@ interface que serão direcionados para uma implementação específica.</div>
 <div style="text-align: justify;">Em seguida é preciso configurar essa 
 implementação como a que deve ser utilizada para essa interface. Isso 
 pode ser feito criando um arquivo com o nome completo da interface, no 
-caso org.esfinge.querybuilder.jpa1.custommethods.CustomMethodInterface, 
+caso net.sf.esfinge.querybuilder.jpa1.custommethods.CustomMethodInterface, 
 no caminho META-INF/services dentro de algum jar do classpath, contendo 
 apenas o nome da implementação, no caso 
-“org.esfinge.querybuilder.jpa1.custommethods.CustomMethodImpl”.</div>
+“net.sf.esfinge.querybuilder.jpa1.custommethods.CustomMethodImpl”.</div>
 <div style="text-align: justify;">Depois disso, qualquer interface do 
 QueryBuilder que estender essa interface que foi definida irá conter 
 seus métodos e consequentemente a implementação definida será executada 
@@ -676,7 +563,7 @@ exemplo:</div>
 <p><strong style="font-size: 15px; color: #e05f03;">Recuperando implementações</strong></p>
 <div style="text-align: justify;">As implementações configuradas dessa 
 forma podem ser recuperadas através do método getServiceImplementation()
- da classe org.esfinge.querybuilder.utils.ServiceLocator . Isso pode ser
+ da classe net.sf.esfinge.querybuilder.utils.ServiceLocator . Isso pode ser
  muito útil nas implementações para recuperar os serviços já oferecidos 
 pelo framework. Abaixo segue um exemplo de como recuperar a classe que 
 provê o EntityManager para o framework.</div>
@@ -806,10 +693,10 @@ return CONTEXT.getBean(classType);
 <div style="text-align: justify;">Neste momento toda a configuração 
 necessária para o Spring foi descrita, agora a configuração do Esfinge 
 Query Builder será abordad. O arquivo 
-resources/META-INF/services/org.esfinge.querybuilder.jpa1.EntityManagerProvider
+resources/META-INF/services/net.sf.esfinge.querybuilder.jpa1.EntityManagerProvider
  será responsável por indicar ao Query Builder a classe onde uma 
 implementação de EntityManager será pega, neste caso a classe 
-org.esfinge.exemplo.jpaprovider.JPAEntityManagerProvider apresentada 
+net.sf.esfinge.exemplo.jpaprovider.JPAEntityManagerProvider apresentada 
 abaixo:</div>
 <pre>public class JPAEntityManagerProvider implements EntityManagerProvider {
 
@@ -960,10 +847,10 @@ https://github.com/EsfingeFramework/querybuilder </p>
 
 
 	<p> Crie um arquivo com o nome 
-"org.esfinge.querybuilder.mongodb.DatastoreProvider" em uma pasta 
+"net.sf.esfinge.querybuilder.mongodb.DatastoreProvider" em uma pasta 
 META-INF/services no código-fonte do projeto. Neste arquivo coloque 
 somente uma linha com o nome da classe que herda da DatastoreProvider. </p>
-	<pre>org.esfinge.querybuilder.mongodb.MongoDBDatastoreProvider</pre>
+	<pre>net.sf.esfinge.querybuilder.mongodb.MongoDBDatastoreProvider</pre>
 	
 	
     <p> Crie uma classe para ser persistida no Java/MongoDB. Utilize a 
@@ -1029,7 +916,119 @@ itere-o. </p>
 </div>
 
 
+<hr/>
 
+<div class="wp-spoiler wpui-light">
+    <h3 class="ui-collapsible-header fade-true slide-true open-false">
+        <span class="ui-icon"></span>
+        Query Builder com Neo4j
+    </h3>
+</div>
+
+<hr/>
+
+<div style="text-align: justify;">
+
+    <p>
+		Neo4J é um banco de dados NoSQL baseado em grafos. Cada nó do grafo apresenta informações associadas,
+		de maneira análoga aos documentos, não existindo restrições quanto à forma dos dados -
+		cada nó define seus atributos de maneira independente. Os relacionamentos, contudo, ganham destaque:
+		não são simples ponteiros para outros nós, são dotados de tipo - um nó pode se relacionar com outro
+		de várias formas diferentes - e carregam informação. 
+    </p>
+    
+    <p> Para utilizá-lo com o Query Builder siga os seguintes passos: </p>
+    <p> Primeiramente crie um novo projeto Java e adicione ao pom.xml as dependências do QueryBuilder, do
+		banco Neo4j	e do módulo de mapeamento objeto-relacional: </p>
+	
+	<pre>
+&lt;properties&gt;
+	&lt;querybuilder.version>1.7.0&lt;/querybuilder.version&gt;
+&lt;/properties&gt;
+
+&lt;dependency&gt;
+	&lt;groupId&gt;net.sf.esfinge&lt;/groupId&gt;
+	&lt;artifactId&gt;querybuilder&lt;/artifactId&gt;
+	&lt;version&gt;${querybuilder.version}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+	&lt;groupId&gt;net.sf.esfinge&lt;/groupId&gt;
+	&lt;artifactId&gt;querybuilder-neo4j-oomapper&lt;/artifactId&gt;
+	&lt;version&gt;${querybuilder.version}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+	&lt;groupId&gt;net.sf.esfinge&lt;/groupId&gt;
+	&lt;artifactId&gt;querybuilder-neo4j&lt;/artifactId&gt;
+	&lt;version&gt;${querybuilder.version}&lt;/version&gt;
+&lt;/dependency&gt;
+	</pre>
+
+    <p><strong style="font-size: 15px; color: #e05f03;"> Mapeamento de objetos </strong></p>
+
+    <p> Crie a classe a ser persistida no Neo4J e marque com a anotação @NodeEntidy. Utilize a 
+anotação @Id para indicar quem é o indicador único do objeto/nó
+(ex.: classe Cliente). </p>
+
+    <p> Para informar ao mapeador que se deseja fazer consultas baseadas no valor de um atributo, marque-o com a anotação @Indexed.</p>
+
+    <p> Caso essa classe contenha referências, crie-as também (ex.: classe Cachorro e Pagamento) e marque com a anotação @RelatadeTo. </p>
+
+    <p><img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_MapeamentoObjeto_Cliente.png"/></p>
+    <br/><br/>
+    <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_MapeamentoObjeto_Cachorro.png"/>
+    <br/><br/>
+    <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_MapeamentoObjeto_Pagamento.png"/>
+    <br/><br/>
+
+    <p><strong style="font-size: 15px; color: #e05f03;"> Configuração </strong></p>
+
+	<p> De maneira semelhante ao que foi feito na configuração do banco MongoDB,
+	aqui também se faz necessário implementar a interface <i>DatastoreProvider</i>. 
+	"net.sf.esfinge.querybuilder.neo4j.DatastoreProvider" em uma pasta 
+	META-INF/services no código-fonte do projeto. Neste arquivo coloque 
+	somente uma linha com o nome da classe que implementa a DatastoreProvider. </p>
+	<pre>net.sf.esfinge.querybuilder.neo4j.TestDatastoreProvider</pre>
+	
+	<p> Crie uma classe que herde a DatastoreProvider, colocando o caminho 
+	do banco de dados Neo4j em seu construtor. Para efeito de testes, um banco
+	temporário pode ser utilizado, bastando fazer uso de
+	um construtor sem parâmetros. Sobreescreva o método getDatastore(), criando
+	um Datastore passando a conexão do banco com o 
+	nome do DB utilizado. Utilize o método neo4j.map() passando como 
+	parâmetro quais as classes que devem ser persistidas. A anotação 
+	@ServicePriority(1) serve para dar prioridade ao servição, no caso maior 
+	prioridade (ex.: classe TestDatastoreProvider).</p>
+
+    <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_DatastoreProvider.png"/>
+    <br/><br/>
+
+    <p><strong style="font-size: 15px; color: #e05f03;"> Uso do Neo4J com o Repositório QueryBuilder </strong></p>
+
+	<p> Conforme listado na sessão "QueryBuilder em 1 minuto", crie uma interface que extenda Repository&lt;E&gt;
+	e crie os métodos referentes as consultas a serem realizadas:</p>
+
+    <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_RepositorioDAO.png"/>
+    <br/><br/>
+
+	<p> Em seguida, utilize a interface de persistência para realizar as operações CRUD sobre seu objeto de domínio mapeado. Ex.:</p>
+	
+    <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_RepositorioDAO_Uso.png"/>
+    <br/><br/>
+
+    <p><strong style="font-size: 15px; color: #e05f03;"> Trabalhando diretamente com o Banco Neo4J </strong></p>
+
+    <p> Caso seja necessário trabalhar diretamente com o banco de dados Neo4J, a classe <i>Neo4J</i>
+	é responsável por expor todas as funcionalidades básicas, como a possibilidade
+    de mapear uma classe qualquer para uso com o banco de dados, funcionalidades CRUD e a montagem de 
+    queries. A classe <i>Query<E></i> é responsável por agrupar as diferentes condições que o usuário deseje
+    impor à sua consulta, assim como efetivamente executá-la. Já a classe <i>Condition</i> representa
+    a condição em si, o atributo e o valor desejado, além de poder ser utilizada para representar condições agrupadas
+    por conectores lógicos. Veja um exemplo: </p>
+
+    <img src="Esfinge%20Query%20Builder_files/QueryBuilder-Neo4J_QueryExemplo.png"/>
+    <br/><br/>
+
+</div>
 
 
 
