@@ -1,1 +1,1 @@
-br.inpe.cap.neo4j.dao.Neo4JDatastoreProvider
+net.sf.esfinge.querybuilder.example.neo4j.dao.Neo4JDatastoreProvider

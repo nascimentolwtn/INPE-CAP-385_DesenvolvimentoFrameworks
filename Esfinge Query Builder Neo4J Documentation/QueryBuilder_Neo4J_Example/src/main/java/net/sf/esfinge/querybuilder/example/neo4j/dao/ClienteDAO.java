@@ -1,10 +1,10 @@
-package br.inpe.cap.neo4j.dao;
+package net.sf.esfinge.querybuilder.example.neo4j.dao;
 
 import java.util.Collection;
 
-import br.inpe.cap.neo4j.domain.Cliente;
 import net.sf.esfinge.querybuilder.Repository;
 import net.sf.esfinge.querybuilder.annotation.QueryBuilder;
+import net.sf.esfinge.querybuilder.example.neo4j.domain.Cliente;
 
 @QueryBuilder
 public interface ClienteDAO extends Repository<Cliente> {
