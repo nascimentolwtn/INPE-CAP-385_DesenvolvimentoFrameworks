@@ -1,4 +1,4 @@
-package br.inpe.cap.neo4j.domain;
+package net.sf.esfinge.querybuilder.example.neo4j.domain;
 
 import net.sf.esfinge.querybuilder.neo4j.oomapper.annotations.Id;
 import net.sf.esfinge.querybuilder.neo4j.oomapper.annotations.NodeEntity;

@@ -1,8 +1,8 @@
-package br.inpe.cap.neo4j;
+package net.sf.esfinge.querybuilder.example.neo4j;
 
 import java.util.List;
 
-import br.inpe.cap.neo4j.domain.Cliente;
+import net.sf.esfinge.querybuilder.example.neo4j.domain.Cliente;
 import net.sf.esfinge.querybuilder.methodparser.ComparisonType;
 import net.sf.esfinge.querybuilder.neo4j.oomapper.Condition;
 import net.sf.esfinge.querybuilder.neo4j.oomapper.Neo4J;

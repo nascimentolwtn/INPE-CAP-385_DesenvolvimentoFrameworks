@@ -1,9 +1,9 @@
-package br.inpe.cap.neo4j.dao;
+package net.sf.esfinge.querybuilder.example.neo4j.dao;
 
-import br.inpe.cap.neo4j.domain.Cachorro;
-import br.inpe.cap.neo4j.domain.Cliente;
-import br.inpe.cap.neo4j.domain.Pagamento;
 import net.sf.esfinge.querybuilder.annotation.ServicePriority;
+import net.sf.esfinge.querybuilder.example.neo4j.domain.Cachorro;
+import net.sf.esfinge.querybuilder.example.neo4j.domain.Cliente;
+import net.sf.esfinge.querybuilder.example.neo4j.domain.Pagamento;
 import net.sf.esfinge.querybuilder.neo4j.DatastoreProvider;
 import net.sf.esfinge.querybuilder.neo4j.oomapper.Neo4J;
 
