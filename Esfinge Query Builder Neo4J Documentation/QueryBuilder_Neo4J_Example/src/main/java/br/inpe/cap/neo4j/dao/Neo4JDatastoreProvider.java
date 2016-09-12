@@ -1,12 +1,11 @@
 package br.inpe.cap.neo4j.dao;
 
-import org.esfinge.querybuilder.annotation.ServicePriority;
-import org.esfinge.querybuilder.neo4j.DatastoreProvider;
-import org.esfinge.querybuilder.neo4j.oomapper.Neo4J;
-
 import br.inpe.cap.neo4j.domain.Cachorro;
 import br.inpe.cap.neo4j.domain.Cliente;
 import br.inpe.cap.neo4j.domain.Pagamento;
+import net.sf.esfinge.querybuilder.annotation.ServicePriority;
+import net.sf.esfinge.querybuilder.neo4j.DatastoreProvider;
+import net.sf.esfinge.querybuilder.neo4j.oomapper.Neo4J;
 
 @ServicePriority(1)
 public class Neo4JDatastoreProvider implements DatastoreProvider {

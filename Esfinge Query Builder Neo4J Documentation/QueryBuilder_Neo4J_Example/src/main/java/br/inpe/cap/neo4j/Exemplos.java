@@ -2,12 +2,11 @@ package br.inpe.cap.neo4j;
 
 import java.util.List;
 
-import org.esfinge.querybuilder.methodparser.ComparisonType;
-import org.esfinge.querybuilder.neo4j.oomapper.Condition;
-import org.esfinge.querybuilder.neo4j.oomapper.Neo4J;
-import org.esfinge.querybuilder.neo4j.oomapper.Query;
-
 import br.inpe.cap.neo4j.domain.Cliente;
+import net.sf.esfinge.querybuilder.methodparser.ComparisonType;
+import net.sf.esfinge.querybuilder.neo4j.oomapper.Condition;
+import net.sf.esfinge.querybuilder.neo4j.oomapper.Neo4J;
+import net.sf.esfinge.querybuilder.neo4j.oomapper.Query;
 
 public class Exemplos {
 	

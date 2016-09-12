@@ -1,11 +1,10 @@
 package br.inpe.cap.neo4j;
 
-import org.esfinge.querybuilder.QueryBuilder;
-
 import br.inpe.cap.neo4j.dao.ClienteDAO;
 import br.inpe.cap.neo4j.domain.Cachorro;
 import br.inpe.cap.neo4j.domain.Cliente;
 import br.inpe.cap.neo4j.domain.Pagamento;
+import net.sf.esfinge.querybuilder.QueryBuilder;
 
 public class Principal {
 	
